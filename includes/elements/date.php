@@ -15,12 +15,13 @@ if ($sy > $ey) {
 ?>
 <div class="iphorm-element-wrap iphorm-element-wrap-date <?php echo $name; ?>-element-wrap iphorm-clearfix iphorm-labels-<?php echo $labelPlacement; ?> <?php echo ($element->getRequired()) ? 'iphorm-element-required' : 'iphorm-element-optional'; ?>" <?php echo $element->getCss('outer'); ?>>
     <div class="iphorm-element-spacer iphorm-element-spacer-date <?php echo $name; ?>-element-spacer">
-        <?php echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, false); ?>
+        <?php echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, false, $uniqueId . '_date_label'); ?>
         <div id="<?php echo esc_attr($uniqueId); ?>" class="iphorm-input-wrap iphorm-input-wrap-date <?php echo $name; ?>-input-wrap" <?php echo $element->getCss('inner', $leftMarginCss); ?>>
         	<div class="iphorm-clearfix">
                 <div class="iphorm-input-wrap-date-select-wrap">
                     <?php ob_start(); ?>
-                    <select id="<?php echo esc_attr($uniqueId); ?>_day" name="<?php echo $name; ?>[day]" class="<?php echo $name; ?>-input-day" <?php echo $element->getCss('dateDay'); ?>>
+                    <label id="<?php echo esc_attr($uniqueId); ?>_day_label" class="iphorm-screen-reader-text"><?php esc_html_e('Day', 'iphorm'); ?></label>
+                    <select id="<?php echo esc_attr($uniqueId); ?>_day" name="<?php echo $name; ?>[day]" class="<?php echo $name; ?>-input-day" aria-labelledby="<?php echo esc_attr($uniqueId); ?>_date_label <?php echo esc_attr($uniqueId); ?>_day_label" <?php echo $element->getCss('dateDay'); ?>>
                         <?php if ($showDateHeadings) : ?><option value=""><?php echo esc_html($element->getDayHeading()); ?></option><?php endif; ?>
                         <?php foreach (range(1, 31) as $day) : ?>
                             <option value="<?php echo $day; ?>" <?php selected($value['day'], $day); ?>><?php echo $day; ?></option>
@@ -28,7 +29,8 @@ if ($sy > $ey) {
                     </select>
                     <?php $daySelect = ob_get_clean(); ?>
                     <?php ob_start(); ?>
-                    <select id="<?php echo esc_attr($uniqueId); ?>_month" name="<?php echo $name; ?>[month]" class="<?php echo $name; ?>-input-month" <?php echo $element->getCss('dateMonth'); ?>>
+                    <label id="<?php echo esc_attr($uniqueId); ?>_month_label" class="iphorm-screen-reader-text"><?php esc_html_e('Month', 'iphorm'); ?></label>
+                    <select id="<?php echo esc_attr($uniqueId); ?>_month" name="<?php echo $name; ?>[month]" class="<?php echo $name; ?>-input-month" aria-labelledby="<?php echo esc_attr($uniqueId); ?>_date_label <?php echo esc_attr($uniqueId); ?>_month_label" <?php echo $element->getCss('dateMonth'); ?>>
                         <?php if ($showDateHeadings) : ?><option value=""><?php echo esc_html($element->getMonthHeading()); ?></option><?php endif; ?>
                         <?php foreach ($months as $key => $month) : ?>
                             <option value="<?php echo $key; ?>" <?php selected($value['month'], $key); ?>><?php echo esc_html($element->getMonthLabel($key, $month)); ?></option>
@@ -42,7 +44,8 @@ if ($sy > $ey) {
                         echo $monthSelect, $daySelect;
                     }
                     ?>
-                    <select id="<?php echo esc_attr($uniqueId); ?>_year" name="<?php echo $name; ?>[year]" class="<?php echo $name; ?>-input-year" <?php echo $element->getCss('dateYear'); ?>>
+                    <label id="<?php echo esc_attr($uniqueId); ?>_year_label" class="iphorm-screen-reader-text"><?php esc_html_e('Year', 'iphorm'); ?></label>
+                    <select id="<?php echo esc_attr($uniqueId); ?>_year" name="<?php echo $name; ?>[year]" class="<?php echo $name; ?>-input-year" aria-labelledby="<?php echo esc_attr($uniqueId); ?>_date_label <?php echo esc_attr($uniqueId); ?>_year_label" <?php echo $element->getCss('dateYear'); ?>>
                         <?php if ($showDateHeadings) : ?><option value=""><?php echo esc_html($element->getYearHeading()); ?></option><?php endif; ?>
                         <?php if ($sy > $ey) : ?>
                             <?php for ($i = $sy; $i >= $ey; $i--) : ?>

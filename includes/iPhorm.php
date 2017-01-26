@@ -2358,19 +2358,6 @@ class iPhorm
     }
 
     /**
-     * Encode PHP data in JSON
-     *
-     * @param mixed $data The data to encode
-     * @return string The JSON encoded response
-     */
-    public function jsonEncode($data)
-    {
-        require_once IPHORM_INCLUDES_DIR . '/JSON.php';
-        $json = new Services_JSON();
-        return $json->encode($data);
-    }
-
-    /**
      * Get the values of all fields
      *
      * @return array The values of all fields

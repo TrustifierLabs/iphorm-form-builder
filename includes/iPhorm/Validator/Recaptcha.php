@@ -59,7 +59,7 @@ class iPhorm_Validator_Recaptcha extends iPhorm_Validator_Abstract
         $qs = http_build_query($params, '', '&');
         $response = wp_remote_get('https://www.google.com/recaptcha/api/siteverify?' . $qs);
         $response = wp_remote_retrieve_body($response);
-        $response = iphorm_json_decode($response, true);
+        $response = json_decode($response, true);
 
         if (!is_array($response) || !isset($response['success'])) {
             $this->addMessage($this->_messageTemplates['error']);

@@ -2,19 +2,40 @@
 # This file is distributed under the same license as the Quform package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-24 11:38:10+0000\n"
+"PO-Revision-Date: 2016-09-01 20:42+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: Poedit 1.8.8\n"
+"Language: ar\n"
 "Project-Id-Version: Quform\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
-#: admin/includes/elements/settings/placeholder.php:5
+#: admin/includes/settings.php:165 admin/includes/settings.php:167
+msgid "Disable [raw] tag detection"
+msgstr ""
+
+#: admin/includes/settings.php:166
+msgid "The plugin detects if the theme supports [raw] tags to help with form display issues. You can turn this off here to potentially fix conflicts with some themes."
+msgstr ""
+
+#: admin/admin.php:1218
+msgid "%s (inactive)"
+msgstr ""
+
+#: admin/admin.php:414
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:8
+msgid "User agent"
+msgstr ""
+
+#: admin/includes/elements/settings/placeholder.php:4
 msgid "The placeholder text will appear inside the field until the user starts to type."
 msgstr ""
 
-#: admin/includes/elements/settings/placeholder.php:2
+#: admin/includes/elements/settings/placeholder.php:6
 msgid "Placeholder"
 msgstr ""
 
@@ -38,19 +59,19 @@ msgstr "مدمج"
 msgid "Translate or override the error message shown if the time is not valid. The default is \"%s\"."
 msgstr ""
 
-#: admin/admin.php:432 admin/includes/elements/time.php:20
+#: admin/admin.php:435 admin/includes/elements/time.php:20
 #: admin/includes/elements/time.php:216 includes/iPhorm/Element/Time.php:286
 msgctxt "select hour"
 msgid "HH"
 msgstr "HH"
 
-#: admin/admin.php:433 admin/includes/elements/time.php:21
+#: admin/admin.php:436 admin/includes/elements/time.php:21
 #: admin/includes/elements/time.php:220 includes/iPhorm/Element/Time.php:306
 msgctxt "select minute"
 msgid "MM"
 msgstr "MM"
 
-#: admin/admin.php:434 admin/includes/elements/time.php:22
+#: admin/admin.php:437 admin/includes/elements/time.php:22
 #: admin/includes/elements/time.php:224 includes/iPhorm/Element/Time.php:326
 msgctxt "select morning/afternoon"
 msgid "am/pm"
@@ -129,15 +150,15 @@ msgstr "هذا ليس وقت صالح"
 msgid "Read"
 msgstr "المقروء"
 
-#: admin/includes/form-builder.php:1192 admin/includes/settings.php:137
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:138
 msgid "A password is saved but hidden for security reasons."
 msgstr "يتم حفظ كلمة المرور ولكن مخفية لأسباب أمنية."
 
-#: admin/includes/form-builder.php:1192 admin/includes/settings.php:137
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:138
 msgid "Change password"
 msgstr "تغيير كلمة المرور"
 
-#: admin/includes/settings.php:75
+#: admin/includes/settings.php:76
 msgid ""
 "In order to use the reCAPTCHA element in your form you must %ssign up%s\n"
 "        for a free account to get your set of API keys. Once you have your Site and Secret keys, enter them below."
@@ -145,11 +166,11 @@ msgstr ""
 "من أجل استخدام عنصر اختبار reCAPTCHA في النموذج الخاص بك يجب عليك %sالاشتراك%s\n"
 "        للحصول على حساب مجاني وإنشاء مفاتيح API. بمجرد الانتهاء من أدخال بيانات الموقع الخاص بك، وإنشاء المفاتيح السرية، أدخلها هنا."
 
-#: admin/includes/settings.php:80
+#: admin/includes/settings.php:81
 msgid "reCAPTCHA Site key"
 msgstr "مفتاح الموقع reCAPTCHA"
 
-#: admin/includes/settings.php:84
+#: admin/includes/settings.php:85
 msgid "reCAPTCHA Secret key"
 msgstr "المفتاح السري reCAPTCHA"
 
@@ -169,7 +190,7 @@ msgstr ""
 msgid "The response parameter is invalid or malformed"
 msgstr "علامة الاستجابة غير صالحة أو تالفة"
 
-#: admin/admin.php:1160 admin/admin.php:1162
+#: admin/admin.php:1192 admin/admin.php:1194
 msgid "Add Quform"
 msgstr ""
 
@@ -197,995 +218,995 @@ msgstr "هذا يجعل التصميم يتناسب تلقائياً مع الش
 msgid "Responsive"
 msgstr "متجاوب"
 
-#: admin/includes/settings.php:217
+#: admin/includes/settings.php:222
 msgid "FreeType Library"
 msgstr "مكتبة FreeType"
 
-#: admin/includes/settings.php:220
+#: admin/includes/settings.php:225
 msgid "The plugin requires the FreeType library for the CAPTCHA element, please ask your host to install it."
 msgstr "البرنامج المساعد يتطلب مكتبة FreeType للعنصر CAPTCHA، رجاءً أطلب من مستضيفك تثبيتها."
 
-#: admin/includes/settings.php:243
+#: admin/includes/settings.php:248
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
-#: admin/includes/settings.php:145
+#: admin/includes/settings.php:146
 msgid "Email \"Return-Path\" address"
 msgstr "عنوان البريد الإلكتروني \"للمسار-الراجع\""
 
-#: admin/includes/settings.php:155
+#: admin/includes/settings.php:156
 msgid "You can disable the output of the scripts used by the Quform plugin below by ticking the boxes below. This will disable both the CSS and JavaScript for the script."
 msgstr "يمكنك تعطيل إخراج البرامج النصية التي يستخدمها البرنامج المساعد كوفورم أدناه بوضع علامة في المربعات أدناه. سيؤدي ذلك إلى تعطيل كل من CSS و JavaScript للبرنامج النصي."
 
-#: admin/includes/settings.php:65 admin/includes/settings.php:67
+#: admin/includes/settings.php:66 admin/includes/settings.php:68
 msgid "Check for updates"
 msgstr "التحقق من وجود تحديثات"
 
-#: admin/includes/settings.php:67
+#: admin/includes/settings.php:68
 msgid "You are using version %s"
 msgstr "تستخدم النسخة %s"
 
-#: admin/admin.php:371
+#: admin/admin.php:373
 msgid "An error occurred checking for updates."
 msgstr "حدث خطأ أثناء التحقق من وجود تحديثات."
 
-#: admin/admin.php:2446
+#: admin/admin.php:2491
 msgid "An update to version %s is available. %sVisit the Updates page%s to update."
 msgstr ""
 
-#: admin/admin.php:2448
+#: admin/admin.php:2493
 msgid "You are using the latest version."
 msgstr "أنت تستخدم آخر نسخة."
 
-#: admin/admin.php:2453
+#: admin/admin.php:2498
 msgid "Could not find an updated version."
 msgstr "لا يمكن العثور على إصدار أحدث."
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Brazil"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "British Indian Ocean Territory"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Brunei Darussalam"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bulgaria"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Burkina Faso"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Burundi"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Cambodia"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Cameroon"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Canada"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Cape Verde"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Cayman Islands"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Central African Republic"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Chad"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Chile"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "China"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Christmas Island"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Cocos (Keeling) Islands"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Colombia"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Comoros"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Congo"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Congo, The Democratic Republic Of The"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Cook Islands"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Costa Rica"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Cote D'Ivoire"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Croatia (Local Name: Hrvatska)"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Cuba"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Cyprus"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Czech Republic"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Denmark"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Djibouti"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Dominica"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Dominican Republic"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "East Timor"
 msgstr ""
 
-#: admin/admin.php:2723
+#: admin/admin.php:2768
 msgid "Ecuador"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Egypt"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "El Salvador"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Equatorial Guinea"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Eritrea"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Estonia"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Ethiopia"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Faroe Islands"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Fiji"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Finland"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "France"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "France, Metropolitan"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "French Guiana"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "French Polynesia"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "French Southern Territories"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Gabon"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Gambia"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Georgia"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Germany"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Ghana"
 msgstr ""
 
-#: admin/admin.php:2724
+#: admin/admin.php:2769
 msgid "Gibraltar"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Greece"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Greenland"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Grenada"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guadeloupe"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guam"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guatemala"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guinea"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guinea-Bissau"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Guyana"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Haiti"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Heard And Mc Donald Islands"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Holy See (Vatican City State)"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Honduras"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Hong Kong"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Hungary"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Iceland"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "India"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Indonesia"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Iran (Islamic Republic Of)"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Iraq"
 msgstr ""
 
-#: admin/admin.php:2725
+#: admin/admin.php:2770
 msgid "Ireland"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Israel"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Italy"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Jamaica"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Japan"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Jordan"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Kazakhstan"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Kenya"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Kiribati"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Korea, Democratic People's Republic Of"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Korea, Republic Of"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Kuwait"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Lao People's Democratic Republic"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Latvia"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Lebanon"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Lesotho"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Liberia"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Libyan Arab Jamahiriya"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Liechtenstein"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Lithuania"
 msgstr ""
 
-#: admin/admin.php:2726
+#: admin/admin.php:2771
 msgid "Luxembourg"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Macau"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Macedonia, Former Yugoslav Republic Of"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Madagascar"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Malawi"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Malaysia"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Maldives"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mali"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Malta"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Marshall Islands"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Martinique"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mauritania"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mauritius"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mayotte"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mexico"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Micronesia, Federated States Of"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Moldova, Republic Of"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Monaco"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mongolia"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Montserrat"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Morocco"
 msgstr ""
 
-#: admin/admin.php:2727
+#: admin/admin.php:2772
 msgid "Mozambique"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Myanmar"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Namibia"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Nauru"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Nepal"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Netherlands"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Netherlands Antilles"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "New Caledonia"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "New Zealand"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Nicaragua"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Niger"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Nigeria"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Niue"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Norfolk Island"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Norway"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Oman"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Pakistan"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Palau"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Panama"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Papua New Guinea"
 msgstr ""
 
-#: admin/admin.php:2728
+#: admin/admin.php:2773
 msgid "Paraguay"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Peru"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Philippines"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Pitcairn"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Poland"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Portugal"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Puerto Rico"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Qatar"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Reunion"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Romania"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Russian Federation"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Rwanda"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Saint Kitts And Nevis"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Saint Lucia"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Saint Vincent And The Grenadines"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Samoa"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "San Marino"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Sao Tome And Principe"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Saudi Arabia"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Senegal"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Seychelles"
 msgstr ""
 
-#: admin/admin.php:2729
+#: admin/admin.php:2774
 msgid "Sierra Leone"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Singapore"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Slovakia (Slovak Republic)"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Slovenia"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Solomon Islands"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Somalia"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "South Africa"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "South Georgia, South Sandwich Islands"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Spain"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Sri Lanka"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "St. Helena"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "St. Pierre And Miquelon"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Sudan"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Suriname"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Svalbard And Jan Mayen Islands"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Swaziland"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Sweden"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Switzerland"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Taiwan"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Tajikistan"
 msgstr ""
 
-#: admin/admin.php:2730
+#: admin/admin.php:2775
 msgid "Tanzania, United Republic Of"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Thailand"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Togo"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Tokelau"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Tonga"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Trinidad And Tobago"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Tunisia"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Turkey"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Turkmenistan"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Turks And Caicos Islands"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Tuvalu"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Uganda"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Ukraine"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "United Arab Emirates"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "United Kingdom"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "United States"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Uruguay"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Uzbekistan"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Vanuatu"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Venezuela"
 msgstr ""
 
-#: admin/admin.php:2731
+#: admin/admin.php:2776
 msgid "Vietnam"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Virgin Islands (British)"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Virgin Islands (U.S.)"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Wallis And Futuna Islands"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Western Sahara"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Yemen"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Yugoslavia"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Zambia"
 msgstr ""
 
-#: admin/admin.php:2732
+#: admin/admin.php:2777
 msgid "Zimbabwe"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Afghanistan"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Albania"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Algeria"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "American Samoa"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Andorra"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Angola"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Anguilla"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Antigua And Barbuda"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Argentina"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Armenia"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Aruba"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Austria"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Azerbaijan"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Bahamas"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Bahrain"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Bangladesh"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Barbados"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Belarus"
 msgstr ""
 
-#: admin/admin.php:2721
+#: admin/admin.php:2766
 msgid "Belgium"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Belize"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Benin"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bermuda"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bhutan"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bolivia"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bosnia And Herzegovina"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Botswana"
 msgstr ""
 
-#: admin/admin.php:2722
+#: admin/admin.php:2767
 msgid "Bouvet Island"
 msgstr ""
 
@@ -1213,7 +1234,7 @@ msgstr ""
 msgid "Export this form"
 msgstr ""
 
-#: admin/admin.php:267 admin/admin.php:268 admin/admin.php:3289
+#: admin/admin.php:269 admin/admin.php:270 admin/admin.php:3334
 #: admin/includes/export.php:87 admin/includes/forms.php:107
 msgid "Export"
 msgstr "تصدير"
@@ -1244,7 +1265,7 @@ msgstr "نعم"
 msgid "No"
 msgstr "لا"
 
-#: admin/admin.php:1197 admin/includes/export.php:68
+#: admin/admin.php:1235 admin/includes/export.php:68
 #: admin/includes/export.php:91 admin/includes/forms.php:135
 msgid "No forms found, %sclick here to create one%s."
 msgstr "لم يتم العثور على نماذج, %sأضغط هنا لإنشاء واحد%s."
@@ -1320,7 +1341,7 @@ msgstr "تصدير نموذج"
 msgid "Select a form to export entries from"
 msgstr "حدد النموذج لتصدير الوارد الخاص به"
 
-#: admin/admin.php:1180 admin/includes/export.php:41
+#: admin/admin.php:1212 admin/includes/export.php:41
 msgid "Please select"
 msgstr "اختر من فضلك"
 
@@ -1372,7 +1393,7 @@ msgstr ""
 msgid "Search results for &#8220;%s&#8221;"
 msgstr ""
 
-#: admin/admin.php:3285 admin/includes/entries.php:21
+#: admin/admin.php:3330 admin/includes/entries.php:21
 #: admin/includes/form-builder.php:28
 msgid "All Forms"
 msgstr "كل النماذج"
@@ -1494,7 +1515,7 @@ msgstr "reCAPTCHA"
 msgid "HTML"
 msgstr "HTML"
 
-#: admin/admin.php:3073 admin/includes/elements/date.php:6
+#: admin/admin.php:3118 admin/includes/elements/date.php:6
 #: admin/includes/entry.php:23 admin/includes/form-builder.php:131
 #: admin/includes/form-builder.php:1220
 #: admin/includes/help/_nav-elements.php:14 admin/includes/help/elements.php:20
@@ -1615,7 +1636,7 @@ msgstr ""
 msgid "Deleting an entry"
 msgstr ""
 
-#: admin/admin.php:276 admin/admin.php:277 admin/admin.php:3290
+#: admin/admin.php:278 admin/admin.php:279 admin/admin.php:3335
 #: admin/includes/elements/_actions.php:3
 #: admin/includes/elements/captcha.php:55
 #: admin/includes/elements/checkbox.php:43 admin/includes/elements/date.php:91
@@ -1653,15 +1674,15 @@ msgstr ""
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: admin/includes/settings.php:42
+#: admin/includes/settings.php:43
 msgid "Settings saved."
 msgstr "تم حفظ الإعدادات."
 
-#: admin/includes/settings.php:46
+#: admin/includes/settings.php:47
 msgid "Product license"
 msgstr "ترخيص المنتج"
 
-#: admin/includes/settings.php:47
+#: admin/includes/settings.php:48
 msgid ""
 "A valid license key entitles you to support and enables automatic upgrades. %3$sA\n"
 "        license key may only be used for one installation of WordPress at a time%4$s, if you have previously verified a license key\n"
@@ -1673,35 +1694,35 @@ msgstr ""
 "        لموقع آخر، واستخدامها مرة أخرى هنا، فإن المساعد كوفورم سيصبح غير مرخص على الموقع الآخر. الرجاء إدخال\n"
 "        مفتاح ترخيص كوفورم، يمكنك أن تجد المفتاح الخاص بك عن طريق اتباع التعليمات التي تظهر في %1$sهذه الصفحة%2$s."
 
-#: admin/includes/settings.php:53
+#: admin/includes/settings.php:54
 msgid "License status"
 msgstr "حالة الترخيص"
 
-#: admin/includes/settings.php:56
+#: admin/includes/settings.php:57
 msgid "Valid license key"
 msgstr "ساري المفعول"
 
-#: admin/includes/settings.php:57
+#: admin/includes/settings.php:58
 msgid "Unlicensed product"
 msgstr "المنتج غير مرخص"
 
-#: admin/includes/settings.php:61
+#: admin/includes/settings.php:62
 msgid "Enter license key"
 msgstr "أدخل مفتاح الترخيص"
 
-#: admin/includes/settings.php:62
+#: admin/includes/settings.php:63
 msgid "Verify"
 msgstr "تحقق"
 
-#: admin/includes/settings.php:74
+#: admin/includes/settings.php:75
 msgid "reCAPTCHA settings"
 msgstr "إعدادات reCAPTCHA"
 
-#: admin/includes/form-builder.php:1141 admin/includes/settings.php:88
+#: admin/includes/form-builder.php:1141 admin/includes/settings.php:89
 msgid "Email sending settings"
 msgstr "إعدادات إرسال البريد الإلكتروني"
 
-#: admin/includes/settings.php:89
+#: admin/includes/settings.php:90
 msgid ""
 "The settings here will determine the default email sending settings for all your forms\n"
 "        you can also override these settings for each form at Form Builder &rarr; Settings &rarr; Email."
@@ -1709,56 +1730,56 @@ msgstr ""
 "الإعدادات هنا ستحدد البريد الإلكتروني الافتراضي إرسال الإعدادات الخاصة بك لجميع النماذج\n"
 "يمكنك أيضا تجاوز هذه الإعدادات لكل نموذج في نموذج البناء &rarr; الإعدادات &rarr; البريد الإلكتروني."
 
-#: admin/includes/form-builder.php:1145 admin/includes/settings.php:97
+#: admin/includes/form-builder.php:1145 admin/includes/settings.php:98
 msgid "Email sending method"
 msgstr "طريقة إرسال البريد الإلكتروني"
 
-#: admin/includes/settings.php:100
+#: admin/includes/settings.php:101
 msgid "PHP mail() (default)"
 msgstr "PHP mail() (الافتراضي)"
 
-#: admin/includes/form-builder.php:1150 admin/includes/settings.php:101
+#: admin/includes/form-builder.php:1150 admin/includes/settings.php:102
 msgid "SMTP"
 msgstr "SMTP"
 
-#: admin/includes/form-builder.php:1157 admin/includes/settings.php:106
+#: admin/includes/form-builder.php:1157 admin/includes/settings.php:107
 msgid "SMTP host"
 msgstr "مستضيف SMTP"
 
-#: admin/includes/form-builder.php:1164 admin/includes/settings.php:112
+#: admin/includes/form-builder.php:1164 admin/includes/settings.php:113
 msgid "SMTP port"
 msgstr "منفذ SMTP"
 
-#: admin/includes/form-builder.php:1171 admin/includes/settings.php:118
+#: admin/includes/form-builder.php:1171 admin/includes/settings.php:119
 msgid "SMTP encryption"
 msgstr "تشفير SMTP"
 
 #: admin/includes/form-builder.php:447 admin/includes/form-builder.php:1174
-#: admin/includes/settings.php:121
+#: admin/includes/settings.php:122
 msgid "None"
 msgstr "لا شيء"
 
-#: admin/includes/form-builder.php:1175 admin/includes/settings.php:122
+#: admin/includes/form-builder.php:1175 admin/includes/settings.php:123
 msgid "TLS"
 msgstr "TLS"
 
-#: admin/includes/form-builder.php:1176 admin/includes/settings.php:123
+#: admin/includes/form-builder.php:1176 admin/includes/settings.php:124
 msgid "SSL"
 msgstr "SSL"
 
-#: admin/includes/form-builder.php:1182 admin/includes/settings.php:128
+#: admin/includes/form-builder.php:1182 admin/includes/settings.php:129
 msgid "SMTP username"
 msgstr "يوزر SMTP"
 
-#: admin/includes/form-builder.php:1189 admin/includes/settings.php:134
+#: admin/includes/form-builder.php:1189 admin/includes/settings.php:135
 msgid "SMTP password"
 msgstr "كلمة مرور SMTP"
 
-#: admin/includes/settings.php:149 admin/includes/settings.php:152
+#: admin/includes/settings.php:150 admin/includes/settings.php:153
 msgid "Update active themes cache"
 msgstr "تحديث كاش المظهر الفعال"
 
-#: admin/includes/settings.php:150
+#: admin/includes/settings.php:151
 msgid ""
 "If you have added or removed a form from the database directly, e.g. via phpMyAdmin then you should tick\n"
 "        the box below and Save Changes to make sure the correct themes are being loaded for all your active forms."
@@ -1766,43 +1787,43 @@ msgstr ""
 "إذا قمت بإضافة أو إزالة نموذج من قاعدة البيانات مباشرة، على سبيل المثال عبر phpMyAdmin ثم يجب عليك وضع علامة\n"
 "المربع أدناه وحفظ التغييرات للتأكد من يتم تحميل المظهر الصحيح لجميع النماذج النشطة."
 
-#: admin/includes/settings.php:154
+#: admin/includes/settings.php:155
 msgid "Disable script output"
 msgstr "تعطيل مخرجات السكربت"
 
-#: admin/includes/settings.php:156
+#: admin/includes/settings.php:157
 msgid "Disable Fancybox output"
 msgstr ""
 
-#: admin/includes/settings.php:157
+#: admin/includes/settings.php:158
 msgid "Disable qTip2 output"
 msgstr ""
 
-#: admin/includes/settings.php:158
+#: admin/includes/settings.php:159
 msgid "Disable Infield Labels output"
 msgstr ""
 
-#: admin/includes/settings.php:159
+#: admin/includes/settings.php:160
 msgid "Disable Smooth Scroll output"
 msgstr ""
 
-#: admin/includes/settings.php:160
+#: admin/includes/settings.php:161
 msgid "Disable jQuery UI output"
 msgstr ""
 
-#: admin/includes/settings.php:161
+#: admin/includes/settings.php:162
 msgid "Disable Uniform output"
 msgstr ""
 
-#: admin/includes/settings.php:162
+#: admin/includes/settings.php:163
 msgid "Disable SWFUpload output"
 msgstr ""
 
-#: admin/includes/settings.php:164
+#: admin/includes/settings.php:169
 msgid "Enable lightbox script (Fancybox)"
 msgstr "تمكين سكربت lightbox (Fancybox)"
 
-#: admin/includes/settings.php:165
+#: admin/includes/settings.php:170
 msgid ""
 "This option is enabled automatically when you add a form\n"
 "        in a popup to a post / page or when you add a Quform Popup widget. If this does not happen for some reason\n"
@@ -1814,69 +1835,69 @@ msgstr ""
 "يمكنك وضع علامة هذا الخيار لتمكين البرنامج النصي Fancybox يدويا. إذا كان لديك تعطيل الانتاج Fancybox في الإعدادات أعلاه\n"
 "لا يزال يتم تعطيل الانتاج النصي."
 
-#: admin/includes/settings.php:169
+#: admin/includes/settings.php:174
 msgid "Enable Fancybox"
 msgstr "تفعيل Fancybox"
 
-#: admin/includes/settings.php:171
+#: admin/includes/settings.php:176
 msgid "Server compatibility"
 msgstr "توافق الخادم"
 
-#: admin/includes/settings.php:178
+#: admin/includes/settings.php:183
 msgid "PHP Version"
 msgstr "إصدار PHP"
 
-#: admin/includes/settings.php:181
+#: admin/includes/settings.php:186
 msgid "The plugin requires PHP version 5 or later."
 msgstr "البرنامج المساعد يتطلب الإصدار PHP 5 أو أحدث."
 
-#: admin/includes/settings.php:189
+#: admin/includes/settings.php:194
 msgid "MySQL Version"
 msgstr "إصدار MySQL"
 
-#: admin/includes/settings.php:192
+#: admin/includes/settings.php:197
 msgid "The plugin requires MySQL version 5 or later."
 msgstr "البرنامج المساعد يتطلب الإصدار MySQL 5 أو أحدث."
 
-#: admin/includes/settings.php:199
+#: admin/includes/settings.php:204
 msgid "WordPress Version"
 msgstr "إصدار ووردبريس"
 
-#: admin/includes/settings.php:202
+#: admin/includes/settings.php:207
 msgid "The plugin requires WordPress version 3.1 or later."
 msgstr "البرنامج المساعد يتطلب الإصدار ووردبريس 3.1 أو أحدث."
 
-#: admin/includes/settings.php:208
+#: admin/includes/settings.php:213
 msgid "GD Image Library"
 msgstr "مكتبة الصور GD"
 
-#: admin/includes/settings.php:209 admin/includes/settings.php:218
-#: admin/includes/settings.php:227
+#: admin/includes/settings.php:214 admin/includes/settings.php:223
+#: admin/includes/settings.php:232
 msgid "Available"
 msgstr "متاحة"
 
-#: admin/includes/settings.php:209 admin/includes/settings.php:218
-#: admin/includes/settings.php:227
+#: admin/includes/settings.php:214 admin/includes/settings.php:223
+#: admin/includes/settings.php:232
 msgid "Unavailable"
 msgstr "غير متاحة"
 
-#: admin/includes/settings.php:211
+#: admin/includes/settings.php:216
 msgid "The plugin requires the GD image library for the CAPTCHA element, please ask your host to install it."
 msgstr "البرنامج المساعد يتطلب مكتبة الصور GD للعنصر CAPTCHA، رجاءً أطلب من مستضيفك تثبيتها."
 
-#: admin/includes/settings.php:226
+#: admin/includes/settings.php:231
 msgid "mbstring Extension"
 msgstr "الملحق mbstring"
 
-#: admin/includes/settings.php:229
+#: admin/includes/settings.php:234
 msgid "The plugin requires the mbstring PHP extension for the CSS system, please ask your host to install it."
 msgstr "البرنامج المساعد يتطلب ملحق PHP mbstring لنظام CSS، رجاءً أطلب من مستضيفك تثبيتها."
 
-#: admin/includes/settings.php:236
+#: admin/includes/settings.php:241
 msgid "Temporary Directory"
 msgstr "الدليل المؤقت"
 
-#: admin/includes/settings.php:239
+#: admin/includes/settings.php:244
 msgid "The plugin requires a writeable temporary directory for file uploading. You can set a custom temporary directory path in your wp-config.php file by using the code %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
 msgstr "البرنامج المساعد يتطلب تصريح الكتابة للدليل المؤقت لتحميل الملفات. يمكنك تعيين مسار الدليل المؤقت من ملف wp-config.php الخاص بك باستخدام الكود التالي %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
 
@@ -1892,43 +1913,43 @@ msgstr "العودة الى قائمة الوارد"
 msgid "Additional information"
 msgstr "معلومات اضافية"
 
-#: admin/admin.php:414 admin/admin.php:3072 admin/includes/entry.php:31
+#: admin/admin.php:417 admin/admin.php:3117 admin/includes/entry.php:31
 msgid "Entry ID"
 msgstr "رقم الرسالة"
 
-#: admin/admin.php:415 admin/admin.php:3075
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:10
+#: admin/admin.php:418 admin/admin.php:3120
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:11
 #: admin/includes/entry.php:35 admin/includes/form-builder.php:1229
 msgid "Form URL"
 msgstr "رابط النموذج"
 
-#: admin/admin.php:419 admin/admin.php:3076
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:14
+#: admin/admin.php:422 admin/admin.php:3121
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:15
 #: admin/includes/entry.php:43 admin/includes/form-builder.php:1234
 msgid "Referring URL"
 msgstr "رابط الاشارة"
 
-#: admin/admin.php:3074 admin/includes/entry.php:51
+#: admin/admin.php:3119 admin/includes/entry.php:51
 msgid "IP address"
 msgstr "عنوان IP"
 
-#: admin/admin.php:3077 admin/includes/entry.php:55
+#: admin/admin.php:3122 admin/includes/entry.php:55
 msgid "Post / page ID"
 msgstr "المقال / رقم الصفحة"
 
-#: admin/admin.php:3078 admin/includes/entry.php:59
+#: admin/admin.php:3123 admin/includes/entry.php:59
 msgid "Post / page title"
 msgstr "المقال / عنوان الصفحة"
 
-#: admin/admin.php:3079 admin/includes/entry.php:63
+#: admin/admin.php:3124 admin/includes/entry.php:63
 msgid "User WordPress display name"
 msgstr "اسم العرض للمستخدم"
 
-#: admin/admin.php:3080 admin/includes/entry.php:67
+#: admin/admin.php:3125 admin/includes/entry.php:67
 msgid "User WordPress email"
 msgstr "بريد المستخدم"
 
-#: admin/admin.php:3081 admin/includes/entry.php:75
+#: admin/admin.php:3126 admin/includes/entry.php:75
 msgid "User WordPress login"
 msgstr "اسم الدخول للمستخدم"
 
@@ -2098,7 +2119,7 @@ msgstr ""
 
 #: admin/includes/elements/file.php:126 admin/includes/elements/file.php:173
 #: admin/includes/elements/file.php:175 admin/includes/elements/file.php:177
-#: admin/includes/elements/file.php:181
+#: admin/includes/elements/file.php:180
 #: admin/includes/elements/settings/validators/alpha-numeric.php:39
 #: admin/includes/elements/settings/validators/alpha.php:39
 #: admin/includes/elements/settings/validators/digits.php:39
@@ -2170,11 +2191,11 @@ msgid "Translate error messages"
 msgstr "ترجمة رسائل الخطأ"
 
 #: admin/includes/elements/file.php:173 admin/includes/elements/file.php:175
-#: admin/includes/elements/file.php:177 admin/includes/elements/file.php:181
+#: admin/includes/elements/file.php:177 admin/includes/elements/file.php:180
 msgid "the filename"
 msgstr ""
 
-#: admin/includes/elements/file.php:199
+#: admin/includes/elements/file.php:198
 #: admin/includes/elements/recaptcha.php:177
 #: admin/includes/elements/settings/validators/alpha-numeric.php:32
 #: admin/includes/elements/settings/validators/alpha.php:32
@@ -2188,7 +2209,7 @@ msgstr ""
 msgid "Default"
 msgstr "الافتراضي"
 
-#: admin/includes/elements/file.php:200
+#: admin/includes/elements/file.php:199
 #: admin/includes/elements/recaptcha.php:178
 #: admin/includes/elements/settings/validators/alpha-numeric.php:33
 #: admin/includes/elements/settings/validators/alpha.php:33
@@ -2208,17 +2229,17 @@ msgid ""
 "\t\t\t\t\t\t            the user has entered anything"
 msgstr ""
 
-#: admin/admin.php:402 admin/includes/elements/checkbox.php:12
+#: admin/admin.php:404 admin/includes/elements/checkbox.php:12
 #: admin/includes/elements/radio.php:12 admin/includes/elements/select.php:11
 msgid "Option 1"
 msgstr "الخيار 1"
 
-#: admin/admin.php:403 admin/includes/elements/checkbox.php:13
+#: admin/admin.php:405 admin/includes/elements/checkbox.php:13
 #: admin/includes/elements/radio.php:13 admin/includes/elements/select.php:12
 msgid "Option 2"
 msgstr "الخيار 2"
 
-#: admin/admin.php:404 admin/includes/elements/checkbox.php:14
+#: admin/admin.php:406 admin/includes/elements/checkbox.php:14
 #: admin/includes/elements/radio.php:14 admin/includes/elements/select.php:13
 msgid "Option 3"
 msgstr "الخيار 3"
@@ -2367,15 +2388,15 @@ msgstr ""
 msgid "Translations"
 msgstr "ترجمة"
 
-#: admin/admin.php:426 admin/includes/elements/date.php:250
+#: admin/admin.php:429 admin/includes/elements/date.php:250
 msgid "Day"
 msgstr "يوم"
 
-#: admin/admin.php:427 admin/includes/elements/date.php:254
+#: admin/admin.php:430 admin/includes/elements/date.php:254
 msgid "Month"
 msgstr "شهر"
 
-#: admin/admin.php:428 admin/includes/elements/date.php:258
+#: admin/admin.php:431 admin/includes/elements/date.php:258
 msgid "Year"
 msgstr "سنة"
 
@@ -2487,42 +2508,42 @@ msgstr ""
 msgid "Insert variable..."
 msgstr "إدراج متغير ..."
 
-#: admin/admin.php:411
+#: admin/admin.php:413
 #: admin/includes/elements/settings/_insert-variable-preprocess.php:7
 msgid "User IP address"
 msgstr "عنوان IP المستخدم"
 
-#: admin/admin.php:412
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:8
+#: admin/admin.php:415
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:9
 msgid "Form post/page ID"
 msgstr "نموذج المقال/رقم الصفحة"
 
-#: admin/admin.php:413
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:9
+#: admin/admin.php:416
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:10
 msgid "Form post/page title"
 msgstr "نموذج المقال/ عنوان الصفحة"
 
-#: admin/admin.php:416
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:11
+#: admin/admin.php:419
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:12
 msgid "User display name"
 msgstr "اسم العرض للمستخدم"
 
-#: admin/admin.php:417
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:12
+#: admin/admin.php:420
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:13
 msgid "User email"
 msgstr "بريد المستخدم"
 
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:13
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:14
 msgid "User login"
 msgstr ""
 
-#: admin/admin.php:420
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:15
+#: admin/admin.php:423
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:16
 msgid "Date (select a format)"
 msgstr "التاريخ (حدد تنسيق)"
 
-#: admin/admin.php:421
-#: admin/includes/elements/settings/_insert-variable-preprocess.php:20
+#: admin/admin.php:424
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:21
 msgid "Time (select a format)"
 msgstr "الوقت (حدد تنسيق)"
 
@@ -2706,7 +2727,7 @@ msgstr ""
 msgid "Textarea input"
 msgstr ""
 
-#: admin/admin.php:896 admin/includes/elements/settings/styles.php:44
+#: admin/admin.php:928 admin/includes/elements/settings/styles.php:44
 msgid "Dropdown menu"
 msgstr "القائمة المنسدلة"
 
@@ -2739,32 +2760,32 @@ msgstr ""
 msgid "Group title"
 msgstr "عنوان المجموعة"
 
-#: admin/admin.php:923 admin/admin.php:1023
+#: admin/admin.php:955 admin/admin.php:1055
 #: admin/includes/elements/settings/styles.php:71
 msgid "Date day dropdown"
 msgstr "تاريخ يوم المنسدلة"
 
-#: admin/admin.php:926 admin/admin.php:1026
+#: admin/admin.php:958 admin/admin.php:1058
 #: admin/includes/elements/settings/styles.php:74
 msgid "Date month dropdown"
 msgstr "تاريخ شهر المنسدلة"
 
-#: admin/admin.php:929 admin/admin.php:1029
+#: admin/admin.php:961 admin/admin.php:1061
 #: admin/includes/elements/settings/styles.php:77
 msgid "Date year dropdown"
 msgstr "تاريخ سنة المنسدلة"
 
-#: admin/admin.php:932 admin/admin.php:1032
+#: admin/admin.php:964 admin/admin.php:1064
 #: admin/includes/elements/settings/styles.php:80
 msgid "Time hour dropdown"
 msgstr "توقيت الساعة المنسدلة"
 
-#: admin/admin.php:935 admin/admin.php:1035
+#: admin/admin.php:967 admin/admin.php:1067
 #: admin/includes/elements/settings/styles.php:83
 msgid "Time minute dropdown"
 msgstr "وقت الدقيقة المنسدلة"
 
-#: admin/admin.php:938 admin/admin.php:1038
+#: admin/admin.php:970 admin/admin.php:1070
 #: admin/includes/elements/settings/styles.php:86
 msgid "Time am/pm dropdown"
 msgstr "توقيت ص/م المنسدلة"
@@ -2837,7 +2858,7 @@ msgstr ""
 msgid "Regex"
 msgstr ""
 
-#: admin/admin.php:437 admin/includes/elements/settings/options-bulk.php:1
+#: admin/admin.php:440 admin/includes/elements/settings/options-bulk.php:1
 msgid "Add bulk options"
 msgstr "إضافة خيارات"
 
@@ -2877,7 +2898,7 @@ msgstr "إلغاء"
 msgid "Hide validator settings"
 msgstr ""
 
-#: admin/admin.php:443 admin/includes/elements/_actions.php:2
+#: admin/admin.php:446 admin/includes/elements/_actions.php:2
 #: admin/includes/elements/_save.php:8
 #: admin/includes/elements/settings/filters/alpha-numeric.php:3
 #: admin/includes/elements/settings/filters/alpha.php:3
@@ -3466,7 +3487,7 @@ msgstr ""
 msgid "Admin label"
 msgstr "تسمية المشرف"
 
-#: admin/admin.php:3387 admin/includes/elements/groupend.php:5
+#: admin/admin.php:3432 admin/includes/elements/groupend.php:5
 #: admin/includes/elements/groupstart.php:5
 msgid "New"
 msgstr "جديد"
@@ -3509,13 +3530,13 @@ msgstr "الثيم"
 msgid "Language"
 msgstr "اللغة"
 
-#: admin/admin.php:435 admin/includes/elements/time.php:23
+#: admin/admin.php:438 admin/includes/elements/time.php:23
 #: admin/includes/elements/time.php:228 includes/iPhorm/Element/Time.php:346
 msgctxt "time, morning"
 msgid "am"
 msgstr "ص"
 
-#: admin/admin.php:436 admin/includes/elements/time.php:24
+#: admin/admin.php:439 admin/includes/elements/time.php:24
 #: admin/includes/elements/time.php:232 includes/iPhorm/Element/Time.php:366
 msgctxt "time, evening"
 msgid "pm"
@@ -3642,7 +3663,7 @@ msgstr "حفظ & إخفاء"
 msgid "New form"
 msgstr "نموذج جديد"
 
-#: admin/admin.php:240 admin/admin.php:241 admin/admin.php:3286
+#: admin/admin.php:242 admin/admin.php:243 admin/admin.php:3331
 #: admin/includes/form-builder.php:12
 msgid "Form Builder"
 msgstr "بناء نموذج"
@@ -3693,7 +3714,7 @@ msgstr ""
 msgid "Popup form"
 msgstr ""
 
-#: admin/admin.php:450 admin/admin.php:1221 admin/includes/form-builder.php:69
+#: admin/admin.php:453 admin/admin.php:1259 admin/includes/form-builder.php:69
 #: admin/includes/form-builder.php:84
 msgid "Change this to the text or HTML that will trigger the popup"
 msgstr "غير هذا النص التي ستظهر بشكل منبثق"
@@ -3975,7 +3996,7 @@ msgstr ""
 "أدخل اسم المستخدم في ثيمفورست أو كودكانيون وسوف تتلقي خصم 30% عند الشراء\n"
 "من أي إحالات خاصة بك"
 
-#: admin/admin.php:430 admin/admin.php:1274 admin/includes/form-builder.php:428
+#: admin/admin.php:433 admin/admin.php:1312 admin/includes/form-builder.php:428
 msgid "More information"
 msgstr "المزيد من المعلومات"
 
@@ -4267,7 +4288,7 @@ msgstr ""
 msgid "The message shown when the form is successfully submitted"
 msgstr ""
 
-#: admin/admin.php:981 admin/includes/form-builder.php:887
+#: admin/admin.php:1013 admin/includes/form-builder.php:887
 msgid "Success message"
 msgstr "تم ارسال الرسالة"
 
@@ -4275,7 +4296,7 @@ msgstr "تم ارسال الرسالة"
 msgid "The form title"
 msgstr ""
 
-#: admin/admin.php:984 admin/includes/form-builder.php:888
+#: admin/admin.php:1016 admin/includes/form-builder.php:888
 msgid "Form title"
 msgstr "عنوان النموذج"
 
@@ -4283,7 +4304,7 @@ msgstr "عنوان النموذج"
 msgid "The form description"
 msgstr ""
 
-#: admin/admin.php:987 admin/includes/form-builder.php:889
+#: admin/admin.php:1019 admin/includes/form-builder.php:889
 msgid "Form description"
 msgstr "وصف النموذج"
 
@@ -4307,7 +4328,7 @@ msgstr ""
 msgid "The label of each element"
 msgstr ""
 
-#: admin/admin.php:996 admin/includes/form-builder.php:892
+#: admin/admin.php:1028 admin/includes/form-builder.php:892
 msgid "Element label"
 msgstr "عنصر التسمية"
 
@@ -4323,7 +4344,7 @@ msgstr ""
 msgid "The description of each element"
 msgstr ""
 
-#: admin/admin.php:1020 admin/includes/form-builder.php:894
+#: admin/admin.php:1052 admin/includes/form-builder.php:894
 msgid "Element description"
 msgstr ""
 
@@ -4331,7 +4352,7 @@ msgstr ""
 msgid "The input field of Single Line Text, Email, Password and CAPTCHA elements"
 msgstr ""
 
-#: admin/admin.php:1002 admin/includes/form-builder.php:895
+#: admin/admin.php:1034 admin/includes/form-builder.php:895
 msgid "Text input elements"
 msgstr ""
 
@@ -4347,7 +4368,7 @@ msgstr ""
 msgid "The select field of Dropdown Menu elements"
 msgstr ""
 
-#: admin/admin.php:1008 admin/includes/form-builder.php:897
+#: admin/admin.php:1040 admin/includes/form-builder.php:897
 msgid "Dropdown Menu elements"
 msgstr ""
 
@@ -4391,7 +4412,7 @@ msgstr ""
 msgid "The outer wrapper of the submit button"
 msgstr ""
 
-#: admin/admin.php:1041 admin/includes/form-builder.php:903
+#: admin/admin.php:1073 admin/includes/form-builder.php:903
 msgid "Submit button outer wrapper"
 msgstr ""
 
@@ -4399,7 +4420,7 @@ msgstr ""
 msgid "The inner wrapper of the submit button"
 msgstr ""
 
-#: admin/admin.php:1044 admin/includes/form-builder.php:904
+#: admin/admin.php:1076 admin/includes/form-builder.php:904
 msgid "Submit button inner wrapper"
 msgstr ""
 
@@ -4407,7 +4428,7 @@ msgstr ""
 msgid "The submit button"
 msgstr ""
 
-#: admin/admin.php:1047 admin/includes/form-builder.php:905
+#: admin/admin.php:1079 admin/includes/form-builder.php:905
 msgid "Submit button"
 msgstr ""
 
@@ -4415,7 +4436,7 @@ msgstr ""
 msgid "The span tag inside the submit button"
 msgstr ""
 
-#: admin/admin.php:1050 admin/includes/form-builder.php:906
+#: admin/admin.php:1082 admin/includes/form-builder.php:906
 msgid "Submit button inside span"
 msgstr ""
 
@@ -4423,7 +4444,7 @@ msgstr ""
 msgid "The em tag inside the submit button"
 msgstr ""
 
-#: admin/admin.php:1053 admin/includes/form-builder.php:907
+#: admin/admin.php:1085 admin/includes/form-builder.php:907
 msgid "Submit button inside em"
 msgstr ""
 
@@ -4768,7 +4789,7 @@ msgstr ""
 "\t\tكان في الموقع الذي اتخذ من التصدير. يمكنك تغيير هذه القيمة بعد\n"
 "\t\tاستيراد من خلال الذهاب الى %1$sالإعدادات &rarr; البريد الإلكتروني%2$s على بناء النموذج."
 
-#: admin/admin.php:258 admin/admin.php:259 admin/admin.php:3288
+#: admin/admin.php:260 admin/admin.php:261 admin/admin.php:3333
 #: admin/includes/import.php:32
 msgid "Import"
 msgstr "استيراد"
@@ -4793,318 +4814,313 @@ msgstr "التعليمات"
 msgid "Help is not available in the unlicensed version."
 msgstr ""
 
-#. #-#-#-#-#  iphorm-form-builder.pot (Quform 1.7.4)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: admin/admin.php:220 admin/admin.php:3450
+#: admin/admin.php:222 admin/admin.php:3495
 msgid "Quform"
 msgstr "كوفورم"
 
-#: admin/admin.php:364
+#: admin/admin.php:366
 msgid "Are you sure you want to delete this form? All saved settings, elements and entries for this form will be lost and this cannot be undone."
 msgstr "هل أنت متأكد أنك تريد حذف هذا النموذج؟ ستفقد جميع الإعدادات والعناصر والوارد لهذا النموذج ولا يمكن التراجع عنها."
 
-#: admin/admin.php:365
+#: admin/admin.php:367
 msgid "Are you sure you want to delete these forms? All saved settings, elements and entries for these forms will be lost and this cannot be undone."
 msgstr "هل أنت متأكد أنك تريد حذف هذه النماذج؟ ستفقد جميع الإعدادات والعناصر والوارد لهذه النماذج ولا يمكن التراجع عنها."
 
-#: admin/admin.php:366
+#: admin/admin.php:368
 msgid "Are you sure you want to delete this entry? All data for this entry will be lost and this cannot be undone."
 msgstr "هل أنت متأكد أنك تريد حذف هذه الإضافة؟ ستفقد جميع البيانات المدخلة،  ولا يمكن التراجع عنها."
 
-#: admin/admin.php:367
+#: admin/admin.php:369
 msgid "Are you sure you want to delete these entries? All data for these entries will be lost and this cannot be undone."
 msgstr "هل أنت متأكد أنك تريد حذف هذا الوارد؟ ستفقد جميع البيانات لهذا الوارد، ولا يمكن التراجع عنها."
 
-#: admin/admin.php:369 admin/admin.php:2321
+#: admin/admin.php:371 admin/admin.php:2366
 msgid "An error occurred verifying the license key, please try again"
 msgstr "حدث خطأ في التحقق من مفتاح الترخيص، يرجى المحاولة مرة أخرى"
 
-#: admin/admin.php:372
+#: admin/admin.php:374
 msgid "Please wait, verification in progress"
 msgstr "يرجى الانتظار، جاري التحقق"
 
-#: admin/admin.php:374 includes/iPhorm/Validator/Recaptcha.php:32
+#: admin/admin.php:376 includes/iPhorm/Validator/Recaptcha.php:32
 msgid "An error occurred, please try again"
 msgstr "حدث خطأ، يرجى المحاولة مرة أخرى"
 
-#: admin/admin.php:397 admin/admin.php:673
+#: admin/admin.php:399 admin/admin.php:705
 msgid "Error adding the element"
 msgstr "خطأ في إضافة عنصر"
 
-#: admin/admin.php:398
+#: admin/admin.php:400
 msgid "Are you sure you want to delete this element? Any associated entry data for this element will also be deleted."
 msgstr "هل أنت متأكد أنك تريد حذف هذا العنصر؟ سيتم حذف أي بيانات مدخلة مرتبطة بهذا العنصر."
 
-#: admin/admin.php:399
+#: admin/admin.php:401
 msgid "Are you sure you want to convert this element? Most of your settings will be copied over, however you may lose some settings that are not shared between the element types."
 msgstr "هل أنت متأكد أنك تريد تحويل هذا العنصر؟ سيتم نسخ معظم الإعدادات الخاصة بك، ومع ذلك قد تفقد بعض الإعدادات التي لا تكون مشتركة بين أنواع عنصر."
 
-#: admin/admin.php:400
+#: admin/admin.php:402
 msgid "Error saving the form"
 msgstr "خطأ في حفظ هذا النموذج"
 
-#: admin/admin.php:401
+#: admin/admin.php:403
 msgid "Element deleted"
 msgstr "تم حذف العنصر"
 
-#: admin/admin.php:405
+#: admin/admin.php:407
 msgid "There must be at least one option"
 msgstr "يجب أن يكون هناك خيار واحد على الأقل"
 
-#: admin/admin.php:406 admin/admin.php:726
+#: admin/admin.php:408 admin/admin.php:758
 msgid "Error adding the filter"
 msgstr "خطأ في إضافة فلتر"
 
-#: admin/admin.php:407 admin/admin.php:788
+#: admin/admin.php:409 admin/admin.php:820
 msgid "Error adding the validator"
 msgstr "خطأ في إضافة المدقق"
 
-#: admin/admin.php:408
+#: admin/admin.php:410
 msgid "Error adding the style"
 msgstr "خطأ في إضافة نمط"
 
-#: admin/admin.php:409
+#: admin/admin.php:411
 msgctxt "variable piece of data"
 msgid "Insert variable..."
 msgstr "إدراج متغير ..."
 
-#: admin/admin.php:410
+#: admin/admin.php:412
 msgid "Submitted form value"
 msgstr "قيمة النموذج المقدم"
 
-#: admin/admin.php:418
+#: admin/admin.php:421
 msgctxt "username"
 msgid "User login"
 msgstr "اسم المستخدم"
 
-#: admin/admin.php:422
+#: admin/admin.php:425
 msgid "Send to"
 msgstr "أرسل إلى"
 
-#: admin/admin.php:423
+#: admin/admin.php:426
 msgctxt "conditional"
 msgid "if"
 msgstr "إذا"
 
-#: admin/admin.php:424
+#: admin/admin.php:427
 msgid "is equal to"
 msgstr "يساوي"
 
-#: admin/admin.php:425
+#: admin/admin.php:428
 msgid "is not equal to"
 msgstr "لا يساوي"
 
-#: admin/admin.php:429
+#: admin/admin.php:432
 msgid "This is an example tooltip!"
 msgstr "هذا مثال تلميح!"
 
-#: admin/admin.php:431
+#: admin/admin.php:434
 msgctxt "delete"
 msgid "Remove"
 msgstr "إزالة"
 
-#: admin/admin.php:439
+#: admin/admin.php:442
 msgid "The form must have at least one Dropdown Menu, Checkboxes or Multiple Choice element to use this feature."
 msgstr "النموذج يجب أن يحتوي على الأقل قائمة منسدلة واحدة، خانات اختيار أو اختيارات من متعددة لاستخدام هذه الميزة."
 
-#: admin/admin.php:440
+#: admin/admin.php:443
 msgid "this group if"
 msgstr "هذه المجموعة إذا"
 
-#: admin/admin.php:441
+#: admin/admin.php:444
 msgid "this field if"
 msgstr "هذا الحقل اذا"
 
-#: admin/admin.php:442
+#: admin/admin.php:445
 msgid "Show"
 msgstr "عرض"
 
-#: admin/admin.php:444
+#: admin/admin.php:447
 msgid "all"
 msgstr "الكل"
 
-#: admin/admin.php:445
+#: admin/admin.php:448
 msgid "any"
 msgstr "أي"
 
-#: admin/admin.php:446
+#: admin/admin.php:449
 msgid "of these rules match:"
 msgstr "من هذه القواعد تطابق:"
 
-#: admin/admin.php:447
+#: admin/admin.php:450
 msgid "is"
 msgstr "هو"
 
-#: admin/admin.php:448
+#: admin/admin.php:451
 msgid "is not"
 msgstr "ليس"
 
-#: admin/admin.php:449
+#: admin/admin.php:452
 msgid "You have unsaved changes."
 msgstr "لديك تغييرات غير محفوظة."
 
-#: admin/admin.php:577
+#: admin/admin.php:609
 msgid "%sForm saved%s"
 msgstr "%sتم الحفظ%s"
 
-#: admin/admin.php:577
+#: admin/admin.php:609
 msgid "%sAdd to website%s"
 msgstr "%sإضافة للموقع%s"
 
-#: admin/admin.php:579
+#: admin/admin.php:611
 msgid "Form saved"
 msgstr "تم الحفظ"
 
-#: admin/admin.php:615
+#: admin/admin.php:647
 msgid "%sElement added%s %sSettings%s"
-msgstr "%sتم إضافة العنصر%s %الإعدادات%s"
+msgstr ""
 
-#: admin/admin.php:641
+#: admin/admin.php:673
 msgid "%sElement added%s"
 msgstr "%sتم إضافة العنصر%s"
 
-#: admin/admin.php:641
+#: admin/admin.php:673
 msgid "The maximum file upload size has been set to 10MB, you can change this value in the element configuration. %sSee the help for more information%s."
 msgstr "تم تعيين الحد الأقصى لحجم ملف التحميل إلى 10MB، يمكنك تغيير هذه القيمة في تكوين العنصر. %sانظر التعليمات للمزيد من المعلومات%s."
 
-#: admin/admin.php:881
+#: admin/admin.php:913
 msgctxt "outermost wrapping HTML element"
 msgid "Outer wrapper"
 msgstr "الغلاف الخارجي"
 
-#: admin/admin.php:884
+#: admin/admin.php:916
 msgctxt "form element label to be styled"
 msgid "Label"
 msgstr "التسمية"
 
-#: admin/admin.php:887
+#: admin/admin.php:919
 msgctxt "innermost wrapping HTML element"
 msgid "Inner wrapper"
 msgstr "الغلاف الداخلي"
 
-#: admin/admin.php:890
+#: admin/admin.php:922
 msgctxt "the HTML form element input/textarea/select etc"
 msgid "Text input"
 msgstr "إدخال النص"
 
-#: admin/admin.php:893
+#: admin/admin.php:925
 msgctxt "the HTML form element textarea"
 msgid "Textarea input"
 msgstr "إدخال صندوق النص"
 
-#: admin/admin.php:899
+#: admin/admin.php:931
 msgctxt "element group description"
 msgid "Group description"
 msgstr "وصف المجموعة"
 
-#: admin/admin.php:902
+#: admin/admin.php:934
 msgctxt "element description"
 msgid "Description"
 msgstr "الوصف"
 
-#: admin/admin.php:905
+#: admin/admin.php:937
 msgctxt "the wrapper around all of the options"
 msgid "Options outer wrapper"
 msgstr "خيارات الغلاف الخارجي"
 
-#: admin/admin.php:908
+#: admin/admin.php:940
 msgctxt "the wrapper around each option"
 msgid "Option wrapper"
 msgstr "خيار الغلاف"
 
-#: admin/admin.php:911
+#: admin/admin.php:943
 msgctxt "the label of each option"
 msgid "Option label"
 msgstr "خيار التسمية"
 
-#: admin/admin.php:914
+#: admin/admin.php:946
 msgctxt "form element group"
 msgid "Group"
 msgstr "المجموعة"
 
-#: admin/admin.php:917
+#: admin/admin.php:949
 msgctxt "form element group title"
 msgid "Group title"
 msgstr "عنوان المجموعة"
 
-#: admin/admin.php:920
+#: admin/admin.php:952
 msgctxt "the HTML wrapper around the elements in the group"
 msgid "Group elements wrapper"
 msgstr "عناصر مجموعة الغلاف"
 
-#: admin/admin.php:975
+#: admin/admin.php:1007
 msgctxt "the outermost HTML wrapper around the form"
 msgid "Form outer wrapper"
 msgstr "نموذج الغلاف الخارجي"
 
-#: admin/admin.php:978
+#: admin/admin.php:1010
 msgctxt "the inner HTML wrapper around the form"
 msgid "Form inner wrapper"
 msgstr "نموذج الغلاف الداخلي"
 
-#: admin/admin.php:990
+#: admin/admin.php:1022
 msgctxt "the HTML wrapper around the form elements"
 msgid "Form elements wrapper"
 msgstr ""
 
-#: admin/admin.php:993
+#: admin/admin.php:1025
 msgctxt "outermost wrapping HTML element around an element"
 msgid "Element outer wrapper"
 msgstr ""
 
-#: admin/admin.php:999
+#: admin/admin.php:1031
 msgctxt "the inner HTML wrapper around the element"
 msgid "Element inner wrapper"
 msgstr ""
 
-#: admin/admin.php:1005
+#: admin/admin.php:1037
 msgid "Paragraph text elements"
 msgstr ""
 
-#: admin/admin.php:1011
+#: admin/admin.php:1043
 msgctxt "the wrapper around the list of options for multi elements e.g. checkbox, radio"
 msgid "Options outer wrapper"
 msgstr ""
 
-#: admin/admin.php:1014
+#: admin/admin.php:1046
 msgctxt "the wrapper around each option for multi elements e.g. checkbox, radio"
 msgid "Option wrappers"
 msgstr ""
 
-#: admin/admin.php:1017
+#: admin/admin.php:1049
 msgctxt "the label each option for multi elements e.g. checkbox, radio"
 msgid "Option labels"
 msgstr "خيار التسميات"
 
-#: admin/admin.php:1176
+#: admin/admin.php:1208
 msgid "Insert a form"
 msgstr "إدراج نموذج"
 
-#: admin/admin.php:1178
+#: admin/admin.php:1210
 msgid "Select the form you want to insert from the dropdown menu and click Insert."
 msgstr ""
 
-#: admin/admin.php:1182
-msgid "inactive"
-msgstr "غير فعال"
-
-#: admin/admin.php:1187
+#: admin/admin.php:1225
 msgid "Display the form in a popup (using Fancybox)"
 msgstr ""
 
-#: admin/admin.php:1189
+#: admin/admin.php:1227
 msgid "Insert"
 msgstr "إدراج"
 
-#: admin/admin.php:1192
+#: admin/admin.php:1230
 msgid "If you are having trouble inserting the form, copy and paste the code below into the page content."
 msgstr ""
 
-#: admin/admin.php:1251
+#: admin/admin.php:1289
 msgid "Please select a form first"
 msgstr "يرجى تحديد نموذج أولا"
 
-#: admin/admin.php:1444 admin/admin.php:1495
+#: admin/admin.php:1482 admin/admin.php:1533
 msgid "Form deleted"
 msgid_plural "%d forms deleted"
 msgstr[0] ""
@@ -5114,7 +5130,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: admin/admin.php:1454 admin/admin.php:1500
+#: admin/admin.php:1492 admin/admin.php:1538
 msgid "Form activated"
 msgid_plural "%d forms activated"
 msgstr[0] ""
@@ -5124,7 +5140,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: admin/admin.php:1464 admin/admin.php:1505
+#: admin/admin.php:1502 admin/admin.php:1543
 msgid "Form deactivated"
 msgid_plural "%d forms deactivated"
 msgstr[0] ""
@@ -5134,27 +5150,27 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: admin/admin.php:1474
+#: admin/admin.php:1512
 msgid "duplicate"
 msgstr ""
 
-#: admin/admin.php:1480
+#: admin/admin.php:1518
 msgid "Form duplicated, %sedit the form%s"
 msgstr ""
 
-#: admin/admin.php:1530
+#: admin/admin.php:1568
 msgid "Sorry, the form preview could not be loaded."
 msgstr ""
 
-#: admin/admin.php:1800
+#: admin/admin.php:1838
 msgid "Form imported successfully, %sedit the form%s"
 msgstr ""
 
-#: admin/admin.php:1805
+#: admin/admin.php:1843
 msgid "Invalid import data"
 msgstr ""
 
-#: admin/admin.php:1929
+#: admin/admin.php:1967
 msgid "Entry deleted"
 msgid_plural "%d entries deleted"
 msgstr[0] ""
@@ -5164,7 +5180,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: admin/admin.php:2066
+#: admin/admin.php:2111
 msgid "1 item"
 msgid_plural "%s items"
 msgstr[0] "لا يوجد بنود"
@@ -5174,180 +5190,180 @@ msgstr[3] "البند %s"
 msgstr[4] "البند %s"
 msgstr[5] "البند %s"
 
-#: admin/admin.php:2080
+#: admin/admin.php:2125
 msgid "Go to the first page"
 msgstr "انتقل إلى الصفحة الأولى"
 
-#: admin/admin.php:2087
+#: admin/admin.php:2132
 msgid "Go to the previous page"
 msgstr "إذهب إلى الصفحة السابقة"
 
-#: admin/admin.php:2096
+#: admin/admin.php:2141
 msgid "Current page"
 msgstr "الصفحة الحالية"
 
-#: admin/admin.php:2103
+#: admin/admin.php:2148
 msgctxt "paging"
 msgid "%1$s of %2$s"
 msgstr "%1$s من %2$s"
 
-#: admin/admin.php:2107
+#: admin/admin.php:2152
 msgid "Go to the next page"
 msgstr "إذهب إلى الصفحة التالية"
 
-#: admin/admin.php:2114
+#: admin/admin.php:2159
 msgid "Go to the last page"
 msgstr "انتقل إلى الصفحة الأخيرة"
 
-#: admin/admin.php:2305
+#: admin/admin.php:2350
 msgid "Form information will appear here when you create a form."
 msgstr "سوف تظهر على شكل معلومات هنا عند إنشاء نموذج."
 
-#: admin/admin.php:2344
+#: admin/admin.php:2389
 msgid "License key successfully verified"
 msgstr "تم التحقق من مفتاح الترخيص بنجاح"
 
-#: admin/admin.php:2349 admin/admin.php:2511
+#: admin/admin.php:2394 admin/admin.php:2556
 msgid "Invalid license key"
 msgstr "مفتاح الترخيص غير صالح"
 
-#: admin/admin.php:2354
+#: admin/admin.php:2399
 msgid "Licence key verification will be available shortly, please try again later"
 msgstr "التحقق من مفتاح الترخيص سيكون متاح قريبا، يرجى المحاولة مرة أخرى في وقت لاحق"
 
-#: admin/admin.php:2697
+#: admin/admin.php:2742
 msgid "Countries"
 msgstr "الدول"
 
-#: admin/admin.php:2698
+#: admin/admin.php:2743
 msgid "U.S. States"
 msgstr ""
 
-#: admin/admin.php:2699
+#: admin/admin.php:2744
 msgid "Canadian Provinces"
 msgstr ""
 
-#: admin/admin.php:2700
+#: admin/admin.php:2745
 msgid "UK Counties"
 msgstr ""
 
-#: admin/admin.php:2701
+#: admin/admin.php:2746
 msgid "German States"
 msgstr ""
 
-#: admin/admin.php:2702
+#: admin/admin.php:2747
 msgid "Dutch Provinces"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "Continents"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "Africa"
 msgstr ""
 
-#: admin/admin.php:2703 admin/admin.php:2721
+#: admin/admin.php:2748 admin/admin.php:2766
 msgid "Antarctica"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "Asia"
 msgstr ""
 
-#: admin/admin.php:2703 admin/admin.php:2721
+#: admin/admin.php:2748 admin/admin.php:2766
 msgid "Australia"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "Europe"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "North America"
 msgstr ""
 
-#: admin/admin.php:2703
+#: admin/admin.php:2748
 msgid "South America"
 msgstr ""
 
-#: admin/admin.php:2704
+#: admin/admin.php:2749
 msgid "Gender"
 msgstr ""
 
-#: admin/admin.php:2704
+#: admin/admin.php:2749
 msgid "Male"
 msgstr ""
 
-#: admin/admin.php:2704
+#: admin/admin.php:2749
 msgid "Female"
 msgstr ""
 
-#: admin/admin.php:2705
+#: admin/admin.php:2750
 msgid "Age"
 msgstr ""
 
-#: admin/admin.php:2706
+#: admin/admin.php:2751
 msgid "Marital Status"
 msgstr ""
 
-#: admin/admin.php:2706
+#: admin/admin.php:2751
 msgid "Single"
 msgstr ""
 
-#: admin/admin.php:2706
+#: admin/admin.php:2751
 msgid "Married"
 msgstr ""
 
-#: admin/admin.php:2706
+#: admin/admin.php:2751
 msgid "Divorced"
 msgstr ""
 
-#: admin/admin.php:2706
+#: admin/admin.php:2751
 msgid "Widowed"
 msgstr ""
 
-#: admin/admin.php:2707
+#: admin/admin.php:2752
 msgid "Income"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Days"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Monday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Tuesday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Wednesday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Thursday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Friday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Saturday"
 msgstr ""
 
-#: admin/admin.php:2708
+#: admin/admin.php:2753
 msgid "Sunday"
 msgstr ""
 
-#: admin/admin.php:2709
+#: admin/admin.php:2754
 msgid "Months"
 msgstr ""
 
-#: includes/form.php:297
+#: includes/form.php:312
 msgid "Please wait..."
 msgstr "يرجى الانتظار..."
 
@@ -5400,11 +5416,11 @@ msgstr "الملفات المسموح بها"
 msgid "All Files"
 msgstr "كل الملفات"
 
-#: includes/elements/file.php:38
+#: includes/elements/file.php:30
 msgid "Upload another"
 msgstr "تحميل آخر"
 
-#: includes/elements/recaptcha.php:20
+#: includes/elements/recaptcha.php:12
 msgid "To use reCAPTCHA you must enter your API keys in the Quform settings page."
 msgstr "لاستخدام اختبار reCAPTCHA يجب عليك إدخال مفاتيح API الخاصة بك في صفحة إعدادات كوفورم."
 
@@ -5509,7 +5525,7 @@ msgstr "فشل في إرسال الملف إلى القرص"
 msgid "File upload stopped by extension"
 msgstr "الملف المرفوع أوقف بواسطة الملحق"
 
-#: includes/common.php:521 includes/iPhorm/Validator/FileUpload.php:66
+#: includes/common.php:527 includes/iPhorm/Validator/FileUpload.php:66
 msgid "Unknown upload error"
 msgstr "خطأ تحميل غير معروف"
 
@@ -5526,107 +5542,107 @@ msgctxt "for a file to upload"
 msgid "Browse..."
 msgstr "استعراض ..."
 
-#: includes/common.php:336
+#: includes/common.php:342
 msgid "January"
 msgstr "يناير"
 
-#: includes/common.php:337
+#: includes/common.php:343
 msgid "February"
 msgstr "فبراير"
 
-#: includes/common.php:338
+#: includes/common.php:344
 msgid "March"
 msgstr "مارس"
 
-#: includes/common.php:339
+#: includes/common.php:345
 msgid "April"
 msgstr "أبريل"
 
-#: includes/common.php:340
+#: includes/common.php:346
 msgid "May"
 msgstr "مايو"
 
-#: includes/common.php:341
+#: includes/common.php:347
 msgid "June"
 msgstr "يونيو"
 
-#: includes/common.php:342
+#: includes/common.php:348
 msgid "July"
 msgstr "يوليو"
 
-#: includes/common.php:343
+#: includes/common.php:349
 msgid "August"
 msgstr "أغسطس"
 
-#: includes/common.php:344
+#: includes/common.php:350
 msgid "September"
 msgstr "سبتمبر"
 
-#: includes/common.php:345
+#: includes/common.php:351
 msgid "October"
 msgstr "أكتوبر"
 
-#: includes/common.php:346
+#: includes/common.php:352
 msgid "November"
 msgstr "نوفمبر"
 
-#: includes/common.php:347
+#: includes/common.php:353
 msgid "December"
 msgstr "ديسمبر"
 
-#: includes/common.php:506
+#: includes/common.php:512
 msgid "An error occurred submitting the form"
 msgstr "حدث خطأ أثناء تقديم النموذج"
 
-#: includes/common.php:509
+#: includes/common.php:515
 msgid "You have attempted to queue too many files"
 msgstr "لقد حاولت رفع العديد من الملفات"
 
-#: includes/common.php:510
+#: includes/common.php:516
 msgid "This file exceeds the maximum upload size"
 msgstr "يتجاوز هذا الملف الحد الأقصى لحجم التحميل"
 
-#: includes/common.php:511
+#: includes/common.php:517
 msgid "This file is empty"
 msgstr "هذا الملف فارغ"
 
-#: includes/common.php:512
+#: includes/common.php:518
 msgid "This file type is not allowed"
 msgstr "نوع الملف غير مسموح به"
 
-#: includes/common.php:513
+#: includes/common.php:519
 msgid "Unknown queue error, please try again later"
 msgstr "خطأ غير معروف، يرجى المحاولة مرة أخرى في وقت لاحق"
 
-#: includes/common.php:514
+#: includes/common.php:520
 msgid "Upload error"
 msgstr "خطأ في التحميل"
 
-#: includes/common.php:515
+#: includes/common.php:521
 msgid "Upload failed"
 msgstr "فشل التحميل"
 
-#: includes/common.php:516
+#: includes/common.php:522
 msgid "Server IO error"
 msgstr "خطأ في مدخلات ومخرجات السيرفر"
 
-#: includes/common.php:517
+#: includes/common.php:523
 msgid "Security error"
 msgstr "خطأ في الأمان"
 
-#: includes/common.php:518
+#: includes/common.php:524
 msgid "Upload limit exceeded"
 msgstr "تجاوز حد التحميل"
 
-#: includes/common.php:519
+#: includes/common.php:525
 msgid "Validation failed"
 msgstr "فشل التحقق من الصحة"
 
-#: includes/common.php:520
+#: includes/common.php:526
 msgid "Upload stopped"
 msgstr "التحميل توقف"
 
-#: includes/common.php:524
+#: includes/common.php:530
 msgid "The form cannot be submitted in the preview"
 msgstr "لا يمكن الارسال في وضع المعاينة"
 
@@ -5653,7 +5669,7 @@ msgstr "http://www.themecatcher.net"
 msgid "Report a bug"
 msgstr "الإبلاغ عن خطأ"
 
-#: admin/admin.php:285 admin/admin.php:286 admin/admin.php:3291
+#: admin/admin.php:287 admin/admin.php:288 admin/admin.php:3336
 #: admin/includes/elements/_save.php:5 admin/includes/entries.php:6
 #: admin/includes/entry.php:6 admin/includes/export.php:6
 #: admin/includes/form-builder.php:6 admin/includes/forms.php:6
@@ -5662,7 +5678,7 @@ msgstr "الإبلاغ عن خطأ"
 msgid "Help"
 msgstr "مساعدة"
 
-#: admin/admin.php:231 admin/admin.php:232 admin/includes/forms.php:10
+#: admin/admin.php:233 admin/admin.php:234 admin/includes/forms.php:10
 msgid "Forms"
 msgstr "النماذج"
 
@@ -5738,7 +5754,7 @@ msgstr "الرقم"
 msgid "Name"
 msgstr "الأسم"
 
-#: admin/admin.php:249 admin/admin.php:250 admin/admin.php:3287
+#: admin/admin.php:251 admin/admin.php:252 admin/admin.php:3332
 #: admin/includes/entries.php:11 admin/includes/entries.php:201
 #: admin/includes/form-builder.php:44 admin/includes/forms.php:54
 #: admin/includes/forms.php:75 admin/includes/forms.php:100
@@ -5746,7 +5762,7 @@ msgstr "الأسم"
 msgid "Entries"
 msgstr "الوارد"
 
-#: admin/includes/forms.php:98 includes/form.php:331
+#: admin/includes/forms.php:98 includes/form.php:346
 msgid "Edit this form"
 msgstr "تعديل هذا النموذج"
 

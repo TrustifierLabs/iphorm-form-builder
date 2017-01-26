@@ -20,7 +20,18 @@ We strongly recommend you make your own theme by duplicating one of our theme fo
 .iphorm-clearfix:after {clear: both;}
 .iphorm-clearfix {zoom: 1;} /* IE < 8 */
 
-/*Cross browser fixes*/
+/* For screen readers */
+.iphorm-screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+	min-height: 0 !important; /* Reset Quform style */
+}
+
+/* Cross browser fixes */
 .iphorm-inner input[type="checkbox"], input[type="radio"] {
     vertical-align: middle;
 }
@@ -211,6 +222,7 @@ We strongly recommend you make your own theme by duplicating one of our theme fo
 	/* Some themes add bottom margin/padding to objects, remove it */
     margin: 0 !important;
     padding: 0 !important;
+    height: 100%;
 }
 /*add styles to your button*/
 .iphorm-swfupload-browse {

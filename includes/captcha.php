@@ -3,37 +3,60 @@
 /**
  * Starts a PHP session
  *
- * If the session ID given by the browser contains invalid charachters, a session is not started
+ * If the session ID given by the browser contains invalid characters, a session is not started
  *
- * @return boolean True if a session is successfully started
+ * @param   string   $customSessionId  A custom session ID to set
+ * @return  boolean                    True if a session is successfully started
  */
-function iphorm_secure_session_start()
+function iphorm_secure_session_start($customSessionId = '')
 {
-    $sn = session_name();
-    if (isset($_COOKIE[$sn])) {
-        $sessid = $_COOKIE[$sn];
-    } else if (isset($_GET[$sn])) {
-        $sessid = $_GET[$sn];
+    if (session_id() !== '' || headers_sent()) {
+        // Session already exists or headers are already sent
+        return false;
+    }
+
+    // Handle a custom session ID
+    if ($customSessionId !== '' && iphorm_is_valid_session_id($customSessionId)) {
+        session_id($customSessionId);
+
+        return session_start();
+    }
+
+    $sessionName = session_name();
+
+    if (isset($_COOKIE[$sessionName])) {
+        $sessionId = $_COOKIE[$sessionName];
+    } else if (isset($_GET[$sessionName])) {
+        $sessionId = $_GET[$sessionName];
     } else {
         return session_start();
     }
 
-    if (!preg_match('/^[a-zA-Z0-9,\-]{22,40}$/', $sessid)) {
+    if (!iphorm_is_valid_session_id($sessionId)) {
         return false;
     }
 
     return session_start();
 }
 
+/**
+ * Is the given session ID valid?
+ *
+ * @param   string  $sessionId
+ * @return  bool
+ */
+function iphorm_is_valid_session_id($sessionId)
+{
+    return is_string($sessionId) && preg_match('/^[a-zA-Z0-9,\-]{1,128}$/', $sessionId);
+}
+
 iphorm_secure_session_start();
 
 defined('IPHORM_INCLUDES_DIR') || define('IPHORM_INCLUDES_DIR', realpath(dirname(__FILE__ )));
-require_once IPHORM_INCLUDES_DIR . '/JSON.php';
 require_once IPHORM_INCLUDES_DIR . '/iPhorm/Captcha.php';
 
 $config = base64_decode(stripslashes($_GET['c']));
-$json = new Services_JSON(SERVICES_JSON_LOOSE_TYPE);
-$config = $json->decode($config);
+$config = json_decode($config, true);
 
 if (is_array($config) && array_key_exists('options', $config)) {
     $captchaOptions = $config['options'];

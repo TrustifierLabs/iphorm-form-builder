@@ -279,9 +279,10 @@ class iPhorm_Element
      * @param   string  $tooltipEvent The current tooltip event
      * @param   string  $labelCss     Inherited CSS for the label
      * @param   bool    $for          Set the "for" attribute to the element unique ID
+     * @param   string  $id           Add an ID attribute to the label
      * @return  string
      */
-    public function getLabelHtml($tooltipType, $tooltipEvent, $labelCss, $for = true)
+    public function getLabelHtml($tooltipType, $tooltipEvent, $labelCss, $for = true, $id = '')
     {
         $label = $this->getLabel();
         $output = '';
@@ -290,7 +291,9 @@ class iPhorm_Element
             return $output;
         }
 
-        $output .= '<label' . ($for ? ' for="' . esc_html($this->getUniqueId()) . '"' : '') . ' class="' . esc_attr($this->getName()) . '-outer-label" ' . $this->getCss('label', $labelCss) . '>';
+        $output .= '<label' . ($id ? ' id="' . esc_attr($id) . '"' : '') .
+                    ($for ? ' for="' . esc_attr($this->getUniqueId()) . '"' : '') .
+                    ' class="' . esc_attr($this->getName()) . '-outer-label" ' . $this->getCss('label', $labelCss) . '>';
         $output .= $label;
 
         if ($this->getRequired() && strlen($requiredText = $this->_form->getRequiredText()))  {
@@ -1723,10 +1726,11 @@ class iPhorm_Element
 
     /**
      * Does this element have an empty value?
+     *
      * @return boolean
      */
     public function isEmpty()
     {
-        return $this->_value === '' || $this->_value === null;
+        return $this->getValuePlain() === '';
     }
 }

@@ -1258,6 +1258,11 @@
                                                         'type' => 'column',
                                                         'label' => __('User WP email', 'iphorm'),
                                                         'id' => 'user_email'
+                                                    ),
+                                                    array(
+                                                        'type' => 'column',
+                                                        'label' => __('IP address', 'iphorm'),
+                                                        'id' => 'ip'
                                                     )
                                                 );
                                             }
