@@ -3,17 +3,17 @@
  * Plugin Name: Quform
  * Plugin URI: http://www.quform.com
  * Description: The Quform form builder makes it easy to build forms in WordPress.
- * Version: 1.7.10
+ * Version: 1.8.0
  * Author: ThemeCatcher
  * Author URI: http://www.themecatcher.net
  * Text Domain: iphorm
  */
 
 defined('IPHORM_VERSION')
-    || define('IPHORM_VERSION', '1.7.10');
+    || define('IPHORM_VERSION', '1.8.0');
 
 defined('IPHORM_DB_VERSION')
-    || define('IPHORM_DB_VERSION', 10);
+    || define('IPHORM_DB_VERSION', 11);
 
 defined('IPHORM_PLUGIN_NAME')
     || define('IPHORM_PLUGIN_NAME', basename(dirname(__FILE__)));

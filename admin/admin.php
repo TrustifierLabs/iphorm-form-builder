@@ -127,6 +127,10 @@ function iphorm_activate()
             iphorm_upgrade_10();
         }
 
+        if ($dbVersion < 11) {
+            iphorm_upgrade_11();
+        }
+
         // Save the new DB version
         update_option('iphorm_db_version', IPHORM_DB_VERSION);
     } else {
@@ -308,7 +312,7 @@ function iphorm_admin_enqueue_styles($page)
         }
 
         if ($_GET['page'] === 'iphorm_export') {
-            wp_enqueue_style('iphorm-jquery-ui-theme', iphorm_plugin_url() . '/js/jqueryui/themes/smoothness/jquery-ui-1.8.24.custom.css');
+            wp_enqueue_style('iphorm-jquery-ui-theme', iphorm_plugin_url() . '/js/jqueryui/themes/smoothness/jquery-ui.min.css', array(), '1.12.1');
         }
     }
 
@@ -337,7 +341,7 @@ function iphorm_admin_enqueue_scripts()
         if ($_GET['page'] === 'iphorm_form_builder') {
             wp_enqueue_script('base64', iphorm_admin_url() . '/js/base64.js', array(), false, true);
             wp_enqueue_script('jeditable', iphorm_admin_url() . '/js/jquery.jeditable.js', array('jquery'), '1.7.3', true);
-            wp_enqueue_script('jquery-smooth-scroll', iphorm_plugin_url() . '/js/jquery.smooth-scroll.min.js', array('jquery'), '1.4.9', true);
+            wp_enqueue_script('jquery-smooth-scroll', iphorm_plugin_url() . '/js/jquery.smooth-scroll.min.js', array('jquery'), '1.7.2', true);
             wp_enqueue_script('jquery-colorpicker', iphorm_admin_url() . '/js/colorpicker/js/colorpicker.js', array('jquery'), '23.05.2009', true);
             wp_enqueue_script('qtip', iphorm_plugin_url() . '/js/qtip2/jquery.qtip.min.js', array('jquery'), '2.2.1', true);
             wp_enqueue_script('jquery-tools-tabs', iphorm_admin_url() . '/js/jquery.tools.tabs.min.js', array('jquery'), '1.2.7', true);
@@ -354,12 +358,7 @@ function iphorm_admin_enqueue_scripts()
             wp_enqueue_script('iphorm-admin', iphorm_admin_url() . '/js/scripts.js', array('jquery', 'jquery-color'), IPHORM_VERSION, true);
 
             if ($_GET['page'] === 'iphorm_export') {
-                if (version_compare(get_bloginfo('version'), '3.3') >= 0) {
-                    wp_enqueue_script('jquery-ui-datepicker');
-                } else {
-                    wp_enqueue_script('iphorm-jquery-ui-core', iphorm_plugin_url() . '/js/jqueryui/jquery.ui.core.min.js', array('jquery'), '1.8.24', true);
-                    wp_enqueue_script('iphorm-jquery-ui-datepicker', iphorm_plugin_url() . '/js/jqueryui/jquery.ui.datepicker.min.js', array('jquery', 'iphorm-jquery-ui-core'), '1.8.24', true);
-                }
+                wp_enqueue_script('jquery-ui-datepicker');
             }
 
             wp_localize_script('iphorm-admin', 'iphormAdminL10n', array(
@@ -603,7 +602,7 @@ add_action('wp_ajax_iphorm_save_form_ajax', 'iphorm_save_form_ajax');
 function iphorm_save_form_ajax()
 {
     if (check_ajax_referer('iphorm_save_form', false, false) && current_user_can('iphorm_build_form')) {
-        $config = iphorm_json_decode(stripslashes($_POST['form']), true);
+        $config = json_decode(stripslashes($_POST['form']), true);
 
         if ($config['id'] == 0) {
             $message = iphorm_response_message(sprintf(__('%sForm saved%s', 'iphorm'), '<span class="ifb-message-inner">', '</span>') . ' ' . sprintf(__('%sAdd to website%s', 'iphorm'), '<a class="ifb-show-first-time-save">', '</a>'), 'success', 15);
@@ -637,8 +636,8 @@ add_action('wp_ajax_iphorm_get_element', 'iphorm_get_element');
 function iphorm_get_element()
 {
     if (current_user_can('iphorm_build_form')) {
-        $element = iphorm_json_decode(stripslashes($_POST['element']), true);
-        $form = iphorm_json_decode(stripslashes($_POST['form']), true);
+        $element = json_decode(stripslashes($_POST['element']), true);
+        $form = json_decode(stripslashes($_POST['form']), true);
 
         if (isset($element['type'])) {
             $response = array(
@@ -724,7 +723,7 @@ add_action('wp_ajax_iphorm_get_filter', 'iphorm_get_filter');
 function iphorm_get_filter()
 {
     if (current_user_can('iphorm_build_form')) {
-        $filter = iphorm_json_decode(stripslashes($_POST['filter']), true);
+        $filter = json_decode(stripslashes($_POST['filter']), true);
 
         if (isset($filter['type'])) {
             $response = array(
@@ -777,7 +776,7 @@ add_action('wp_ajax_iphorm_get_validator', 'iphorm_get_validator');
 function iphorm_get_validator()
 {
     if (current_user_can('iphorm_build_form')) {
-        $validator = iphorm_json_decode(stripslashes($_POST['validator']), true);
+        $validator = json_decode(stripslashes($_POST['validator']), true);
 
         if (isset($validator['type'])) {
             $response = array(
@@ -898,7 +897,7 @@ add_action('wp_ajax_iphorm_get_style', 'iphorm_get_style');
 function iphorm_get_style()
 {
     if (current_user_can('iphorm_build_form')) {
-        $style = iphorm_json_decode(stripslashes($_POST['style']), true);
+        $style = json_decode(stripslashes($_POST['style']), true);
 
         if (isset($style['type'])) {
             $response = array(
@@ -992,7 +991,7 @@ add_action('wp_ajax_iphorm_get_global_style', 'iphorm_get_global_style');
 function iphorm_get_global_style()
 {
     if (current_user_can('iphorm_build_form')) {
-        $style = iphorm_json_decode(stripslashes($_POST['style']), true);
+        $style = json_decode(stripslashes($_POST['style']), true);
 
         if (isset($style['type'])) {
             $response = array(
@@ -1587,7 +1586,7 @@ function iphorm_preview_form_ajax()
                 'type' => 'success'
             );
 
-            $config = iphorm_json_decode(stripslashes($_POST['form']), true);
+            $config = json_decode(stripslashes($_POST['form']), true);
 
             $form = new iPhorm($config);
 
@@ -2375,7 +2374,7 @@ function iphorm_verify_purchase_code()
         ));
 
         if (wp_remote_retrieve_response_code($remoteResponse) == 200 && strlen($json = wp_remote_retrieve_body($remoteResponse))) {
-            $data = iphorm_json_decode($json, true);
+            $data = json_decode($json, true);
 
             if (isset($data['type'])) {
                 if ($data['type'] == 'success') {
@@ -3473,6 +3472,30 @@ function iphorm_upgrade_10()
     // Copy the reCAPTCHA keys to the new option names but don't remove the old ones in case they have to downgrade
     update_option('iphorm_recaptcha_site_key', get_option('iphorm_recaptcha_public_key'));
     update_option('iphorm_recaptcha_secret_key', get_option('iphorm_recaptcha_private_key'));
+}
+
+/**
+ * Upgrades for version before DB version 11 (v.1.7.10 or earlier)
+ */
+function iphorm_upgrade_11()
+{
+    foreach (iphorm_get_all_forms() as $form) {
+        if (isset($form['entries_table_layout']['inactive']) && is_array($form['entries_table_layout']['inactive'])) {
+            foreach ($form['entries_table_layout']['inactive'] as $key => $column) {
+                if (isset($column['id']) && $column['id'] == 'ip') {
+                    continue 2;
+                }
+            }
+
+            $form['entries_table_layout']['inactive'][] = array(
+                'type' => 'column',
+                'label' => __('IP address', 'iphorm'),
+                'id' => 'ip'
+            );
+
+            iphorm_save_form($form);
+        }
+    }
 }
 
 /**

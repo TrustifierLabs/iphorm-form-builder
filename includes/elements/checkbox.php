@@ -12,7 +12,7 @@ $value = (array) $element->getValue();
                 $options = $element->getOptions();
                 foreach ($options as $option) : ?>
                 <div class="iphorm-input-li iphorm-input-checkbox-li <?php echo $name; ?>-input-li" <?php echo $element->getCss('optionLi'); ?>>
-                    <label <?php echo $element->getCss('optionLabel'); ?> class="<?php echo $name . '_' . $i . '_label'; ?>">
+                    <label for="<?php echo esc_attr($uniqueId) . "_$i"; ?>" <?php echo $element->getCss('optionLabel'); ?> class="<?php echo $name . '_' . $i . '_label'; ?>">
                         <input class="iphorm-element-checkbox <?php echo $name; ?> <?php echo $name . '_' . $i; ?>" type="checkbox" name="<?php echo $name; ?>[]" id="<?php echo esc_attr($uniqueId) . "_$i"; ?>" value="<?php echo _wp_specialchars($option['value'], ENT_COMPAT, false, true); ?>" <?php echo (in_array($option['value'], $value)) ? 'checked="checked"' : ''; ?> />
                         <?php echo $option['label']; ?>
                     </label>

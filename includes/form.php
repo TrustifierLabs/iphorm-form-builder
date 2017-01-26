@@ -123,7 +123,7 @@ $action = add_query_arg(array()) . ($anchor ? "#iphorm-$formUniqueId" : '');
                 if ($.isFunction($.fn.datepicker)) {
                     <?php if (strlen($form->getjQueryUITheme())) : ?>
                         if (!$('#iphorm-jqueryui-theme').length) {
-                            var themeUrl = iphormL10n.plugin_url + '/js/jqueryui/themes/<?php echo $form->getjQueryUITheme(); ?>/jquery-ui-1.8.24.custom.css';
+                            var themeUrl = iphormL10n.plugin_url + '/js/jqueryui/themes/<?php echo $form->getjQueryUITheme(); ?>/jquery-ui.min.css?ver=1.12.1';
                             $('head').append('<link id="iphorm-jqueryui-theme" rel="stylesheet" href="' + themeUrl + '" type="text/css" />');
                         }
                     <?php endif; ?>

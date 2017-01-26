@@ -3,9 +3,10 @@ if (!defined('IPHORM_VERSION')) exit;
 $siteKey = get_option('iphorm_recaptcha_site_key');
 $secretKey = get_option('iphorm_recaptcha_secret_key');
 wp_enqueue_script('iphorm-recaptcha', 'https://www.google.com/recaptcha/api.js?onload=iPhormRecaptchaLoaded&render=explicit&hl=' . $element->getRecaptchaLang(), array(), false, true);
+$wrapClass = $name . '-element-wrap iphorm_' . $form->getId() . '_' . $element->getId() . '-element-wrap';
 ?>
-<div class="iphorm-element-wrap iphorm-element-wrap-recaptcha <?php echo $name; ?>-element-wrap iphorm-clearfix iphorm-labels-<?php echo $labelPlacement; ?> <?php echo ($element->getRequired()) ? 'iphorm-element-required' : 'iphorm-element-optional'; ?>" <?php echo $element->getCss('outer'); ?>>
-    <div class="iphorm-element-spacer iphorm-element-spacer-captcha <?php echo $name; ?>-element-spacer">
+<div class="iphorm-element-wrap iphorm-element-wrap-recaptcha <?php echo esc_attr($wrapClass); ?> iphorm-clearfix iphorm-labels-<?php echo $labelPlacement; ?> <?php echo ($element->getRequired()) ? 'iphorm-element-required' : 'iphorm-element-optional'; ?>" <?php echo $element->getCss('outer'); ?>>
+    <div class="iphorm-element-spacer iphorm-element-spacer-captcha <?php echo esc_attr($name); ?>-element-spacer">
         <?php echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, false); ?>
         <div class="iphorm-input-wrap iphorm-input-wrap-recaptcha <?php echo $name; ?>-input-wrap" <?php echo $element->getCss('inner', $leftMarginCss); ?>>
             <?php if (!strlen($siteKey) || !strlen($secretKey)) : ?>

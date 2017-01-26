@@ -2,6 +2,7 @@
 if (!defined('IPHORM_VERSION')) exit;
 $allowedExtensions = $element->getFileUploadValidator()->getAllowedExtensions();
 
+$uploadNumFields = (int) $element->getUploadNumFields();
 $swfUploadEnabled = $element->getEnableSwfUpload();
 $swfUploadAllowedExtensions = '*.*';
 if (count($allowedExtensions)) {
@@ -17,13 +18,18 @@ if (count($allowedExtensions)) {
 ?>
 <div class="iphorm-element-wrap iphorm-element-wrap-file <?php echo $name; ?>-element-wrap iphorm-clearfix iphorm-labels-<?php echo $labelPlacement; ?> <?php echo ($element->getRequired()) ? 'iphorm-element-required' : 'iphorm-element-optional'; ?>" <?php echo $element->getCss('outer'); ?>>
     <div class="iphorm-element-spacer iphorm-element-spacer-file <?php echo $name; ?>-element-spacer">
-        <?php echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, false); ?>
+        <?php
+            if ($element->getIsMultiple() && $uploadNumFields > 0) {
+                echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, false, $uniqueId . '_file_label');
+            } else {
+                echo $element->getLabelHtml($tooltipType, $tooltipEvent, $labelCss, true);
+            }
+        ?>
         <div class="iphorm-input-outer-wrap <?php echo $name; ?>-input-outer-wrap" <?php echo $element->getCss(null, $leftMarginCss); ?>>
-            <?php $uploadNumFields = (int) $element->getUploadNumFields();
-                if ($element->getIsMultiple() && $uploadNumFields > 0) : ?>
-                    <?php for ($i = 0; $i < $uploadNumFields; $i++) : ?>
+            <?php if ($element->getIsMultiple() && $uploadNumFields > 0) : ?>
+                    <?php for ($i = 1; $i <= $uploadNumFields; $i++) : ?>
                         <div class="iphorm-input-wrap iphorm-input-wrap-file iphorm-clearfix <?php echo $name; ?>-input-wrap" <?php echo $element->getCss('inner', $leftMarginCss); ?>>
-                            <span class="iphorm-element-file-inner"><input class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>[]" <?php echo $tooltipTitle; ?> tabindex="-1" /></span>
+                            <span class="iphorm-element-file-inner"><label id="<?php echo esc_attr(sprintf('%s_file_label_%d', $uniqueId, $i)); ?>" class="iphorm-screen-reader-text"><?php printf(esc_html__('File %d', 'iphorm'), $i); ?></label><input class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>[]" <?php echo $tooltipTitle; ?> aria-labelledby="<?php echo esc_attr($uniqueId . '_file_label'); ?> <?php echo esc_attr(sprintf('%s_file_label_%d', $uniqueId, $i)); ?>" /></span>
                         </div>
                     <?php endfor; ?>
                     <?php if ($element->getUploadUserAddMore()) : ?>
@@ -33,9 +39,19 @@ if (count($allowedExtensions)) {
                         </div>
                         <script type="text/javascript">
                         jQuery(document).ready(function ($) {
+                            var uniqueId = '<?php echo esc_js($uniqueId); ?>',
+                                labelText = '<?php echo esc_js(__('File %d', 'iphorm')); ?>';
+
                             $('.<?php echo $name; ?>-add-another-upload', iPhorm.instance.$form).show().find('span').click(function (e) {
-                                var $newFileElement = $('<div class="iphorm-input-wrap iphorm-input-wrap-file iphorm-clearfix <?php echo $name; ?>-input-wrap"><span class="iphorm-element-file-inner"><input class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>[]" <?php echo $tooltipTitle; ?> tabindex="-1" /></span></div>');
+                                var count = $(this).closest('.iphorm-input-outer-wrap').find('.iphorm-input-wrap').length,
+                                    labelId = uniqueId + '_file_label_' + (count + 1),
+                                    thisLabelText = labelText.replace('%d', (count + 1)),
+                                    ariaLabelledBy = uniqueId + '_file_label ' + labelId;
+
+                                var $newFileElement = $('<div class="iphorm-input-wrap iphorm-input-wrap-file iphorm-clearfix <?php echo $name; ?>-input-wrap"><span class="iphorm-element-file-inner"><label class="iphorm-screen-reader-text"></label><input class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>[]" <?php echo $tooltipTitle; ?> /></span></div>');
                                 $('.<?php echo $name; ?>-input-outer-wrap .iphorm-input-wrap:last').after($newFileElement);
+                                $newFileElement.find('.iphorm-screen-reader-text').text(thisLabelText).attr('id', labelId);
+                                $newFileElement.find('.iphorm-element-file').attr('aria-labelledby', ariaLabelledBy);
                                 $newFileElement.addClass('iphorm-add-another-file-wrap').show();
 
                                 <?php if ($form->getUseUniformJs()) : ?>
@@ -52,7 +68,7 @@ if (count($allowedExtensions)) {
                 <?php endif; ?>
             <?php else : ?>
                 <div class="iphorm-input-wrap iphorm-input-wrap-file iphorm-clearfix <?php echo $name; ?>-input-wrap" <?php echo $element->getCss('inner'); ?>>
-                    <span class="iphorm-element-file-inner"><input class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>" <?php echo $tooltipTitle; ?> tabindex="-1" /></span>
+                    <span class="iphorm-element-file-inner"><input id="<?php echo esc_attr($uniqueId); ?>" class="iphorm-element-file <?php echo $tooltipInputClass; ?> <?php echo $name; ?>" type="file" name="<?php echo $name; ?>" <?php echo $tooltipTitle; ?> /></span>
                 </div>
             <?php endif; ?>
             <?php if ($form->getUseUniformJs()) : ?>

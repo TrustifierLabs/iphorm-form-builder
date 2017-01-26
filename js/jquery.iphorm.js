@@ -12,7 +12,7 @@
 			uploaders = [],
 			uploadQueue = [],
 			swfUploadError = false,
-			supportsSwfUpload = typeof swfobject === 'object'  && swfobject.hasFlashPlayerVersion('9.0.28'),
+			supportsSwfUpload = typeof swfobject === 'object' && swfobject.hasFlashPlayerVersion('9.0.28'),
 			$successMessage = $('.iphorm-success-message', $form),
 			$loadingSpinner = $('.iphorm-loading-wrap', $form),
 			clCache = {},
@@ -35,6 +35,7 @@
 				// Hide the normal file element
 				$('.' + element.name + '-input-wrap', $form).hide();
 				$('.' + element.name + '-add-another-upload', $form).hide();
+				$('.' + element.name).attr('tabindex', -1);
 
 				iPhorm.getSessionId().done(function (sessionId) {
 					// Show the SWFUpload element

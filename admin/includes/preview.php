@@ -83,15 +83,10 @@ var iphormL10n = <?php echo iphorm_json_encode(iphorm_js_l10n()); ?>;
 <?php if (!get_option('iphorm_disable_infieldlabels_output')) : ?>
 <script type="text/javascript" src="<?php echo iphorm_plugin_url() . '/js/jquery.infieldlabel.min.js'; ?>"></script>
 <?php endif; ?>
-<?php if (!get_option('iphorm_disable_jqueryui_output')) : ?>
-<?php if (version_compare(get_bloginfo('version'), '3.3') >= 0) : ?>
-    <?php wp_print_scripts(array('jquery-ui-datepicker')); ?>
-<?php else : ?>
-<script type="text/javascript" src="<?php echo iphorm_plugin_url() . '/js/jqueryui/jquery.ui.core.min.js'; ?>"></script>
-<script type="text/javascript" src="<?php echo iphorm_plugin_url() . '/js/jqueryui/jquery.ui.datepicker.min.js'; ?>"></script>
-<?php endif; ?>
-<?php endif; ?>
 <?php
+if (!get_option('iphorm_disable_jqueryui_output')) {
+    wp_print_scripts(array('jquery-ui-datepicker'));
+}
 $allThemes = iphorm_get_all_themes();
 foreach ($allThemes as $theme) {
     if (file_exists(IPHORM_PLUGIN_DIR . "/themes/" . $theme['Folder'] . "/" . $theme['Filename'] . ".js")) {

@@ -40,6 +40,7 @@
             .done(function (response) {
                 if (typeof response !== 'object' || response === null || response.type !== 'success') {
                     deferred.reject();
+                    return;
                 }
 
                 deferred.resolve(response.id);

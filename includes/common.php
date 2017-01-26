@@ -53,19 +53,18 @@ add_action('plugins_loaded', 'iphorm_load_textdomain');
  */
 function iphorm_session_start()
 {
-    if (!session_id() && !headers_sent()) {
-        if (!is_admin()) {
-            // We're on the front end so we need a session
-            if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_GET['iphorm_swfupload']) && $_GET['iphorm_swfupload'] == 1 && isset($_POST['PHPSESSID'])) {
-                // Sets the session ID if we are uploading via SWFUpload
-                session_id($_POST['PHPSESSID']);
-            }
-
-            iphorm_secure_session_start();
-        } elseif (defined('DOING_AJAX') && DOING_AJAX === true && isset($_GET['action']) && ($_GET['action'] === 'iphorm_show_form_ajax' || $_GET['action'] === 'iphorm_get_session_id_ajax')) {
-            // We are displaying the form via Ajax, or getting the session ID
+    if (!is_admin()) {
+        // We're on the front end so we need a session
+        if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_GET['iphorm_swfupload']) && $_GET['iphorm_swfupload'] == 1 && isset($_POST['PHPSESSID'])) {
+            // Sets the session ID if we are uploading via SWFUpload
+            iphorm_secure_session_start($_POST['PHPSESSID']);
+        } else {
             iphorm_secure_session_start();
         }
+
+    } elseif (defined('DOING_AJAX') && DOING_AJAX === true && isset($_GET['action']) && ($_GET['action'] === 'iphorm_show_form_ajax' || $_GET['action'] === 'iphorm_get_session_id_ajax')) {
+        // We are displaying the form via Ajax, or getting the session ID
+        iphorm_secure_session_start();
     }
 }
 add_action('plugins_loaded', 'iphorm_session_start');
@@ -73,26 +72,51 @@ add_action('plugins_loaded', 'iphorm_session_start');
 /**
  * Starts a PHP session
  *
- * If the session ID given by the browser contains invalid charachters, a session is not started
+ * If the session ID given by the browser contains invalid characters, a session is not started
  *
- * @return boolean True if a session is successfully started
+ * @param   string   $customSessionId  A custom session ID to set
+ * @return  boolean                    True if a session is successfully started
  */
-function iphorm_secure_session_start()
+function iphorm_secure_session_start($customSessionId = '')
 {
-    $sn = session_name();
-    if (isset($_COOKIE[$sn])) {
-        $sessid = $_COOKIE[$sn];
-    } else if (isset($_GET[$sn])) {
-        $sessid = $_GET[$sn];
+    if (session_id() !== '' || headers_sent()) {
+        // Session already exists or headers are already sent
+        return false;
+    }
+
+    // Handle a custom session ID
+    if ($customSessionId !== '' && iphorm_is_valid_session_id($customSessionId)) {
+        session_id($customSessionId);
+
+        return session_start();
+    }
+
+    $sessionName = session_name();
+
+    if (isset($_COOKIE[$sessionName])) {
+        $sessionId = $_COOKIE[$sessionName];
+    } else if (isset($_GET[$sessionName])) {
+        $sessionId = $_GET[$sessionName];
     } else {
         return session_start();
     }
 
-    if (!preg_match('/^[a-zA-Z0-9,\-]{22,40}$/', $sessid)) {
+    if (!iphorm_is_valid_session_id($sessionId)) {
         return false;
     }
 
     return session_start();
+}
+
+/**
+ * Is the given session ID valid?
+ *
+ * @param   string  $sessionId
+ * @return  bool
+ */
+function iphorm_is_valid_session_id($sessionId)
+{
+    return is_string($sessionId) && preg_match('/^[a-zA-Z0-9,\-]{1,128}$/', $sessionId);
 }
 
 /**
@@ -220,38 +244,30 @@ function iphorm_form_exists($id)
 /**
  * Encodes the given value in JSON
  *
- * @param mixed $value
+ * @param   mixed   $value  The data to encode
+ * @return  string          The encoded string
  */
 function iphorm_json_encode($value)
 {
-    if (function_exists('json_encode')) {
+    if (!function_exists('wp_json_encode')) {
         return json_encode($value);
-    } else {
-        if (!class_exists('Services_JSON')) {
-            require_once IPHORM_INCLUDES_DIR . '/JSON.php';
-        }
-        $json = new Services_JSON();
-        return $json->encode($value);
     }
+
+    return wp_json_encode($value);
 }
 
 /**
  * Decode the given value from JSON
  *
- * @param mixed $value
- * @param boolean $assoc Decodes to associative array if true
+ * @deprecated 1.8.0 Use json_decode instead
+ *
+ * @param   string   $value  The string to decode
+ * @param   boolean  $assoc  Decodes to associative array if true
+ * @return  mixed            The decoded data
  */
 function iphorm_json_decode($value, $assoc = false)
 {
-    if (function_exists('json_decode')) {
-        return json_decode($value, $assoc);
-    } else {
-        if (!class_exists('Services_JSON')) {
-            require_once IPHORM_INCLUDES_DIR . '/JSON.php';
-        }
-        $json = $assoc ? new Services_JSON(SERVICES_JSON_LOOSE_TYPE) : new Services_JSON();
-        return $json->decode($value);
-    }
+    return json_decode($value, $assoc);
 }
 
 /**
@@ -539,6 +555,7 @@ add_action('wp_loaded', 'iphorm_process_form_ajax');
 function iphorm_process_form_ajax()
 {
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['iphorm_ajax']) && $_POST['iphorm_ajax'] == 1) {
+        @header('Content-Type: text/html; charset=' . get_option('blog_charset'));
         echo iphorm_process_form();
         exit;
     }
@@ -1003,6 +1020,7 @@ function iphorm_new_phpmailer(iPhorm $form)
     if ($form->getEmailSendingMethod() == 'global' && get_option('iphorm_email_sending_method') == 'smtp') {
         $smtpSettings = get_option('iphorm_smtp_settings');
         $mailer->IsSMTP();
+        $mailer->SMTPAutoTLS = false;
 
         if (isset($smtpSettings['host']) && strlen($smtpSettings['host'])) {
             $mailer->Host = $smtpSettings['host'];
@@ -1026,6 +1044,7 @@ function iphorm_new_phpmailer(iPhorm $form)
         }
     } else if ($form->getEmailSendingMethod() == 'smtp') {
         $mailer->IsSMTP();
+        $mailer->SMTPAutoTLS = false;
 
         if (strlen($form->getSmtpHost())) {
             $mailer->Host = $form->getSmtpHost();
@@ -1567,7 +1586,7 @@ function iphorm_enqueue_scripts()
     wp_enqueue_script('jquery-form', iphorm_plugin_url() . '/js/jquery.form.min.js', array('jquery'), '3.5.1', true);
 
     if (!get_option('iphorm_disable_smoothscroll_output')) {
-        wp_enqueue_script('jquery-smooth-scroll', iphorm_plugin_url() . '/js/jquery.smooth-scroll.min.js', array('jquery'), '1.4.9', true);
+        wp_enqueue_script('jquery-smooth-scroll', iphorm_plugin_url() . '/js/jquery.smooth-scroll.min.js', array('jquery'), '1.7.2', true);
     }
 
     if (!get_option('iphorm_disable_qtip_output')) {
@@ -1589,12 +1608,7 @@ function iphorm_enqueue_scripts()
 
     $activeDatepickers = maybe_unserialize(get_option('iphorm_active_datepickers'));
     if (!get_option('iphorm_disable_jqueryui_output') && (is_array($activeDatepickers) && count($activeDatepickers))) {
-        if (version_compare(get_bloginfo('version'), '3.3') >= 0) {
-            wp_enqueue_script('jquery-ui-datepicker');
-        } else {
-            wp_enqueue_script('iphorm-jquery-ui-core', iphorm_plugin_url() . '/js/jqueryui/jquery.ui.core.min.js', array('jquery'), '1.8.24', true);
-            wp_enqueue_script('iphorm-jquery-ui-datepicker', iphorm_plugin_url() . '/js/jqueryui/jquery.ui.datepicker.min.js', array('jquery', 'iphorm-jquery-ui-core'), '1.8.24', true);
-        }
+        wp_enqueue_script('jquery-ui-datepicker');
     }
 
     $activeThemes = maybe_unserialize(get_option('iphorm_active_themes'));
