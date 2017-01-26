@@ -1,0 +1,670 @@
+/*
+ * Theme Name: React
+ * Uniform Theme: default
+ * Description: A base to start
+ * Version: 1.0
+ * Author: ThemeCatcher
+ * Author URI: http://www.themecatcher.net
+ */
+
+/*Select an optimum background colour for preview page*/
+.ip-form-wrap .iphorm-theme-react-default .iphorm-inner {
+	background: #fff;
+}
+/*If the theme relies on an optimum background color. Please add it here for pop up forms*/
+.fancybox-outer .iphorm-theme-react-default.iphorm-outer {
+	overflow-x: hidden;
+	padding: 10px 25px 10px 10px;
+}
+.iphorm-theme-react-default * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+/*****************************************************
+1: Form heading and description
+******************************************************/
+/*Set global fonts
+.iphorm-theme-react-default {
+}*/
+/*Form heading*/
+.iphorm-theme-react-default h3.iphorm-title {
+	padding: 15px 0;
+	font-size: inherit;
+	line-height: inherit;
+}
+.iphorm-theme-react-default h3.iphorm-title span.contact-ico {margin-top: 0; float: none; display: inline-block;}
+/*Form description*/
+.iphorm-theme-react-default .iphorm-inner > p.iphorm-description {
+	padding-left: 2px;
+	padding-bottom: 30px;
+}
+/*****************************************************
+2: Elements and labels
+******************************************************/
+/*Required - this is the text that is used to indicate a required field*/
+.iphorm-theme-react-default .iphorm-element-wrap label span.iphorm-required {
+	font-family: arial, Helvetica, sans-serif;
+	display: inline-block;
+	font-size: 10px;
+	line-height: 16px;
+	text-align: center;
+	padding: 2px 7px;
+	margin: 3px 0 1px 3px;
+	border-radius: 4px;
+	vertical-align: top;
+	opacity: 0.9;
+	overflow: hidden;
+	white-space: nowrap;
+	color: inherit;
+	opacity: 1;
+	background: red;
+	color: #FFFFFF;
+	-webkit-transition: all ease-in-out 0.7s 1s;
+	-moz-transition: all ease-in-out 0.7s 1s;
+	-o-transition: all ease-in-out 0.7s 1s;
+	transition: all ease-in-out 0.7s 1s;
+}
+body.react-wp .iphorm-theme-react-default .iphorm-element-wrap label span.iphorm-required {
+	max-width: 20px;
+	opacity: 0.9;
+	background: transparent;
+	color: inherit;
+}
+body.react-wp .iphorm-theme-react-default:hover .iphorm-element-wrap label span.iphorm-required,
+body.react-wp .iphorm-theme-react-default .iphorm-element-wrap.iphorm-element-error label span.iphorm-required {
+	opacity: 1;
+	max-width: 600px;
+	background: red;
+	color: #FFFFFF;
+}
+body.react-wp .iphorm-theme-react-default .iphorm-element-wrap label span.iphorm-required:before {
+	content: "\f05d";
+	font-family: FontAwesome;
+	margin: 0 6px 0 -2px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+/*Element description*/
+.iphorm-theme-react-default .iphorm-element-wrap p.iphorm-description {
+	color: #888;
+}
+/*Default state input, selects and textareas*/
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea {
+	border: 1px none transparent;
+	border-bottom: 2px solid #ddd;
+	padding: 12px 15px;
+	line-height: 20px;
+	min-height: 20px;
+	background: #f8f8f8;
+	text-shadow: none;
+	width: 300px;
+	max-width: 100%;
+	border-radius: 2px;
+
+	-webkit-transition: all ease-in-out 0.15s;
+	-moz-transition: all ease-in-out 0.15s;
+	-o-transition: all ease-in-out 0.15s;
+	transition: all ease-in-out 0.15s;
+}
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select {
+	padding: 12px 6px;
+}
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea {
+	width: 100%;
+	height: 120px;
+	max-width: 880px;
+}
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-text input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-captcha input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-email input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-password input,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap select,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap textarea {
+	border-color: #ddd;
+	border-width: 1px;
+	border-style: solid;
+	background: #fff;
+}
+/*Hover element
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input:hover,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input:hover,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input:hover,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input:hover,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select:hover,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea:hover {
+}*/
+/*Active element
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input:active,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input:active,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input:active,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input:active,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select:active,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea:active {
+}*/
+/*Focused element*/
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input:focus,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input:focus,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input:focus,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input:focus,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select:focus,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea:focus {
+	background: #f3f3f3;
+	border-color: #10a9bb;
+
+}
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-text input:focus ,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-captcha input:focus ,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-email input:focus ,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap-password input:focus ,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap select:focus ,
+.iphorm-theme-react-default .iphorm-elements .iphorm-group-style-bordered .iphorm-element-wrap textarea:focus  {
+	-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+/* Default Label*/
+
+.iphorm-theme-react-default .iphorm-element-wrap > .iphorm-element-spacer > label {
+	font-weight: 700;
+	font-size: inherit;
+	text-shadow: none;
+	line-height: 25px;
+	padding: 2px 6px;
+	margin-bottom: 4px;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+	background: transparent !important;
+}
+.iphorm-theme-react-default .iphorm-group-style-bordered .iphorm-element-wrap > .iphorm-element-spacer > label {
+	background-color: #f1f1f1;
+	background: transparent !important;
+}
+/* Displaying the element label inside? If your input or textarea padding, height, or margin has changed, you will need to adjust the margin here to align*/
+.iphorm-theme-react-default .iphorm-element-wrap-text.iphorm-labels-inside > .iphorm-element-spacer > label,
+.iphorm-theme-react-default .iphorm-element-wrap-textarea.iphorm-labels-inside > .iphorm-element-spacer > label,
+.iphorm-theme-react-default .iphorm-element-wrap-email.iphorm-labels-inside > .iphorm-element-spacer > label,
+.iphorm-theme-react-default .iphorm-element-wrap-password.iphorm-labels-inside > .iphorm-element-spacer > label,
+.iphorm-theme-react-default .iphorm-element-wrap-captcha.iphorm-labels-inside > .iphorm-element-spacer > label {
+	margin-left: 12px;
+	margin-top: 8px;
+	line-height: 24px;
+	background: transparent !important;
+	font-weight: 300;
+}
+/*Label for checkboxes and radio buttons*/
+.iphorm-theme-react-default .iphorm-input-checkbox-li label, .iphorm-theme-react-default .iphorm-input-radio-li label {
+	font-size:12px;
+}
+.iphorm-theme-react-default select option {
+	margin-right: 10px;
+}
+/*Tooltip icon*/
+.iphorm-theme-react-default .iphorm-tooltip-icon {
+	background-image: url(images/react-help-icon.png);
+	width: 16px;
+	height: 16px;
+	margin: 0 3px;
+	vertical-align: text-bottom;
+}
+/*****************************************************
+3: File uploads
+******************************************************/
+/*File uploading wrap*/
+.iphorm-theme-react-default .iphom-upload-progress-wrap {
+	border: 0 none transparent;
+	background: #f8f8f8;
+	color: #111;
+	padding: 20px 15px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+	border: 1px solid #eee;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 0 60px 0 rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 0 60px 0 rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+/*Animated progress bar wrapper*/
+.iphorm-theme-react-default .iphorm-upload-progress-bar-wrap {
+	border-radius: 2px;
+	background: rgba(255,255,255,0.2);
+}
+/*Animated progress bar*/
+.iphorm-theme-react-default .iphorm-upload-progress-bar {
+	height: 15px;
+	border-radius: 2px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.1)), color-stop(100%,rgba(0,0,0,0.1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background-color: green;
+}
+/*Info displayed under progress bar
+.iphorm-theme-react-default .iphorm-upload-info {}
+.iphorm-theme-react-default .iphorm-upload-info > div {
+}*/
+/*Box around a chosen file*/
+.iphorm-theme-react-default .iphorm-upload-queue-file {
+	border: 0 none transparent;
+	background: #f8f8f8;
+	color: #111;
+	padding: 10px 15px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+	border: 1px solid #eee;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 0 60px 0 rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 0 60px 0 rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+/*File name
+.iphorm-theme-react-default .iphorm-upload-queue-filename {
+}*/
+/*Remove the file icon or text
+.iphorm-theme-react-default .iphorm-upload-queue-remove {
+}*/
+/*Once the file has been uploaded - success tick replaces the X
+.iphorm-theme-react-default .iphorm-upload-queue-success {
+}*/
+/*add styles to your button here.
+NB; Fixed width and height must be used if you require to adjust the size. The overlaying flash button will inherit these only. No padding please! */
+.iphorm-theme-react-default .iphorm-swfupload {
+	margin-top: 8px;
+}
+.iphorm-theme-react-default .iphorm-swfupload-browse {
+	padding: 0;
+	text-shadow: none;
+	line-height: 38px;
+	height: 40px;
+	background-color: #10a9bb;
+	border: 0 none transparent;
+	position: relative;
+	color: #fff;
+	padding: 2px 15px 0 15px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	-webkit-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+}
+/*This is the "add another" button*/
+.iphorm-theme-react-default .iphorm-add-another-upload span.iphorm-add-another-upload-button {
+	padding: 0;
+	text-shadow: none;
+	line-height: 25px;
+	background-color: #10a9bb;
+	border: 0 none transparent;
+	position: relative;
+	color: #fff;
+	padding: 3px 15px 3px 15px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	-webkit-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+}
+.iphorm-theme-react-default .iphorm-add-another-upload span.iphorm-add-another-upload-button:hover {
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 3px 0 0 rgba(0, 0, 0, 0.1);
+	background-color: #0ab6c1;
+	padding: 3px 15px 3px 15px;
+}
+/*****************************************************
+4: Captcha
+******************************************************/
+/*Refresh captcha icon background
+.iphorm-theme-react-default .ifb-captcha-image-inner {
+}*/
+/*****************************************************
+5: Element groups
+*****************************************************/
+/*Group title & description wrap plain*/
+/*Group title plain
+.iphorm-theme-react-default .iphorm-group-style-plain > .iphorm-group-elements .iphorm-group-title {
+}*/
+.iphorm-group-style-bordered.iphorm-group-wrap {
+	margin: 15px 0 25px 0;
+}
+/*Group description plain*/
+.iphorm-theme-react-default .iphorm-group-style-plain > .iphorm-group-elements p.iphorm-group-description {
+	font-style: italic;
+	color: inherit;
+}
+/*Group title & description wrap bordered*/
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-title-description-wrap,
+.iphorm-theme-react-default .iphorm-group-style-plain > .iphorm-group-elements .iphorm-group-title-description-wrap {
+	border-bottom: 1px solid #d5d5d5;
+	padding: 10px 0 15px 0;
+	margin-bottom: 25px;
+}
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-title-description-wrap {
+	margin: -25px -15px 25px;
+	padding: 20px 20px 15px;
+	background-color: #fff;
+	border-radius: 2px 2px 0 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+
+}
+/*Group title bordered*/
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-elements .iphorm-group-title {
+	font-size: 17px;
+}
+/*Group description bordered*/
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-elements p.iphorm-group-description {
+	font-style: italic;
+	color: inherit;
+}
+/*Bordered style group*/
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-elements {
+	border: 0 none transparent;
+	background: #fafafa;
+	color: #111;
+	padding: 25px 15px 20px;
+	border: 1px solid #d5d5d5;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), inset 0 0 25px 0 rgba(0, 0, 0, 0.01);
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.05), inset 0 0 25px 0 rgba(0, 0, 0, 0.01);
+}
+/*One row inside a group
+.iphorm-theme-react-default .iphorm-group-style-bordered > .iphorm-group-row {
+}
+.iphorm-theme-react-default .iphorm-group-style-bordered .iphorm-group-row.last-child {}*/
+
+/*****************************************************
+6: Submit button and related
+******************************************************/
+/*Note: Submit button is designed so you can use rounded cornered image backgrounds that can be fluid size*/
+
+/*Submit button wrap*/
+.iphorm-theme-react-default .iphorm-submit-input-wrap {
+	float: left; /*You might want this right. Change loading icon wrap below too*/
+}
+/*Submit button default state*/
+.iphorm-theme-react-default .iphorm-submit-wrap button span, .iphorm-theme-react-default .iphorm-submit-wrap button em {
+	font-size: inherit;
+}
+/*Default*/
+.iphorm-theme-react-default .iphorm-submit-wrap button span {
+	padding: 0;
+	text-shadow: none;
+	line-height: 25px;
+	background-color: #10a9bb;
+	border: 0 none transparent;
+	position: relative;
+	color: #fff;
+	font-weight: normal;
+	padding: 10px 25px 10px 25px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+}
+/*Hover*/
+.iphorm-theme-react-default .iphorm-submit-wrap button:hover span {
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	padding: 10px 25px 10px 25px;
+	background-color: #0ab6c1;
+}
+/*Active
+.iphorm-theme-react-default .iphorm-submit-wrap button:active span {
+
+}*/
+/*Default*/
+.iphorm-theme-react-default .iphorm-submit-wrap button em {
+	background: none transparent ;/*right image*/
+	color: inherit;
+	padding: 0;
+}
+/*Hover*/
+.iphorm-theme-react-default .iphorm-submit-wrap button:hover em {
+	background: none transparent;/*right image*/
+	color: inherit;
+}
+/*Active*/
+.iphorm-theme-react-default .iphorm-submit-wrap button:active em {
+	 background: none transparent ;/*right image*/
+	color: inherit;
+}
+
+body.react-wp .iphorm-theme-react-default .iphorm-submit-wrap button em:after {
+	content: "\f1d8";
+	font-family: FontAwesome;
+	font-weight: 300;
+	display: inline-block;
+	vertical-align: top;
+	text-indent: 8px;
+	max-width: 20px;
+	letter-spacing: 0;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+
+	-webkit-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+	transition: all ease-in-out 0.5s;
+}
+body.react-wp .iphorm-theme-react-default .iphorm-submit-wrap button:hover em:after {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+body.react-wp .iphorm-theme-react-default .iphorm-submit-wrap button:active em:after,
+body.react-wp .iphorm-theme-react-default .iphorm-submit-wrap button:focus em:after {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+	max-width: 0;
+}
+/*Loading the submit*/
+.iphorm-theme-react-default .iphorm-loading-wrap {
+	padding-top: 9px;
+	float: left; /*You will want this right if the button is right*/
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+}
+/*Loading gif image*/
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading {
+	background-image: none;
+}
+
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-left: 10px;
+
+  animation: spining 0.65s infinite linear;
+}
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading:before,
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading:after {
+  left: -1px;
+  top: -1px;
+  display: none;
+  position: absolute;
+  content: '';
+  width: inherit;
+  height: inherit;
+  border: inherit;
+  border-radius: inherit;
+}
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading {
+  border-color: transparent;
+  border-top-color: #000;
+  animation-duration: 3s;
+}
+.iphorm-theme-react-default .iphorm-loading-wrap .iphorm-loading:after {
+  display: block;
+  border-color: transparent;
+  border-top-color: #000;
+  animation: spining 0.65s infinite ease-in-out alternate;
+  opacity: 0.7;
+}
+
+@keyframes spining {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+}
+}
+/*****************************************************
+7: Messages for user
+******************************************************/
+/*Errors*/
+.iphorm-theme-react-default .iphorm-errors-list > .iphorm-error {
+	background: #F2DEDE url(images/error.png) no-repeat 9px center;
+	color: #B94A48;
+	border: 1px solid #EED3D7;
+	border-radius: 2px;
+	padding: 12px 12px 12px 35px;
+	font-size: 12px;
+	font-weight: 700;
+	display: block;
+	float: none;
+	max-width: 300%;
+}
+/*File upload errors*/
+.iphorm-theme-react-default .iphorm-queue-errors-list > .iphorm-queue-error {
+	background-color: #F2DEDE;
+	color: #B94A48;
+	border: 1px solid #EED3D7;
+	border-radius: 2px;
+}
+
+.iphorm-theme-react-default .iphorm-success-message {
+	border: none;
+	font-weight: 700;
+	line-height: 22px;
+	padding: 15px 60px 15px;
+	border-radius: 2px;
+	margin-bottom: 25px;
+	background-image: url(images/success.png);
+	background-position: 20px center;
+}
+/*iPhorm referal link
+.iphorm-theme-react-default .iphorm-referral-link a {
+}
+.iphorm-theme-react-default .iphorm-referral-link a:hover {
+}*/
+
+.iphorm-theme-react-default .iphorm-element-spacer {
+	padding-bottom: 12px;
+}
+/*Default Spacing in groups*/
+.iphorm-theme-react-default .iphorm-group-alignment-proportional > .iphorm-group-elements > .iphorm-group-row > .iphorm-element-wrap .iphorm-element-spacer {
+	padding: 0 12px 12px 0;
+}
+.iphorm-theme-react-default .iphorm-group-alignment-proportional > .iphorm-group-elements > .iphorm-group-row > .iphorm-element-wrap.last-child .iphorm-element-spacer,
+.iphorm-theme-react-default .iphorm-group-alignment-proportional > .iphorm-group-elements > .iphorm-group-row.iphorm-group-row-1cols > .iphorm-element-wrap .iphorm-element-spacer,
+.iphorm-theme-react-default .iphorm-group-alignment-left > .iphorm-group-elements > .iphorm-group-row > .iphorm-element-wrap.last-child .iphorm-element-spacer,
+.iphorm-theme-react-default .iphorm-group-alignment-left > .iphorm-group-elements > .iphorm-group-row.iphorm-group-row-1cols > .iphorm-element-wrap .iphorm-element-spacer {
+	padding: 0 0 12px 0;
+}
+/*Left Spacing in groups*/
+.iphorm-theme-react-default .iphorm-group-alignment-left > .iphorm-group-elements > .iphorm-group-row > .iphorm-element-wrap .iphorm-element-spacer {
+	padding: 0 12px 12px 0;
+}
+/*****************************************************
+8: Date picker icon
+******************************************************/
+.iphorm-theme-react-default .iphorm-datepicker-icon {
+	background: #111;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	background-image: url(images/calendar-icon.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 2px;
+	opacity: 0.85;
+}
+.iphorm-theme-react-default .iphorm-datepicker-icon:hover {
+	opacity: 1;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.iphorm-theme-react-default .iphorm-datepicker-icon {
+		background-image: url(images/calendar-icon@2x.png);
+		background-size: 16px 16px;
+	}
+	.iphorm-theme-react-default .iphorm-errors-list > .iphorm-error {
+		background: #F2DEDE url(images/error@2x.png) no-repeat 9px center;
+		background-size: 18px 18px;
+	}
+	.iphorm-theme-react-default .iphorm-success-message {
+		background-image: url(images/success@2x.png);
+		background-size: 24px 24px;
+	}
+	.iphorm-theme-react-default .iphorm-tooltip-icon {
+		background-image: url(images/react-help-icon@2x.png);
+		background-size: 16px 16px;
+	}
+}
+.iphorm-theme-react-default .ui-datepicker {
+	margin-top: 40px;
+}
+/*****************************************************
+	REACT STYLES, fullwidth elements always
+******************************************************/
+
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea {
+	width: 100%;
+	max-width: 100%;
+}
+.quform-full .iphorm-theme-react-default .iphorm-submit-input-wrap {
+	float: none;
+	margin: 0;
+}
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-text input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-captcha input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-email input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-password input,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap select,
+.quform-full .iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap textarea,
+.quform-full .iphorm-theme-react-default .iphorm-submit-wrap button span,
+.quform-full .iphorm-theme-react-default .iphorm-submit-wrap button,
+.quform-full .iphorm-theme-react-default .iphorm-submit-wrap {
+	width: 100%;
+	max-width: 100%;
+}
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-date .iphorm-input-wrap-date-select-wrap > select,
+.iphorm-theme-react-default .iphorm-elements .iphorm-element-wrap-time .iphorm-input-wrap > select {
+	width: 100px;
+	letter-spacing: 0;
+	float: left;
+	margin-right: 2px;
+	max-width: 100%;
+}

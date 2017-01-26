@@ -1,0 +1,87 @@
+.wp-media-buttons .iphorm-insert-form-trigger span {
+    background: url(../images/menu-icon.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 2px;
+    vertical-align: text-top;
+    margin-right: 7px;
+}
+/** WP 3.8 - 4.2 compatiblity **/
+@media only screen and (max-width: 782px) {
+    .branch-3-8 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-3-9 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4-1 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4-2 .wp-media-buttons .iphorm-insert-form-trigger {
+        padding: 0 20px 0 15px;
+        font-size: 16px;
+        line-height: 37px;
+        height: 39px;
+    }
+    .branch-3-8 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-9 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4-1 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4-2 .wp-media-buttons .iphorm-insert-form-trigger span {
+        margin-top: 4px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .branch-3-8 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-3-9 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4-1 .wp-media-buttons .iphorm-insert-form-trigger,
+    .branch-4-2 .wp-media-buttons .iphorm-insert-form-trigger {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .branch-3-8 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-3-9 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4-1 .wp-media-buttons .iphorm-insert-form-trigger span,
+    .branch-4-2 .wp-media-buttons .iphorm-insert-form-trigger span {
+        margin-top: 2px;
+    }
+}
+/** WP 3.5 - 3.7 compatiblity **/
+.branch-3-5 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-6 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-7 .wp-media-buttons .iphorm-insert-form-trigger span {
+    margin-top: 0;
+}
+/** WP 3.2 - 3.4 compatiblity **/
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger span,
+.branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger span,
+.branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger span {
+    display: none;
+}
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger,
+.branch-3-3 .wp-media-buttons .iphorm-insert-form-trigger,
+.branch-3-4 .wp-media-buttons .iphorm-insert-form-trigger {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1;
+    height: auto;
+    cursor: pointer;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none;
+    vertical-align: bottom;
+    background: none;
+    border: none;
+    color: #333;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.branch-3-2 #media-buttons .iphorm-insert-form-trigger {
+    vertical-align: baseline;
+    font-size: 13px;
+}

@@ -1,0 +1,5838 @@
+# Translation of Quform in Italian
+# This file is distributed under the same license as the Quform package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-18 11:27:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quform\n"
+
+#: admin/includes/settings.php:165 admin/includes/settings.php:167
+msgid "Disable [raw] tag detection"
+msgstr "Disabilitare l'individuazione del tag [RAW] "
+
+#: admin/includes/settings.php:166
+msgid "The plugin detects if the theme supports [raw] tags to help with form display issues. You can turn this off here to potentially fix conflicts with some themes."
+msgstr "Il plugin rileva se il tema supporta i tag [RAW] per aiutare a risolvere i problemi di visualizzazione del modulo. È possibile disattivare questa opzione per risolvere potenzialmente il conflitto con alcuni temi."
+
+#: admin/admin.php:1218
+msgid "%s (inactive)"
+msgstr "%s (inattivo)"
+
+#: admin/admin.php:414
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:8
+msgid "User agent"
+msgstr "User agent"
+
+#: admin/includes/elements/settings/placeholder.php:4
+msgid "The placeholder text will appear inside the field until the user starts to type."
+msgstr "Il testo segnaposto viene visualizzato all'interno del campo fino a quando l'utente non inizia a digitare."
+
+#: admin/includes/elements/settings/placeholder.php:6
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: admin/includes/elements/date.php:247
+msgid "Note: to translate the Datepicker calendar go to Form Settings &rarr; Style &rarr; Datepicker."
+msgstr "Nota: per tradurre il calendario Datepicker vai a Impostazioni Form &rarr; Stile &rarr; Datepicker."
+
+#: admin/includes/elements/recaptcha.php:61
+msgid "Size"
+msgstr "Dimensione"
+
+#: admin/includes/elements/recaptcha.php:64
+msgid "Normal"
+msgstr "Normale"
+
+#: admin/includes/elements/recaptcha.php:65
+msgid "Compact"
+msgstr "Compatto"
+
+#: admin/includes/elements/time.php:208
+msgid "Translate or override the error message shown if the time is not valid. The default is \"%s\"."
+msgstr "Traduci o ignora il messaggio di errore visualizzato se il tempo non è valido. L'impostazione predefinita è \"%s\"."
+
+#: admin/admin.php:435 admin/includes/elements/time.php:20
+#: admin/includes/elements/time.php:216 includes/iPhorm/Element/Time.php:286
+msgctxt "select hour"
+msgid "HH"
+msgstr "HH"
+
+#: admin/admin.php:436 admin/includes/elements/time.php:21
+#: admin/includes/elements/time.php:220 includes/iPhorm/Element/Time.php:306
+msgctxt "select minute"
+msgid "MM"
+msgstr "MM"
+
+#: admin/admin.php:437 admin/includes/elements/time.php:22
+#: admin/includes/elements/time.php:224 includes/iPhorm/Element/Time.php:326
+msgctxt "select morning/afternoon"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: admin/includes/elements/date.php:127
+msgid "The start year will be the first year in the year dropdown and every year from the start year to the end year will be displayed."
+msgstr "L'anno di inizio sarà il primo anno nel menu a discesa Anno e l' anno verrà visualizzato dall'inizio dell'anno a fine anno."
+
+#: admin/includes/elements/html.php:41
+msgid "Show in entry"
+msgstr "Mostra in ingresso"
+
+#: admin/includes/elements/html.php:45
+msgid "Show the HTML when viewing the form entry."
+msgstr "Mostra il codice HTML quando si visualizza il modulo di iscrizione."
+
+#: admin/includes/elements/time.php:108
+msgid "Shows the headings for HH, MM and am/pm as the first options in the dropdown menus."
+msgstr "Mostra le intestazioni per HH, MM e  am/pm come le prime opzioni nei menu a discesa."
+
+#: admin/includes/elements/time.php:110
+msgid "Show time headings"
+msgstr "Mostra le intestazioni del tempo"
+
+#: admin/includes/elements/time.php:118
+msgid "The start hour will be the first hour in the hour dropdown and every hour from the start hour to the end hour will be displayed."
+msgstr "L'ora di inizio sarà la prima ora nel menu a discesa Ora e l'ora verrà visualizzata dall'inizio dell'ora a fine ora."
+
+#: admin/includes/elements/time.php:120
+msgid "Start hour"
+msgstr "Ora d'inizio"
+
+#: admin/includes/elements/time.php:128
+msgid "The end hour will be the last hour in the hour dropdown and every hour from the start hour to the end hour will be displayed."
+msgstr "L'ora finale sarà la prima ora nel menu a discesa Ora e per ogni ora sarà visualizzata l'ora di inizio per l'ora finale."
+
+#: admin/includes/elements/time.php:130
+msgid "End hour"
+msgstr "Ora finale"
+
+#: admin/includes/elements/time.php:205
+msgid "Error message if invalid time"
+msgstr "Messaggio di errore se il tempo non è valido"
+
+#: admin/includes/entries.php:94 admin/includes/entries.php:121
+#: admin/includes/forms.php:44 admin/includes/forms.php:65
+msgid "Select All"
+msgstr "Seleziona Tutto"
+
+#: admin/includes/form-builder.php:343
+msgid "Reset form values"
+msgstr "Ripristina i valori del form"
+
+#: admin/includes/form-builder.php:346
+msgid "Reset form values to default"
+msgstr "Ripristina i valori predefiniti del form"
+
+#: admin/includes/form-builder.php:347
+msgid "Clear form values"
+msgstr "Cancella i valori del form"
+
+#: admin/includes/form-builder.php:348
+msgid "Keep form values"
+msgstr "Mantieni i valori del form"
+
+#: admin/includes/form-builder.php:350
+msgid "Choose what to do with the form values when the form is successfully submitted."
+msgstr "Scegli cosa fare con i valori del form quando il form viene inviato con successo."
+
+#: includes/iPhorm/Validator/Time.php:24
+msgid "This is not a valid time"
+msgstr "Questo non è un tempo valido"
+
+#: admin/includes/entries.php:57
+msgid "Read"
+msgstr "Leggi"
+
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:138
+msgid "A password is saved but hidden for security reasons."
+msgstr "La password viene salvata ma nascosta per motivi di sicurezza."
+
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:138
+msgid "Change password"
+msgstr "Cambia password"
+
+#: admin/includes/settings.php:76
+msgid ""
+"In order to use the reCAPTCHA element in your form you must %ssign up%s\n"
+"        for a free account to get your set of API keys. Once you have your Site and Secret keys, enter them below."
+msgstr ""
+"Per poter utilizzare l'elemento reCAPTCHA nel modulo (form) è necessario %siscriversi%s\n"
+"per avere un account gratuito e ottenere il set di chiavi API. Una volta ottenute le e Chiavi Segrete per il tuo sito e immettili sotto."
+
+#: admin/includes/settings.php:81
+msgid "reCAPTCHA Site key"
+msgstr "Chiave del sito reCAPTCHA"
+
+#: admin/includes/settings.php:85
+msgid "reCAPTCHA Secret key"
+msgstr "Chiave segreta reCAPTCHA"
+
+#: includes/iPhorm/Validator/Recaptcha.php:28
+msgid "The secret parameter is missing"
+msgstr "Il parametro segreto non è presente"
+
+#: includes/iPhorm/Validator/Recaptcha.php:29
+msgid "The secret parameter is invalid or malformed"
+msgstr "Il parametro segreto non è valido o è errato"
+
+#: includes/iPhorm/Validator/Recaptcha.php:30
+msgid "The response parameter is missing"
+msgstr "Il parametro di risposta non è presente"
+
+#: includes/iPhorm/Validator/Recaptcha.php:31
+msgid "The response parameter is invalid or malformed"
+msgstr "Il parametro di risposta non è valido o è errato"
+
+#: admin/admin.php:1192 admin/admin.php:1194
+msgid "Add Quform"
+msgstr "Aggiungi Quform"
+
+#: admin/includes/elements/recaptcha.php:6
+msgid "Are you human?"
+msgstr "Sei umano?"
+
+#: admin/includes/elements/recaptcha.php:51
+msgid "CAPTCHA type"
+msgstr "Digita CAPTCHA"
+
+#: admin/includes/elements/recaptcha.php:54
+msgid "Image"
+msgstr "Immagine"
+
+#: admin/includes/elements/recaptcha.php:55
+msgid "Audio"
+msgstr "Audio"
+
+#: admin/includes/form-builder.php:461
+msgid "This makes the layout automatically adjust to fit the screen on smaller devices."
+msgstr "Questo fa in modo che il layout si regoli automaticamente per adattarsi allo schermo su dispositivi più piccoli."
+
+#: admin/includes/form-builder.php:462
+msgid "Responsive"
+msgstr "Responsivo"
+
+#: admin/includes/settings.php:222
+msgid "FreeType Library"
+msgstr "Libreria FreeType"
+
+#: admin/includes/settings.php:225
+msgid "The plugin requires the FreeType library for the CAPTCHA element, please ask your host to install it."
+msgstr "Il plugin richiede la libreria FreeType per l'elemento CAPTCHA, si prega di chiedere al vostro host di installarlo."
+
+#: admin/includes/settings.php:248
+msgid "Save Changes"
+msgstr "Salva I cambiamenti"
+
+#: admin/includes/settings.php:146
+msgid "Email \"Return-Path\" address"
+msgstr "Email \"Return-Path\" indirizzo"
+
+#: admin/includes/settings.php:156
+msgid "You can disable the output of the scripts used by the Quform plugin below by ticking the boxes below. This will disable both the CSS and JavaScript for the script."
+msgstr "È possibile disattivare l'output degli script usato dal plugin Quform spuntando di seguito le caselle sottostanti. Questo disabiliterà sia il CSS che il JavaScript per lo script."
+
+#: admin/includes/settings.php:66 admin/includes/settings.php:68
+msgid "Check for updates"
+msgstr "Controlla aggiornamenti"
+
+#: admin/includes/settings.php:68
+msgid "You are using version %s"
+msgstr "Si sta utilizzando la versione %s "
+
+#: admin/admin.php:373
+msgid "An error occurred checking for updates."
+msgstr "Si è verificato un errore cerca gli aggiornamenti."
+
+#: admin/admin.php:2491
+msgid "An update to version %s is available. %sVisit the Updates page%s to update."
+msgstr "Un aggiornamento alla versione %s è disponibile. %sVisita la pagina degli aggiornamenti%s per aggiornare."
+
+#: admin/admin.php:2493
+msgid "You are using the latest version."
+msgstr "Si sta utilizzando la versione più recente."
+
+#: admin/admin.php:2498
+msgid "Could not find an updated version."
+msgstr "Impossibile trovare una versione più aggiornata."
+
+#: admin/admin.php:2767
+msgid "Brazil"
+msgstr "Brasile"
+
+#: admin/admin.php:2767
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: admin/admin.php:2767
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: admin/admin.php:2767
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: admin/admin.php:2767
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: admin/admin.php:2767
+msgid "Burundi"
+msgstr "Burundi"
+
+#: admin/admin.php:2767
+msgid "Cambodia"
+msgstr "Cambogia"
+
+#: admin/admin.php:2767
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: admin/admin.php:2767
+msgid "Canada"
+msgstr "Canada"
+
+#: admin/admin.php:2767
+msgid "Cape Verde"
+msgstr "Capo Verde"
+
+#: admin/admin.php:2767
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: admin/admin.php:2767
+msgid "Central African Republic"
+msgstr "Repubblica Centrafricana"
+
+#: admin/admin.php:2767
+msgid "Chad"
+msgstr "Chad"
+
+#: admin/admin.php:2768
+msgid "Chile"
+msgstr "Chile"
+
+#: admin/admin.php:2768
+msgid "China"
+msgstr "Cina"
+
+#: admin/admin.php:2768
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: admin/admin.php:2768
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+#: admin/admin.php:2768
+msgid "Colombia"
+msgstr "Colombia"
+
+#: admin/admin.php:2768
+msgid "Comoros"
+msgstr "Comoros"
+
+#: admin/admin.php:2768
+msgid "Congo"
+msgstr "Congo"
+
+#: admin/admin.php:2768
+msgid "Congo, The Democratic Republic Of The"
+msgstr "Congo, The Democratic Republic Of The"
+
+#: admin/admin.php:2768
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: admin/admin.php:2768
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: admin/admin.php:2768
+msgid "Cote D'Ivoire"
+msgstr "Costa D'Avorio"
+
+#: admin/admin.php:2768
+msgid "Croatia (Local Name: Hrvatska)"
+msgstr "Croazia (Local Name: Hrvatska)"
+
+#: admin/admin.php:2768
+msgid "Cuba"
+msgstr "Cuba"
+
+#: admin/admin.php:2768
+msgid "Cyprus"
+msgstr "Cipro"
+
+#: admin/admin.php:2768
+msgid "Czech Republic"
+msgstr "Repubblica Cecoslovacca"
+
+#: admin/admin.php:2768
+msgid "Denmark"
+msgstr "Danimarca"
+
+#: admin/admin.php:2768
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: admin/admin.php:2768
+msgid "Dominica"
+msgstr "Dominica"
+
+#: admin/admin.php:2768
+msgid "Dominican Republic"
+msgstr "Repubblica Dominicana"
+
+#: admin/admin.php:2768
+msgid "East Timor"
+msgstr "East Timor"
+
+#: admin/admin.php:2768
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: admin/admin.php:2769
+msgid "Egypt"
+msgstr "Egitto"
+
+#: admin/admin.php:2769
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: admin/admin.php:2769
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: admin/admin.php:2769
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: admin/admin.php:2769
+msgid "Estonia"
+msgstr "Estonia"
+
+#: admin/admin.php:2769
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: admin/admin.php:2769
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falkland Islands (Malvinas)"
+
+#: admin/admin.php:2769
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: admin/admin.php:2769
+msgid "Fiji"
+msgstr "Fiji"
+
+#: admin/admin.php:2769
+msgid "Finland"
+msgstr "Finlandia"
+
+#: admin/admin.php:2769
+msgid "France"
+msgstr "Francia"
+
+#: admin/admin.php:2769
+msgid "France, Metropolitan"
+msgstr "France, Metropolitan"
+
+#: admin/admin.php:2769
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: admin/admin.php:2769
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: admin/admin.php:2769
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: admin/admin.php:2769
+msgid "Gabon"
+msgstr "Gabon"
+
+#: admin/admin.php:2769
+msgid "Gambia"
+msgstr "Gambia"
+
+#: admin/admin.php:2769
+msgid "Georgia"
+msgstr "Georgia"
+
+#: admin/admin.php:2769
+msgid "Germany"
+msgstr "Germania"
+
+#: admin/admin.php:2769
+msgid "Ghana"
+msgstr "Ghana"
+
+#: admin/admin.php:2769
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: admin/admin.php:2770
+msgid "Greece"
+msgstr "Grecia"
+
+#: admin/admin.php:2770
+msgid "Greenland"
+msgstr "Greenland"
+
+#: admin/admin.php:2770
+msgid "Grenada"
+msgstr "Grenada"
+
+#: admin/admin.php:2770
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: admin/admin.php:2770
+msgid "Guam"
+msgstr "Guam"
+
+#: admin/admin.php:2770
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: admin/admin.php:2770
+msgid "Guinea"
+msgstr "Guinea"
+
+#: admin/admin.php:2770
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: admin/admin.php:2770
+msgid "Guyana"
+msgstr "Guyana"
+
+#: admin/admin.php:2770
+msgid "Haiti"
+msgstr "Haiti"
+
+#: admin/admin.php:2770
+msgid "Heard And Mc Donald Islands"
+msgstr "Heard And Mc Donald Islands"
+
+#: admin/admin.php:2770
+msgid "Holy See (Vatican City State)"
+msgstr "Holy See (Vatican City State)"
+
+#: admin/admin.php:2770
+msgid "Honduras"
+msgstr "Honduras"
+
+#: admin/admin.php:2770
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: admin/admin.php:2770
+msgid "Hungary"
+msgstr "Ungheria"
+
+#: admin/admin.php:2770
+msgid "Iceland"
+msgstr "Islanda"
+
+#: admin/admin.php:2770
+msgid "India"
+msgstr "India"
+
+#: admin/admin.php:2770
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: admin/admin.php:2770
+msgid "Iran (Islamic Republic Of)"
+msgstr "Iran (Islamic Republic Of)"
+
+#: admin/admin.php:2770
+msgid "Iraq"
+msgstr "Iraq"
+
+#: admin/admin.php:2770
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: admin/admin.php:2771
+msgid "Israel"
+msgstr "Israele"
+
+#: admin/admin.php:2771
+msgid "Italy"
+msgstr "Italia"
+
+#: admin/admin.php:2771
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: admin/admin.php:2771
+msgid "Japan"
+msgstr "Giappone"
+
+#: admin/admin.php:2771
+msgid "Jordan"
+msgstr "Giordania"
+
+#: admin/admin.php:2771
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: admin/admin.php:2771
+msgid "Kenya"
+msgstr "Kenya"
+
+#: admin/admin.php:2771
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: admin/admin.php:2771
+msgid "Korea, Democratic People's Republic Of"
+msgstr "Korea, Democratic People's Republic Of"
+
+#: admin/admin.php:2771
+msgid "Korea, Republic Of"
+msgstr "Korea, Republic Of"
+
+#: admin/admin.php:2771
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: admin/admin.php:2771
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: admin/admin.php:2771
+msgid "Lao People's Democratic Republic"
+msgstr "Lao People's Democratic Republic"
+
+#: admin/admin.php:2771
+msgid "Latvia"
+msgstr "Latvia"
+
+#: admin/admin.php:2771
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: admin/admin.php:2771
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: admin/admin.php:2771
+msgid "Liberia"
+msgstr "Liberia"
+
+#: admin/admin.php:2771
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libia Arab Jamahiriya"
+
+#: admin/admin.php:2771
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: admin/admin.php:2771
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: admin/admin.php:2771
+msgid "Luxembourg"
+msgstr "Lussenburgo"
+
+#: admin/admin.php:2772
+msgid "Macau"
+msgstr "Macau"
+
+#: admin/admin.php:2772
+msgid "Macedonia, Former Yugoslav Republic Of"
+msgstr "Macedonia, Former Yugoslav Republic Of"
+
+#: admin/admin.php:2772
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: admin/admin.php:2772
+msgid "Malawi"
+msgstr "Malawi"
+
+#: admin/admin.php:2772
+msgid "Malaysia"
+msgstr "Malesia"
+
+#: admin/admin.php:2772
+msgid "Maldives"
+msgstr "Maldive"
+
+#: admin/admin.php:2772
+msgid "Mali"
+msgstr "Mali"
+
+#: admin/admin.php:2772
+msgid "Malta"
+msgstr "Malta"
+
+#: admin/admin.php:2772
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: admin/admin.php:2772
+msgid "Martinique"
+msgstr "Martinique"
+
+#: admin/admin.php:2772
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: admin/admin.php:2772
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: admin/admin.php:2772
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: admin/admin.php:2772
+msgid "Mexico"
+msgstr "Messico"
+
+#: admin/admin.php:2772
+msgid "Micronesia, Federated States Of"
+msgstr "Micronesia, Federated States Of"
+
+#: admin/admin.php:2772
+msgid "Moldova, Republic Of"
+msgstr "Moldova, Republic Of"
+
+#: admin/admin.php:2772
+msgid "Monaco"
+msgstr "Monaco"
+
+#: admin/admin.php:2772
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: admin/admin.php:2772
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: admin/admin.php:2772
+msgid "Morocco"
+msgstr "Marocco"
+
+#: admin/admin.php:2772
+msgid "Mozambique"
+msgstr "Monzambico"
+
+#: admin/admin.php:2773
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: admin/admin.php:2773
+msgid "Namibia"
+msgstr "Namibia"
+
+#: admin/admin.php:2773
+msgid "Nauru"
+msgstr "Nauru"
+
+#: admin/admin.php:2773
+msgid "Nepal"
+msgstr "Nepal"
+
+#: admin/admin.php:2773
+msgid "Netherlands"
+msgstr "Olanda"
+
+#: admin/admin.php:2773
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: admin/admin.php:2773
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: admin/admin.php:2773
+msgid "New Zealand"
+msgstr "Nuova Zelanda"
+
+#: admin/admin.php:2773
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: admin/admin.php:2773
+msgid "Niger"
+msgstr "Niger"
+
+#: admin/admin.php:2773
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: admin/admin.php:2773
+msgid "Niue"
+msgstr "Niue"
+
+#: admin/admin.php:2773
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: admin/admin.php:2773
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: admin/admin.php:2773
+msgid "Norway"
+msgstr "Norvegia"
+
+#: admin/admin.php:2773
+msgid "Oman"
+msgstr "Oman"
+
+#: admin/admin.php:2773
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: admin/admin.php:2773
+msgid "Palau"
+msgstr "Palau"
+
+#: admin/admin.php:2773
+msgid "Panama"
+msgstr "Panama"
+
+#: admin/admin.php:2773
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: admin/admin.php:2773
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: admin/admin.php:2774
+msgid "Peru"
+msgstr "Peru"
+
+#: admin/admin.php:2774
+msgid "Philippines"
+msgstr "Filippine"
+
+#: admin/admin.php:2774
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: admin/admin.php:2774
+msgid "Poland"
+msgstr "Polonia"
+
+#: admin/admin.php:2774
+msgid "Portugal"
+msgstr "Portogallo"
+
+#: admin/admin.php:2774
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: admin/admin.php:2774
+msgid "Qatar"
+msgstr "Qatar"
+
+#: admin/admin.php:2774
+msgid "Reunion"
+msgstr "Reunion"
+
+#: admin/admin.php:2774
+msgid "Romania"
+msgstr "Romania"
+
+#: admin/admin.php:2774
+msgid "Russian Federation"
+msgstr "Federazione Russa"
+
+#: admin/admin.php:2774
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: admin/admin.php:2774
+msgid "Saint Kitts And Nevis"
+msgstr "Saint Kitts And Nevis"
+
+#: admin/admin.php:2774
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: admin/admin.php:2774
+msgid "Saint Vincent And The Grenadines"
+msgstr "Saint Vincent And The Grenadines"
+
+#: admin/admin.php:2774
+msgid "Samoa"
+msgstr "Samoa"
+
+#: admin/admin.php:2774
+msgid "San Marino"
+msgstr "San Marino"
+
+#: admin/admin.php:2774
+msgid "Sao Tome And Principe"
+msgstr "Sao Tome And Principe"
+
+#: admin/admin.php:2774
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#: admin/admin.php:2774
+msgid "Senegal"
+msgstr "Senegal"
+
+#: admin/admin.php:2774
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: admin/admin.php:2774
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: admin/admin.php:2775
+msgid "Singapore"
+msgstr "Singapore"
+
+#: admin/admin.php:2775
+msgid "Slovakia (Slovak Republic)"
+msgstr "Slovacchia (Slovak Republic)"
+
+#: admin/admin.php:2775
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: admin/admin.php:2775
+msgid "Solomon Islands"
+msgstr "Isole Solomon"
+
+#: admin/admin.php:2775
+msgid "Somalia"
+msgstr "Somalia"
+
+#: admin/admin.php:2775
+msgid "South Africa"
+msgstr "Sudafrica"
+
+#: admin/admin.php:2775
+msgid "South Georgia, South Sandwich Islands"
+msgstr "South Georgia, South Sandwich Islands"
+
+#: admin/admin.php:2775
+msgid "Spain"
+msgstr "Spagna"
+
+#: admin/admin.php:2775
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: admin/admin.php:2775
+msgid "St. Helena"
+msgstr "St. Helena"
+
+#: admin/admin.php:2775
+msgid "St. Pierre And Miquelon"
+msgstr "St. Pierre And Miquelon"
+
+#: admin/admin.php:2775
+msgid "Sudan"
+msgstr "Sudan"
+
+#: admin/admin.php:2775
+msgid "Suriname"
+msgstr "Suriname"
+
+#: admin/admin.php:2775
+msgid "Svalbard And Jan Mayen Islands"
+msgstr "Svalbard And Jan Mayen Islands"
+
+#: admin/admin.php:2775
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: admin/admin.php:2775
+msgid "Sweden"
+msgstr "Svezia"
+
+#: admin/admin.php:2775
+msgid "Switzerland"
+msgstr "Svizzera"
+
+#: admin/admin.php:2775
+msgid "Syrian Arab Republic"
+msgstr "Syrian Arab Republic"
+
+#: admin/admin.php:2775
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: admin/admin.php:2775
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: admin/admin.php:2775
+msgid "Tanzania, United Republic Of"
+msgstr "Tanzania, United Republic Of"
+
+#: admin/admin.php:2776
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: admin/admin.php:2776
+msgid "Togo"
+msgstr "Togo"
+
+#: admin/admin.php:2776
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: admin/admin.php:2776
+msgid "Tonga"
+msgstr "Tonga"
+
+#: admin/admin.php:2776
+msgid "Trinidad And Tobago"
+msgstr "Trinidad And Tobago"
+
+#: admin/admin.php:2776
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: admin/admin.php:2776
+msgid "Turkey"
+msgstr "Turchia"
+
+#: admin/admin.php:2776
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: admin/admin.php:2776
+msgid "Turks And Caicos Islands"
+msgstr "Turks And Caicos Islands"
+
+#: admin/admin.php:2776
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: admin/admin.php:2776
+msgid "Uganda"
+msgstr "Uganda"
+
+#: admin/admin.php:2776
+msgid "Ukraine"
+msgstr "Ucraina"
+
+#: admin/admin.php:2776
+msgid "United Arab Emirates"
+msgstr "Emirati Arabi Uniti"
+
+#: admin/admin.php:2776
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+#: admin/admin.php:2776
+msgid "United States"
+msgstr "USA"
+
+#: admin/admin.php:2776
+msgid "United States Minor Outlying Islands"
+msgstr "United States Minor Outlying Islands"
+
+#: admin/admin.php:2776
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: admin/admin.php:2776
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: admin/admin.php:2776
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: admin/admin.php:2776
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: admin/admin.php:2776
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: admin/admin.php:2777
+msgid "Virgin Islands (British)"
+msgstr "Virgin Islands (British)"
+
+#: admin/admin.php:2777
+msgid "Virgin Islands (U.S.)"
+msgstr "Virgin Islands (U.S.)"
+
+#: admin/admin.php:2777
+msgid "Wallis And Futuna Islands"
+msgstr "Wallis And Futuna Islands"
+
+#: admin/admin.php:2777
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: admin/admin.php:2777
+msgid "Yemen"
+msgstr "Yemen"
+
+#: admin/admin.php:2777
+msgid "Yugoslavia"
+msgstr "Jugoslavia"
+
+#: admin/admin.php:2777
+msgid "Zambia"
+msgstr "Zambia"
+
+#: admin/admin.php:2777
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: admin/admin.php:2766
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: admin/admin.php:2766
+msgid "Albania"
+msgstr "Albania"
+
+#: admin/admin.php:2766
+msgid "Algeria"
+msgstr "Algeria"
+
+#: admin/admin.php:2766
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: admin/admin.php:2766
+msgid "Andorra"
+msgstr "Andorra"
+
+#: admin/admin.php:2766
+msgid "Angola"
+msgstr "Angola"
+
+#: admin/admin.php:2766
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: admin/admin.php:2766
+msgid "Antigua And Barbuda"
+msgstr "Antigua And Barbuda"
+
+#: admin/admin.php:2766
+msgid "Argentina"
+msgstr "Argentina"
+
+#: admin/admin.php:2766
+msgid "Armenia"
+msgstr "Armenia"
+
+#: admin/admin.php:2766
+msgid "Aruba"
+msgstr "Aruba"
+
+#: admin/admin.php:2766
+msgid "Austria"
+msgstr "Austria"
+
+#: admin/admin.php:2766
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: admin/admin.php:2766
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: admin/admin.php:2766
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: admin/admin.php:2766
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: admin/admin.php:2766
+msgid "Barbados"
+msgstr "Barbados"
+
+#: admin/admin.php:2766
+msgid "Belarus"
+msgstr "Belarus"
+
+#: admin/admin.php:2766
+msgid "Belgium"
+msgstr "Belgio"
+
+#: admin/admin.php:2767
+msgid "Belize"
+msgstr "Belize"
+
+#: admin/admin.php:2767
+msgid "Benin"
+msgstr "Benin"
+
+#: admin/admin.php:2767
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: admin/admin.php:2767
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: admin/admin.php:2767
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: admin/admin.php:2767
+msgid "Bosnia And Herzegovina"
+msgstr "Bosnia And Herzegovina"
+
+#: admin/admin.php:2767
+msgid "Botswana"
+msgstr "Botswana"
+
+#: admin/admin.php:2767
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: admin/includes/forms.php:100
+msgid "View submitted form entries"
+msgstr "Visualizza voci del modulo presentato"
+
+#: admin/includes/forms.php:102
+msgid "Deactivate this form"
+msgstr "Disattiva questo form"
+
+#: admin/includes/forms.php:104
+msgid "Activate this form"
+msgstr "Attiva questo form"
+
+#: admin/includes/forms.php:106
+msgid "Duplicate this form"
+msgstr "Duplica questo form"
+
+#: admin/includes/forms.php:106
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: admin/includes/forms.php:107
+msgid "Export this form"
+msgstr "Esporta questo form"
+
+#: admin/admin.php:269 admin/admin.php:270 admin/admin.php:3334
+#: admin/includes/export.php:87 admin/includes/forms.php:107
+msgid "Export"
+msgstr "Esporta"
+
+#: admin/includes/forms.php:108
+msgid "Delete this form"
+msgstr "Cancella questo form"
+
+#: admin/includes/forms.php:116
+msgid "%d unread"
+msgstr "%d non letto"
+
+#: admin/includes/forms.php:119
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] "%d voce"
+msgstr[1] "%d voci"
+
+#: admin/includes/forms.php:126
+msgid "Yes"
+msgstr "Si"
+
+#: admin/includes/forms.php:128
+msgid "No"
+msgstr "No"
+
+#: admin/admin.php:1235 admin/includes/export.php:68
+#: admin/includes/export.php:91 admin/includes/forms.php:135
+msgid "No forms found, %sclick here to create one%s."
+msgstr "Non sono  stati trovati moduli (forms), %sfare click qui per crearne uno %s."
+
+#: admin/includes/preview.php:36
+msgid ""
+"The preview does not include your WordPress theme CSS\n"
+"    so it may look different when viewed on a page on your website."
+msgstr ""
+"L'anteprima non comprende il tuo tema WordPress CSS\n"
+"     quindi potrebbe avere un aspetto diverso quando vengono visualizzati su una pagina del tuo sito web."
+
+#: admin/includes/preview.php:38
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: admin/includes/preview.php:40
+msgid "Loading form preview..."
+msgstr "Caricamento anteprima form ..."
+
+#: admin/includes/preview.php:43
+msgid "Sorry, there was a problem"
+msgstr "Spiacente, c'è stato un problema"
+
+#: admin/includes/preview.php:44
+msgid ""
+"The form preview could not be loaded, this could be due to one\n"
+"        of the reasons below."
+msgstr ""
+"L'anteprima del form non può essere caricato, questo potrebbe essere dovuto ad uno\n"
+"         dei seguenti motivi."
+
+#: admin/includes/preview.php:47
+msgid "The preview requires the form builder page to be open"
+msgstr "L'anteprima richiede una pagina di costruzione del form per essere aperta"
+
+#: admin/includes/preview.php:48
+msgid "The form has been deleted"
+msgstr "Il modulo è stato cancellato"
+
+#: admin/includes/preview.php:50
+msgid "Please address these issues and load the preview again."
+msgstr "Si prega di affrontare questi problemi e caricare l'anteprima."
+
+#: admin/includes/dashboard.php:3 admin/includes/entry.php:27
+#: admin/includes/form-builder.php:155
+msgid "Form"
+msgstr "Form"
+
+#: admin/includes/dashboard.php:4 admin/includes/entries.php:56
+msgid "Unread"
+msgstr "Non letto"
+
+#: admin/includes/dashboard.php:12
+msgid "View entries"
+msgstr "Visualizza le voci"
+
+#: admin/includes/export.php:13
+msgid "Export form"
+msgstr "Esporta modulo (form)"
+
+#: admin/includes/export.php:15
+msgid "Export entries"
+msgstr "Esporta le voci"
+
+#: admin/includes/export.php:24
+msgid "Export Entries"
+msgstr "Esporta Voci"
+
+#: admin/includes/export.php:25
+msgid "Export Form"
+msgstr "Esporta Form"
+
+#: admin/includes/export.php:38
+msgid "Select a form to export entries from"
+msgstr "Selezionare un modulo (form) da esportare"
+
+#: admin/admin.php:1212 admin/includes/export.php:41
+msgid "Please select"
+msgstr "Si prega di selezionare"
+
+#: admin/includes/export.php:49
+msgid "Choose which fields to export"
+msgstr "Scegliere i campi da esportare"
+
+#: admin/includes/export.php:50
+msgid "Tick all"
+msgstr "Spunta tutti"
+
+#: admin/includes/export.php:53
+msgid "Date range (optional)"
+msgstr "Intervallo date (opzionale)"
+
+#: admin/includes/export.php:54
+msgid "From"
+msgstr "Modulo (form)"
+
+#: admin/includes/export.php:56
+msgid "To"
+msgstr "A"
+
+#: admin/includes/export.php:58
+msgid "Click the fields to show a calendar"
+msgstr "Fare clic sui campi per visualizzare un calendario"
+
+#: admin/includes/export.php:61
+msgid "Download"
+msgstr "Download"
+
+#: admin/includes/export.php:79
+msgid "Select a form to export"
+msgstr "Selezionare un modulo (form) da esportare"
+
+#: admin/includes/export.php:97
+msgid "Form export data"
+msgstr "Modulo dati di esportazione"
+
+#: admin/includes/export.php:100
+msgid "Click inside the box to select all text"
+msgstr "Fare clic all'interno della casella per selezionare tutto il testo"
+
+#: admin/includes/export.php:101
+msgid "Copy the text inside the box and paste it into the box on the Quform Import page on another website"
+msgstr "Copiare il testo all'interno della casella e incollarlo nella casella della pagina Importa Quform su un altro sito"
+
+#: admin/includes/entries.php:13
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Risultati della ricerca di &#8220;%s&#8221;"
+
+#: admin/admin.php:3330 admin/includes/entries.php:21
+#: admin/includes/form-builder.php:28
+msgid "All Forms"
+msgstr "Tutti i moduli"
+
+#: admin/includes/entries.php:24 admin/includes/form-builder.php:31
+msgid "Switch Form"
+msgstr "Commuta modulo"
+
+#: admin/includes/entries.php:27 admin/includes/form-builder.php:34
+msgid "Create a new form"
+msgstr "Crea un nuovo form"
+
+#: admin/includes/entries.php:39
+msgid "Edit Form"
+msgstr "Modifica modulo"
+
+#: admin/includes/entries.php:42
+msgid "Edit Table Layout"
+msgstr "Modifica layout Tabella"
+
+#: admin/includes/entries.php:59
+msgid "Search results"
+msgstr "Cerca risultati"
+
+#: admin/includes/entries.php:64
+msgid "Search Entries"
+msgstr "Cerca le voci"
+
+#: admin/includes/entries.php:70 admin/includes/entries.php:166
+#: admin/includes/entries.php:189
+msgid "Mark as read"
+msgstr "Segna come letto"
+
+#: admin/includes/entries.php:71 admin/includes/entries.php:168
+#: admin/includes/entries.php:190
+msgid "Mark as unread"
+msgstr "Segna come da leggere"
+
+#: admin/includes/entries.php:84
+msgid "per page"
+msgstr "Per pagina"
+
+#: admin/includes/entries.php:139 admin/includes/entries.php:164
+msgid "View this entry"
+msgstr "Visualizza questa nota"
+
+#: admin/includes/entries.php:164
+msgid "View"
+msgstr "Visualizza"
+
+#: admin/includes/entries.php:170
+msgid "Delete this entry"
+msgstr "Cancella questa nota"
+
+#: admin/includes/entries.php:179
+msgid "No entries found."
+msgstr "Nessuna voce trovata."
+
+#: admin/includes/entries.php:202
+msgid "I couldn't find any forms, do you want to %screate one%s?"
+msgstr "Non ho potuto trovare alcun form, vuoi %screarne uno%s?"
+
+#: admin/includes/form-builder.php:116 admin/includes/help/_nav-elements.php:3
+#: admin/includes/help/elements.php:9
+msgid "Single Line Text"
+msgstr "Singola riga di testo"
+
+#: admin/includes/form-builder.php:117 admin/includes/help/_nav-elements.php:4
+#: admin/includes/help/elements.php:10
+msgid "Paragraph Text"
+msgstr "Il paragrafo di testo"
+
+#: admin/includes/form-builder.php:118 admin/includes/help/_nav-elements.php:5
+#: admin/includes/help/elements.php:11
+msgid "Email Address"
+msgstr "Indirizzo Email"
+
+#: admin/includes/elements/checkbox.php:94 admin/includes/elements/radio.php:94
+#: admin/includes/form-builder.php:119 admin/includes/help/_nav-elements.php:6
+#: admin/includes/help/elements.php:12
+msgid "Dropdown Menu"
+msgstr "Menu a scomparsa"
+
+#: admin/includes/elements/radio.php:95 admin/includes/elements/select.php:89
+#: admin/includes/form-builder.php:120 admin/includes/help/_nav-elements.php:7
+#: admin/includes/help/elements.php:13
+msgid "Checkboxes"
+msgstr "Checkboxes"
+
+#: admin/includes/elements/checkbox.php:93
+#: admin/includes/elements/select.php:88 admin/includes/form-builder.php:121
+#: admin/includes/help/_nav-elements.php:8 admin/includes/help/elements.php:14
+msgid "Multiple Choice"
+msgstr "Scelta multipla"
+
+#: admin/includes/form-builder.php:122 admin/includes/help/_nav-elements.php:9
+#: admin/includes/help/elements.php:15
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: admin/includes/form-builder.php:123 admin/includes/help/_nav-elements.php:10
+#: admin/includes/help/elements.php:16
+msgid "Group"
+msgstr "Gruppo"
+
+#: admin/includes/form-builder.php:128 admin/includes/help/_nav-elements.php:11
+#: admin/includes/help/elements.php:17
+msgid "File Upload"
+msgstr "Carica file"
+
+#: admin/includes/form-builder.php:129 admin/includes/help/_nav-elements.php:12
+#: admin/includes/help/elements.php:18
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: admin/includes/elements/html.php:24 admin/includes/form-builder.php:130
+#: admin/includes/form-builder.php:1014 admin/includes/form-builder.php:1100
+#: admin/includes/help/_nav-elements.php:13 admin/includes/help/elements.php:19
+msgid "HTML"
+msgstr "HTML"
+
+#: admin/admin.php:3118 admin/includes/elements/date.php:6
+#: admin/includes/entry.php:23 admin/includes/form-builder.php:131
+#: admin/includes/form-builder.php:1220
+#: admin/includes/help/_nav-elements.php:14 admin/includes/help/elements.php:20
+msgid "Date"
+msgstr "Data"
+
+#: admin/includes/elements/time.php:5 admin/includes/form-builder.php:132
+#: admin/includes/help/_nav-elements.php:15 admin/includes/help/elements.php:21
+msgid "Time"
+msgstr "Tempo"
+
+#: admin/includes/form-builder.php:133 admin/includes/help/_nav-elements.php:16
+#: admin/includes/help/elements.php:22
+msgid "Hidden"
+msgstr "Nascosto"
+
+#: admin/includes/elements/password.php:5 admin/includes/form-builder.php:134
+#: admin/includes/form-builder.php:1339
+#: admin/includes/help/_nav-elements.php:17 admin/includes/help/elements.php:23
+msgid "Password"
+msgstr "Password"
+
+#: admin/includes/help/basics.php:6
+msgid "The help included with the plugin is no longer being updated and will be removed in a future version, please visit %s for comprehensive documentation and support forums."
+msgstr "L'aiuto fornito con il plug-in non è più in fase di aggiornamento e sarà rimosso in una versione futura, si prega di visitare il sito %s per la documentazione completa e forum di supporto."
+
+#: admin/includes/help/settings.php:9
+msgid "Global plugin settings"
+msgstr "Impostazioni globali del plugin"
+
+#: admin/includes/help/settings.php:10
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: admin/includes/help/settings.php:11
+msgid "Style settings"
+msgstr "Impostazioni stile"
+
+#: admin/includes/help/settings.php:12
+msgid "Email settings"
+msgstr "Impostazioni Email"
+
+#: admin/includes/help/settings.php:13
+msgid "Entries settings"
+msgstr "Impostazioni voci"
+
+#: admin/includes/help/settings.php:14
+msgid "Database settings"
+msgstr "Impostazioni database"
+
+#: admin/includes/help/_nav-settings.php:3
+msgid "Global"
+msgstr "Globale"
+
+#: admin/includes/form-builder.php:226 admin/includes/help/_nav-settings.php:4
+msgid "General"
+msgstr "Generale"
+
+#: admin/includes/form-builder.php:227 admin/includes/form-builder.php:436
+#: admin/includes/form-builder.php:731 admin/includes/help/_nav-settings.php:5
+msgid "Style"
+msgstr "Stile"
+
+#: admin/includes/elements/settings/validators.php:67
+#: admin/includes/form-builder.php:228 admin/includes/help/_nav-settings.php:6
+msgid "Email"
+msgstr "Email"
+
+#: admin/includes/form-builder.php:230 admin/includes/help/_nav-settings.php:8
+msgid "Database"
+msgstr "Database"
+
+#: admin/includes/help/_nav-basic.php:3
+msgid "Creating a form"
+msgstr "Crea un modulo (form)"
+
+#: admin/includes/help/_nav-basic.php:4
+msgid "Adding an element"
+msgstr "Aggiungi un elemento"
+
+#: admin/includes/help/_nav-basic.php:5
+msgid "Configuring an element"
+msgstr "Configura un elemento"
+
+#: admin/includes/help/_nav-basic.php:6
+msgid "Moving an element"
+msgstr "Sposta un elemento"
+
+#: admin/includes/help/_nav-basic.php:7
+msgid "Deleting an element"
+msgstr "Elimina un elemento"
+
+#: admin/includes/help/_nav-basic.php:8
+msgid "Adding the form to your website"
+msgstr "Aggiungi il modulo al tuo sito web"
+
+#: admin/includes/help/_nav-basic.php:9
+msgid "Activating a form"
+msgstr "Attiva un modulo"
+
+#: admin/includes/help/_nav-basic.php:10
+msgid "Deactivating a form"
+msgstr "Disattiva un modulo"
+
+#: admin/includes/help/_nav-basic.php:11
+msgid "Deleting a form"
+msgstr "Elimina un modulo"
+
+#: admin/includes/help/_nav-basic.php:12
+msgid "Viewing entries"
+msgstr "Visualizza le voci"
+
+#: admin/includes/help/_nav-basic.php:13
+msgid "Viewing an entry"
+msgstr "Visualizza una voce"
+
+#: admin/includes/help/_nav-basic.php:14
+msgid "Deleting an entry"
+msgstr "Elimina una voce"
+
+#: admin/admin.php:278 admin/admin.php:279 admin/admin.php:3335
+#: admin/includes/elements/_actions.php:3
+#: admin/includes/elements/captcha.php:55
+#: admin/includes/elements/checkbox.php:43 admin/includes/elements/date.php:91
+#: admin/includes/elements/email.php:27 admin/includes/elements/file.php:25
+#: admin/includes/elements/groupstart.php:27
+#: admin/includes/elements/hidden.php:23 admin/includes/elements/html.php:17
+#: admin/includes/elements/password.php:27 admin/includes/elements/radio.php:43
+#: admin/includes/elements/recaptcha.php:31
+#: admin/includes/elements/select.php:39
+#: admin/includes/elements/settings/filters/alpha-numeric.php:4
+#: admin/includes/elements/settings/filters/alpha.php:4
+#: admin/includes/elements/settings/filters/digits.php:4
+#: admin/includes/elements/settings/filters/regex.php:4
+#: admin/includes/elements/settings/filters/strip-tags.php:4
+#: admin/includes/elements/settings/validators/alpha-numeric.php:4
+#: admin/includes/elements/settings/validators/alpha-numeric.php:10
+#: admin/includes/elements/settings/validators/alpha.php:4
+#: admin/includes/elements/settings/validators/alpha.php:10
+#: admin/includes/elements/settings/validators/digits.php:4
+#: admin/includes/elements/settings/validators/digits.php:10
+#: admin/includes/elements/settings/validators/email.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:10
+#: admin/includes/elements/settings/validators/identical.php:4
+#: admin/includes/elements/settings/validators/identical.php:10
+#: admin/includes/elements/settings/validators/length.php:4
+#: admin/includes/elements/settings/validators/length.php:10
+#: admin/includes/elements/settings/validators/less-than.php:4
+#: admin/includes/elements/settings/validators/less-than.php:10
+#: admin/includes/elements/settings/validators/regex.php:4
+#: admin/includes/elements/settings/validators/regex.php:10
+#: admin/includes/elements/text.php:27 admin/includes/elements/textarea.php:27
+#: admin/includes/elements/time.php:73 admin/includes/form-builder.php:156
+#: admin/includes/help.php:19 admin/includes/settings.php:10
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/includes/settings.php:43
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: admin/includes/settings.php:47
+msgid "Product license"
+msgstr "Licenza del prodotto"
+
+#: admin/includes/settings.php:48
+msgid ""
+"A valid license key entitles you to support and enables automatic upgrades. %3$sA\n"
+"        license key may only be used for one installation of WordPress at a time%4$s, if you have previously verified a license key\n"
+"        for another website, and use it again here, the Quform plugin will become unlicensed on the other website. Please enter your\n"
+"        CodeCanyon Quform license key, you can find your key by following the instructions on %1$sthis page%2$s."
+msgstr ""
+"Una chiave di licenza valida dà diritto a sostenere e consente gli aggiornamenti automatici. %3$sA\n"
+"         chiave di licenza può essere utilizzata solo per una installazione di WordPress in un tempo%4$s, se una chiave di licenza è stata verificata in precedenza\n"
+"         per un altro sito web, si usa di nuovo lo stesso codice, il plugin Quform diventerà senza licenza sul sito web. Inserisci la tua\n"
+"         chiave di licenza CodeCanyon Quform, è possibile trovare la chiave seguendo le istruzioni su %1$squesta pagina%2$s."
+
+#: admin/includes/settings.php:54
+msgid "License status"
+msgstr "Stato della licenza"
+
+#: admin/includes/settings.php:57
+msgid "Valid license key"
+msgstr "Chiave di licenza valida"
+
+#: admin/includes/settings.php:58
+msgid "Unlicensed product"
+msgstr "Prodotto senza licenza"
+
+#: admin/includes/settings.php:62
+msgid "Enter license key"
+msgstr "Inserisci il codice di licenza"
+
+#: admin/includes/settings.php:63
+msgid "Verify"
+msgstr "Verifica"
+
+#: admin/includes/settings.php:75
+msgid "reCAPTCHA settings"
+msgstr "Impostazioni reCAPTCHA"
+
+#: admin/includes/form-builder.php:1141 admin/includes/settings.php:89
+msgid "Email sending settings"
+msgstr "Impostazioni di invio e-mail"
+
+#: admin/includes/settings.php:90
+msgid ""
+"The settings here will determine the default email sending settings for all your forms\n"
+"        you can also override these settings for each form at Form Builder &rarr; Settings &rarr; Email."
+msgstr ""
+"Queste impostazioni determineranno le impostazioni predefinite per l'invio delle email da tutti i moduli\n"
+"         è anche possibile ignorare queste impostazioni per ogni modulo (form) in Form Builder &rarr; Impostazioni &rarr; Email."
+
+#: admin/includes/form-builder.php:1145 admin/includes/settings.php:98
+msgid "Email sending method"
+msgstr "Metodo di invio e-mail"
+
+#: admin/includes/settings.php:101
+msgid "PHP mail() (default)"
+msgstr "PHP mail() (impostazione predefinita)"
+
+#: admin/includes/form-builder.php:1150 admin/includes/settings.php:102
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/includes/form-builder.php:1157 admin/includes/settings.php:107
+msgid "SMTP host"
+msgstr "SMTP host"
+
+#: admin/includes/form-builder.php:1164 admin/includes/settings.php:113
+msgid "SMTP port"
+msgstr "SMTP porta"
+
+#: admin/includes/form-builder.php:1171 admin/includes/settings.php:119
+msgid "SMTP encryption"
+msgstr "Crittografia SMTP"
+
+#: admin/includes/form-builder.php:447 admin/includes/form-builder.php:1174
+#: admin/includes/settings.php:122
+msgid "None"
+msgstr "Nessuno"
+
+#: admin/includes/form-builder.php:1175 admin/includes/settings.php:123
+msgid "TLS"
+msgstr "TLS"
+
+#: admin/includes/form-builder.php:1176 admin/includes/settings.php:124
+msgid "SSL"
+msgstr "SSL"
+
+#: admin/includes/form-builder.php:1182 admin/includes/settings.php:129
+msgid "SMTP username"
+msgstr "SMTP nome utente"
+
+#: admin/includes/form-builder.php:1189 admin/includes/settings.php:135
+msgid "SMTP password"
+msgstr "SMTP password"
+
+#: admin/includes/settings.php:150 admin/includes/settings.php:153
+msgid "Update active themes cache"
+msgstr "Aggiornamento della cache dei temi attiva"
+
+#: admin/includes/settings.php:151
+msgid ""
+"If you have added or removed a form from the database directly, e.g. via phpMyAdmin then you should tick\n"
+"        the box below and Save Changes to make sure the correct themes are being loaded for all your active forms."
+msgstr ""
+"Se è stato aggiunto o rimosso un modulo (form) dal database direttamente, ad esempio, tramite phpMyAdmin allora si dovrebbe spuntare\n"
+"         casella di seguito e su Salva modifiche per assicurarsi che i temi corretti siano in corso di caricamento per tutte i moduli (form) attivi."
+
+#: admin/includes/settings.php:155
+msgid "Disable script output"
+msgstr "Disattiva output dello script"
+
+#: admin/includes/settings.php:157
+msgid "Disable Fancybox output"
+msgstr "Disattiva l'uscita (output) Fancybox"
+
+#: admin/includes/settings.php:158
+msgid "Disable qTip2 output"
+msgstr "Disattiva l'output qTip2"
+
+#: admin/includes/settings.php:159
+msgid "Disable Infield Labels output"
+msgstr "Disabilita output Infield Labels"
+
+#: admin/includes/settings.php:160
+msgid "Disable Smooth Scroll output"
+msgstr "Disabilita output Smooth Scroll"
+
+#: admin/includes/settings.php:161
+msgid "Disable jQuery UI output"
+msgstr "Disabilita output jQuery UI"
+
+#: admin/includes/settings.php:162
+msgid "Disable Uniform output"
+msgstr "Disattiva l'output Uniform"
+
+#: admin/includes/settings.php:163
+msgid "Disable SWFUpload output"
+msgstr "Disattiva l'output SWFUpload"
+
+#: admin/includes/settings.php:169
+msgid "Enable lightbox script (Fancybox)"
+msgstr "Attiva lo script lightbox (Fancybox)"
+
+#: admin/includes/settings.php:170
+msgid ""
+"This option is enabled automatically when you add a form\n"
+"        in a popup to a post / page or when you add a Quform Popup widget. If this does not happen for some reason\n"
+"        you can tick this option to manually enable the Fancybox script. If you have disabled Fancybox output in the above settings\n"
+"        the script output will still be disabled."
+msgstr ""
+"Questa opzione viene attivata automaticamente quando si aggiunge un modulo\n"
+"         in una finestra popup di un articolo/pagina o quando si aggiunge un widget Quform Popup. Se ciò non avviene per qualche ragione\n"
+"         è possibile selezionare questa opzione per abilitare manualmente lo script Fancybox. Se si è disattivato l'output Fancybox nelle impostazioni di cui sopra\n"
+"         l'output dello script sarà ancora disattivato."
+
+#: admin/includes/settings.php:174
+msgid "Enable Fancybox"
+msgstr "Abilita Fancybox"
+
+#: admin/includes/settings.php:176
+msgid "Server compatibility"
+msgstr "Compatibilità server"
+
+#: admin/includes/settings.php:183
+msgid "PHP Version"
+msgstr "Versione PHP"
+
+#: admin/includes/settings.php:186
+msgid "The plugin requires PHP version 5 or later."
+msgstr "Il plugin richiede PHP versione 5 o successiva."
+
+#: admin/includes/settings.php:194
+msgid "MySQL Version"
+msgstr "Versione MySQL"
+
+#: admin/includes/settings.php:197
+msgid "The plugin requires MySQL version 5 or later."
+msgstr "Il plugin richiede MySQL versione 5 o successiva."
+
+#: admin/includes/settings.php:204
+msgid "WordPress Version"
+msgstr "Versione Wordpress"
+
+#: admin/includes/settings.php:207
+msgid "The plugin requires WordPress version 3.1 or later."
+msgstr "Il plugin WordPress richiede la versione 3.1 o successiva."
+
+#: admin/includes/settings.php:213
+msgid "GD Image Library"
+msgstr "GD Libreria di immagini"
+
+#: admin/includes/settings.php:214 admin/includes/settings.php:223
+#: admin/includes/settings.php:232
+msgid "Available"
+msgstr "Disponibile"
+
+#: admin/includes/settings.php:214 admin/includes/settings.php:223
+#: admin/includes/settings.php:232
+msgid "Unavailable"
+msgstr "Non disponibile"
+
+#: admin/includes/settings.php:216
+msgid "The plugin requires the GD image library for the CAPTCHA element, please ask your host to install it."
+msgstr "Il plugin richiede la libreria GD immagine per l'elemento CAPTCHA , per favore chiedi al tuo host di installarlo."
+
+#: admin/includes/settings.php:231
+msgid "mbstring Extension"
+msgstr "Estensione mbstring"
+
+#: admin/includes/settings.php:234
+msgid "The plugin requires the mbstring PHP extension for the CSS system, please ask your host to install it."
+msgstr "Il plugin richiede l'estensione mbstring PHP per il sistema CSS, chiedi al tuo host per installarlo."
+
+#: admin/includes/settings.php:241
+msgid "Temporary Directory"
+msgstr "Directory Temporanea"
+
+#: admin/includes/settings.php:244
+msgid "The plugin requires a writeable temporary directory for file uploading. You can set a custom temporary directory path in your wp-config.php file by using the code %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
+msgstr "Il plugin richiede una directory accessibile in scrittura  temporanea per il caricamento dei file. È possibile impostare un percorso personalizzato nella directory temporanea nel file wp-config.php utilizzando il codice %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
+
+#: admin/includes/entry.php:10
+msgid "View entry"
+msgstr "Mostra voce"
+
+#: admin/includes/entry.php:14
+msgid "Back to entries list"
+msgstr "Torna alla lista delle voci"
+
+#: admin/includes/entry.php:20
+msgid "Additional information"
+msgstr "Ulteriori informazioni"
+
+#: admin/admin.php:417 admin/admin.php:3117 admin/includes/entry.php:31
+msgid "Entry ID"
+msgstr "ID articolo"
+
+#: admin/admin.php:418 admin/admin.php:3120
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:11
+#: admin/includes/entry.php:35 admin/includes/form-builder.php:1229
+msgid "Form URL"
+msgstr "URL form"
+
+#: admin/admin.php:422 admin/admin.php:3121
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:15
+#: admin/includes/entry.php:43 admin/includes/form-builder.php:1234
+msgid "Referring URL"
+msgstr "URL di riferimento"
+
+#: admin/admin.php:3119 admin/includes/entry.php:51
+msgid "IP address"
+msgstr "Indirizzo IP"
+
+#: admin/admin.php:3122 admin/includes/entry.php:55
+msgid "Post / page ID"
+msgstr "Post / pagina ID"
+
+#: admin/admin.php:3123 admin/includes/entry.php:59
+msgid "Post / page title"
+msgstr "Titolo post / pagina"
+
+#: admin/admin.php:3124 admin/includes/entry.php:63
+msgid "User WordPress display name"
+msgstr "Il nome visualizzato dell'utente WordPress "
+
+#: admin/admin.php:3125 admin/includes/entry.php:67
+msgid "User WordPress email"
+msgstr "Email utente WordPress"
+
+#: admin/admin.php:3126 admin/includes/entry.php:75
+msgid "User WordPress login"
+msgstr "User login di WordPress"
+
+#: admin/includes/entry.php:82 admin/includes/form-builder.php:1023
+msgid "Show empty fields"
+msgstr "Mostra campi vuoti"
+
+#: admin/includes/entry.php:83
+msgid "Submitted form data"
+msgstr "Dati dei moduli presentati"
+
+#: admin/includes/entry.php:112
+msgid "Sorry, I couldn't find that entry. Perhaps it was deleted?"
+msgstr "Mi dispiace, non ho trovato quella voce. Forse è stata cancellata?"
+
+#: admin/includes/elements/checkbox.php:5 admin/includes/elements/hidden.php:5
+#: admin/includes/elements/radio.php:5 admin/includes/elements/select.php:5
+#: admin/includes/elements/text.php:5 admin/includes/elements/textarea.php:5
+msgid "Untitled"
+msgstr "Senza titolo"
+
+#: admin/includes/elements/hidden.php:13
+msgid "(hidden)"
+msgstr "(nascosto)"
+
+#: admin/includes/elements/hidden.php:31
+msgid "This label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "Questa etichetta verrà mostrata in tutto il generatore del form, nella e-mail di notifica e durante la visualizzazione di voci dei form presentati."
+
+#: admin/includes/elements/hidden.php:33
+#: admin/includes/elements/settings/label.php:2
+#: admin/includes/elements/settings/options-multiple.php:16
+#: admin/includes/elements/settings/options.php:17
+#: admin/includes/elements/settings/selectors/checkbox.php:4
+#: admin/includes/elements/settings/selectors/date.php:4
+#: admin/includes/elements/settings/selectors/recaptcha.php:4
+#: admin/includes/elements/settings/selectors/select.php:4
+#: admin/includes/elements/settings/selectors/text.php:4
+#: admin/includes/elements/settings/selectors/time.php:4
+#: admin/includes/elements/settings/styles.php:32
+msgid "Label"
+msgstr "Etichetta"
+
+#: admin/includes/elements/hidden.php:40
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has entered anything"
+msgstr ""
+"Il valore predefinito è il valore dell'elemento che viene fornito prima\n"
+"                                     l'utente non ha inserito nulla"
+
+#: admin/includes/elements/date.php:152 admin/includes/elements/hidden.php:43
+#: admin/includes/elements/settings/default-value.php:8
+#: admin/includes/elements/textarea.php:52 admin/includes/elements/time.php:136
+msgid "Default value"
+msgstr "Valore di default"
+
+#: admin/includes/elements/file.php:5
+msgid "File upload"
+msgstr "Caricamento file"
+
+#: admin/includes/elements/file.php:6
+msgid "Maximum size 10MB"
+msgstr "Dimensione massima di 10 MB"
+
+#: admin/includes/elements/captcha.php:56
+#: admin/includes/elements/checkbox.php:44 admin/includes/elements/date.php:92
+#: admin/includes/elements/email.php:28 admin/includes/elements/file.php:26
+#: admin/includes/elements/groupstart.php:28
+#: admin/includes/elements/password.php:28 admin/includes/elements/radio.php:44
+#: admin/includes/elements/recaptcha.php:32
+#: admin/includes/elements/select.php:40 admin/includes/elements/text.php:28
+#: admin/includes/elements/textarea.php:28 admin/includes/elements/time.php:74
+msgid "Optional"
+msgstr "Opzionale"
+
+#: admin/includes/elements/captcha.php:57
+#: admin/includes/elements/checkbox.php:45 admin/includes/elements/date.php:93
+#: admin/includes/elements/email.php:29 admin/includes/elements/file.php:27
+#: admin/includes/elements/groupstart.php:29
+#: admin/includes/elements/password.php:29 admin/includes/elements/radio.php:45
+#: admin/includes/elements/recaptcha.php:33
+#: admin/includes/elements/select.php:41 admin/includes/elements/text.php:29
+#: admin/includes/elements/textarea.php:29 admin/includes/elements/time.php:75
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: admin/includes/elements/file.php:49
+msgid "Enable Flash uploader"
+msgstr "Abilita uploader Flash"
+
+#: admin/includes/elements/file.php:52
+msgid ""
+"Enables the Flash file uploader which shows the progress of file uploads. For users\n"
+"                            with Flash disabled it will degrade to a standard file upload field. %sSee the help for more information%s."
+msgstr ""
+"Abilita l'uploader del file Flash che mostra lo stato di avanzamento del caricamento dei file. Per gli utenti\n"
+"                             con Flash disabilitato si retrocede a un campo standard di upload del file. %sConsulta la guida per maggiori informazioni%s."
+
+#: admin/includes/elements/file.php:58
+msgid "Allow multiple file uploads"
+msgstr "Consenti il caricamento di file multipli"
+
+#: admin/includes/elements/file.php:61
+msgid "Enables you to show more than one upload field, so that the user can upload more files."
+msgstr "Consenti di visualizzare più di un campo di caricamento, in modo che l'utente può caricare più file."
+
+#: admin/includes/elements/file.php:68
+msgid ""
+"If you are using the Flash uploader the user will only ever see one field, but they will be able\n"
+"                                to queue as many files as they want."
+msgstr ""
+"Se si utilizza l'uploader Flash l'utente vede sempre e solo un campo, ma sarà in grado\n"
+"                                 in coda tutti i file che si desiderano."
+
+#: admin/includes/elements/file.php:71
+msgid "Number of file upload fields to show"
+msgstr "Numero di campi del file di caricamento da mostrare"
+
+#: admin/includes/elements/file.php:78
+msgid ""
+"This will not appear if you are using the Flash uploader, as the user can queue as many files\n"
+"                                as they want."
+msgstr ""
+"Questo non viene visualizzato se si utilizza l'uploader Flash, come l'utente può mettere in coda tutti i file\n"
+"                                 come vogliono."
+
+#: admin/includes/elements/file.php:81
+msgid "Allow the user to add more upload fields"
+msgstr "Consenti all'utente di aggiungere più campi di upload"
+
+#: admin/includes/elements/file.php:84
+msgid "If checked, a link appears allowing the user to add more upload fields if they want to upload more files"
+msgstr "Se selezionato, viene visualizzato un collegamento che consente all'utente di aggiungere altri campi di upload se si vogliono caricare più file"
+
+#: admin/includes/elements/file.php:89
+msgid "Add another upload link text"
+msgstr "Aggiungi un altrolink testuale per upload"
+
+#: admin/includes/elements/file.php:92
+msgid "Override the default text on the link to add other upload which is \"Upload another\""
+msgstr "Annulla il testo predefinito su questo link per aggiungere un altro upload che è \"un altro Upload\""
+
+#: admin/includes/elements/file.php:97
+msgid "Allowed file extensions"
+msgstr "Estensioni di file ammessi"
+
+#: admin/includes/elements/file.php:100
+msgid "Enter the file extension excluding the dots and separated by commas e.g. jpg, jpeg, png, gif"
+msgstr "Inserisci l'estensione del file escludendo i punti e separale dalle virgole ad esempio jpg, jpeg, png, gif"
+
+#: admin/includes/elements/file.php:105
+msgid "Maximum allowed file size"
+msgstr "Dimensione massima del file consentita"
+
+#: admin/includes/elements/file.php:107
+msgid "MB"
+msgstr "MB"
+
+#: admin/includes/elements/file.php:108
+msgid "Enter the maximum size of a file in MB."
+msgstr "Immetti la dimensione massima di un file in MB."
+
+#: admin/includes/elements/file.php:108
+msgid "Important information"
+msgstr "informazioni importanti"
+
+#: admin/includes/elements/file.php:113
+msgid "Attach uploaded files to the notification email"
+msgstr "Allega i file caricati sull'email di notifica"
+
+#: admin/includes/elements/file.php:118
+msgid "Save uploaded files to the server"
+msgstr "Salva i file caricati sul server"
+
+#: admin/includes/elements/file.php:126 admin/includes/elements/file.php:173
+#: admin/includes/elements/file.php:175 admin/includes/elements/file.php:177
+#: admin/includes/elements/file.php:180
+#: admin/includes/elements/settings/validators/alpha-numeric.php:39
+#: admin/includes/elements/settings/validators/alpha.php:39
+#: admin/includes/elements/settings/validators/digits.php:39
+#: admin/includes/elements/settings/validators/greater-than.php:38
+#: admin/includes/elements/settings/validators/identical.php:39
+#: admin/includes/elements/settings/validators/length.php:51
+#: admin/includes/elements/settings/validators/length.php:66
+#: admin/includes/elements/settings/validators/less-than.php:39
+#: admin/includes/elements/settings/validators/regex.php:39
+msgid "Placeholders"
+msgstr "Segnaposto"
+
+#: admin/includes/elements/file.php:127
+msgid "the unique ID of the form"
+msgstr "L'ID univoco della form"
+
+#: admin/includes/elements/file.php:128
+msgid "the current year"
+msgstr "l'anno in corso"
+
+#: admin/includes/elements/file.php:129
+msgid "the current month"
+msgstr "Il mese corrente"
+
+#: admin/includes/elements/file.php:130
+msgid "the current day"
+msgstr "Il giorno corrente"
+
+#: admin/includes/elements/file.php:131
+msgid "You can enter the placeholder code in your path to display their values."
+msgstr "È possibile inserire il codice segnaposto nel tuo percorso per visualizzare i loro valori."
+
+#: admin/includes/elements/file.php:134
+msgid "Path to save uploaded files"
+msgstr "Percorso per salvare i file caricati"
+
+#: admin/includes/elements/file.php:138
+msgid "The path to save the files inside the WordPress uploads directory."
+msgstr "Il percorso per salvare i file caricat all'interno della directory di WordPress."
+
+#: admin/includes/elements/file.php:144
+msgid "Browse button text"
+msgstr "Cerca il testo del pulsante"
+
+#: admin/includes/elements/file.php:148
+msgid ""
+"Override the text for the browse button which is \"%s\", this only applies if you are using\n"
+"                            Uniform or the Flash uploader"
+msgstr ""
+"Ignora il testo per il pulsante di sfoglia, che è \"%s\", questo vale solo se si utilizza \n"
+"Uniforma o uploada Flash"
+
+#: admin/includes/elements/file.php:155
+msgid "Default text"
+msgstr "Testo predefinito"
+
+#: admin/includes/elements/file.php:159
+msgid ""
+"Override the default text for the file input which is \"%s\", this only applies if you are using\n"
+"                            Uniform"
+msgstr ""
+"Ignora il testo predefinito per il file di input che è \"%s\", questo vale solo se si utilizza\n"
+"                             Uniforma"
+
+#: admin/includes/elements/file.php:160 includes/iPhorm/Element/File.php:338
+msgid "No file selected"
+msgstr "Nessun file selezionato"
+
+#: admin/includes/elements/file.php:166
+#: admin/includes/elements/recaptcha.php:154
+#: admin/includes/elements/settings/validators/length.php:37
+msgid "Translate error messages"
+msgstr "Traduci i messaggi di errore"
+
+#: admin/includes/elements/file.php:173 admin/includes/elements/file.php:175
+#: admin/includes/elements/file.php:177 admin/includes/elements/file.php:180
+msgid "the filename"
+msgstr "Il nome del file"
+
+#: admin/includes/elements/file.php:198
+#: admin/includes/elements/recaptcha.php:177
+#: admin/includes/elements/settings/validators/alpha-numeric.php:32
+#: admin/includes/elements/settings/validators/alpha.php:32
+#: admin/includes/elements/settings/validators/digits.php:32
+#: admin/includes/elements/settings/validators/email.php:17
+#: admin/includes/elements/settings/validators/greater-than.php:31
+#: admin/includes/elements/settings/validators/identical.php:32
+#: admin/includes/elements/settings/validators/length.php:44
+#: admin/includes/elements/settings/validators/less-than.php:32
+#: admin/includes/elements/settings/validators/regex.php:32
+msgid "Default"
+msgstr "Default"
+
+#: admin/includes/elements/file.php:199
+#: admin/includes/elements/recaptcha.php:178
+#: admin/includes/elements/settings/validators/alpha-numeric.php:33
+#: admin/includes/elements/settings/validators/alpha.php:33
+#: admin/includes/elements/settings/validators/digits.php:33
+#: admin/includes/elements/settings/validators/email.php:18
+#: admin/includes/elements/settings/validators/greater-than.php:32
+#: admin/includes/elements/settings/validators/identical.php:33
+#: admin/includes/elements/settings/validators/length.php:45
+#: admin/includes/elements/settings/validators/less-than.php:33
+#: admin/includes/elements/settings/validators/regex.php:33
+msgid "Translation"
+msgstr "Traduzione"
+
+#: admin/includes/elements/textarea.php:49
+msgid ""
+"The default value is the value that the element is given before\n"
+"\t\t\t\t\t\t            the user has entered anything"
+msgstr ""
+"Il valore predefinito è il valore che l'elemento è dato prima\n"
+"\t\t\t\t\t\t  l'utente non ha inserito nulla"
+
+#: admin/admin.php:404 admin/includes/elements/checkbox.php:12
+#: admin/includes/elements/radio.php:12 admin/includes/elements/select.php:11
+msgid "Option 1"
+msgstr "Opzione 1"
+
+#: admin/admin.php:405 admin/includes/elements/checkbox.php:13
+#: admin/includes/elements/radio.php:13 admin/includes/elements/select.php:12
+msgid "Option 2"
+msgstr "Opzione 2"
+
+#: admin/admin.php:406 admin/includes/elements/checkbox.php:14
+#: admin/includes/elements/radio.php:14 admin/includes/elements/select.php:13
+msgid "Option 3"
+msgstr "Opzione 3"
+
+#: admin/includes/elements/checkbox.php:34 admin/includes/elements/radio.php:34
+msgid "Only the first 5 options are shown here."
+msgstr "Solo le prime 5 opzioni sono mostrati qui."
+
+#: admin/includes/elements/checkbox.php:85 admin/includes/elements/radio.php:86
+#: admin/includes/elements/select.php:80
+msgid ""
+"You can convert an element to a different type, see the dropdown menu for the available\n"
+"                                    choices. Most of your settings will also be converted."
+msgstr ""
+"È possibile convertire un elemento in un tipo diverso, vedere il menu a discesa per le scelte disponibili\n"
+". La maggior parte delle impostazioni verranno convertite."
+
+#: admin/includes/elements/checkbox.php:88 admin/includes/elements/radio.php:89
+#: admin/includes/elements/select.php:83
+msgid "Convert element"
+msgstr "Converti elemento"
+
+#: admin/includes/elements/checkbox.php:92 admin/includes/elements/radio.php:93
+#: admin/includes/elements/select.php:87 admin/includes/form-builder.php:320
+msgid "Please select..."
+msgstr "Si prega di selezionare ..."
+
+#: admin/includes/elements/html.php:10
+msgid "This block of HTML is only visible when viewing or previewing the form."
+msgstr "Questo blocco di HTML è visibile solo durante la visualizzazione o l'anteprima del modulo."
+
+#: admin/includes/elements/html.php:30
+msgid "Enable element wrapper"
+msgstr "Abilita la cornice dell'elemento"
+
+#: admin/includes/elements/html.php:34
+msgid ""
+"Allows this block of HTML to behave like an normal form element - it will\n"
+"                                    allow conditional logic to be applied to it and if it's inside a group it will behave like other elements."
+msgstr ""
+"Permetti questo blocco di codice HTML di comportarsi come un elemento di forma normale - lo farà\n"
+"                                     consentendo la logica condizionale da applicare ad esso e se è all'interno di un gruppo si comporterà come altri elementi."
+
+#: admin/includes/elements/date.php:34 includes/iPhorm/Element/Date.php:196
+msgctxt "select day of the month"
+msgid "Day"
+msgstr "Giorno"
+
+#: admin/includes/elements/date.php:35 includes/iPhorm/Element/Date.php:216
+msgctxt "select month"
+msgid "Month"
+msgstr "Mese"
+
+#: admin/includes/elements/date.php:36 includes/iPhorm/Element/Date.php:236
+msgctxt "select year"
+msgid "Year"
+msgstr "Anno"
+
+#: admin/includes/elements/date.php:117
+msgid "Shows the headings for Day, Month and Year as the first options in the dropdown menus."
+msgstr "Mostra le voci per giorno, mese e anno come le prime opzioni nei menu a discesa."
+
+#: admin/includes/elements/date.php:119
+msgid "Show date headings"
+msgstr "Mostra voci della data"
+
+#: admin/includes/elements/date.php:129
+msgid "Start year"
+msgstr "Inizio anno"
+
+#: admin/includes/elements/date.php:132 admin/includes/elements/date.php:143
+msgid "You can use the tag %1$s for the current year or add modifiers to the current year such as %2$s or %3$s."
+msgstr "È possibile utilizzare il tag %1$s per l'anno in corso o aggiungere una modifica per l'anno in corso, ad esempio %2$s oppure %3$s."
+
+#: admin/includes/elements/date.php:138
+msgid "The end year will be the last year in the year dropdown and every year from the start year to the end year will be displayed."
+msgstr "L'anno finale sarà l'ultimo anno del menu a tendina anno e ogni anno sarà visualizzato dall'inizio alla fine."
+
+#: admin/includes/elements/date.php:140
+msgid "End year"
+msgstr "Fine anno"
+
+#: admin/includes/elements/date.php:149
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has changed anything"
+msgstr ""
+"Il valore predefinito è il valore che l'elemento è dato prima\n"
+"                                     l'utente non ha cambiato nulla"
+
+#: admin/includes/elements/date.php:190 admin/includes/elements/time.php:166
+msgid "Updates the default value options with your changes to other settings"
+msgstr "Aggiorna il valore delle opzioni di default con le modifiche apportate alle altre impostazioni"
+
+#: admin/includes/elements/date.php:190 admin/includes/elements/time.php:166
+msgid "Sync with changes"
+msgstr "Sincronizzazione con le modifiche"
+
+#: admin/includes/elements/date.php:195
+msgid "Show JavaScript datepicker"
+msgstr "Mostra il selettore data JavaScript"
+
+#: admin/includes/elements/date.php:198
+msgid ""
+"If checked, the user can choose the date using the jQuery UI datepicker. To customize\n"
+"                                    the calendar theme and localization, go to the form style settings at Settings &rarr; Style."
+msgstr ""
+"Se selezionata, l'utente può scegliere la data utilizzando il selettore della data jQuery UI. Per personalizzare\n"
+"                                     il tema del calendario e la localizzazione, vai alle impostazioni di stile del form in Impostazioni &rarr; Stile."
+
+#: admin/includes/elements/date.php:203
+msgid "Show months as numbers"
+msgstr "Mostra i mesi come numeri"
+
+#: admin/includes/elements/date.php:206
+msgid "Displays the months as numbers instead of text."
+msgstr "Consente di visualizzare i mesi come numeri anziché come testo."
+
+#: admin/includes/elements/date.php:210
+msgid "Field order"
+msgstr "Campo ordine"
+
+#: admin/includes/elements/date.php:213
+msgid "Day / Month (European)"
+msgstr "Giorno / Mese (europeo)"
+
+#: admin/includes/elements/date.php:214
+msgid "Month / Day (US)"
+msgstr "Mese / Giorno (US)"
+
+#: admin/includes/elements/date.php:216
+msgid "Change the ordering of the Day and Month fields."
+msgstr "Modificare l'ordine dei campi Giorno e Mese."
+
+#: admin/includes/elements/date.php:222
+msgid "Error message if invalid date"
+msgstr "Messaggio di errore se la data non è valida"
+
+#: admin/includes/elements/date.php:225
+msgid ""
+"Translate or override the error message shown if the date is not valid. The\n"
+"                                default is \"%s\"."
+msgstr ""
+"Tradurre o ignorare il messaggio di errore visualizzato se la data non è valida. Il\n"
+"                                 predefinito è \"%s\"."
+
+#: admin/includes/elements/date.php:234
+msgid "Date format"
+msgstr "Formato data"
+
+#: admin/includes/elements/date.php:241
+msgid "The format of the date when displayed in the notification email and when viewing entries"
+msgstr "Il formato della data visualizzata nella e-mail di notifica e quando visualizzazi le voci"
+
+#: admin/includes/elements/date.php:245 admin/includes/elements/time.php:212
+msgid "Translations"
+msgstr "Traduzioni"
+
+#: admin/admin.php:429 admin/includes/elements/date.php:250
+msgid "Day"
+msgstr "Giorno"
+
+#: admin/admin.php:430 admin/includes/elements/date.php:254
+msgid "Month"
+msgstr "Mese"
+
+#: admin/admin.php:431 admin/includes/elements/date.php:258
+msgid "Year"
+msgstr "Anno"
+
+#: admin/includes/elements/captcha.php:6
+msgid "Type the characters"
+msgstr "Digita i caratteri"
+
+#: admin/includes/elements/captcha.php:67
+msgid "Number of characters"
+msgstr "Numero di caratteri"
+
+#: admin/includes/elements/captcha.php:71
+msgid "Width (pixels)"
+msgstr "Larghezza (in pixel)"
+
+#: admin/includes/elements/captcha.php:75
+msgid "Height (pixels)"
+msgstr "Altezza (in pixel)"
+
+#: admin/includes/elements/captcha.php:79
+#: admin/includes/elements/groupstart.php:150
+msgid "Background color"
+msgstr "Colore di sfondo"
+
+#: admin/includes/elements/captcha.php:85
+msgid "Text color"
+msgstr "Colore del testo"
+
+#: admin/includes/elements/captcha.php:89
+msgid "Font"
+msgstr "Font"
+
+#: admin/includes/elements/captcha.php:110
+#: admin/includes/elements/captcha.php:119
+msgid "The font size for each character will be randomly chosen between the minimum and maximum."
+msgstr "La dimensione del font per ogni carattere saranno scelti a caso tra il minimo e il massimo."
+
+#: admin/includes/elements/captcha.php:112
+msgid "Minimum font size"
+msgstr "Dimensione minima del carattere"
+
+#: admin/includes/elements/captcha.php:121
+msgid "Maximum font size"
+msgstr "Dimensione massima del carattere"
+
+#: admin/includes/elements/captcha.php:127
+#: admin/includes/elements/captcha.php:135
+msgid "The angle for each character will be randomly chosen between the minimum and maximum."
+msgstr "L'angolo per ciascun carattere sarà scelto a caso tra il minimo e il massimo."
+
+#: admin/includes/elements/captcha.php:129
+msgid "Minimum letter rotation (degrees)"
+msgstr "Rotazione minima della lettera (gradi)"
+
+#: admin/includes/elements/captcha.php:137
+msgid "Maximum letter rotation (degrees)"
+msgstr "Rotazione massima della lettera (gradi)"
+
+#: admin/includes/elements/captcha.php:183
+msgid "Error message if invalid"
+msgstr "Messaggio di errore se non valido"
+
+#: admin/includes/elements/captcha.php:186
+msgid ""
+"Translate or override the error message shown under the field\n"
+"                                when the given solution does not match. The default is \"%s\"."
+msgstr ""
+"Tradurre o ignorare il messaggio di errore visualizzato sotto il campo\n"
+"                                 quando la soluzione proposta non corrisponde. Il valore predefinito è \"%s\"."
+
+#: admin/includes/elements/settings/default-value.php:5
+msgid ""
+"The default value is the value that the element is given before\n"
+"            the user has entered anything"
+msgstr ""
+"Il valore predefinito è il valore che l'elemento è dato prima\n"
+"             l'utente non ha inserito nulla"
+
+#: admin/includes/elements/settings/description.php:2
+#: admin/includes/elements/settings/selectors/checkbox.php:6
+#: admin/includes/elements/settings/selectors/date.php:14
+#: admin/includes/elements/settings/selectors/groupstart.php:6
+#: admin/includes/elements/settings/selectors/recaptcha.php:8
+#: admin/includes/elements/settings/selectors/select.php:10
+#: admin/includes/elements/settings/selectors/text.php:10
+#: admin/includes/elements/settings/selectors/time.php:14
+#: admin/includes/elements/settings/styles.php:50
+#: admin/includes/form-builder.php:260
+msgid "Description"
+msgstr "Descrizione"
+
+#: admin/includes/elements/settings/save-to-database.php:8
+msgid "If checked, the submitted element data will be saved to the database and shown when viewing an entry"
+msgstr "Se selezionato, i dati degli elementi presentati verranno salvati nel database e mostrati durante la visualizzazione di una voce"
+
+#: admin/includes/elements/settings/save-to-database.php:10
+msgid "Save value to the database"
+msgstr "Memorizza il valore nel database"
+
+#: admin/includes/elements/settings/selectors.php:4
+msgid "You can use these selectors in your CSS stylesheet to style this element individually."
+msgstr "È possibile utilizzare questi selettori nel foglio di stile CSS per questo elemento singolarmente."
+
+#: admin/includes/elements/settings/selectors.php:6
+msgid "CSS selectors"
+msgstr "Selettori CSS"
+
+#: admin/includes/elements/settings/selectors.php:44
+msgid "Please save the form to see the CSS selectors."
+msgstr "Si prega di salvare il modulo per vedere i selettori CSS."
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:6
+msgid "Insert variable..."
+msgstr "Inserisci variabile ..."
+
+#: admin/admin.php:413
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:7
+msgid "User IP address"
+msgstr "Indirizzo IP utente"
+
+#: admin/admin.php:415
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:9
+msgid "Form post/page ID"
+msgstr "Post form/pagina ID"
+
+#: admin/admin.php:416
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:10
+msgid "Form post/page title"
+msgstr "Post form/titolo pagina"
+
+#: admin/admin.php:419
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:12
+msgid "User display name"
+msgstr "Visualizza il nome utente"
+
+#: admin/admin.php:420
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:13
+msgid "User email"
+msgstr "E-mail utente"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:14
+msgid "User login"
+msgstr "Login utente"
+
+#: admin/admin.php:423
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:16
+msgid "Date (select a format)"
+msgstr "Data (seleziona un formato)"
+
+#: admin/admin.php:424
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:21
+msgid "Time (select a format)"
+msgstr "Tempo (selezionare un formato)"
+
+#: admin/includes/elements/settings/required-message.php:7
+msgid "Error message if required"
+msgstr "Messaggio di errore se necessario"
+
+#: admin/includes/elements/settings/required-message.php:10
+msgid ""
+"Translate or override the error message shown under the field\n"
+"        when the element is required. The default is \"%s\"."
+msgstr ""
+"Traduci o ignora il messaggio di errore visualizzato sotto il campo\n"
+"         quando l'elemento è richiesto. Il valore predefinito è \"%s\"."
+
+#: admin/includes/elements/settings/display-options.php:8
+msgid ""
+"You can have your options all on the same line or have one option\n"
+"            per line using this setting."
+msgstr ""
+"Si possono avere tutte le opzioni sulla stessa riga o avere una opzione\n"
+"             per riga usando questa impostazione."
+
+#: admin/includes/elements/settings/display-options.php:11
+msgid "Options layout"
+msgstr "Layout opzioni"
+
+#: admin/includes/elements/settings/display-options.php:15
+msgid "One option per line"
+msgstr "Un' opzione per riga"
+
+#: admin/includes/elements/settings/display-options.php:16
+msgid "Inline"
+msgstr "In linea (inline)"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:1
+#: admin/includes/elements/settings/selectors/date.php:1
+#: admin/includes/elements/settings/selectors/recaptcha.php:1
+#: admin/includes/elements/settings/selectors/select.php:1
+#: admin/includes/elements/settings/selectors/text.php:1
+#: admin/includes/elements/settings/selectors/time.php:1
+msgid "You can use the CSS selectors below in your stylesheet to style this element individually."
+msgstr "È possibile utilizzare i selettori CSS di seguito nel foglio di stile per stile questo singolo elemento"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:2
+#: admin/includes/elements/settings/selectors/date.php:2
+#: admin/includes/elements/settings/selectors/recaptcha.php:2
+#: admin/includes/elements/settings/selectors/select.php:2
+#: admin/includes/elements/settings/selectors/text.php:2
+#: admin/includes/elements/settings/selectors/time.php:2
+#: admin/includes/elements/settings/styles.php:29
+msgid "Outer wrapper"
+msgstr "Involucro esterno"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:8
+#: admin/includes/elements/settings/selectors/date.php:6
+#: admin/includes/elements/settings/selectors/recaptcha.php:6
+#: admin/includes/elements/settings/selectors/select.php:6
+#: admin/includes/elements/settings/selectors/text.php:6
+#: admin/includes/elements/settings/selectors/time.php:6
+#: admin/includes/elements/settings/styles.php:35
+msgid "Inner wrapper"
+msgstr "Involucro interno"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:10
+msgid "Option list"
+msgstr "Opzione lista"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:12
+msgid "Option list item"
+msgstr "Opzione voce elenco"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:14
+msgid "Option input"
+msgstr "Opzione di input"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:16
+#: admin/includes/elements/settings/styles.php:59
+msgid "Option label"
+msgstr "Opzione etichetta"
+
+#: admin/includes/elements/settings/selectors/date.php:8
+msgid "Day field"
+msgstr "Campo giorno"
+
+#: admin/includes/elements/settings/selectors/date.php:10
+msgid "Month field"
+msgstr "Campo mese"
+
+#: admin/includes/elements/settings/selectors/date.php:12
+msgid "Year field"
+msgstr "Campo anno"
+
+#: admin/includes/elements/settings/selectors/select.php:8
+msgid "Dropdown field"
+msgstr "Menu a discesa"
+
+#: admin/includes/elements/settings/selectors/text.php:8
+msgid "Input field"
+msgstr "Campo input"
+
+#: admin/includes/elements/settings/selectors/time.php:8
+msgid "Hour field"
+msgstr "Campo dell'ora"
+
+#: admin/includes/elements/settings/selectors/time.php:10
+msgid "Minute field"
+msgstr "Campo piccolissimo"
+
+#: admin/includes/elements/settings/selectors/time.php:12
+msgid "am/pm field"
+msgstr "Campo am/pm"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:1
+msgid "You can use the CSS selectors below in your stylesheet to style this group individually."
+msgstr "È possibile utilizzare i selettori CSS di seguito nel foglio di stile di questo singolo gruppo"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:2
+#: admin/includes/elements/settings/styles.php:62
+msgid "Group wrapper"
+msgstr "Copertina del gruppo"
+
+#: admin/includes/elements/groupstart.php:57
+#: admin/includes/elements/settings/selectors/groupstart.php:4
+#: admin/includes/form-builder.php:250
+msgid "Title"
+msgstr "Titolo"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:8
+#: admin/includes/elements/settings/styles.php:68
+msgid "Group elements wrapper"
+msgstr "Copertina del gruppo di elementi"
+
+#: admin/includes/elements/settings/options-multiple.php:8
+#: admin/includes/elements/settings/options.php:8
+msgid "These are the choices that the user will be able to choose from."
+msgstr "Queste sono le scelte che l'utente potrà scegliere."
+
+#: admin/includes/elements/settings/options-multiple.php:10
+#: admin/includes/elements/settings/options.php:10
+msgid "The %sCustomize values%s setting allows you to have a different value being submitted, than the value that is displayed to the user."
+msgstr "L'impostazione %sPersonalizza impostazioni%s ti permette di avere un valore diverso da essere presentato, rispetto al valore che viene visualizzato per l'utente."
+
+#: admin/includes/elements/settings/options-multiple.php:12
+#: admin/includes/elements/settings/options.php:12
+msgid "Options"
+msgstr "Opzioni"
+
+#: admin/includes/elements/settings/options-multiple.php:17
+#: admin/includes/elements/settings/options.php:18
+#: admin/includes/elements/settings/validators/identical.php:20
+#: admin/includes/form-builder.php:1373
+msgid "Value"
+msgstr "Valore"
+
+#: admin/includes/elements/settings/options-multiple.php:30
+#: admin/includes/elements/settings/options.php:31
+msgid "Customize values"
+msgstr "Personalizza i valori"
+
+#: admin/includes/elements/settings/styles.php:9
+msgid ""
+"Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"            a semi-colon. %sClick here%s for an example."
+msgstr ""
+"Dopo aver aggiunto uno stile, inserisci gli stili CSS, uno per riga, con ogni linea che termina con\n"
+"             un punto e virgola. %SClicca qui%s per un esempio."
+
+#: admin/includes/elements/settings/styles.php:12
+msgid "CSS styles"
+msgstr "Stili CSS"
+
+#: admin/includes/elements/settings/styles.php:22
+msgid "No styles."
+msgstr "Nessun stile."
+
+#: admin/includes/elements/settings/styles.php:26
+#: admin/includes/form-builder.php:882
+msgid "Add a style"
+msgstr "Aggiungi uno stile"
+
+#: admin/includes/elements/settings/styles.php:38
+msgid "Text input"
+msgstr "Input testo"
+
+#: admin/includes/elements/settings/styles.php:41
+msgid "Textarea input"
+msgstr "Input area di testo"
+
+#: admin/admin.php:928 admin/includes/elements/settings/styles.php:44
+msgid "Dropdown menu"
+msgstr "menu a tendina"
+
+#: admin/includes/elements/settings/styles.php:47
+msgid "Group description"
+msgstr "Descrizione gruppo"
+
+#: admin/includes/elements/settings/styles.php:53
+msgid "The wrapper around all of the options"
+msgstr "La cornice per tutte le opzioni"
+
+#: admin/includes/elements/settings/styles.php:53
+#: admin/includes/form-builder.php:898
+msgid "Options outer wrapper"
+msgstr "Opzioni cornice esterna"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "The wrapper around each option"
+msgstr "Le opzioni per ogni cornice"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "Option wrapper"
+msgstr "Opzione cornice"
+
+#: admin/includes/elements/settings/styles.php:59
+msgid "The label of each option"
+msgstr "L'etichetta di ciascuna opzione"
+
+#: admin/includes/elements/settings/styles.php:65
+msgid "Group title"
+msgstr "Titolo del gruppo"
+
+#: admin/admin.php:955 admin/admin.php:1055
+#: admin/includes/elements/settings/styles.php:71
+msgid "Date day dropdown"
+msgstr "Data giorno menu a tendina"
+
+#: admin/admin.php:958 admin/admin.php:1058
+#: admin/includes/elements/settings/styles.php:74
+msgid "Date month dropdown"
+msgstr "Data mese menu a tendina"
+
+#: admin/admin.php:961 admin/admin.php:1061
+#: admin/includes/elements/settings/styles.php:77
+msgid "Date year dropdown"
+msgstr "Data anno menu a tendina"
+
+#: admin/admin.php:964 admin/admin.php:1064
+#: admin/includes/elements/settings/styles.php:80
+msgid "Time hour dropdown"
+msgstr "Tempo ora menu a tendina"
+
+#: admin/admin.php:967 admin/admin.php:1067
+#: admin/includes/elements/settings/styles.php:83
+msgid "Time minute dropdown"
+msgstr "Tempo minuto menu a tendina"
+
+#: admin/admin.php:970 admin/admin.php:1070
+#: admin/includes/elements/settings/styles.php:86
+msgid "Time am/pm dropdown"
+msgstr "Tempo am/pm menu a tendina"
+
+#: admin/includes/elements/settings/filters.php:9
+msgid "Filters allow you to strip various characters from the submitted form data"
+msgstr "I filtri consentono di eliminare i caratteri diversi dai dati del modulo presentati"
+
+#: admin/includes/elements/settings/filters.php:11
+msgid "Filters"
+msgstr "Filtri"
+
+#: admin/includes/elements/settings/filters.php:42
+msgid "No filters."
+msgstr "Nessun filtro"
+
+#: admin/includes/elements/settings/filters.php:46
+msgid "Add a filter"
+msgstr "Aggiungi un filtro"
+
+#: admin/includes/elements/settings/filters.php:49
+msgid "Removes any non-alphabet characters"
+msgstr "Rimuove gli eventuali caratteri non alfabetici"
+
+#: admin/includes/elements/settings/filters.php:49
+#: admin/includes/elements/settings/validators.php:58
+msgid "Alpha"
+msgstr "Alpha"
+
+#: admin/includes/elements/settings/filters.php:52
+msgid "Removes any non-alphabet characters and non-digits"
+msgstr "Rimuove gli eventuali caratteri non alfabetici e non numerici"
+
+#: admin/includes/elements/settings/filters.php:52
+#: admin/includes/elements/settings/validators.php:61
+msgid "Alpha Numeric"
+msgstr "Alpha Numerico"
+
+#: admin/includes/elements/settings/filters.php:55
+msgid "Removes any non-digits"
+msgstr "Rimuove gli eventuali caratteri non numerici"
+
+#: admin/includes/elements/settings/filters.php:55
+#: admin/includes/elements/settings/validators.php:64
+msgid "Digits"
+msgstr "Numeri"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Removes any HTML tags"
+msgstr "Rimuove qualsiasi tag HTML"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Strip Tags"
+msgstr "Togli i tag"
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Removes white space from the start and end"
+msgstr "Rimuovere lo spazio bianco dall' inizio alla fine"
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Trim"
+msgstr "Taglia"
+
+#: admin/includes/elements/settings/filters.php:64
+msgid "Removes characters matching the given regular expression"
+msgstr "Rimuovi i caratteri che corrispondono all'espressione regolare specificata"
+
+#: admin/includes/elements/settings/filters.php:64
+#: admin/includes/elements/settings/validators.php:82
+msgid "Regex"
+msgstr "Espressione regolare"
+
+#: admin/admin.php:440 admin/includes/elements/settings/options-bulk.php:1
+msgid "Add bulk options"
+msgstr "Aggiungi la maggior parte delle opzioni"
+
+#: admin/includes/elements/settings/options-bulk.php:3
+msgid "Click a category on the left hand side to insert predefined options. You can edit the options on the right hand side or enter your own options, one per line."
+msgstr "Fare clic su una categoria a sinistra per inserire le opzioni predefinite. È possibile modificare le opzioni sul lato destro o inserire le proprie opzioni, una per riga."
+
+#: admin/includes/elements/settings/options-bulk.php:10
+msgid "Existing Options"
+msgstr "Opzioni esistenti"
+
+#: admin/includes/elements/settings/options-bulk.php:21
+msgid "Overwrite existing options"
+msgstr "Sovrascrivi opzioni esistenti"
+
+#: admin/includes/elements/settings/options-bulk.php:23
+msgid "Removes any existing options before adding"
+msgstr "Rimuovi le opzioni esistenti prima di aggiungere"
+
+#: admin/includes/elements/settings/options-bulk.php:28
+msgid "Add options"
+msgstr "Aggiungi opzioni"
+
+#: admin/includes/elements/settings/options-bulk.php:29
+msgid "Cancel"
+msgstr "Cancella"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+msgid "Hide validator settings"
+msgstr "Nascondi impostazioni di convalida"
+
+#: admin/admin.php:446 admin/includes/elements/_actions.php:2
+#: admin/includes/elements/_save.php:8
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+#: admin/includes/elements/settings/global-style.php:3
+#: admin/includes/elements/settings/style.php:3
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+msgid "Hide"
+msgstr "Nascondi"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+msgid "Delete this validator"
+msgstr "Elimina questa convalida"
+
+#: admin/includes/elements/settings/validators/length.php:7
+msgctxt "the name of the length validator which validates that the value is of a certain length"
+msgid "Length"
+msgstr "Lunghezza"
+
+#: admin/includes/elements/settings/validators/length.php:17
+msgid "The length of the submitted value must be greater than or equal to the minimum, if not the error message shown below will be displayed to the user"
+msgstr "La lunghezza del valore presentato deve essere maggiore o uguale al minimo, altrimenti verrà visualizzato all'utente il messaggio di errore mostrato di seguito"
+
+#: admin/includes/elements/settings/validators/length.php:20
+msgid "Minimum length"
+msgstr "Lunghezza minima"
+
+#: admin/includes/elements/settings/validators/length.php:29
+msgid "The length of the submitted value must be less than or equal to the maximum, if not the error message shown below will be displayed to the user"
+msgstr "La lunghezza del valore presentato deve essere minore o uguale al valore massimo, altrimenti verrà visualizzato all'utente il messaggio di errore mostrato di seguito "
+
+#: admin/includes/elements/settings/validators/length.php:32
+msgid "Maximum length"
+msgstr "Lunghezza massima"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:40
+#: admin/includes/elements/settings/validators/alpha.php:40
+#: admin/includes/elements/settings/validators/digits.php:40
+#: admin/includes/elements/settings/validators/greater-than.php:39
+#: admin/includes/elements/settings/validators/identical.php:40
+#: admin/includes/elements/settings/validators/length.php:52
+#: admin/includes/elements/settings/validators/length.php:67
+#: admin/includes/elements/settings/validators/less-than.php:40
+#: admin/includes/elements/settings/validators/regex.php:40
+msgid "the submitted value"
+msgstr "il valore inviato"
+
+#: admin/includes/elements/settings/validators/length.php:53
+msgid "the minumum allowed length"
+msgstr "la lunghezza minima consentita"
+
+#: admin/includes/elements/settings/validators/length.php:54
+#: admin/includes/elements/settings/validators/length.php:69
+msgid "the length of the submitted value"
+msgstr "la lunghezza del valore presentato"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:41
+#: admin/includes/elements/settings/validators/alpha.php:41
+#: admin/includes/elements/settings/validators/digits.php:41
+#: admin/includes/elements/settings/validators/greater-than.php:41
+#: admin/includes/elements/settings/validators/identical.php:42
+#: admin/includes/elements/settings/validators/length.php:55
+#: admin/includes/elements/settings/validators/length.php:70
+#: admin/includes/elements/settings/validators/less-than.php:42
+#: admin/includes/elements/settings/validators/regex.php:41
+msgid "You can enter the placeholder code in your custom message to display their values."
+msgstr "È possibile immettere il codice segnaposto nel tuo messaggio personalizzato per visualizzare i loro valori."
+
+#: admin/includes/elements/settings/validators/length.php:68
+msgid "the maximum allowed length"
+msgstr "la lunghezza massima consentita"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:7
+msgctxt "the name of the alphanumeric validator which validates that the value contains only alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "Alpha Numerico"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:17
+#: admin/includes/elements/settings/validators/alpha.php:17
+#: admin/includes/elements/settings/validators/digits.php:17
+msgid "If checked, any spaces or tabs are allowed"
+msgstr "Se selezionata, sono consentiti spazi o tabulazioni"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:19
+#: admin/includes/elements/settings/filters/alpha.php:19
+#: admin/includes/elements/settings/filters/digits.php:19
+#: admin/includes/elements/settings/validators/alpha-numeric.php:20
+#: admin/includes/elements/settings/validators/alpha.php:20
+#: admin/includes/elements/settings/validators/digits.php:20
+msgid "Allow whitespace"
+msgstr "Lascia lo spazio bianco"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:25
+#: admin/includes/elements/settings/validators/alpha.php:25
+#: admin/includes/elements/settings/validators/digits.php:25
+#: admin/includes/elements/settings/validators/email.php:10
+#: admin/includes/elements/settings/validators/greater-than.php:24
+#: admin/includes/elements/settings/validators/identical.php:25
+#: admin/includes/elements/settings/validators/less-than.php:25
+#: admin/includes/elements/settings/validators/regex.php:25
+msgid "Translate error message"
+msgstr "Traduci messaggio di errore"
+
+#: admin/includes/elements/settings/validators/alpha.php:7
+msgctxt "the name of the alpha validator which validates that the value contains only alphabet characters"
+msgid "Alpha"
+msgstr "Alpha"
+
+#: admin/includes/elements/settings/validators/digits.php:7
+msgctxt "the name of the digits validator which validates that the value contains only digits"
+msgid "Digits"
+msgstr "Cifre"
+
+#: admin/includes/elements/settings/validators/identical.php:7
+msgctxt "the name of the identical validator which validates that the value is identical to a value"
+msgid "Identical"
+msgstr "Identico"
+
+#: admin/includes/elements/settings/validators/identical.php:17
+msgid "The token that the submitted value must be equal to, if not the error message shown below will be displayed to the user"
+msgstr "Il segno di quel valore inviato deve essere uguale, altrimenti verrà visualizzato all'utente il messaggio di errore mostrato di seguito"
+
+#: admin/includes/elements/settings/validators/identical.php:41
+msgid "the token"
+msgstr "Il segno"
+
+#: admin/includes/elements/settings/validators/less-than.php:7
+msgctxt "the name of the less than validator which validates that the value is less than a number"
+msgid "Less Than"
+msgstr "Minore di"
+
+#: admin/includes/elements/settings/validators/less-than.php:17
+msgid "The submitted value must be numerically less than this value, or the error message shown below will be displayed to the user"
+msgstr "Il valore deve essere presentato numericamente inferiore a questo valore, o viene visualizzato per l'utente il messaggio di errore mostrato di seguito"
+
+#: admin/includes/elements/settings/validators/less-than.php:20
+msgid "Maximum"
+msgstr "Massimo"
+
+#: admin/includes/elements/settings/validators/less-than.php:41
+msgid "the maximum allowed value"
+msgstr "il valore massimo consentito"
+
+#: admin/includes/elements/settings/validators/email.php:7
+msgctxt "the name of the email address validator"
+msgid "Email Address"
+msgstr "Indirizzi Email"
+
+#: admin/includes/elements/settings/validators/regex.php:7
+msgctxt "the name of the regex validator which validates by regular expression"
+msgid "Regex"
+msgstr "Espressione regolare"
+
+#: admin/includes/elements/settings/validators/regex.php:17
+msgid "The submitted value must match this regular expression, or the error message shown below will be displayed to the user"
+msgstr "Il valore presentato deve corrispondere a questa espressione regolare, o  viene visualizzato per l'utente il messaggio di errore mostrato di seguito"
+
+#: admin/includes/elements/settings/filters/regex.php:19
+#: admin/includes/elements/settings/validators/regex.php:20
+msgid "Pattern"
+msgstr "Modello"
+
+#: admin/includes/elements/settings/validators/greater-than.php:7
+msgctxt "the name of the greater than validator which validates that the value is greater than a number"
+msgid "Greater Than"
+msgstr "Maggiore di"
+
+#: admin/includes/elements/settings/validators/greater-than.php:17
+msgid "The submitted value must be numerically greater than the minimum, if not the error message shown below will be displayed to the user"
+msgstr "Il valore deve essere presentato numericamente superiore al minimo, altrimenti viene visualizzato all'utente il messaggio di errore mostrato di seguito"
+
+#: admin/includes/elements/settings/validators/greater-than.php:20
+msgid "Minimum"
+msgstr "Minimo"
+
+#: admin/includes/elements/settings/validators/greater-than.php:40
+msgid "the minimum allowed value"
+msgstr "il valore minimo consentito"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+msgid "Hide filter settings"
+msgstr "Nascondi le impostazioni filtro"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+msgid "Delete this filter"
+msgstr "Cancella questo filtro"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:7
+msgctxt "the name of alphanumeric filter which filters out non-alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "Alpha Numerico"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:16
+#: admin/includes/elements/settings/filters/alpha.php:16
+#: admin/includes/elements/settings/filters/digits.php:16
+msgid "If checked, any spaces or tabs will not be stripped"
+msgstr "Se selezionata, eventuali spazi o tabulazioni non saranno rimossi"
+
+#: admin/includes/elements/settings/filters/trim.php:5
+msgctxt "the name of trim filter which filters out white space from the start and end"
+msgid "Trim"
+msgstr "Taglia"
+
+#: admin/includes/elements/settings/filters/alpha.php:7
+msgctxt "the name of alphabet filter which filters out non-alphabet characters"
+msgid "Alpha"
+msgstr "Alpha"
+
+#: admin/includes/elements/settings/filters/digits.php:7
+msgctxt "the name of digits filter which filters out non-digit characters"
+msgid "Digits"
+msgstr "Numeri"
+
+#: admin/includes/elements/settings/filters/regex.php:7
+msgctxt "the name of regex filter which filters out characters by regular expression"
+msgid "Regex"
+msgstr "Espressione regolare"
+
+#: admin/includes/elements/settings/filters/regex.php:16
+msgid "Any text matching this regular expression pattern will be stripped"
+msgstr "Qualsiasi testo corrispondente a questo modello di espressione regolare sarà rimossi"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:7
+msgctxt "the name of strip tags filter which filters out HTML tags"
+msgid "Strip Tags"
+msgstr "Rimuovi Tag"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:16
+msgid "Enter allowable tags, one after the other, for example:"
+msgstr "Inserisci i tag ammissibili, uno dopo l'altro, ad esempio:"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:20
+msgid "Allowable tags"
+msgstr "Tag ammissibili"
+
+#: admin/includes/elements/settings/hide-from-email.php:8
+msgid "If checked, the submitted element data will not be shown in the default notification email"
+msgstr "Se selezionato, i dati degli elementi presentati non verranno mostrati nel messaggio di notifica di default"
+
+#: admin/includes/elements/settings/hide-from-email.php:10
+msgid "Do not show in the email"
+msgstr "Non mostrare nell' e-mail"
+
+#: admin/includes/elements/settings/tooltip.php:8
+msgid ""
+"The tooltip text will appear next to your element in a tooltip when the user hovers\n"
+"            it with their mouse. You can customize the look of tooltips by going to %1$sSettings &rarr; Style &rarr; Tooltips%2$s"
+msgstr ""
+"Il testo tooltip apparirà accanto all'elemento in una descrizione comandi quando l'utente si posiziona\n"
+"             con il mouse. È possibile personalizzare l'aspetto delle descrizioni dei comandi andando %1$sImpostazioni &rarr; Stile &rarr; Tooltips%2$s"
+
+#: admin/includes/elements/settings/tooltip.php:11
+msgid "Tooltip text"
+msgstr "Testo tooltip"
+
+#: admin/includes/elements/settings/tooltip.php:16
+msgid ""
+"Note: For this element type the tooltip will only show if the tooltip type is set to\n"
+"%1$sHelp icon%2$s in the %1$sOptional%2$s settings tab, or in the global tooltip settings at %1$sSettings &rarr; Style &rarr; Tooltips%2$s."
+msgstr ""
+"Nota: Per questo tipo di elemento il tooltip verrà visualizzato solo se il tipo di suggerimento è impostato su\n"
+"%1$sHelp icona%2$s nella scheda Impostazioni %1$sOpzionale%2$s, o nelle impostazioni di descrizione comandi globali a %1$sImpostazioni &rarr; Stile &rarr; Tooltips%2$s."
+
+#: admin/includes/elements/settings/conditional-logic.php:7
+msgid "Enable conditional logic"
+msgstr "Abilita la logica condizionale"
+
+#: admin/includes/elements/settings/conditional-logic.php:14
+msgid "Enables you to create rules to show or hide this group depending on the values of other fields"
+msgstr "Consenti di creare regole per mostrare o nascondere questo gruppo a seconda dei valori di altri campi"
+
+#: admin/includes/elements/settings/conditional-logic.php:16
+msgid "Enables you to create rules to show or hide this field depending on the values of other fields"
+msgstr "Consenti di creare regole per mostrare o nascondere questo campo a seconda dei valori di altri campi"
+
+#: admin/includes/elements/settings/conditional-logic.php:29
+msgid "Logic rules"
+msgstr "Regole logiche"
+
+#: admin/includes/elements/settings/validators.php:9
+msgid "Validators checks whether the data entered by the user is valid"
+msgstr "I convalidatori verificano se i dati inseriti dall'utente sono validi"
+
+#: admin/includes/elements/settings/validators.php:11
+msgid "Validators"
+msgstr "Convalidatori"
+
+#: admin/includes/elements/settings/validators.php:51
+msgid "No validators."
+msgstr "Nessun convalidatore"
+
+#: admin/includes/elements/settings/validators.php:55
+msgid "Add a validator"
+msgstr "Aggiungi un convalidatore"
+
+#: admin/includes/elements/settings/validators.php:58
+msgid "Checks that the value contains only alphabet characters"
+msgstr "Verifica che il valore contenga solo caratteri alfabetici"
+
+#: admin/includes/elements/settings/validators.php:61
+msgid "Checks that the value contains only alphabet or digit characters"
+msgstr "Verifica che il valore alfabetico contenga solo caratteri o numeri"
+
+#: admin/includes/elements/settings/validators.php:64
+msgid "Checks that the value contains only digits"
+msgstr "Verifica che il valore contenga solo numeri"
+
+#: admin/includes/elements/settings/validators.php:67
+msgid "Checks that the value is a valid email address"
+msgstr "Verifica che il valore sia un indirizzo email valido"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Checks that the value is numerically greater than the given minimum"
+msgstr "Verifica che il valore sia numericamente superiore al minimo fissato"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Greater Than"
+msgstr "Maggiore di"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Checks that the value is identical to the given token"
+msgstr "Verifica che il valore sia identico al segno dato"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Identical"
+msgstr "Identico"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Checks that the value is numerically less than the given maximum"
+msgstr "Verifica che il valore sia numericamente inferiore a quella massima dato"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Less Than"
+msgstr "Minore di"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Checks that the length of the value is between the given maximum and minimum"
+msgstr "Verifica che la lunghezza del valore sia compreso tra il valore massimo e il valore minimo dato"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Length"
+msgstr "Lunghezza"
+
+#: admin/includes/elements/settings/validators.php:82
+msgid "Checks that the value matches the given regular expression"
+msgstr "Verifica che il valore corrisponda all'espressione regolare specificata"
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/style.php:4
+msgid "Edit CSS"
+msgstr "Modifica CSS"
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/global-style.php:12
+#: admin/includes/elements/settings/style.php:4
+#: admin/includes/elements/settings/style.php:12
+msgid "CSS"
+msgstr "CSS"
+
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+msgid "Delete this style"
+msgstr "Cancella questo stile"
+
+#: admin/includes/elements/settings/unique-id.php:5
+msgid "The unique identifier, you may need this for advanced functions."
+msgstr "L'identificatore univoco, questo può essere necessario per funzioni avanzate."
+
+#: admin/includes/elements/settings/unique-id.php:7
+msgid "Unique ID"
+msgstr "ID univoco"
+
+#: admin/includes/elements/settings/unique-id.php:12
+msgid "Please save the form to see the unique element ID."
+msgstr "Si prega di salvare il modulo per vedere l'ID univoco dell'elemento."
+
+#: admin/includes/elements/settings/tooltip-type.php:7
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings. If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"        the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr ""
+"Se impostato a %1$sEredita%2$s, l'impostazione verrà ereditata dalleimpostazioni globali\n"
+" del modulo. Se impostato a %1$sCampo%2$s, il tooltip mostrerà quando l'utente interagisce con\n"
+"         il campo. Se impostato a %1$sicona di aiuto%2$s, il tooltip viene visualizzato quando l'utente interagisce con l'icona di un aiuto."
+
+#: admin/includes/elements/settings/tooltip-type.php:10
+msgid "Tooltip trigger"
+msgstr "Attiva tooltip"
+
+#: admin/includes/elements/groupstart.php:111
+#: admin/includes/elements/settings/label-placement.php:15
+#: admin/includes/elements/settings/tooltip-type.php:15
+#: admin/includes/elements/settings/tooltip-type.php:32
+msgid "Inherit"
+msgstr "Eredita"
+
+#: admin/includes/elements/settings/tooltip-type.php:16
+#: admin/includes/form-builder.php:700
+msgid "Field"
+msgstr "Campo"
+
+#: admin/includes/elements/settings/tooltip-type.php:18
+#: admin/includes/form-builder.php:701
+msgid "Help icon"
+msgstr "Icona di aiuto"
+
+#: admin/includes/elements/settings/tooltip-type.php:21
+#: admin/includes/form-builder.php:703
+msgid "Choose what the user will be interacting with to show the tooltip."
+msgstr "Scegli ciò che dovrà interagire con l'utente per visualizzare il tooltip."
+
+#: admin/includes/elements/settings/tooltip-type.php:26
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings."
+msgstr ""
+"Se impostato a %1$sEredita%2$s, l'impostazione verrà ereditata dalleimpostazioni globali\n"
+" del modulo."
+
+#: admin/includes/elements/settings/tooltip-type.php:28
+msgid "Tooltip event"
+msgstr "Evento tooltip"
+
+#: admin/includes/elements/settings/tooltip-type.php:33
+#: admin/includes/form-builder.php:713
+msgid "Hover"
+msgstr "Passa (hover)"
+
+#: admin/includes/elements/settings/tooltip-type.php:34
+#: admin/includes/form-builder.php:714
+msgid "Click"
+msgstr "Click"
+
+#: admin/includes/elements/settings/tooltip-type.php:36
+#: admin/includes/form-builder.php:716
+msgid "Choose the event that will trigger the tooltip to show."
+msgstr "Scegli l'evento che attiva il tooltip da mostrare."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:8
+msgid ""
+"Allows the default value of the field to be set dynamically via a\n"
+"            URL parameter, shortcode attribute or filter hook."
+msgstr ""
+"Consente di impostare dinamicamente il valore di default del campo tramite un\n"
+"             parametro URL, attribuito dal codice funzione o del filtro collegato."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:11
+msgid "Dynamic default value"
+msgstr "Valore di default dinamico"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:19
+msgid ""
+"This is the name of the parameter that you will use to set the default.\n"
+"            For example, in the URL you can set the value using %s?parameter_name=my_value%s."
+msgstr ""
+"Questo è il nome del parametro che si intende utilizzare per impostare il valore predefinito.\n"
+"             Ad esempio, nell'URL è possibile impostare il valore utilizzando %s?parameter_name=my_value%s."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:22
+msgid "Parameter name"
+msgstr "Parametro nome"
+
+#: admin/includes/elements/settings/required.php:4
+msgid "If checked, the user must fill out this field"
+msgstr "Se selezionata, l'utente deve compilare questo campo"
+
+#: admin/includes/elements/settings/required.php:6
+msgid "Required"
+msgstr "Richiesto"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:8
+msgid "Prevents the form being submitted if a form has previously been submitted with the same value"
+msgstr "Impedisci al form di essere inviato, se un form è già stata inviato con lo stesso valore"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:10
+msgid "Prevent duplicates"
+msgstr "Evita i duplicati"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:19
+msgid "Error message if duplicate found"
+msgstr "Messaggio di errore se viene trovato un duplicato"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:25
+msgid ""
+"Translate or override the error message shown under a field when a\n"
+"            duplicate value is found. The default is \"%s\"."
+msgstr ""
+"Traduci o ignora il messaggio di errore visualizzato in un campo quando un\n"
+"             è stato trovato un valore duplicato. Il valore predefinito è \"%s\"."
+
+#: admin/includes/elements/settings/style.php:3
+msgid "Hide CSS settings"
+msgstr "Nascondi impostazioni CSS"
+
+#: admin/includes/elements/settings/options.php:16
+msgid "Clear default option"
+msgstr "Cancella l'opzione predefinita"
+
+#: admin/includes/elements/settings/label-placement.php:8
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"            form settings or parent group."
+msgstr ""
+"\"Eredita\" significa che il posizionamento delle etichette sarà ereditato dalle impostazioni globali\n"
+"             del modulo o gruppo di appartenenza."
+
+#: admin/includes/elements/groupstart.php:107
+#: admin/includes/elements/settings/label-placement.php:11
+#: admin/includes/form-builder.php:649
+msgid "Label placement"
+msgstr "Inserisci etichetta"
+
+#: admin/includes/elements/groupstart.php:112
+#: admin/includes/elements/settings/label-placement.php:16
+#: admin/includes/form-builder.php:652
+msgid "Above"
+msgstr "Sopra"
+
+#: admin/includes/elements/groupstart.php:113
+#: admin/includes/elements/settings/label-placement.php:17
+#: admin/includes/form-builder.php:653
+msgid "Left"
+msgstr "Sinistra"
+
+#: admin/includes/elements/groupstart.php:114
+#: admin/includes/elements/settings/label-placement.php:18
+#: admin/includes/form-builder.php:654
+msgid "Inside"
+msgstr "Interno"
+
+#: admin/includes/elements/settings/label-placement.php:20
+msgid "Choose where to display the label relative to the input. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "Scegli dove visualizzare l'etichetta relativa all'input. Modifiche a questa impostazione saranno visibili solo durante la visualizzazione o l'anteprima del modulo."
+
+#: admin/includes/elements/groupstart.php:122
+#: admin/includes/elements/settings/label-placement.php:26
+#: admin/includes/form-builder.php:662
+msgid "Specify how wide the labels should be, this only applies when the label placement is left"
+msgstr "Specifica la larghezza, le etichette ci devono essere, questo si applica solo quando il posizionamento delle etichette viene lasciato"
+
+#: admin/includes/elements/groupstart.php:123
+#: admin/includes/elements/settings/label-placement.php:27
+#: admin/includes/form-builder.php:663
+msgid "Label width"
+msgstr "Larghezza etichetta"
+
+#: admin/includes/elements/groupstart.php:127
+#: admin/includes/elements/settings/label-placement.php:31
+msgid "The width of the element labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "La larghezza degli elementi delle etichette, qualsiasi larghezza valida CSS viene accettata, ad esempio %s200px%s"
+
+#: admin/includes/elements/settings/clear-default-value.php:6
+msgid "Clear default value on focus"
+msgstr "Valore di default trasparente in primo piano"
+
+#: admin/includes/elements/settings/clear-default-value.php:9
+msgid "If checked, the default value will be removed when the user clicks on the field."
+msgstr "Se selezionato, il valore predefinito sarà rimosso quando l'utente fa clic sul campo."
+
+#: admin/includes/elements/settings/clear-default-value.php:14
+msgid "Show default value on blur if empty"
+msgstr "Mostra il valore di default di sfocatura se vuoto"
+
+#: admin/includes/elements/settings/clear-default-value.php:17
+msgid ""
+"If checked, when the user clicks off the field and leaves it empty, the default\n"
+"         value will show again."
+msgstr ""
+"Se selezionata, quando l'utente fa clic fuori dal campo e lascia vuoto, il valore predefinito\n"
+"          viene visualizzato di nuovo il valore."
+
+#: admin/includes/elements/settings/admin-label.php:8
+msgid "The admin label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "L'etichetta di amministratore verrà mostrato in tutto il generatore del form, nella e-mail di notifica e durante la visualizzazione di voci del form presentato."
+
+#: admin/includes/elements/settings/admin-label.php:10
+msgid "Admin label"
+msgstr "Etichetta admin"
+
+#: admin/admin.php:3432 admin/includes/elements/groupend.php:5
+#: admin/includes/elements/groupstart.php:5
+msgid "New"
+msgstr "Nuovo"
+
+#: admin/includes/elements/groupend.php:12
+msgid "End of group: %s"
+msgstr "Fine del gruppo: %s"
+
+#: admin/includes/elements/_actions.php:2
+msgid "Hide settings - you will not lose unsaved data!"
+msgstr "Nascondi le impostazioni - non perdere i dati non salvati!"
+
+#: admin/includes/elements/_actions.php:4
+msgid "Delete this element"
+msgstr "Cancella questo elemento"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Click and drag to move this element"
+msgstr "Clicca e trascina per spostare questo elemento"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Move"
+msgstr "Sposta"
+
+#: admin/includes/elements/email.php:5 admin/includes/form-builder.php:1048
+#: admin/includes/form-builder.php:1126
+msgid "Email address"
+msgstr "Indirizzo e-mail"
+
+#: admin/includes/elements/recaptcha.php:16
+msgid "You must enter your reCAPTCHA API keys on the %sQuform settings page%s to use this element."
+msgstr "È necessario inserire le chiavi API reCAPTCHA sulle %simpostazioni della pagina Quform%s per utilizzare questo elemento."
+
+#: admin/includes/elements/recaptcha.php:41 admin/includes/form-builder.php:442
+#: admin/includes/form-builder.php:484 admin/includes/form-builder.php:519
+msgid "Theme"
+msgstr "Tema"
+
+#: admin/includes/elements/recaptcha.php:132
+msgid "Language"
+msgstr "Linguaggio"
+
+#: admin/admin.php:438 admin/includes/elements/time.php:23
+#: admin/includes/elements/time.php:228 includes/iPhorm/Element/Time.php:346
+msgctxt "time, morning"
+msgid "am"
+msgstr "Mattina"
+
+#: admin/admin.php:439 admin/includes/elements/time.php:24
+#: admin/includes/elements/time.php:232 includes/iPhorm/Element/Time.php:366
+msgctxt "time, evening"
+msgid "pm"
+msgstr "Pomeriggio"
+
+#: admin/includes/elements/time.php:97
+msgid "12/24 hour time"
+msgstr "12/24 ore"
+
+#: admin/includes/elements/time.php:100
+msgid "12 hour"
+msgstr "12 ore"
+
+#: admin/includes/elements/time.php:101
+msgid "24 hour"
+msgstr "24 ore"
+
+#: admin/includes/elements/time.php:172
+msgid "Determines how many minutes to show per hour. 1 will show all 60 minutes, 5 will show minutes at 5 minute intervals, 10 at 10 minute intervals and so on."
+msgstr "Determina il numero di minuti per mostrare l'ora. 1 mostra tutti i 60 minuti, 5 mostra minuti a intervalli di 5 minuti, 10 ogni 10 minuti e così via."
+
+#: admin/includes/elements/time.php:174
+msgid "Minute granularity"
+msgstr "Dettaglio minuto"
+
+#: admin/includes/elements/time.php:192
+msgid "Time format"
+msgstr "Formato ora"
+
+#: admin/includes/elements/time.php:199
+msgid "The format of the time when displayed in the notification email and when viewing entries"
+msgstr "Il formato dell'ora quando viene visualizzata nell'email di notifica e quando visualizza le voci"
+
+#: admin/includes/elements/groupstart.php:15
+msgid "Start of group: %s"
+msgstr "Avvia il gruppo: %s"
+
+#: admin/includes/elements/groupstart.php:37
+msgid "The group name is only shown in the form builder to help you identify groups."
+msgstr "Il nome del gruppo viene visualizzato solo nel generatore del form per aiutare a identificare i gruppi."
+
+#: admin/includes/elements/groupstart.php:47
+msgid "Shows the group name as a sub-heading in the default notification email"
+msgstr "Mostra il nome del gruppo come una sotto-rubrica delle e-mail di notifica di default"
+
+#: admin/includes/elements/groupstart.php:49
+msgid "Show name in email"
+msgstr "Mostra il nome nella email"
+
+#: admin/includes/elements/groupstart.php:55
+msgid "The title will appear at the top of your group"
+msgstr "Il titolo verrà visualizzato nella parte superiore del tuo gruppo"
+
+#: admin/includes/elements/groupstart.php:72
+msgid ""
+"The number of columns determines the how many elements should be display per row inside the group. After\n"
+"                                this number of elements, further elements will appear on the line below."
+msgstr ""
+"Il numero di colonne determina la quantità di elementi che devono essere visualizzati per riga all'interno del gruppo. Dopo\n"
+"                                 questo numero di elementi, ulteriori elementi appariranno sulla riga sottostante."
+
+#: admin/includes/elements/groupstart.php:75
+msgid "Number of columns"
+msgstr "Numero di colonne"
+
+#: admin/includes/elements/groupstart.php:88
+msgid ""
+"Choose how the columns are aligned. %1$sProportional%2$s - each column is evenly\n"
+"                                spaced. %1$sFloat left%2$s - the columns are compacted left."
+msgstr ""
+"Scegli come le colonne devono essere allineate. %1$sProportionale%2$s - ogni colonna è uguale\n"
+"                                 distanziati. % 1 $ sFloat sinistra% 2 $ s - le colonne vengono compattate a sinistra."
+
+#: admin/includes/elements/groupstart.php:91
+msgid "Column alignment"
+msgstr "Column alignment"
+
+#: admin/includes/elements/groupstart.php:94
+msgid "Proportional"
+msgstr "Proporzionale"
+
+#: admin/includes/elements/groupstart.php:95
+msgid "Float left"
+msgstr "Float a sinistra"
+
+#: admin/includes/elements/groupstart.php:103
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"                                form settings or if this group is inside another group then the setting will\n"
+"                                be inherited from the parent group."
+msgstr ""
+"\"Eredita\" significa che il posizionamento delle etichette sarà ereditato dal globale\n"
+"                                 impostazioni del modulo o se questo gruppo è all'interno di un altro gruppo, quindi l'impostazione sarà\n"
+"                                 essere ereditati dal gruppo di appartenenza."
+
+#: admin/includes/elements/groupstart.php:116
+msgid "Choose where to display the label relative to the input for the elements in this group. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "Scegli dove visualizzare l'etichetta relativa all'ingresso per gli elementi in questo gruppo. Modifiche a questa impostazione sarà visibile solo durante la visualizzazione o l'anteprima del modulo."
+
+#: admin/includes/elements/groupstart.php:133
+msgid "Group style"
+msgstr "Stile del gruppo"
+
+#: admin/includes/elements/groupstart.php:137
+#: admin/includes/form-builder.php:736
+msgid "Plain"
+msgstr "Semplice"
+
+#: admin/includes/elements/groupstart.php:138
+msgid "Bordered"
+msgstr "Delimitata"
+
+#: admin/includes/elements/groupstart.php:140
+msgid "Plain groups have no additional styling. Bordered groups have a border and padding."
+msgstr "Gruppi a tinta unita non hanno uno stile supplementare. Gruppi con bordo hanno un bordo e l'imbottitura (padding)."
+
+#: admin/includes/elements/groupstart.php:145
+msgid "Border color"
+msgstr "Colore del bordo"
+
+#: admin/includes/elements/_save.php:7 admin/includes/form-builder.php:142
+#: admin/includes/form-builder.php:1388
+msgid "Save"
+msgstr "Salva"
+
+#: admin/includes/elements/_save.php:9
+msgid "Save & Hide"
+msgstr "Salva & Nascondi"
+
+#: admin/includes/form-builder.php:11
+msgid "New form"
+msgstr "Nuovo form"
+
+#: admin/admin.php:242 admin/admin.php:243 admin/admin.php:3331
+#: admin/includes/form-builder.php:12
+msgid "Form Builder"
+msgstr "Crea Form"
+
+#: admin/includes/form-builder.php:17
+msgid "The WordPress uploads directory is not writable, it will not be possible to save files uploaded via your forms. %sPermanently hide this message%s"
+msgstr "La directory di upload WordPress non è scrivibile, non sarà possibile salvare i file caricati tramite i form. %sNascondere questo messaggio definitivamente%s"
+
+#: admin/includes/form-builder.php:22 admin/includes/help.php:108
+msgid "You are using an unlicensed version. Please %senter your license key%s or %spurchase a license key%s."
+msgstr "Si sta utilizzando una versione senza licenza. Si prega di %sinserire la chiave di licenza%s o %sacquistare una chiave di licenza%s."
+
+#: admin/includes/form-builder.php:45
+msgid "Add to website"
+msgstr "Aggiungi al sito"
+
+#: admin/includes/form-builder.php:46
+msgid "Reload"
+msgstr "Ricarica"
+
+#: admin/includes/form-builder.php:55
+msgid "You can now add the form to any post, page or widget."
+msgstr "È ora possibile aggiungere il form per ogni pagina del post, o widget."
+
+#: admin/includes/form-builder.php:57
+msgid "Add your form to a post or page"
+msgstr "Aggiungi il tuo form per un post o una pagina"
+
+#: admin/includes/form-builder.php:59
+msgid ""
+"Add or edit the page you want to show the form on. If you look above\n"
+"                    the visual editor you should see a Quform icon above it, as shown below."
+msgstr ""
+"Aggiungi o modifica la pagina dove si desidera visualizzare il modulo. Se si guarda sopra\n"
+"                     l'editore visuale si dovrebbe vedere l'icona di un Quform sopra di esso, come illustrato di seguito."
+
+#: admin/includes/form-builder.php:62
+msgid ""
+"Click the Quform icon and a popup should appear, select the form from\n"
+"                    the list and click the Insert form button. The shortcode for this form should now appear\n"
+"                    inside the page editor. Alternatively, you can copy and paste one of the shortcodes below into your\n"
+"                    post or page content."
+msgstr ""
+"Fare clic sull'icona Quform e una finestra dovrebbe apparire, selezionare il modulo dall'elenco\n"
+"                     e fare clic sul pulsante Inserisci modulo. Lo shortcode per questo form dovrebbe apparire\n"
+"                     all'interno del editor delle pagine. In alternativa, è possibile copiare e incollare uno dei codici brevi in basso\n"
+" nel tuo                     messaggio o contenuto della pagina."
+
+#: admin/includes/form-builder.php:66 admin/includes/form-builder.php:81
+msgid "Standard form"
+msgstr "Form standard"
+
+#: admin/includes/form-builder.php:68 admin/includes/form-builder.php:83
+msgid "Popup form"
+msgstr "Form popup"
+
+#: admin/admin.php:453 admin/admin.php:1259 admin/includes/form-builder.php:69
+#: admin/includes/form-builder.php:84
+msgid "Change this to the text or HTML that will trigger the popup"
+msgstr "Modifica questa opzione per il testo o l' HTML che attiverà il popup"
+
+#: admin/includes/form-builder.php:71
+msgid "Add your form as a widget"
+msgstr "Aggiungi il tuo form come un widget"
+
+#: admin/includes/form-builder.php:73
+msgid ""
+"To add the form as a widget into a widget enabled area, go to the Appearance &rarr; Widgets\n"
+"                    in the WordPress navigation. Find the widget with the title \"Quform\" (or \"Quform Popup\" for a popup form) and simply\n"
+"                    drag it to your widget enabled area. Select one of the forms from the dropdown menu\n"
+"                    and click Save."
+msgstr ""
+"Per aggiungere il form come un widget in una zona widget di permesso, vai in Aspetto &rarr; Widget\n"
+"                     nella barra di navigazione WordPress. Trova il widget con il titolo \"Quform\" (o \"Quform Popup\" per un form popup) e semplicemente\n"
+"                     trascinarlo sulla zona widget abilitata. Selezionare uno dei form dal menu a discesa\n"
+"                     e fare clic su Salva."
+
+#: admin/includes/form-builder.php:78
+msgid "Add your form to a theme PHP file"
+msgstr "Aggiungi il tuo form in un file di tema PHP"
+
+#: admin/includes/form-builder.php:80
+msgid "To add this form to one of your theme PHP files, use one of the PHP snippets below."
+msgstr "Per aggiungere questo form per uno dei tuoi file di tema PHP, utilizza uno dei frammenti di PHP sotto."
+
+#: admin/includes/form-builder.php:92
+msgid "Please enter a name for your new form"
+msgstr "Inserisci un nome per il nuovo form"
+
+#: admin/includes/form-builder.php:95
+msgid "OK"
+msgstr "OK"
+
+#: admin/includes/form-builder.php:97
+msgid "e.g. Contact form"
+msgstr "ad esempio modulo di contatto"
+
+#: admin/includes/form-builder.php:111
+msgid "Popular"
+msgstr "Popolare"
+
+#: admin/includes/form-builder.php:112
+msgid "More"
+msgstr "di più"
+
+#: admin/includes/form-builder.php:155
+msgid "Edit your form"
+msgstr "Modifica il tuo form"
+
+#: admin/includes/form-builder.php:156
+msgid "Global form settings"
+msgstr "Impostazioni globali del form"
+
+#: admin/includes/form-builder.php:163
+msgid "drop an element here"
+msgstr "rilascia un elemento qui"
+
+#: admin/includes/form-builder.php:164
+msgid "(or just click it)"
+msgstr "(o semplicemente clicca su di esso)"
+
+#: admin/includes/form-builder.php:226
+msgid "Common settings"
+msgstr "Impostazioni comuni"
+
+#: admin/includes/form-builder.php:227
+msgid "What the form will look like"
+msgstr "Che aspetto avrà il form"
+
+#: admin/includes/form-builder.php:228
+msgid "Where the data is sent and how it's displayed"
+msgstr "Dove vengono inviati i dati e in che modo sono visualizzati"
+
+#: admin/includes/form-builder.php:229
+msgid "Set up saving submitted form entries"
+msgstr "Imposta il salvataggio delle voci del form presentato"
+
+#: admin/includes/form-builder.php:229
+msgctxt "saved submitted form entries"
+msgid "Entries"
+msgstr "Voci"
+
+#: admin/includes/form-builder.php:230
+msgid "Save form data to a custom database"
+msgstr "Salva i dati del modulo su un database personalizzato"
+
+#: admin/includes/form-builder.php:235
+msgid "Form information"
+msgstr "Modulo informazioni"
+
+#: admin/includes/form-builder.php:239
+msgid "This is your form name within WordPress, it will not appear on your website"
+msgstr "Questo è il nome del tuo modulo all'interno di WordPress, non verrà visualizzato sul tuo sito web"
+
+#: admin/includes/form-builder.php:243
+msgid "Give the form a name"
+msgstr "Dai un nome al form"
+
+#: admin/includes/form-builder.php:249
+msgid "The heading that will show above the form on your website"
+msgstr "Il titolo che verrà visualizzato sopra il form sul tuo sito web"
+
+#: admin/includes/form-builder.php:253
+msgid "Title to display above the form"
+msgstr "Titolo da visualizzare sopra il form"
+
+#: admin/includes/form-builder.php:259
+msgid "The description that will show below the form title."
+msgstr "La descrizione che verrà visualizzata sotto il titolo del form."
+
+#: admin/includes/form-builder.php:263
+msgid "Description to display above the form"
+msgstr "La descrizione da visualizzare sopra il form"
+
+#: admin/includes/form-builder.php:271
+msgid "Inactive forms will not appear on your website"
+msgstr "I form inattivi non verranno visualizzati sul tuo sito web"
+
+#: admin/includes/form-builder.php:275
+msgid "Successful submit options"
+msgstr "Opzioni invio di successo"
+
+#: admin/includes/form-builder.php:279
+msgid "On successful submit"
+msgstr "Invio con successo"
+
+#: admin/includes/form-builder.php:282
+msgid "Display a message"
+msgstr "Visualizza un messaggio"
+
+#: admin/includes/form-builder.php:283
+msgid "Redirect to another page"
+msgstr "Reindirizza in un'altra pagina"
+
+#: admin/includes/form-builder.php:287
+msgid "Your message has been sent, thanks."
+msgstr "Il tuo messaggio è stato inviato, grazie."
+
+#: admin/includes/form-builder.php:289
+msgid "Message"
+msgstr "Messaggio"
+
+#: admin/includes/form-builder.php:291
+msgid "Add more data to your message by inserting a variable tag"
+msgstr "Aggiungi altri dati al messaggio inserendo un tag variabile"
+
+#: admin/includes/form-builder.php:293
+msgid "Message to display when the form is successfully submitted. You can enter HTML to format the message."
+msgstr "Messaggio da visualizzare quando il form è stato inviato correttamente. È possibile inserire un codice HTML per formattare il messaggio."
+
+#: admin/includes/form-builder.php:298
+msgid "Message position"
+msgstr "Posizione del messaggio"
+
+#: admin/includes/form-builder.php:301
+msgid "Above the form"
+msgstr "Sopra il form"
+
+#: admin/includes/form-builder.php:302
+msgid "Below the form"
+msgstr "Sotto il form"
+
+#: admin/includes/form-builder.php:308
+msgid "Message timeout"
+msgstr "Timeout messaggio"
+
+#: admin/includes/form-builder.php:311
+msgid "The success message will fade out and disappear after this number of seconds. Set to 0 to disable the timeout."
+msgstr "Il messaggio di conferma si dissolvera e scomparirà dopo questo numero di secondi. Imposta a 0 per disattivare il timeout."
+
+#: admin/includes/form-builder.php:317
+msgid "Redirect to"
+msgstr "Reindirizza a"
+
+#: admin/includes/form-builder.php:321
+msgid "Page"
+msgstr "Pagina"
+
+#: admin/includes/form-builder.php:322
+msgid "Post"
+msgstr "articolo (post)"
+
+#: admin/includes/form-builder.php:323
+msgid "URL"
+msgstr "URL"
+
+#: admin/includes/form-builder.php:338
+msgid "When the form is successfully submitted you can redirect the user to post, page or URL."
+msgstr "Quando il form è stato inviato correttamente è possibile reindirizzare l'utente al post, pagina o URL."
+
+#: admin/includes/form-builder.php:354
+msgid "More options"
+msgstr "Altre opzioni"
+
+#: admin/includes/form-builder.php:359
+msgid "What would you like your form submit button to say? E.g. Submit, Go, Get in touch ... etc"
+msgstr "Cosa ti piacerebbe indicare sul pulsante di invio del modulo? Ad es Invia, Vai, Mettiti in contatto ... ecc"
+
+#: admin/includes/form-builder.php:360
+msgid "Submit button text"
+msgstr "Testo Invio del pulsante"
+
+#: admin/includes/form-builder.php:363
+msgid "Override the default text of the submit button which is \"%s\""
+msgstr "Ignora il testo predefinito del pulsante invia che è \"%s\""
+
+#: admin/includes/form-builder.php:363
+msgid "Send"
+msgstr "Invia"
+
+#: admin/includes/form-builder.php:368
+msgid "Use Ajax"
+msgstr "Usa Ajax"
+
+#: admin/includes/form-builder.php:371
+msgid "When enabled, the form will submit without reloading the page. If disabled, it will also disable the Flash file uploader."
+msgstr "Quando è abilitato, il form si presenterà senza ricaricare la pagina. Se disabilitata, sarà anche disattivato il file Flash uploader."
+
+#: admin/includes/form-builder.php:376
+msgid "Enable honeypot CAPTCHA"
+msgstr "Attiva honeypot CAPTCHA"
+
+#: admin/includes/form-builder.php:379
+msgid "A hidden anti-spam measure that requires no user interaction"
+msgstr "La misura anti-spam nascosta che non richiede interazione da parte dell'utente"
+
+#: admin/includes/form-builder.php:384
+msgid "Conditional logic animation"
+msgstr "Animazione logica condizionale"
+
+#: admin/includes/form-builder.php:387
+msgid ""
+"If enabled the fields that are hidden or shown via conditional logic will be\n"
+"                                                animated instead of hidden or shown instantly."
+msgstr ""
+"Se abilitato i campi che sono nascosti o visualizzati tramite la logica condizionale sarà\n"
+"                                                 invece animato di nascosto o mostrato istantaneamente."
+
+#: admin/includes/form-builder.php:393
+msgid "Re-center Fancybox after conditional logic"
+msgstr "Ricentra Fancybox dopo la logica condizionale"
+
+#: admin/includes/form-builder.php:396
+msgid "If enabled, when conditional logic causes the Fancybox popup to change size it will center the popup."
+msgstr "Se abilitato, quando la logica condizionale fa sì che la Fancybox popup modifichi la dimensione per far centrare il popup."
+
+#: admin/includes/form-builder.php:400
+msgid "Make money and support Quform!"
+msgstr "Fare soldi e sostegno a Quform!"
+
+#: admin/includes/form-builder.php:405
+msgid "Display a referral link"
+msgstr "Visualizza un link di riferimento"
+
+#: admin/includes/form-builder.php:409
+msgid "Displays a Quform referral link under your form, with the text you specify below"
+msgstr "Mostra un link di riferimento Quform sotto il form, con il testo specificato di seguito"
+
+#: admin/includes/form-builder.php:412
+msgid "Powered by Quform"
+msgstr "Realizzato da Quform"
+
+#: admin/includes/form-builder.php:415
+msgid "This is the text that will link to Quform, it's displayed under your form."
+msgstr "Questo è il testo che si collegherà al Quform, è visualizzato sotto il form."
+
+#: admin/includes/form-builder.php:416
+msgid "Referral link text"
+msgstr "Reinvia il link testuale"
+
+#: admin/includes/form-builder.php:424
+msgid "ThemeForest / CodeCanyon username"
+msgstr "ThemeForest / CodeCanyon nome utente"
+
+#: admin/includes/form-builder.php:427
+msgid ""
+"Enter your ThemeForest or CodeCanyon username and you will receive 30% of the first deposit or purchase amount from any referrals\n"
+"                                                when users click on your referral link."
+msgstr ""
+"Inserisci il tuo nome utente o ThemeForest CodeCanyon e riceverai il 30% del primo deposito o importo d'acquisto da eventuali rinvii\n"
+"                                                 quando gli utenti fanno clic sul vostro link di riferimento."
+
+#: admin/admin.php:433 admin/admin.php:1312 admin/includes/form-builder.php:428
+msgid "More information"
+msgstr "Maggiori informazioni"
+
+#: admin/includes/form-builder.php:441
+msgid "Themes define the look of your form. You can add your own themes, see the Help for more information."
+msgstr "Temi per definire l'aspetto del form. È possibile aggiungere i propri temi, vedere la Guida in linea per ulteriori informazioni."
+
+#: admin/includes/form-builder.php:453
+msgid "No themes found"
+msgstr "Nessun tema trovato"
+
+#: admin/includes/form-builder.php:469
+msgid "Uniform"
+msgstr "Uniforme"
+
+#: admin/includes/form-builder.php:474
+msgid "Uniform makes form inputs look consistent in all browsers."
+msgstr "Rendi uniforme l'input del form cercando di renderlo costante in tutti i browser."
+
+#: admin/includes/form-builder.php:475
+msgid "Use Uniform"
+msgstr "Utilizza uniforme"
+
+#: admin/includes/form-builder.php:489
+msgid " (by %s)"
+msgstr "(da %s)"
+
+#: admin/includes/form-builder.php:513
+msgid "Datepicker"
+msgstr "Datepicker"
+
+#: admin/includes/form-builder.php:518
+msgid "The theme chosen here will apply to all datepicker elements in your form."
+msgstr "Il tema scelto verra applicato a tutti gli elementi DatePicker nel form."
+
+#: admin/includes/form-builder.php:554
+msgid "Choose the theme of the datepicker, %ssee examples of each theme%s."
+msgstr "Scegli il tema del datepicker, %svedi gli esempi di ogni tema%s."
+
+#: admin/includes/form-builder.php:560
+msgid ""
+"The datepicker will be translated into the language you choose\n"
+"                                                and the date settings will be appropriate for your region."
+msgstr ""
+"Il datepicker sarà tradotto nella lingua selezionata\n"
+"                                                 e le impostazioni di data saranno appropriate per la propria regione."
+
+#: admin/includes/form-builder.php:562
+msgid "Locale"
+msgstr "Località"
+
+#: admin/includes/form-builder.php:641
+msgid "Choose the calendar localization"
+msgstr "Scegli la localizzazione del calendario"
+
+#: admin/includes/form-builder.php:645
+msgid "Labels"
+msgstr "Etichette"
+
+#: admin/includes/form-builder.php:656
+msgid "Choose where to display the label relative to the input"
+msgstr "Scegli dove visualizzare la relativa etichetta nell'input"
+
+#: admin/includes/form-builder.php:667
+msgid "The width of the labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "La larghezza delle etichette, qualsiasi larghezza valida CSS viene accettata, ad esempio %s200px%s"
+
+#: admin/includes/form-builder.php:670
+msgid "(required)"
+msgstr "(richiesto)"
+
+#: admin/includes/form-builder.php:672
+msgid "Required indicator text"
+msgstr "Indica il testo richiesto"
+
+#: admin/includes/form-builder.php:678
+msgid "Tooltips"
+msgstr "Tooltips"
+
+#: admin/includes/form-builder.php:683
+msgid "What's a tooltip? You're looking at one."
+msgstr "Che cosa è un suggerimento? Ecco uno."
+
+#: admin/includes/form-builder.php:684
+msgid "Enable tooltips"
+msgstr "Abilita i tooltips"
+
+#: admin/includes/form-builder.php:688
+msgid "If enabled, when the user hovers over an element with tooltip text set, a tooltip will appear."
+msgstr "Se abilitato, quando l'utente passa sopra un elemento con un testo tooltip  di cui, viene visualizzato un tooltip."
+
+#: admin/includes/form-builder.php:694
+msgid ""
+"If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"                                                the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr ""
+"Se è stato impostato il %1$sCampo%2$s, il tooltip mostrerà quando l'utente interagisce con\n"
+"                                                 il campo. Se è stata impostata una %1$sicona di Aiuto%2$s, il tooltip viene visualizzato quando l'utente interagisce con l'icona di un aiuto."
+
+#: admin/includes/form-builder.php:696
+msgid "Trigger"
+msgstr "Attiva"
+
+#: admin/includes/form-builder.php:709
+msgid "Event"
+msgstr "Evento"
+
+#: admin/includes/form-builder.php:720
+msgid "Tooltip style"
+msgstr "Stile tooltip"
+
+#: admin/includes/form-builder.php:726
+msgid "Hover me for preview"
+msgstr "Passare con il mouse per l'anteprima"
+
+#: admin/includes/form-builder.php:735
+msgid "Cream"
+msgstr "Crema"
+
+#: admin/includes/elements/recaptcha.php:44 admin/includes/form-builder.php:737
+msgid "Light"
+msgstr "Chiaro"
+
+#: admin/includes/elements/recaptcha.php:45 admin/includes/form-builder.php:738
+msgid "Dark"
+msgstr "Scuro"
+
+#: admin/includes/form-builder.php:739
+msgid "Red"
+msgstr "Rosso"
+
+#: admin/includes/form-builder.php:740
+msgid "Green"
+msgstr "Verde"
+
+#: admin/includes/form-builder.php:741
+msgid "Blue"
+msgstr "Blu"
+
+#: admin/includes/form-builder.php:744
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/includes/form-builder.php:745
+msgid "jTools"
+msgstr "jTools"
+
+#: admin/includes/form-builder.php:746
+msgid "Cluetip"
+msgstr "Cluetip"
+
+#: admin/includes/form-builder.php:747
+msgid "Tipped"
+msgstr "Scaricato"
+
+#: admin/includes/form-builder.php:748
+msgid "Tipsy"
+msgstr "Tipsy"
+
+#: admin/includes/form-builder.php:750 admin/includes/form-builder.php:755
+msgid "Custom class"
+msgstr "Classe personalizzata"
+
+#: admin/includes/form-builder.php:762
+msgid "Tip position"
+msgstr "Suggerimento posizione"
+
+#: admin/includes/form-builder.php:765 admin/includes/form-builder.php:786
+msgid "left center"
+msgstr "centro sinistra"
+
+#: admin/includes/form-builder.php:766 admin/includes/form-builder.php:787
+msgid "left top"
+msgstr "sinistra in alto"
+
+#: admin/includes/form-builder.php:767 admin/includes/form-builder.php:788
+msgid "top left"
+msgstr "in alto a sinistra"
+
+#: admin/includes/form-builder.php:768 admin/includes/form-builder.php:789
+msgid "top center"
+msgstr "in alto al centro"
+
+#: admin/includes/form-builder.php:769 admin/includes/form-builder.php:790
+msgid "top right"
+msgstr "in alto a destra"
+
+#: admin/includes/form-builder.php:770 admin/includes/form-builder.php:791
+msgid "right top"
+msgstr "a destra in alto"
+
+#: admin/includes/form-builder.php:771 admin/includes/form-builder.php:792
+msgid "right center"
+msgstr "centro a destra"
+
+#: admin/includes/form-builder.php:772 admin/includes/form-builder.php:793
+msgid "right bottom"
+msgstr "in basso a destra"
+
+#: admin/includes/form-builder.php:773 admin/includes/form-builder.php:794
+msgid "bottom right"
+msgstr "in basso a destra"
+
+#: admin/includes/form-builder.php:774 admin/includes/form-builder.php:795
+msgid "bottom center"
+msgstr "in basso al centro"
+
+#: admin/includes/form-builder.php:775 admin/includes/form-builder.php:796
+msgid "bottom left"
+msgstr "in basso a sinistra"
+
+#: admin/includes/form-builder.php:776 admin/includes/form-builder.php:797
+msgid "left bottom"
+msgstr "a sinistra in basso"
+
+#: admin/includes/form-builder.php:777 admin/includes/form-builder.php:798
+msgid "center"
+msgstr "centro"
+
+#: admin/includes/form-builder.php:783
+msgid "Position on input"
+msgstr "Posizione di input"
+
+#: admin/includes/form-builder.php:804
+msgid "CSS3 Shadow"
+msgstr "CSS3 Ombra"
+
+#: admin/includes/form-builder.php:811
+msgid "CSS3 Rounded Corners"
+msgstr "CSS3 Angoli arrotondati"
+
+#: admin/includes/form-builder.php:817
+msgid "The CSS3 effects may not work with some styles and may only be visible in modern browsers."
+msgstr "Gli effetti CSS3 potrebbero non funzionare con alcuni stili e possono essere visibili nei browser moderni."
+
+#: admin/includes/form-builder.php:821
+msgid "Global styling"
+msgstr "Stile globale"
+
+#: admin/includes/form-builder.php:826
+msgid "Element background color"
+msgstr "Elemento del colore di sfondo"
+
+#: admin/includes/form-builder.php:835
+msgid "Element border color"
+msgstr "Colore del bordo dell'elemento"
+
+#: admin/includes/form-builder.php:844
+msgid "Element text color"
+msgstr "Colore del bordo dell'elemento"
+
+#: admin/includes/form-builder.php:853
+msgid "Label text color"
+msgstr "Etichetta colore testo"
+
+#: admin/includes/form-builder.php:863
+msgid ""
+"Styles entered here will apply to all form elements, you can override these for\n"
+"                                                    each element inside the element settings. Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"                                                    a semi-colon. %sClick here%s for an example."
+msgstr ""
+"Gli stili inseriti qui si applicano a tutti gli elementi del form, è possibile ignorare questi per\n"
+"                                                     ciascun elemento all'interno delle impostazioni dell'elemento. Dopo aver aggiunto uno stile, inserire gli stili CSS, uno per riga, con ogni linea che termina con\n"
+"                                                     un punto e virgola. %sClicca qui%s per un esempio."
+
+#: admin/includes/form-builder.php:867
+msgid "Global CSS Styles"
+msgstr "Stili dgobali CSS"
+
+#: admin/includes/form-builder.php:877
+msgid "No global styles."
+msgstr "Non ci sono stili globali."
+
+#: admin/includes/form-builder.php:885
+msgid "The outer wrapper of the form"
+msgstr "La cornice esterna del form"
+
+#: admin/includes/form-builder.php:885
+msgid "Form outer wrapper"
+msgstr "Cornice esterna del form"
+
+#: admin/includes/form-builder.php:886
+msgid "The inner wrapper of the form"
+msgstr "La cornice interna del form"
+
+#: admin/includes/form-builder.php:886
+msgid "Form inner wrapper"
+msgstr "Cornice interna del form"
+
+#: admin/includes/form-builder.php:887
+msgid "The message shown when the form is successfully submitted"
+msgstr "Il messaggio visualizzato quando il form viene inviato correttamente"
+
+#: admin/admin.php:1013 admin/includes/form-builder.php:887
+msgid "Success message"
+msgstr "Successo messaggio"
+
+#: admin/includes/form-builder.php:888
+msgid "The form title"
+msgstr "Titolo del form"
+
+#: admin/admin.php:1016 admin/includes/form-builder.php:888
+msgid "Form title"
+msgstr "Titolo form"
+
+#: admin/includes/form-builder.php:889
+msgid "The form description"
+msgstr "Descrizione del form"
+
+#: admin/admin.php:1019 admin/includes/form-builder.php:889
+msgid "Form description"
+msgstr "Descrizione form"
+
+#: admin/includes/form-builder.php:890
+msgid "The wrapper surrounding all elements in the form"
+msgstr "la cornice che circonda tutti gli elementi del form"
+
+#: admin/includes/form-builder.php:890
+msgid "Form elements wrapper"
+msgstr "Cornice degli elementi del form"
+
+#: admin/includes/form-builder.php:891
+msgid "The outer wrapper of each element"
+msgstr "La cornice esterna di ciascun elemento"
+
+#: admin/includes/form-builder.php:891
+msgid "Element outer wrapper"
+msgstr "Involucro esterno elemento"
+
+#: admin/includes/form-builder.php:892
+msgid "The label of each element"
+msgstr "L'etichetta di ogni elemento"
+
+#: admin/admin.php:1028 admin/includes/form-builder.php:892
+msgid "Element label"
+msgstr "Etichetta elemento"
+
+#: admin/includes/form-builder.php:893
+msgid "The inner wrapper of each element"
+msgstr "La cornice interna di ciascun elemento"
+
+#: admin/includes/form-builder.php:893
+msgid "Element inner wrapper"
+msgstr "Cornice interna elemento"
+
+#: admin/includes/form-builder.php:894
+msgid "The description of each element"
+msgstr "La descrizione di ciascun elemento"
+
+#: admin/admin.php:1052 admin/includes/form-builder.php:894
+msgid "Element description"
+msgstr "Descrizione elemento"
+
+#: admin/includes/form-builder.php:895
+msgid "The input field of Single Line Text, Email, Password and CAPTCHA elements"
+msgstr "Il campo di immissione in una singola linea di testo, e-mail, password e gli elementi CAPTCHA"
+
+#: admin/admin.php:1034 admin/includes/form-builder.php:895
+msgid "Text input elements"
+msgstr "Testo di input degli elementi"
+
+#: admin/includes/form-builder.php:896
+msgid "The textarea field of Paragraph Text elements"
+msgstr "Il campo textarea degli elementi di un paragrafo di testo"
+
+#: admin/includes/form-builder.php:896
+msgid "Paragraph Text elements"
+msgstr "Elementi paragrafo di testo"
+
+#: admin/includes/form-builder.php:897
+msgid "The select field of Dropdown Menu elements"
+msgstr "Il campo di selezione degli elementi del menu a discesa"
+
+#: admin/admin.php:1040 admin/includes/form-builder.php:897
+msgid "Dropdown Menu elements"
+msgstr "Elementi del menu a discesa"
+
+#: admin/includes/form-builder.php:898
+msgid "The wrapper around all of the options of Multiple Choice and Checkbox elements"
+msgstr "La cornice per tutte le opzioni di scelta multipla ed elementi Checkbox"
+
+#: admin/includes/form-builder.php:899
+msgid "The wrapper around each option of Multiple Choice and Checkbox elements"
+msgstr "La cornice per ogni opzione di Scelta Multipla ed elementi Checkbox"
+
+#: admin/includes/form-builder.php:899
+msgid "Option wrappers"
+msgstr "Opzione cornici"
+
+#: admin/includes/form-builder.php:900
+msgid "The label of each option of Multiple Choice and Checkbox elements"
+msgstr "L'etichetta di ciascuna opzione di Scelta Multipla ed elementi Checkbox"
+
+#: admin/includes/form-builder.php:900
+msgid "Option labels"
+msgstr "Opzione etichette"
+
+#: admin/includes/form-builder.php:901
+msgid "Each of the dropdown menus of the Date element"
+msgstr "Ciascuno dei menu a discesa dell'elemento Data"
+
+#: admin/includes/form-builder.php:901
+msgid "Date dropdowns"
+msgstr "Menù a discesa Data"
+
+#: admin/includes/form-builder.php:902
+msgid "Each of the dropdown menus of the Time element"
+msgstr "Ciascuno dei menu a discesa dell'elemento Tempo"
+
+#: admin/includes/form-builder.php:902
+msgid "Time dropdowns"
+msgstr "Menu a discesa Tempo"
+
+#: admin/includes/form-builder.php:903
+msgid "The outer wrapper of the submit button"
+msgstr "La cornice esterna del pulsante invia"
+
+#: admin/admin.php:1073 admin/includes/form-builder.php:903
+msgid "Submit button outer wrapper"
+msgstr "Cornice esterna del pulsante invia"
+
+#: admin/includes/form-builder.php:904
+msgid "The inner wrapper of the submit button"
+msgstr "La cornice interna del pulsante invia"
+
+#: admin/admin.php:1076 admin/includes/form-builder.php:904
+msgid "Submit button inner wrapper"
+msgstr "Cornice interna del pulsante invia"
+
+#: admin/includes/form-builder.php:905
+msgid "The submit button"
+msgstr "Il pulsante invia"
+
+#: admin/admin.php:1079 admin/includes/form-builder.php:905
+msgid "Submit button"
+msgstr "Pulsante invia"
+
+#: admin/includes/form-builder.php:906
+msgid "The span tag inside the submit button"
+msgstr "Il tag span all'interno del pulsante invia"
+
+#: admin/admin.php:1082 admin/includes/form-builder.php:906
+msgid "Submit button inside span"
+msgstr "Span interno pulsante invia"
+
+#: admin/includes/form-builder.php:907
+msgid "The em tag inside the submit button"
+msgstr "Il tag em all'interno del pulsante invia"
+
+#: admin/admin.php:1085 admin/includes/form-builder.php:907
+msgid "Submit button inside em"
+msgstr "Em interno pulsante invia"
+
+#: admin/includes/form-builder.php:915
+msgid "Notification email settings"
+msgstr "Impostazioni di notifica e-mail"
+
+#: admin/includes/form-builder.php:919
+msgid "Send form data via email"
+msgstr "Invia i dati del form via e-mail"
+
+#: admin/includes/form-builder.php:922
+msgid "If checked, when the user submits the form the submitted form data will be sent in an email to the recipients specified below."
+msgstr "Se selezionata, quando l'utente invia il form dati del modulo presentati verrà inviato in una e-mail ai destinatari specificati di seguito."
+
+#: admin/includes/form-builder.php:929
+msgid "Add email address(es) which the submitted form data will be sent to."
+msgstr "Aggiungi l'indirizzo e-mail(es) dove verranno inviati i dati immessi nel form."
+
+#: admin/includes/form-builder.php:931
+msgid "Recipients"
+msgstr "Destinatari"
+
+#: admin/includes/form-builder.php:945
+msgid "Add BCC email addresses"
+msgstr "Aggiungi indirizzi e-mail BCC"
+
+#: admin/includes/form-builder.php:947
+msgid "BCC recipients"
+msgstr "Destinatari BCC"
+
+#: admin/includes/form-builder.php:950
+msgid "Add BCC"
+msgstr "Aggiungi BCC"
+
+#: admin/includes/form-builder.php:962
+msgid "Send the form data to different email addresses depending on the submitted form values."
+msgstr "Invia i dati del modulo a indirizzi e-mail diversi a seconda dei valori del form inviati."
+
+#: admin/includes/form-builder.php:964
+msgid "Conditional recipients"
+msgstr "Destinatari condizionati"
+
+#: admin/includes/form-builder.php:967
+msgid "Add a new rule"
+msgstr "Aggiungi una nuova regola"
+
+#: admin/includes/form-builder.php:968
+msgid "The form must have at least one Dropdown Menu or Multiple Choice element to use this feature."
+msgstr "Il modulo deve avere almeno un menu a scomparsa o un elemento a scelta multipla per utilizzare questa funzione."
+
+#: admin/includes/form-builder.php:971
+msgid "Active rules"
+msgstr "Attiva regole"
+
+#: admin/includes/form-builder.php:973
+msgid "If the active conditional rules result in no recipients for the email then the recipients specified in the section above will be used."
+msgstr "Se la selezione attivata non mostra nessun destinatario per l'email, allora verrà usato il destinatario specificato nella sezione sopra"
+
+#: admin/includes/form-builder.php:980
+msgid "\"Reply-To\" address"
+msgstr "\"Rispondi a\" indirizzo"
+
+#: admin/includes/form-builder.php:985 admin/includes/form-builder.php:1079
+#: admin/includes/form-builder.php:1134
+msgid "The form must have at least one Email Address element to use this feature."
+msgstr "Il modulo deve avere almeno un elemento Indirizzo E-mail per utilizzare questa funzione."
+
+#: admin/includes/form-builder.php:987
+msgid "When you compose a reply to the notification email, it will be addressed to the email address submitted in this field."
+msgstr "Quando si compone una risposta all'e-mail di notifica, sarà indirizzata all'indirizzo di posta elettronica presentata in questo campo."
+
+#: admin/includes/form-builder.php:990
+msgid "Message from your website"
+msgstr "Messaggio dal tuo sito web"
+
+#: admin/includes/form-builder.php:992 admin/includes/form-builder.php:1086
+msgid "Email subject"
+msgstr "Soggetto email"
+
+#: admin/includes/form-builder.php:994 admin/includes/form-builder.php:1016
+#: admin/includes/form-builder.php:1088 admin/includes/form-builder.php:1102
+msgid "Add more data to your email by inserting a variable tag"
+msgstr "Aggiungi altri dati all' e-mail inserendo un tag variabile"
+
+#: admin/includes/form-builder.php:999
+msgid "Customize email content"
+msgstr "Personalizza il contenuto delle email"
+
+#: admin/includes/form-builder.php:1002
+msgid "Tick to customize the email content. By default all submitted form data is sent, you can see an example by submitting the form."
+msgstr "Spunta per personalizzare il contenuto delle email. Per impostazione predefinita, tutti i dati del modulo vengono inviati, è possibile vedere un esempio inviando il modulo."
+
+#: admin/includes/form-builder.php:1008 admin/includes/form-builder.php:1094
+msgid "Email content"
+msgstr "Contenuto email"
+
+#: admin/includes/form-builder.php:1011 admin/includes/form-builder.php:1097
+msgid "Email format"
+msgstr "Formato email"
+
+#: admin/includes/form-builder.php:1013 admin/includes/form-builder.php:1099
+msgid "Plain text"
+msgstr "Testo normale"
+
+#: admin/includes/form-builder.php:1026
+msgid "Tick to show empty fields in the default notification email."
+msgstr "Spunta per visualizzare i campi vuoti nella e-mail di notifica di default."
+
+#: admin/includes/form-builder.php:1035
+msgid "This is the email address that recipient(s) will see as the sender of the email."
+msgstr "Questo è l'indirizzo di posta elettronica del destinatario(s) si vedrà come mittente dell'e-mail."
+
+#: admin/includes/form-builder.php:1036 admin/includes/form-builder.php:1114
+msgid "\"From\" address"
+msgstr "indirizzo \"Da\""
+
+#: admin/includes/form-builder.php:1041 admin/includes/form-builder.php:1119
+msgid "Static email address"
+msgstr "Indirizzo e-mail statico"
+
+#: admin/includes/form-builder.php:1042 admin/includes/form-builder.php:1120
+msgid "Submitted email address"
+msgstr "Indirizzo e-mail inoltrato"
+
+#: admin/includes/form-builder.php:1049 admin/includes/form-builder.php:1127
+msgid "Name (optional)"
+msgstr "Nome (opzionale)"
+
+#: admin/includes/form-builder.php:1056
+msgid "The form must have at least one Email element to use this feature."
+msgstr "Il form deve avere almeno un elemento e-mail per utilizzare questa funzione."
+
+#: admin/includes/form-builder.php:1057
+msgid ""
+"The From address of the notification email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr ""
+"L'indirizzo di notifica del mittente verrà impostato nell'indirizzo email presentato in questo campo.\n"
+"                                                    %sInformazioni importanti%s."
+
+#: admin/includes/form-builder.php:1063
+msgid "Autoreply email settings (optional)"
+msgstr "Impostazioni risposta automatica di posta elettronica (facoltativo)"
+
+#: admin/includes/form-builder.php:1067
+msgid "Send autoreply email"
+msgstr "Invia risposta automatica e-mail"
+
+#: admin/includes/form-builder.php:1070
+msgid "If checked, when the user submits the form an autoreply email will be sent to them"
+msgstr "Se selezionata, quando l'utente invia il form via e-mail verrà loro inviato una risposta automatica"
+
+#: admin/includes/form-builder.php:1075
+msgid "Recipient element"
+msgstr "Elemento destinatario"
+
+#: admin/includes/form-builder.php:1081
+msgid "The autoreply email will be sent to the email address submitted in this field."
+msgstr "L'email di risposta automatica sarà inviata all'indirizzo di posta elettronica presentata in questo campo."
+
+#: admin/includes/form-builder.php:1113
+msgid "This is the email address that recipient will see as the sender of the email."
+msgstr "Questo è l'indirizzo e-mail del destinatario che vedrà come mittente dell'e-mail."
+
+#: admin/includes/form-builder.php:1135
+msgid ""
+"The From address of the autoreply email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr ""
+"L'indirizzo del mittente del messaggio di risposta automatica verrà impostato nell'indirizzo email presentato in questo campo.\n"
+"                                                     %sImportanti informazioni% s."
+
+#: admin/includes/form-builder.php:1148
+msgid "Use global setting"
+msgstr "Usa impostazione globale"
+
+#: admin/includes/form-builder.php:1149
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: admin/includes/form-builder.php:1152
+msgid "The global setting can be configured at Quform &rarr; Settings on the WordPress menu."
+msgstr "Le impostazioni globali possono essere configurati in Quform &rarr; Impostazioni dal menu WordPress."
+
+#: admin/includes/form-builder.php:1203
+msgid "Entry settings"
+msgstr "Impostazioni voce"
+
+#: admin/includes/form-builder.php:1207
+msgid "Save submitted form data"
+msgstr "Salvare i dati del form presentati"
+
+#: admin/includes/form-builder.php:1210
+msgid ""
+"If checked, the submitted form data will be saved to your database and you will be able\n"
+"                                                    to view submitted entries within the WordPress admin."
+msgstr ""
+"Se selezionato, i dati del form presentati verranno salvati nel database e si sarà in grado\n"
+"                                                     di visualizzare le voci presentate entro il pannello di amministrazione di WordPress."
+
+#: admin/includes/form-builder.php:1239
+msgid "Post / Page ID"
+msgstr "Articolo / Pagina ID"
+
+#: admin/includes/form-builder.php:1244
+msgid "Post / Page Title"
+msgstr "Articolo / Titolo della Pagina"
+
+#: admin/includes/form-builder.php:1249
+msgid "User WP display name"
+msgstr "Nome visualizzato dell'utente WP"
+
+#: admin/includes/form-builder.php:1254
+msgid "User WP login"
+msgstr "Login utente WP"
+
+#: admin/includes/form-builder.php:1259
+msgid "User WP email"
+msgstr "Email utente WP"
+
+#: admin/includes/form-builder.php:1267
+msgid "Customize what is shown in the table when viewing the list of entries for the form. Drag and drop the elements into the desired columns."
+msgstr "Personalizza ciò che è indicato nella tabella quando si visualizza l'elenco delle voci per il form. Trascina e rilascia gli elementi nelle colonne desiderate."
+
+#: admin/includes/form-builder.php:1268
+msgid "List of entries table layout"
+msgstr "Elenco dei layout delle voci in tabella"
+
+#: admin/includes/form-builder.php:1273
+msgid "Active columns"
+msgstr "Colonne attive"
+
+#: admin/includes/form-builder.php:1274
+msgid "Inactive columns"
+msgstr "Colonne inattive"
+
+#: admin/includes/form-builder.php:1293
+msgid ""
+"Customize how the listing table of entries appears for this form. This only\n"
+"                                                    applies to the list of entries, all entry information will be displayed when viewing an individual entry."
+msgstr ""
+"Personalizza la modalità in cui viene visualizzato l'elenco di voci in tabella per questo modulo. Questo vale solo\n"
+"                                                     per l'elenco delle voci, tutte le informazioni del testo vengono visualizzate durante la visualizzazione di una singola voce."
+
+#: admin/includes/form-builder.php:1300
+msgid ""
+"This section enables you to save form data to a custom database.\n"
+"                                        This is not related to the saving of submitted entries, you can do both at the same time.\n"
+"                                        You can use this functionality to save submitted form data to the table of another\n"
+"                                        plugin for example."
+msgstr ""
+"Questa sezione consente di salvare i dati del modulo a un database personalizzato.\n"
+"                                         Questo non è legata al salvataggio di voci presentate, è possibile fare entrambe le cose allo stesso tempo.\n"
+"                                         È possibile utilizzare questa funzionalità per salvare i dati del form presentati al tavolo di un altro\n"
+"                                         plugin per esempio."
+
+#: admin/includes/form-builder.php:1304
+msgid ""
+"This tool will not create the database table or fields for you - they should already exist. You can\n"
+"                                        then choose to save a form value using the button below, just enter the name of the database field you would like to\n"
+"                                        save to and choose your value from the dropdown menu."
+msgstr ""
+"Questo strumento non creerà la tabella del database o dei campi per voi - essi devono già esistere. È possibile\n"
+"                                         quindi scegli di salvare un valore per il form utilizzando il pulsante qui sotto, basta inserire il nome del campo del database che si desidera\n"
+"                                         salvare e scegliere il valore dal menu a discesa."
+
+#: admin/includes/form-builder.php:1310
+msgid "Custom database settings (MySQL)"
+msgstr "Impostazioni del database personalizzato (MySQL)"
+
+#: admin/includes/form-builder.php:1314
+msgid "Use WordPress database"
+msgstr "Usa un database di WordPress"
+
+#: admin/includes/form-builder.php:1317
+msgid ""
+"If checked, the data will be inserted into a table you specify below,\n"
+"                                                inside the WordPress database. Un-tick to specify your own database credentials"
+msgstr ""
+"Se selezionato, i dati saranno inseriti in una tabella specificata di seguito,\n"
+"                                                 all'interno del database di WordPress. Deseleziona per specificare le credenziali proprie del database"
+
+#: admin/includes/form-builder.php:1323
+msgid "Host"
+msgstr "Host"
+
+#: admin/includes/form-builder.php:1326
+msgid "Usually localhost"
+msgstr "Pronto per un host locale"
+
+#: admin/includes/form-builder.php:1331
+msgid "Username"
+msgstr "Username"
+
+#: admin/includes/form-builder.php:1334
+msgid "The user must have permission to insert data to the database"
+msgstr "L'utente deve avere il permesso per inserire i dati nel database"
+
+#: admin/includes/form-builder.php:1346
+msgid "Database name"
+msgstr "Nome database"
+
+#: admin/includes/form-builder.php:1353
+msgid "Database table"
+msgstr "Tabella del database"
+
+#: admin/includes/form-builder.php:1356
+msgid "The name of the database table to insert the data into"
+msgstr "Il nome della tabella del database per inserirvi i dati"
+
+#: admin/includes/form-builder.php:1360
+msgid "What to save"
+msgstr "Cosa salvare"
+
+#: admin/includes/form-builder.php:1366
+msgid "Save another form value"
+msgstr "Salva un altro valore del form"
+
+#: admin/includes/form-builder.php:1372
+msgid "Database field"
+msgstr "Campo database"
+
+#: admin/includes/form-builder.php:1377
+msgid "You are not currently saving any submitted form values."
+msgstr "Al momento non sono stati salvati i valori del form inviati."
+
+#: admin/includes/form-builder.php:1393
+msgid "Top"
+msgstr "Top"
+
+#: admin/includes/form-builder.php:1407
+msgid "The form with that ID does not exist, %sgo back to the form list%s."
+msgstr "Il form con tale ID non esiste, %stornare all'elencodei form%s."
+
+#: admin/includes/import.php:10
+msgid "Import form"
+msgstr "Importa form"
+
+#: admin/includes/import.php:24
+msgid "Import form data"
+msgstr "Importa i dati del modulo"
+
+#: admin/includes/import.php:25
+msgid ""
+"Paste in the data generated from the Quform export page into the box below to import a form.\n"
+"    \t\tBear in mind that the email address set to receive emails will be set to the value that\n"
+"    \t\tit was in the website that the export was taken from. You can change this value after you\n"
+"    \t\timport by going to %1$sSettings &rarr; Email%2$s in the form builder."
+msgstr ""
+"Incolla i dati generati dalla pagina di esportazione Quform nella casella qui sotto per importare un modulo.\n"
+"     \t\tTieni presente che l'indirizzo e-mail impostato per ricevere e-mail verrà impostato al valore\n"
+"     \t\tera nel sito dove l'esportazione è stata presa. È possibile modificare questo valore dopo aver\n"
+"     \t\timportato andando a %1$sImpostazioni &rarr; Email%2$s nel generatore del form."
+
+#: admin/admin.php:260 admin/admin.php:261 admin/admin.php:3333
+#: admin/includes/import.php:32
+msgid "Import"
+msgstr "Importa"
+
+#: admin/includes/help.php:17
+msgid "Basics"
+msgstr "Nozioni di base"
+
+#: admin/includes/help.php:18
+msgid "Elements"
+msgstr "Elementi"
+
+#: admin/includes/help.php:20
+msgid "Frequently asked questions"
+msgstr "Domande frequenti"
+
+#: admin/includes/help.php:20
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/includes/help.php:109
+msgid "Help is not available in the unlicensed version."
+msgstr "La guida non è disponibile nella versione senza licenza."
+
+#. #-#-#-#-#  iphorm-form-builder.pot (Quform 1.7.10)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:222 admin/admin.php:3495
+msgid "Quform"
+msgstr "Quform"
+
+#: admin/admin.php:366
+msgid "Are you sure you want to delete this form? All saved settings, elements and entries for this form will be lost and this cannot be undone."
+msgstr "Sei sicuro di voler eliminare questo form? Tutte le impostazioni salvate, gli elementi e le voci di questo form verranno persi e questo non può essere annullato."
+
+#: admin/admin.php:367
+msgid "Are you sure you want to delete these forms? All saved settings, elements and entries for these forms will be lost and this cannot be undone."
+msgstr "Sei sicuro di voler eliminare questi form? Tutte le impostazioni salvate, gli elementi e le voci di quest forme andranno persi e questo non può essere annullato."
+
+#: admin/admin.php:368
+msgid "Are you sure you want to delete this entry? All data for this entry will be lost and this cannot be undone."
+msgstr "Sei sicuro di voler eliminare questo messaggio? Tutti i dati per questa voce andranno persi e questo non può essere annullato."
+
+#: admin/admin.php:369
+msgid "Are you sure you want to delete these entries? All data for these entries will be lost and this cannot be undone."
+msgstr "Sei sicuro di voler eliminare queste voci? Tutti i dati per queste voci andranno persi e questo non può essere annullato."
+
+#: admin/admin.php:371 admin/admin.php:2366
+msgid "An error occurred verifying the license key, please try again"
+msgstr "Errore durante la verifica della chiave di licenza, si prega di riprovare"
+
+#: admin/admin.php:374
+msgid "Please wait, verification in progress"
+msgstr "Si prega di attendere, verifica in corso"
+
+#: admin/admin.php:376 includes/iPhorm/Validator/Recaptcha.php:32
+msgid "An error occurred, please try again"
+msgstr "Si è verificato un errore, riprova"
+
+#: admin/admin.php:399 admin/admin.php:705
+msgid "Error adding the element"
+msgstr "Errore nell'aggiunta dell'elemento"
+
+#: admin/admin.php:400
+msgid "Are you sure you want to delete this element? Any associated entry data for this element will also be deleted."
+msgstr "Sei sicuro di voler eliminare questo elemento? I dati di ingresso associati a questo elemento saranno cancellati."
+
+#: admin/admin.php:401
+msgid "Are you sure you want to convert this element? Most of your settings will be copied over, however you may lose some settings that are not shared between the element types."
+msgstr "Sei sicuro di voler convertire questo elemento? La maggior parte delle impostazioni vengono copiate, ma si rischia di perdere alcune impostazioni che non sono condivisi tra i tipi di elementi."
+
+#: admin/admin.php:402
+msgid "Error saving the form"
+msgstr "Errore durante il salvataggio del form"
+
+#: admin/admin.php:403
+msgid "Element deleted"
+msgstr "Elemento eliminato"
+
+#: admin/admin.php:407
+msgid "There must be at least one option"
+msgstr "Ci deve essere almeno un'opzione"
+
+#: admin/admin.php:408 admin/admin.php:758
+msgid "Error adding the filter"
+msgstr "Errore nell'aggiunta del filtro"
+
+#: admin/admin.php:409 admin/admin.php:820
+msgid "Error adding the validator"
+msgstr "Errore nell'aggiunta del validatore"
+
+#: admin/admin.php:410
+msgid "Error adding the style"
+msgstr "Errore nell'aggiunta dello stile"
+
+#: admin/admin.php:411
+msgctxt "variable piece of data"
+msgid "Insert variable..."
+msgstr "Inserisci variabile ..."
+
+#: admin/admin.php:412
+msgid "Submitted form value"
+msgstr "Valore del form inviato"
+
+#: admin/admin.php:421
+msgctxt "username"
+msgid "User login"
+msgstr "Login utente"
+
+#: admin/admin.php:425
+msgid "Send to"
+msgstr "Invia a"
+
+#: admin/admin.php:426
+msgctxt "conditional"
+msgid "if"
+msgstr "se"
+
+#: admin/admin.php:427
+msgid "is equal to"
+msgstr "è uguale a"
+
+#: admin/admin.php:428
+msgid "is not equal to"
+msgstr "non è uguale a"
+
+#: admin/admin.php:432
+msgid "This is an example tooltip!"
+msgstr "Questo è un esempio di tooltip!"
+
+#: admin/admin.php:434
+msgctxt "delete"
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: admin/admin.php:442
+msgid "The form must have at least one Dropdown Menu, Checkboxes or Multiple Choice element to use this feature."
+msgstr "Il modulo deve avere almeno un menu a scomparsa, caselle di controllo o un elemento a scelta multipla per utilizzare questa funzione."
+
+#: admin/admin.php:443
+msgid "this group if"
+msgstr "questo gruppo se"
+
+#: admin/admin.php:444
+msgid "this field if"
+msgstr "questo campo se"
+
+#: admin/admin.php:445
+msgid "Show"
+msgstr "Mostra"
+
+#: admin/admin.php:447
+msgid "all"
+msgstr "tutti"
+
+#: admin/admin.php:448
+msgid "any"
+msgstr "ogni"
+
+#: admin/admin.php:449
+msgid "of these rules match:"
+msgstr "di queste norme corrispondenti:"
+
+#: admin/admin.php:450
+msgid "is"
+msgstr "è"
+
+#: admin/admin.php:451
+msgid "is not"
+msgstr "non è"
+
+#: admin/admin.php:452
+msgid "You have unsaved changes."
+msgstr "Non ci sono modifiche non salvate."
+
+#: admin/admin.php:609
+msgid "%sForm saved%s"
+msgstr "%sForm salvato%s"
+
+#: admin/admin.php:609
+msgid "%sAdd to website%s"
+msgstr "%sAggiungi al sito%s"
+
+#: admin/admin.php:611
+msgid "Form saved"
+msgstr "Form salvato"
+
+#: admin/admin.php:647
+msgid "%sElement added%s %sSettings%s"
+msgstr "%sElemento aggiunto%s %sImpostazioni%s"
+
+#: admin/admin.php:673
+msgid "%sElement added%s"
+msgstr "%sElemento aggiunto%s"
+
+#: admin/admin.php:673
+msgid "The maximum file upload size has been set to 10MB, you can change this value in the element configuration. %sSee the help for more information%s."
+msgstr "La dimensione massima di upload del file è stata impostata a 10 MB, è possibile modificare questo valore nella configurazione dell'elemento.%svedi la guida per ulteriori informazioni%s."
+
+#: admin/admin.php:913
+msgctxt "outermost wrapping HTML element"
+msgid "Outer wrapper"
+msgstr "Cornice esterna"
+
+#: admin/admin.php:916
+msgctxt "form element label to be styled"
+msgid "Label"
+msgstr "Etichetta"
+
+#: admin/admin.php:919
+msgctxt "innermost wrapping HTML element"
+msgid "Inner wrapper"
+msgstr "Cornice interna"
+
+#: admin/admin.php:922
+msgctxt "the HTML form element input/textarea/select etc"
+msgid "Text input"
+msgstr "Immissione di testo"
+
+#: admin/admin.php:925
+msgctxt "the HTML form element textarea"
+msgid "Textarea input"
+msgstr "Immissione textarea"
+
+#: admin/admin.php:931
+msgctxt "element group description"
+msgid "Group description"
+msgstr "Descrizione del Gruppo"
+
+#: admin/admin.php:934
+msgctxt "element description"
+msgid "Description"
+msgstr "Descrizione"
+
+#: admin/admin.php:937
+msgctxt "the wrapper around all of the options"
+msgid "Options outer wrapper"
+msgstr "Opzioni cornice esterna"
+
+#: admin/admin.php:940
+msgctxt "the wrapper around each option"
+msgid "Option wrapper"
+msgstr "Opzione cornice"
+
+#: admin/admin.php:943
+msgctxt "the label of each option"
+msgid "Option label"
+msgstr "Opzione etichetta"
+
+#: admin/admin.php:946
+msgctxt "form element group"
+msgid "Group"
+msgstr "Gruppo"
+
+#: admin/admin.php:949
+msgctxt "form element group title"
+msgid "Group title"
+msgstr "Titolo del gruppo"
+
+#: admin/admin.php:952
+msgctxt "the HTML wrapper around the elements in the group"
+msgid "Group elements wrapper"
+msgstr "Cornice del gruppo degli elementi"
+
+#: admin/admin.php:1007
+msgctxt "the outermost HTML wrapper around the form"
+msgid "Form outer wrapper"
+msgstr "Cornice esterna del form"
+
+#: admin/admin.php:1010
+msgctxt "the inner HTML wrapper around the form"
+msgid "Form inner wrapper"
+msgstr "Cornice interna del form"
+
+#: admin/admin.php:1022
+msgctxt "the HTML wrapper around the form elements"
+msgid "Form elements wrapper"
+msgstr "Cornice degli elementi del form"
+
+#: admin/admin.php:1025
+msgctxt "outermost wrapping HTML element around an element"
+msgid "Element outer wrapper"
+msgstr "Cornice esterna dell'elemento"
+
+#: admin/admin.php:1031
+msgctxt "the inner HTML wrapper around the element"
+msgid "Element inner wrapper"
+msgstr "Cornice interna dell'elemento"
+
+#: admin/admin.php:1037
+msgid "Paragraph text elements"
+msgstr "Paragrafo di testo degli elementi"
+
+#: admin/admin.php:1043
+msgctxt "the wrapper around the list of options for multi elements e.g. checkbox, radio"
+msgid "Options outer wrapper"
+msgstr "Opzioni della cornice esterna"
+
+#: admin/admin.php:1046
+msgctxt "the wrapper around each option for multi elements e.g. checkbox, radio"
+msgid "Option wrappers"
+msgstr "Opzione cornici"
+
+#: admin/admin.php:1049
+msgctxt "the label each option for multi elements e.g. checkbox, radio"
+msgid "Option labels"
+msgstr "Opzione etichette"
+
+#: admin/admin.php:1208
+msgid "Insert a form"
+msgstr "Inserisci un form"
+
+#: admin/admin.php:1210
+msgid "Select the form you want to insert from the dropdown menu and click Insert."
+msgstr "Selezionare il modulo che si desidera inserire dal menu a discesa e fare clic su Inserisci."
+
+#: admin/admin.php:1225
+msgid "Display the form in a popup (using Fancybox)"
+msgstr "Visualizza il form in una finestra popup (con Fancybox)"
+
+#: admin/admin.php:1227
+msgid "Insert"
+msgstr "Inserisci"
+
+#: admin/admin.php:1230
+msgid "If you are having trouble inserting the form, copy and paste the code below into the page content."
+msgstr "Se si hanno problemi con l'inserimento del modulo, copia e incolla il codice qui sotto nel contenuto della pagina."
+
+#: admin/admin.php:1289
+msgid "Please select a form first"
+msgstr "Si prega di selezionare il primo form"
+
+#: admin/admin.php:1482 admin/admin.php:1533
+msgid "Form deleted"
+msgid_plural "%d forms deleted"
+msgstr[0] "Form cancellato"
+msgstr[1] "%d form cancellati"
+
+#: admin/admin.php:1492 admin/admin.php:1538
+msgid "Form activated"
+msgid_plural "%d forms activated"
+msgstr[0] "Form attivato"
+msgstr[1] "%d form attivati"
+
+#: admin/admin.php:1502 admin/admin.php:1543
+msgid "Form deactivated"
+msgid_plural "%d forms deactivated"
+msgstr[0] "Form disattivato"
+msgstr[1] "%d form disattivati"
+
+#: admin/admin.php:1512
+msgid "duplicate"
+msgstr "duplica"
+
+#: admin/admin.php:1518
+msgid "Form duplicated, %sedit the form%s"
+msgstr "Forma duplicato, %smodificare il form%s"
+
+#: admin/admin.php:1568
+msgid "Sorry, the form preview could not be loaded."
+msgstr "Siamo spiacenti, l'anteprima del modulo non può essere caricato."
+
+#: admin/admin.php:1838
+msgid "Form imported successfully, %sedit the form%s"
+msgstr "Form importato con successo, %smodifica il modulo%s"
+
+#: admin/admin.php:1843
+msgid "Invalid import data"
+msgstr "Importa i dati non validi"
+
+#: admin/admin.php:1967
+msgid "Entry deleted"
+msgid_plural "%d entries deleted"
+msgstr[0] "Elemento cancellato"
+msgstr[1] "%d elemento cancellati"
+
+#: admin/admin.php:2111
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 oggetto"
+msgstr[1] "%s oggetti"
+
+#: admin/admin.php:2125
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: admin/admin.php:2132
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: admin/admin.php:2141
+msgid "Current page"
+msgstr "Pagina corrente"
+
+#: admin/admin.php:2148
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s di %2$s"
+
+#: admin/admin.php:2152
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: admin/admin.php:2159
+msgid "Go to the last page"
+msgstr "Vai all'ultima pagina"
+
+#: admin/admin.php:2350
+msgid "Form information will appear here when you create a form."
+msgstr "L'informazione del form apparirà qui quando si crea un form."
+
+#: admin/admin.php:2389
+msgid "License key successfully verified"
+msgstr "Chiave di licenza verificato con successo"
+
+#: admin/admin.php:2394 admin/admin.php:2556
+msgid "Invalid license key"
+msgstr "Chiave di licenza non valida"
+
+#: admin/admin.php:2399
+msgid "Licence key verification will be available shortly, please try again later"
+msgstr "La verifica della chiave di licenza sarà disponibile a breve, riprova più tardi"
+
+#: admin/admin.php:2742
+msgid "Countries"
+msgstr "Paesi"
+
+#: admin/admin.php:2743
+msgid "U.S. States"
+msgstr "U.S. States"
+
+#: admin/admin.php:2744
+msgid "Canadian Provinces"
+msgstr "Canadian Provinces"
+
+#: admin/admin.php:2745
+msgid "UK Counties"
+msgstr "UK Counties"
+
+#: admin/admin.php:2746
+msgid "German States"
+msgstr "Germania"
+
+#: admin/admin.php:2747
+msgid "Dutch Provinces"
+msgstr "Dutch Provinces"
+
+#: admin/admin.php:2748
+msgid "Continents"
+msgstr "Continenti"
+
+#: admin/admin.php:2748
+msgid "Africa"
+msgstr "Africa"
+
+#: admin/admin.php:2748 admin/admin.php:2766
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: admin/admin.php:2748
+msgid "Asia"
+msgstr "Asia"
+
+#: admin/admin.php:2748 admin/admin.php:2766
+msgid "Australia"
+msgstr "Australia"
+
+#: admin/admin.php:2748
+msgid "Europe"
+msgstr "Europe"
+
+#: admin/admin.php:2748
+msgid "North America"
+msgstr "Nord America"
+
+#: admin/admin.php:2748
+msgid "South America"
+msgstr "Sod America"
+
+#: admin/admin.php:2749
+msgid "Gender"
+msgstr "Sesso"
+
+#: admin/admin.php:2749
+msgid "Male"
+msgstr "Maschio"
+
+#: admin/admin.php:2749
+msgid "Female"
+msgstr "Femmina"
+
+#: admin/admin.php:2750
+msgid "Age"
+msgstr "Età"
+
+#: admin/admin.php:2751
+msgid "Marital Status"
+msgstr "Stato civile"
+
+#: admin/admin.php:2751
+msgid "Single"
+msgstr "Singolo"
+
+#: admin/admin.php:2751
+msgid "Married"
+msgstr "Sposato"
+
+#: admin/admin.php:2751
+msgid "Divorced"
+msgstr "Divoziato"
+
+#: admin/admin.php:2751
+msgid "Widowed"
+msgstr "Vedovo"
+
+#: admin/admin.php:2752
+msgid "Income"
+msgstr "Reddito"
+
+#: admin/admin.php:2753
+msgid "Days"
+msgstr "Giorno"
+
+#: admin/admin.php:2753
+msgid "Monday"
+msgstr "Lunedì"
+
+#: admin/admin.php:2753
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: admin/admin.php:2753
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: admin/admin.php:2753
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: admin/admin.php:2753
+msgid "Friday"
+msgstr "Venerdì"
+
+#: admin/admin.php:2753
+msgid "Saturday"
+msgstr "Sabato"
+
+#: admin/admin.php:2753
+msgid "Sunday"
+msgstr "Domenica"
+
+#: admin/admin.php:2754
+msgid "Months"
+msgstr "Mesi"
+
+#: includes/form.php:312
+msgid "Please wait..."
+msgstr "Si prega di attendere ..."
+
+#: includes/iPhorm.php:915
+msgctxt "submit the form"
+msgid "Send"
+msgstr "Invia"
+
+#: includes/widget.php:12
+msgid "Display one of your created forms"
+msgstr "Visualizza uno dei tuoi form creati"
+
+#: includes/widget.php:74 includes/widget.php:169
+msgid "Title (optional)"
+msgstr "Titolo (opzionale)"
+
+#: includes/widget.php:78 includes/widget.php:173
+msgid "Select a form"
+msgstr "Seleziona un modulo (form)"
+
+#: includes/widget.php:87 includes/widget.php:191
+msgid "You have not created a form yet, %sclick here to create one%s."
+msgstr "Non hai ancora creato ancora un form, %sclicca qui per crearene uno%s."
+
+#: includes/widget.php:105
+msgid "Display one of your created forms in a popup (lightbox)"
+msgstr "Visualizza uno dei form creati in un popup (lightbox)"
+
+#: includes/widget.php:182
+msgid "Text or HTML to trigger the popup"
+msgstr "Testo o HTML per attivare il popup"
+
+#: includes/widget.php:186
+msgid "Fancybox options (advanced)"
+msgstr "Opzioni Fancybox (avanzato)"
+
+#: includes/widget.php:188
+msgid "Enter any Fancybox options as a JSON formatted string, %sexample%s."
+msgstr "Specifica le opzioni a Fancybox sotto forma di stringa JSON formattata, s% esempio%s."
+
+#: includes/elements/honeypot.php:2
+msgid "This field should be left blank"
+msgstr "Questo campo deve essere lasciato vuoto"
+
+#: includes/elements/file.php:8
+msgid "Allowed Files"
+msgstr "File ammessi"
+
+#: includes/elements/file.php:15
+msgid "All Files"
+msgstr "Tutti i file"
+
+#: includes/elements/file.php:30
+msgid "Upload another"
+msgstr "Carica un altro"
+
+#: includes/elements/recaptcha.php:12
+msgid "To use reCAPTCHA you must enter your API keys in the Quform settings page."
+msgstr "Per utilizzare reCAPTCHA è necessario inserire le chiavi API nella pagina delle impostazioni Quform."
+
+#: includes/iPhorm/Validator/Email.php:24
+msgid "Invalid email address"
+msgstr "Indirizzo email non valido"
+
+#: includes/iPhorm/Validator/Date.php:22
+msgid "This is not a valid date"
+msgstr "Questa non è una data valida"
+
+#: includes/iPhorm/Validator/Duplicate.php:29
+msgid "This value is a duplicate of a previously submitted form"
+msgstr "Questo valore è un duplicato di un form precedentemente presentato"
+
+#: includes/iPhorm/Validator/AlphaNumeric.php:28
+msgid "Only alphanumeric characters are allowed"
+msgstr "Solo caratteri alfanumerici"
+
+#: includes/iPhorm/Validator/GreaterThan.php:28
+msgid "'%1$s' is not greater than '%2$s'"
+msgstr "'%1$s' non è maggiore di '%2$s'"
+
+#: includes/iPhorm/Validator/Identical.php:28
+msgid "Value does not match"
+msgstr "Il valore non corrisponde"
+
+#: includes/iPhorm/Validator/FileUpload.php:59
+#: includes/iPhorm/Validator/Required.php:22
+msgid "This field is required"
+msgstr "Questo campo è obbligatorio"
+
+#: includes/iPhorm/Validator/Captcha.php:22
+msgid "The value does not match"
+msgstr "Il valore non corrisponde"
+
+#: includes/iPhorm/Validator/Digits.php:28
+msgid "Only digits are allowed"
+msgstr "Le cifre sono consentite solo"
+
+#: includes/iPhorm/Validator/Regex.php:28
+msgid "Invalid value given"
+msgstr "Non è stato dato un valore valido"
+
+#: includes/iPhorm/Validator/Length.php:35
+msgid "Invalid type given, value should be a string"
+msgstr "Tipo di dato non valido, il valore deve essere una stringa"
+
+#: includes/iPhorm/Validator/Length.php:36
+msgid "Value must be at least %2$s characters long"
+msgstr "Il valore deve essere di almeno %2$s caratteri lungo"
+
+#: includes/iPhorm/Validator/Length.php:37
+msgid "Value must be no longer than %2$d characters"
+msgstr "Il valore deve essere superiore di %2$d caratteri"
+
+#: includes/iPhorm/Validator/FileUpload.php:53
+msgid "File '%s' is not an uploaded file"
+msgstr "'% s' file non è un file caricato"
+
+#: includes/iPhorm/Validator/FileUpload.php:54
+msgid "File is not an uploaded file"
+msgstr "Il file non è un file inserito"
+
+#: includes/iPhorm/Validator/FileUpload.php:55
+msgid "'%s' exceeds the maximum allowed file size"
+msgstr "'%s' supera la dimensione massima del file consentita"
+
+#: includes/iPhorm/Validator/FileUpload.php:56
+msgid "File exceeds the maximum allowed file size"
+msgstr "Il file supera la dimensione massima del file consentita"
+
+#: includes/iPhorm/Validator/FileUpload.php:57
+msgid "File type of '%s' is not allowed"
+msgstr "Il tipo di file di '%s' non è consentito"
+
+#: includes/iPhorm/Validator/FileUpload.php:58
+msgid "File type is not allowed"
+msgstr "Il tipo di file non è consentito"
+
+#: includes/iPhorm/Validator/FileUpload.php:60
+msgid "'%s' was only partially uploaded"
+msgstr "'%s' è stato caricato solo parzialmente"
+
+#: includes/iPhorm/Validator/FileUpload.php:61
+msgid "File was only partially uploaded"
+msgstr "Il file è stato caricato solo parzialmente"
+
+#: includes/iPhorm/Validator/FileUpload.php:62
+msgid "No file was uploaded"
+msgstr "Nessun file è stato caricato"
+
+#: includes/iPhorm/Validator/FileUpload.php:63
+msgid "Missing a temporary folder"
+msgstr "Manca una cartella temporanea"
+
+#: includes/iPhorm/Validator/FileUpload.php:64
+msgid "Failed to write file to disk"
+msgstr "Impossibile scrivere il file su disco"
+
+#: includes/iPhorm/Validator/FileUpload.php:65
+msgid "File upload stopped by extension"
+msgstr "Il caricamento del file interrotto dall'estensione"
+
+#: includes/common.php:527 includes/iPhorm/Validator/FileUpload.php:66
+msgid "Unknown upload error"
+msgstr "Errore di caricamento sconosciuto"
+
+#: includes/iPhorm/Validator/Alpha.php:28
+msgid "Only alphabet characters are allowed"
+msgstr "Caratteri alfabetici sono consentiti solo"
+
+#: includes/iPhorm/Validator/LessThan.php:28
+msgid "'%1$s' is not less than '%2$s'"
+msgstr "'%1$s' non è inferiore a '%2$s'"
+
+#: admin/includes/elements/file.php:149 includes/iPhorm/Element/File.php:318
+msgctxt "for a file to upload"
+msgid "Browse..."
+msgstr "Sfoglia ..."
+
+#: includes/common.php:342
+msgid "January"
+msgstr "Gennaio"
+
+#: includes/common.php:343
+msgid "February"
+msgstr "Febbraio"
+
+#: includes/common.php:344
+msgid "March"
+msgstr "Marzo"
+
+#: includes/common.php:345
+msgid "April"
+msgstr "Aprile"
+
+#: includes/common.php:346
+msgid "May"
+msgstr "Maggio"
+
+#: includes/common.php:347
+msgid "June"
+msgstr "Giugno"
+
+#: includes/common.php:348
+msgid "July"
+msgstr "Luglio"
+
+#: includes/common.php:349
+msgid "August"
+msgstr "Agosto"
+
+#: includes/common.php:350
+msgid "September"
+msgstr "Settembre"
+
+#: includes/common.php:351
+msgid "October"
+msgstr "Ottobre"
+
+#: includes/common.php:352
+msgid "November"
+msgstr "Novembre"
+
+#: includes/common.php:353
+msgid "December"
+msgstr "Dicembre"
+
+#: includes/common.php:512
+msgid "An error occurred submitting the form"
+msgstr "Errore durante l'invio del modulo"
+
+#: includes/common.php:515
+msgid "You have attempted to queue too many files"
+msgstr "Si è tentato di caricare troppi file di coda"
+
+#: includes/common.php:516
+msgid "This file exceeds the maximum upload size"
+msgstr "Questo file supera la dimensione massima di upload"
+
+#: includes/common.php:517
+msgid "This file is empty"
+msgstr "Questo file è vuoto"
+
+#: includes/common.php:518
+msgid "This file type is not allowed"
+msgstr "Questo tipo di file non è consentito"
+
+#: includes/common.php:519
+msgid "Unknown queue error, please try again later"
+msgstr "Errore coda sconosciuto, riprova più tardi"
+
+#: includes/common.php:520
+msgid "Upload error"
+msgstr "errore di caricamento"
+
+#: includes/common.php:521
+msgid "Upload failed"
+msgstr "Caricamento non riuscito"
+
+#: includes/common.php:522
+msgid "Server IO error"
+msgstr "Errore Server IO"
+
+#: includes/common.php:523
+msgid "Security error"
+msgstr "Errore di sicurezza"
+
+#: includes/common.php:524
+msgid "Upload limit exceeded"
+msgstr "hai superato il valore limite di caricamento"
+
+#: includes/common.php:525
+msgid "Validation failed"
+msgstr "Convalida non riuscita"
+
+#: includes/common.php:526
+msgid "Upload stopped"
+msgstr "Caricamento arrestato"
+
+#: includes/common.php:530
+msgid "The form cannot be submitted in the preview"
+msgstr "Il form non può essere presentato in anteprima"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.quform.com"
+msgstr "http://www.quform.com"
+
+#. Description of the plugin/theme
+msgid "The Quform form builder makes it easy to build forms in WordPress."
+msgstr "Il generatore di form Quform rende facile creare form in WordPress."
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr "ThemeCatcher"
+
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net"
+msgstr "http://www.themecatcher.net"
+
+#: admin/includes/entries.php:5 admin/includes/entry.php:5
+#: admin/includes/export.php:5 admin/includes/form-builder.php:5
+#: admin/includes/forms.php:5 admin/includes/help.php:5
+#: admin/includes/import.php:5 admin/includes/settings.php:5
+msgid "Report a bug"
+msgstr "Segnala un bug"
+
+#: admin/admin.php:287 admin/admin.php:288 admin/admin.php:3336
+#: admin/includes/elements/_save.php:5 admin/includes/entries.php:6
+#: admin/includes/entry.php:6 admin/includes/export.php:6
+#: admin/includes/form-builder.php:6 admin/includes/forms.php:6
+#: admin/includes/help.php:6 admin/includes/help.php:10
+#: admin/includes/import.php:6 admin/includes/settings.php:6
+msgid "Help"
+msgstr "Aiuto"
+
+#: admin/admin.php:233 admin/admin.php:234 admin/includes/forms.php:10
+msgid "Forms"
+msgstr "Forms"
+
+#: admin/includes/forms.php:10
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: admin/includes/entries.php:55 admin/includes/entries.php:82
+#: admin/includes/forms.php:21
+msgid "All"
+msgstr "Tutto"
+
+#: admin/includes/form-builder.php:268 admin/includes/forms.php:22
+#: admin/includes/forms.php:57 admin/includes/forms.php:78
+msgid "Active"
+msgstr "Attivo"
+
+#: admin/includes/forms.php:23
+msgid "Inactive"
+msgstr "Inattivo"
+
+#: admin/includes/entries.php:69 admin/includes/entries.php:188
+#: admin/includes/forms.php:30 admin/includes/forms.php:144
+msgid "Bulk Actions"
+msgstr "Azioni in blocco"
+
+#: admin/includes/forms.php:31 admin/includes/forms.php:104
+#: admin/includes/forms.php:145
+msgid "Activate"
+msgstr "Attiva"
+
+#: admin/includes/forms.php:32 admin/includes/forms.php:102
+#: admin/includes/forms.php:146
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: admin/includes/elements/_actions.php:4
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+#: admin/includes/entries.php:72 admin/includes/entries.php:170
+#: admin/includes/entries.php:191 admin/includes/forms.php:33
+#: admin/includes/forms.php:108 admin/includes/forms.php:147
+msgid "Delete"
+msgstr "Cancella"
+
+#: admin/includes/entries.php:74 admin/includes/entries.php:193
+#: admin/includes/forms.php:35 admin/includes/forms.php:149
+msgid "Apply"
+msgstr "Applica"
+
+#: admin/includes/forms.php:48 admin/includes/forms.php:69
+msgid "ID"
+msgstr "ID"
+
+#: admin/includes/elements/groupstart.php:39
+#: admin/includes/form-builder.php:240 admin/includes/forms.php:51
+#: admin/includes/forms.php:72
+msgid "Name"
+msgstr "Nome"
+
+#: admin/admin.php:251 admin/admin.php:252 admin/admin.php:3332
+#: admin/includes/entries.php:11 admin/includes/entries.php:201
+#: admin/includes/form-builder.php:44 admin/includes/forms.php:54
+#: admin/includes/forms.php:75 admin/includes/forms.php:100
+#: admin/includes/help/_nav-settings.php:7
+msgid "Entries"
+msgstr "Voci"
+
+#: admin/includes/forms.php:98 includes/form.php:346
+msgid "Edit this form"
+msgstr "Modifica questo form"
+
+#: admin/includes/forms.php:98
+msgid "Edit"
+msgstr "Modifica"
+
+#: admin/includes/forms.php:99
+msgid "Preview this form"
+msgstr "Anteprima di questo form"
+
+#: admin/includes/form-builder.php:140 admin/includes/form-builder.php:1386
+#: admin/includes/forms.php:99 admin/includes/preview.php:5
+msgid "Preview"
+msgstr "Anteprima"

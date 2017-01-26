@@ -1,0 +1,5699 @@
+# Translation of Quform in Chinese (China)
+# This file is distributed under the same license as the Quform package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-21 02:12:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quform\n"
+
+#: admin/includes/elements/settings/placeholder.php:5
+msgid "The placeholder text will appear inside the field until the user starts to type."
+msgstr "“输入提示”会在用户输入内容之前显示在文本框中。"
+
+#: admin/includes/elements/settings/placeholder.php:2
+msgid "Placeholder"
+msgstr "输入提示"
+
+#: admin/includes/elements/date.php:247
+msgid "Note: to translate the Datepicker calendar go to Form Settings &rarr; Style &rarr; Datepicker."
+msgstr "在表单设置 &rarr;  样式 &rarr; 日期选择器 中设置日期选择器的日历翻译。"
+
+#: admin/includes/elements/recaptcha.php:61
+msgid "Size"
+msgstr "大小"
+
+#: admin/includes/elements/recaptcha.php:64
+msgid "Normal"
+msgstr "正常"
+
+#: admin/includes/elements/recaptcha.php:65
+msgid "Compact"
+msgstr "紧密"
+
+#: admin/includes/elements/time.php:208
+msgid "Translate or override the error message shown if the time is not valid. The default is \"%s\"."
+msgstr "当时间无效时，翻译或自定义错误信息。默认是\"%s\"。"
+
+#: admin/admin.php:432 admin/includes/elements/time.php:20
+#: admin/includes/elements/time.php:216 includes/iPhorm/Element/Time.php:286
+msgctxt "select hour"
+msgid "HH"
+msgstr "时"
+
+#: admin/admin.php:433 admin/includes/elements/time.php:21
+#: admin/includes/elements/time.php:220 includes/iPhorm/Element/Time.php:306
+msgctxt "select minute"
+msgid "MM"
+msgstr "分"
+
+#: admin/admin.php:434 admin/includes/elements/time.php:22
+#: admin/includes/elements/time.php:224 includes/iPhorm/Element/Time.php:326
+msgctxt "select morning/afternoon"
+msgid "am/pm"
+msgstr "上午/下午"
+
+#: admin/includes/elements/date.php:127
+msgid "The start year will be the first year in the year dropdown and every year from the start year to the end year will be displayed."
+msgstr "起始年就是年份下拉列表中可选的第一个年份并且显示从起始年份到结束年份的每一年。"
+
+#: admin/includes/elements/html.php:41
+msgid "Show in entry"
+msgstr "在表单元件中显示"
+
+#: admin/includes/elements/html.php:45
+msgid "Show the HTML when viewing the form entry."
+msgstr "浏览表单元件时显示的HTML"
+
+#: admin/includes/elements/time.php:108
+msgid "Shows the headings for HH, MM and am/pm as the first options in the dropdown menus."
+msgstr "在下拉列表项中的第一项显示“时”、“分”和“上午/下午”的标题"
+
+#: admin/includes/elements/time.php:110
+msgid "Show time headings"
+msgstr "显示时间标题"
+
+#: admin/includes/elements/time.php:118
+msgid "The start hour will be the first hour in the hour dropdown and every hour from the start hour to the end hour will be displayed."
+msgstr "起始小时是时间下位列表中的第一项，列表中显示自它开始到结束小时的每一小时。"
+
+#: admin/includes/elements/time.php:120
+msgid "Start hour"
+msgstr "起始小时"
+
+#: admin/includes/elements/time.php:128
+msgid "The end hour will be the last hour in the hour dropdown and every hour from the start hour to the end hour will be displayed."
+msgstr "结束小时是时间下位列表中的最后一项，列表中显示自起始小时到它的每一小时。"
+
+#: admin/includes/elements/time.php:130
+msgid "End hour"
+msgstr "结束的小时"
+
+#: admin/includes/elements/time.php:205
+msgid "Error message if invalid time"
+msgstr "当时间无效时的错误提示"
+
+#: admin/includes/entries.php:94 admin/includes/entries.php:121
+#: admin/includes/forms.php:44 admin/includes/forms.php:65
+msgid "Select All"
+msgstr "全选"
+
+#: admin/includes/form-builder.php:343
+msgid "Reset form values"
+msgstr "重置表单值"
+
+#: admin/includes/form-builder.php:346
+msgid "Reset form values to default"
+msgstr "将表单值恢复成默认"
+
+#: admin/includes/form-builder.php:347
+msgid "Clear form values"
+msgstr "清除表单值"
+
+#: admin/includes/form-builder.php:348
+msgid "Keep form values"
+msgstr "保持表单值"
+
+#: admin/includes/form-builder.php:350
+msgid "Choose what to do with the form values when the form is successfully submitted."
+msgstr "当表单成功提交后，选择如何处理表单的值。"
+
+#: includes/iPhorm/Validator/Time.php:24
+msgid "This is not a valid time"
+msgstr "这不是有效的时间"
+
+#: admin/includes/entries.php:57
+msgid "Read"
+msgstr "已读"
+
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:137
+msgid "A password is saved but hidden for security reasons."
+msgstr "密码已经保存但出于安全考虑不予显示。"
+
+#: admin/includes/form-builder.php:1192 admin/includes/settings.php:137
+msgid "Change password"
+msgstr "更改密码"
+
+#: admin/includes/settings.php:75
+msgid ""
+"In order to use the reCAPTCHA element in your form you must %ssign up%s\n"
+"        for a free account to get your set of API keys. Once you have your Site and Secret keys, enter them below."
+msgstr "如果想在表单中使用reCAPTCHA部件，您必须免费%s注册%s一个账号来获取您的reCAPTCHA Site key和reCAPTCHA  Secret Key并填写到以下对应栏目中。"
+
+#: admin/includes/settings.php:80
+msgid "reCAPTCHA Site key"
+msgstr "reCAPTCHA Site key"
+
+#: admin/includes/settings.php:84
+msgid "reCAPTCHA Secret key"
+msgstr "reCAPTCHA Secret key"
+
+#: includes/iPhorm/Validator/Recaptcha.php:28
+msgid "The secret parameter is missing"
+msgstr "安全参数缺失"
+
+#: includes/iPhorm/Validator/Recaptcha.php:29
+msgid "The secret parameter is invalid or malformed"
+msgstr "安全参数无效或畸形"
+
+#: includes/iPhorm/Validator/Recaptcha.php:30
+msgid "The response parameter is missing"
+msgstr "响应参数缺失"
+
+#: includes/iPhorm/Validator/Recaptcha.php:31
+msgid "The response parameter is invalid or malformed"
+msgstr "响应参数无效或畸形"
+
+#: admin/admin.php:1160 admin/admin.php:1162
+msgid "Add Quform"
+msgstr "添加Quform"
+
+#: admin/includes/elements/recaptcha.php:6
+msgid "Are you human?"
+msgstr "您不是机器人吧？"
+
+#: admin/includes/elements/recaptcha.php:51
+msgid "CAPTCHA type"
+msgstr "校验（CAPTCHA）类型"
+
+#: admin/includes/elements/recaptcha.php:54
+msgid "Image"
+msgstr "图片"
+
+#: admin/includes/elements/recaptcha.php:55
+msgid "Audio"
+msgstr "声音"
+
+#: admin/includes/form-builder.php:461
+msgid "This makes the layout automatically adjust to fit the screen on smaller devices."
+msgstr "它可以自动适应移动设备屏幕的样式"
+
+#: admin/includes/form-builder.php:462
+msgid "Responsive"
+msgstr "响应式布局"
+
+#: admin/includes/settings.php:217
+msgid "FreeType Library"
+msgstr "FreeType库"
+
+#: admin/includes/settings.php:220
+msgid "The plugin requires the FreeType library for the CAPTCHA element, please ask your host to install it."
+msgstr "插件中的 CAPTCHA 部件要使用到FreeType库，请在服务器上安装它。"
+
+#: admin/includes/settings.php:243
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: admin/includes/settings.php:145
+msgid "Email \"Return-Path\" address"
+msgstr "电子邮件\"Return-Path”地址"
+
+#: admin/includes/settings.php:155
+msgid "You can disable the output of the scripts used by the Quform plugin below by ticking the boxes below. This will disable both the CSS and JavaScript for the script."
+msgstr "你可以通过勾选以下选项，禁止Quform使用对应的CSS和JavaScript脚本。"
+
+#: admin/includes/settings.php:65 admin/includes/settings.php:67
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: admin/includes/settings.php:67
+msgid "You are using version %s"
+msgstr "您当前使用的版本是 %s"
+
+#: admin/admin.php:371
+msgid "An error occurred checking for updates."
+msgstr "检查更新时发生了一个错误"
+
+#: admin/admin.php:2446
+msgid "An update to version %s is available. %sVisit the Updates page%s to update."
+msgstr "版本 %s 可供更新， %s去更新%s。"
+
+#: admin/admin.php:2448
+msgid "You are using the latest version."
+msgstr "您当前使用的是最新版本。"
+
+#: admin/admin.php:2453
+msgid "Could not find an updated version."
+msgstr "没有找到新版本。"
+
+#: admin/admin.php:2722
+msgid "Brazil"
+msgstr "巴西"
+
+#: admin/admin.php:2722
+msgid "British Indian Ocean Territory"
+msgstr "英属印度洋领地"
+
+#: admin/admin.php:2722
+msgid "Brunei Darussalam"
+msgstr "文莱达鲁萨兰国"
+
+#: admin/admin.php:2722
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: admin/admin.php:2722
+msgid "Burkina Faso"
+msgstr "布基纳法索"
+
+#: admin/admin.php:2722
+msgid "Burundi"
+msgstr "布隆迪"
+
+#: admin/admin.php:2722
+msgid "Cambodia"
+msgstr "柬埔寨"
+
+#: admin/admin.php:2722
+msgid "Cameroon"
+msgstr "喀麦隆"
+
+#: admin/admin.php:2722
+msgid "Canada"
+msgstr "加拿大"
+
+#: admin/admin.php:2722
+msgid "Cape Verde"
+msgstr "佛得角"
+
+#: admin/admin.php:2722
+msgid "Cayman Islands"
+msgstr "开曼群岛"
+
+#: admin/admin.php:2722
+msgid "Central African Republic"
+msgstr "中非"
+
+#: admin/admin.php:2722
+msgid "Chad"
+msgstr "乍得"
+
+#: admin/admin.php:2723
+msgid "Chile"
+msgstr "智利"
+
+#: admin/admin.php:2723
+msgid "China"
+msgstr "中国"
+
+#: admin/admin.php:2723
+msgid "Christmas Island"
+msgstr "圣诞岛"
+
+#: admin/admin.php:2723
+msgid "Cocos (Keeling) Islands"
+msgstr "科科斯（基林）群岛"
+
+#: admin/admin.php:2723
+msgid "Colombia"
+msgstr "哥伦比亚"
+
+#: admin/admin.php:2723
+msgid "Comoros"
+msgstr "科摩罗"
+
+#: admin/admin.php:2723
+msgid "Congo"
+msgstr "刚果"
+
+#: admin/admin.php:2723
+msgid "Congo, The Democratic Republic Of The"
+msgstr "刚果民主共和国"
+
+#: admin/admin.php:2723
+msgid "Cook Islands"
+msgstr "库克群岛"
+
+#: admin/admin.php:2723
+msgid "Costa Rica"
+msgstr "哥斯达黎加"
+
+#: admin/admin.php:2723
+msgid "Cote D'Ivoire"
+msgstr "科特迪瓦"
+
+#: admin/admin.php:2723
+msgid "Croatia (Local Name: Hrvatska)"
+msgstr "克罗地亚"
+
+#: admin/admin.php:2723
+msgid "Cuba"
+msgstr "古巴"
+
+#: admin/admin.php:2723
+msgid "Cyprus"
+msgstr "塞浦路斯"
+
+#: admin/admin.php:2723
+msgid "Czech Republic"
+msgstr "捷克"
+
+#: admin/admin.php:2723
+msgid "Denmark"
+msgstr "丹麦"
+
+#: admin/admin.php:2723
+msgid "Djibouti"
+msgstr "吉布提"
+
+#: admin/admin.php:2723
+msgid "Dominica"
+msgstr "多米尼加"
+
+#: admin/admin.php:2723
+msgid "Dominican Republic"
+msgstr "多米尼加共和国"
+
+#: admin/admin.php:2723
+msgid "East Timor"
+msgstr "东帝汶"
+
+#: admin/admin.php:2723
+msgid "Ecuador"
+msgstr "厄瓜多尔"
+
+#: admin/admin.php:2724
+msgid "Egypt"
+msgstr "埃及"
+
+#: admin/admin.php:2724
+msgid "El Salvador"
+msgstr "萨尔瓦多"
+
+#: admin/admin.php:2724
+msgid "Equatorial Guinea"
+msgstr "赤道几内亚"
+
+#: admin/admin.php:2724
+msgid "Eritrea"
+msgstr "厄立特里亚"
+
+#: admin/admin.php:2724
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#: admin/admin.php:2724
+msgid "Ethiopia"
+msgstr "埃塞俄比亚"
+
+#: admin/admin.php:2724
+msgid "Falkland Islands (Malvinas)"
+msgstr "福克兰群岛（马尔维纳斯群岛）"
+
+#: admin/admin.php:2724
+msgid "Faroe Islands"
+msgstr "法罗群岛"
+
+#: admin/admin.php:2724
+msgid "Fiji"
+msgstr "斐济"
+
+#: admin/admin.php:2724
+msgid "Finland"
+msgstr "芬兰"
+
+#: admin/admin.php:2724
+msgid "France"
+msgstr "法国"
+
+#: admin/admin.php:2724
+msgid "France, Metropolitan"
+msgstr "法国大都会"
+
+#: admin/admin.php:2724
+msgid "French Guiana"
+msgstr "法属圭亚那"
+
+#: admin/admin.php:2724
+msgid "French Polynesia"
+msgstr "法属波利尼西亚"
+
+#: admin/admin.php:2724
+msgid "French Southern Territories"
+msgstr "法属南部领土"
+
+#: admin/admin.php:2724
+msgid "Gabon"
+msgstr "加蓬"
+
+#: admin/admin.php:2724
+msgid "Gambia"
+msgstr "冈比亚"
+
+#: admin/admin.php:2724
+msgid "Georgia"
+msgstr "格鲁吉亚"
+
+#: admin/admin.php:2724
+msgid "Germany"
+msgstr "德国"
+
+#: admin/admin.php:2724
+msgid "Ghana"
+msgstr "加纳"
+
+#: admin/admin.php:2724
+msgid "Gibraltar"
+msgstr "直布罗陀"
+
+#: admin/admin.php:2725
+msgid "Greece"
+msgstr "希腊"
+
+#: admin/admin.php:2725
+msgid "Greenland"
+msgstr "格陵兰岛"
+
+#: admin/admin.php:2725
+msgid "Grenada"
+msgstr "格林纳达"
+
+#: admin/admin.php:2725
+msgid "Guadeloupe"
+msgstr "瓜德罗普岛"
+
+#: admin/admin.php:2725
+msgid "Guam"
+msgstr "关岛"
+
+#: admin/admin.php:2725
+msgid "Guatemala"
+msgstr "危地马拉"
+
+#: admin/admin.php:2725
+msgid "Guinea"
+msgstr "几内亚"
+
+#: admin/admin.php:2725
+msgid "Guinea-Bissau"
+msgstr "几内亚比绍"
+
+#: admin/admin.php:2725
+msgid "Guyana"
+msgstr "圭亚那"
+
+#: admin/admin.php:2725
+msgid "Haiti"
+msgstr "海地"
+
+#: admin/admin.php:2725
+msgid "Heard And Mc Donald Islands"
+msgstr "赫德岛和麦克唐纳群岛"
+
+#: admin/admin.php:2725
+msgid "Holy See (Vatican City State)"
+msgstr "梵蒂冈"
+
+#: admin/admin.php:2725
+msgid "Honduras"
+msgstr "洪都拉斯"
+
+#: admin/admin.php:2725
+msgid "Hong Kong"
+msgstr "香港（中国）"
+
+#: admin/admin.php:2725
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: admin/admin.php:2725
+msgid "Iceland"
+msgstr "冰岛"
+
+#: admin/admin.php:2725
+msgid "India"
+msgstr "印度"
+
+#: admin/admin.php:2725
+msgid "Indonesia"
+msgstr "印度尼西亚"
+
+#: admin/admin.php:2725
+msgid "Iran (Islamic Republic Of)"
+msgstr "伊朗"
+
+#: admin/admin.php:2725
+msgid "Iraq"
+msgstr "伊拉克"
+
+#: admin/admin.php:2725
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#: admin/admin.php:2726
+msgid "Israel"
+msgstr "以色列"
+
+#: admin/admin.php:2726
+msgid "Italy"
+msgstr "意大利"
+
+#: admin/admin.php:2726
+msgid "Jamaica"
+msgstr "牙买加"
+
+#: admin/admin.php:2726
+msgid "Japan"
+msgstr "日本"
+
+#: admin/admin.php:2726
+msgid "Jordan"
+msgstr "约旦"
+
+#: admin/admin.php:2726
+msgid "Kazakhstan"
+msgstr "哈萨克斯坦"
+
+#: admin/admin.php:2726
+msgid "Kenya"
+msgstr "肯尼亚"
+
+#: admin/admin.php:2726
+msgid "Kiribati"
+msgstr "基里巴斯"
+
+#: admin/admin.php:2726
+msgid "Korea, Democratic People's Republic Of"
+msgstr "朝鲜"
+
+#: admin/admin.php:2726
+msgid "Korea, Republic Of"
+msgstr "韩国"
+
+#: admin/admin.php:2726
+msgid "Kuwait"
+msgstr "科威特"
+
+#: admin/admin.php:2726
+msgid "Kyrgyzstan"
+msgstr "吉尔吉斯斯坦"
+
+#: admin/admin.php:2726
+msgid "Lao People's Democratic Republic"
+msgstr "老挝"
+
+#: admin/admin.php:2726
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+#: admin/admin.php:2726
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#: admin/admin.php:2726
+msgid "Lesotho"
+msgstr "莱索托"
+
+#: admin/admin.php:2726
+msgid "Liberia"
+msgstr "利比里亚"
+
+#: admin/admin.php:2726
+msgid "Libyan Arab Jamahiriya"
+msgstr "利比亚"
+
+#: admin/admin.php:2726
+msgid "Liechtenstein"
+msgstr "列支敦士登"
+
+#: admin/admin.php:2726
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: admin/admin.php:2726
+msgid "Luxembourg"
+msgstr "卢森堡"
+
+#: admin/admin.php:2727
+msgid "Macau"
+msgstr "澳门（中国）"
+
+#: admin/admin.php:2727
+msgid "Macedonia, Former Yugoslav Republic Of"
+msgstr "马其顿"
+
+#: admin/admin.php:2727
+msgid "Madagascar"
+msgstr "马达加斯加"
+
+#: admin/admin.php:2727
+msgid "Malawi"
+msgstr "马拉维"
+
+#: admin/admin.php:2727
+msgid "Malaysia"
+msgstr "马来西亚"
+
+#: admin/admin.php:2727
+msgid "Maldives"
+msgstr "马尔代夫"
+
+#: admin/admin.php:2727
+msgid "Mali"
+msgstr "马里"
+
+#: admin/admin.php:2727
+msgid "Malta"
+msgstr "马耳他"
+
+#: admin/admin.php:2727
+msgid "Marshall Islands"
+msgstr "马绍尔群岛"
+
+#: admin/admin.php:2727
+msgid "Martinique"
+msgstr "马提尼克岛"
+
+#: admin/admin.php:2727
+msgid "Mauritania"
+msgstr "毛里塔尼亚"
+
+#: admin/admin.php:2727
+msgid "Mauritius"
+msgstr "毛里求斯"
+
+#: admin/admin.php:2727
+msgid "Mayotte"
+msgstr "马约特"
+
+#: admin/admin.php:2727
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: admin/admin.php:2727
+msgid "Micronesia, Federated States Of"
+msgstr "密克罗尼西亚"
+
+#: admin/admin.php:2727
+msgid "Moldova, Republic Of"
+msgstr "摩尔多瓦"
+
+#: admin/admin.php:2727
+msgid "Monaco"
+msgstr "摩纳哥"
+
+#: admin/admin.php:2727
+msgid "Mongolia"
+msgstr "蒙古"
+
+#: admin/admin.php:2727
+msgid "Montserrat"
+msgstr "蒙特塞拉特"
+
+#: admin/admin.php:2727
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#: admin/admin.php:2727
+msgid "Mozambique"
+msgstr "莫桑比克"
+
+#: admin/admin.php:2728
+msgid "Myanmar"
+msgstr "缅甸"
+
+#: admin/admin.php:2728
+msgid "Namibia"
+msgstr "纳米比亚"
+
+#: admin/admin.php:2728
+msgid "Nauru"
+msgstr "瑙鲁"
+
+#: admin/admin.php:2728
+msgid "Nepal"
+msgstr "尼泊尔"
+
+#: admin/admin.php:2728
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: admin/admin.php:2728
+msgid "Netherlands Antilles"
+msgstr "荷属安的列斯群岛"
+
+#: admin/admin.php:2728
+msgid "New Caledonia"
+msgstr "新喀里多尼亚"
+
+#: admin/admin.php:2728
+msgid "New Zealand"
+msgstr "新西兰"
+
+#: admin/admin.php:2728
+msgid "Nicaragua"
+msgstr "尼加拉瓜"
+
+#: admin/admin.php:2728
+msgid "Niger"
+msgstr "尼日尔"
+
+#: admin/admin.php:2728
+msgid "Nigeria"
+msgstr "尼日利亚"
+
+#: admin/admin.php:2728
+msgid "Niue"
+msgstr "纽埃"
+
+#: admin/admin.php:2728
+msgid "Norfolk Island"
+msgstr "诺福克岛"
+
+#: admin/admin.php:2728
+msgid "Northern Mariana Islands"
+msgstr "北马里亚纳群岛"
+
+#: admin/admin.php:2728
+msgid "Norway"
+msgstr "挪威"
+
+#: admin/admin.php:2728
+msgid "Oman"
+msgstr "阿曼"
+
+#: admin/admin.php:2728
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: admin/admin.php:2728
+msgid "Palau"
+msgstr "帕劳"
+
+#: admin/admin.php:2728
+msgid "Panama"
+msgstr "巴拿马"
+
+#: admin/admin.php:2728
+msgid "Papua New Guinea"
+msgstr "巴布亚新几内亚"
+
+#: admin/admin.php:2728
+msgid "Paraguay"
+msgstr "巴拉圭"
+
+#: admin/admin.php:2729
+msgid "Peru"
+msgstr "秘鲁"
+
+#: admin/admin.php:2729
+msgid "Philippines"
+msgstr "菲律宾"
+
+#: admin/admin.php:2729
+msgid "Pitcairn"
+msgstr "皮特凯恩群岛"
+
+#: admin/admin.php:2729
+msgid "Poland"
+msgstr "波兰"
+
+#: admin/admin.php:2729
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: admin/admin.php:2729
+msgid "Puerto Rico"
+msgstr "波多黎各"
+
+#: admin/admin.php:2729
+msgid "Qatar"
+msgstr "卡塔尔"
+
+#: admin/admin.php:2729
+msgid "Reunion"
+msgstr "留尼汪岛"
+
+#: admin/admin.php:2729
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: admin/admin.php:2729
+msgid "Russian Federation"
+msgstr "俄罗斯联邦"
+
+#: admin/admin.php:2729
+msgid "Rwanda"
+msgstr "卢旺达"
+
+#: admin/admin.php:2729
+msgid "Saint Kitts And Nevis"
+msgstr "圣基茨和尼维斯"
+
+#: admin/admin.php:2729
+msgid "Saint Lucia"
+msgstr "圣卢西亚"
+
+#: admin/admin.php:2729
+msgid "Saint Vincent And The Grenadines"
+msgstr "圣文森特和格林纳丁斯"
+
+#: admin/admin.php:2729
+msgid "Samoa"
+msgstr "萨摩亚"
+
+#: admin/admin.php:2729
+msgid "San Marino"
+msgstr "圣马力诺"
+
+#: admin/admin.php:2729
+msgid "Sao Tome And Principe"
+msgstr "圣多美和普林西比"
+
+#: admin/admin.php:2729
+msgid "Saudi Arabia"
+msgstr "沙特阿拉伯"
+
+#: admin/admin.php:2729
+msgid "Senegal"
+msgstr "塞内加尔"
+
+#: admin/admin.php:2729
+msgid "Seychelles"
+msgstr "塞舌尔"
+
+#: admin/admin.php:2729
+msgid "Sierra Leone"
+msgstr "塞拉利昂"
+
+#: admin/admin.php:2730
+msgid "Singapore"
+msgstr "新加坡"
+
+#: admin/admin.php:2730
+msgid "Slovakia (Slovak Republic)"
+msgstr "斯洛伐克（斯洛伐克共和国）"
+
+#: admin/admin.php:2730
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#: admin/admin.php:2730
+msgid "Solomon Islands"
+msgstr "所罗门群岛"
+
+#: admin/admin.php:2730
+msgid "Somalia"
+msgstr "索马里"
+
+#: admin/admin.php:2730
+msgid "South Africa"
+msgstr "南非"
+
+#: admin/admin.php:2730
+msgid "South Georgia, South Sandwich Islands"
+msgstr "南乔治亚，南三明治群岛"
+
+#: admin/admin.php:2730
+msgid "Spain"
+msgstr "西班牙"
+
+#: admin/admin.php:2730
+msgid "Sri Lanka"
+msgstr "斯里兰卡"
+
+#: admin/admin.php:2730
+msgid "St. Helena"
+msgstr "圣海伦娜"
+
+#: admin/admin.php:2730
+msgid "St. Pierre And Miquelon"
+msgstr "圣彼埃尔和密克隆岛"
+
+#: admin/admin.php:2730
+msgid "Sudan"
+msgstr "苏丹"
+
+#: admin/admin.php:2730
+msgid "Suriname"
+msgstr "苏里南"
+
+#: admin/admin.php:2730
+msgid "Svalbard And Jan Mayen Islands"
+msgstr "斯瓦尔巴群岛和扬马延岛"
+
+#: admin/admin.php:2730
+msgid "Swaziland"
+msgstr "斯威士兰"
+
+#: admin/admin.php:2730
+msgid "Sweden"
+msgstr "瑞典"
+
+#: admin/admin.php:2730
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: admin/admin.php:2730
+msgid "Syrian Arab Republic"
+msgstr "阿拉伯叙利亚共和国"
+
+#: admin/admin.php:2730
+msgid "Taiwan"
+msgstr "台湾 （中国）"
+
+#: admin/admin.php:2730
+msgid "Tajikistan"
+msgstr "塔吉克斯坦"
+
+#: admin/admin.php:2730
+msgid "Tanzania, United Republic Of"
+msgstr "坦桑尼亚"
+
+#: admin/admin.php:2731
+msgid "Thailand"
+msgstr "泰国"
+
+#: admin/admin.php:2731
+msgid "Togo"
+msgstr "多哥"
+
+#: admin/admin.php:2731
+msgid "Tokelau"
+msgstr "托克劳"
+
+#: admin/admin.php:2731
+msgid "Tonga"
+msgstr "汤加"
+
+#: admin/admin.php:2731
+msgid "Trinidad And Tobago"
+msgstr "特立尼达和多巴哥"
+
+#: admin/admin.php:2731
+msgid "Tunisia"
+msgstr "突尼斯"
+
+#: admin/admin.php:2731
+msgid "Turkey"
+msgstr "土耳其"
+
+#: admin/admin.php:2731
+msgid "Turkmenistan"
+msgstr "土库曼斯坦"
+
+#: admin/admin.php:2731
+msgid "Turks And Caicos Islands"
+msgstr "特克斯和凯科斯群岛"
+
+#: admin/admin.php:2731
+msgid "Tuvalu"
+msgstr "图瓦卢"
+
+#: admin/admin.php:2731
+msgid "Uganda"
+msgstr "乌干达"
+
+#: admin/admin.php:2731
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: admin/admin.php:2731
+msgid "United Arab Emirates"
+msgstr "阿拉伯联合酋长国"
+
+#: admin/admin.php:2731
+msgid "United Kingdom"
+msgstr "英国"
+
+#: admin/admin.php:2731
+msgid "United States"
+msgstr "美国"
+
+#: admin/admin.php:2731
+msgid "United States Minor Outlying Islands"
+msgstr "美属边疆群岛"
+
+#: admin/admin.php:2731
+msgid "Uruguay"
+msgstr "乌拉圭"
+
+#: admin/admin.php:2731
+msgid "Uzbekistan"
+msgstr "乌兹别克斯坦"
+
+#: admin/admin.php:2731
+msgid "Vanuatu"
+msgstr "瓦努阿图"
+
+#: admin/admin.php:2731
+msgid "Venezuela"
+msgstr "委内瑞拉"
+
+#: admin/admin.php:2731
+msgid "Vietnam"
+msgstr "越南"
+
+#: admin/admin.php:2732
+msgid "Virgin Islands (British)"
+msgstr "维尔京群岛（英国）"
+
+#: admin/admin.php:2732
+msgid "Virgin Islands (U.S.)"
+msgstr "维尔京群岛（美国）"
+
+#: admin/admin.php:2732
+msgid "Wallis And Futuna Islands"
+msgstr "瓦利斯群岛和富图纳群岛"
+
+#: admin/admin.php:2732
+msgid "Western Sahara"
+msgstr "西撒哈拉"
+
+#: admin/admin.php:2732
+msgid "Yemen"
+msgstr "也门"
+
+#: admin/admin.php:2732
+msgid "Yugoslavia"
+msgstr "南斯拉夫"
+
+#: admin/admin.php:2732
+msgid "Zambia"
+msgstr "赞比亚"
+
+#: admin/admin.php:2732
+msgid "Zimbabwe"
+msgstr "津巴布韦"
+
+#: admin/admin.php:2721
+msgid "Afghanistan"
+msgstr "阿富汗"
+
+#: admin/admin.php:2721
+msgid "Albania"
+msgstr "阿尔巴尼亚"
+
+#: admin/admin.php:2721
+msgid "Algeria"
+msgstr "阿尔及利亚"
+
+#: admin/admin.php:2721
+msgid "American Samoa"
+msgstr "美属萨摩亚群岛"
+
+#: admin/admin.php:2721
+msgid "Andorra"
+msgstr "安道尔"
+
+#: admin/admin.php:2721
+msgid "Angola"
+msgstr "安哥拉"
+
+#: admin/admin.php:2721
+msgid "Anguilla"
+msgstr "安圭拉"
+
+#: admin/admin.php:2721
+msgid "Antigua And Barbuda"
+msgstr "安提瓜和巴布达"
+
+#: admin/admin.php:2721
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: admin/admin.php:2721
+msgid "Armenia"
+msgstr "亚美尼亚"
+
+#: admin/admin.php:2721
+msgid "Aruba"
+msgstr "阿鲁巴"
+
+#: admin/admin.php:2721
+msgid "Austria"
+msgstr "奥地利"
+
+#: admin/admin.php:2721
+msgid "Azerbaijan"
+msgstr "阿塞拜疆"
+
+#: admin/admin.php:2721
+msgid "Bahamas"
+msgstr "巴哈马"
+
+#: admin/admin.php:2721
+msgid "Bahrain"
+msgstr "巴林"
+
+#: admin/admin.php:2721
+msgid "Bangladesh"
+msgstr "孟加拉"
+
+#: admin/admin.php:2721
+msgid "Barbados"
+msgstr "巴巴多斯"
+
+#: admin/admin.php:2721
+msgid "Belarus"
+msgstr "白俄罗斯"
+
+#: admin/admin.php:2721
+msgid "Belgium"
+msgstr "比利时"
+
+#: admin/admin.php:2722
+msgid "Belize"
+msgstr "伯利兹"
+
+#: admin/admin.php:2722
+msgid "Benin"
+msgstr "贝宁"
+
+#: admin/admin.php:2722
+msgid "Bermuda"
+msgstr "百慕大"
+
+#: admin/admin.php:2722
+msgid "Bhutan"
+msgstr "不丹"
+
+#: admin/admin.php:2722
+msgid "Bolivia"
+msgstr "玻利维亚"
+
+#: admin/admin.php:2722
+msgid "Bosnia And Herzegovina"
+msgstr "波斯尼亚和黑塞哥维那"
+
+#: admin/admin.php:2722
+msgid "Botswana"
+msgstr "博茨瓦纳"
+
+#: admin/admin.php:2722
+msgid "Bouvet Island"
+msgstr "布维岛"
+
+#: admin/includes/forms.php:100
+msgid "View submitted form entries"
+msgstr "查看已经提交表单的数据记录"
+
+#: admin/includes/forms.php:102
+msgid "Deactivate this form"
+msgstr "停用表单"
+
+#: admin/includes/forms.php:104
+msgid "Activate this form"
+msgstr "启用此表单"
+
+#: admin/includes/forms.php:106
+msgid "Duplicate this form"
+msgstr "复制表单"
+
+#: admin/includes/forms.php:106
+msgid "Duplicate"
+msgstr "复制"
+
+#: admin/includes/forms.php:107
+msgid "Export this form"
+msgstr "导出此表单"
+
+#: admin/admin.php:267 admin/admin.php:268 admin/admin.php:3289
+#: admin/includes/export.php:87 admin/includes/forms.php:107
+msgid "Export"
+msgstr "导出"
+
+#: admin/includes/forms.php:108
+msgid "Delete this form"
+msgstr "删除此表单"
+
+#: admin/includes/forms.php:116
+msgid "%d unread"
+msgstr "%d个未读"
+
+#: admin/includes/forms.php:119
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] "%d条记录"
+
+#: admin/includes/forms.php:126
+msgid "Yes"
+msgstr "是"
+
+#: admin/includes/forms.php:128
+msgid "No"
+msgstr "否"
+
+#: admin/admin.php:1197 admin/includes/export.php:68
+#: admin/includes/export.php:91 admin/includes/forms.php:135
+msgid "No forms found, %sclick here to create one%s."
+msgstr "还没有表单，您可以%s新建一个%s."
+
+#: admin/includes/preview.php:36
+msgid ""
+"The preview does not include your WordPress theme CSS\n"
+"    so it may look different when viewed on a page on your website."
+msgstr "预览没有启用您的模块CSS，所以会和您页面中实际显示得不太一样。"
+
+#: admin/includes/preview.php:38
+msgid "Refresh"
+msgstr "刷新"
+
+#: admin/includes/preview.php:40
+msgid "Loading form preview..."
+msgstr "载入表单预览..."
+
+#: admin/includes/preview.php:43
+msgid "Sorry, there was a problem"
+msgstr "对不起，这里有一个问题"
+
+#: admin/includes/preview.php:44
+msgid ""
+"The form preview could not be loaded, this could be due to one\n"
+"        of the reasons below."
+msgstr "无法预览表单，可能是以下原因造成的。"
+
+#: admin/includes/preview.php:47
+msgid "The preview requires the form builder page to be open"
+msgstr "预览需要打开表单生成器页面"
+
+#: admin/includes/preview.php:48
+msgid "The form has been deleted"
+msgstr "表单已经被删除"
+
+#: admin/includes/preview.php:50
+msgid "Please address these issues and load the preview again."
+msgstr "请解决这些问题并重新预览。"
+
+#: admin/includes/dashboard.php:3 admin/includes/entry.php:27
+#: admin/includes/form-builder.php:155
+msgid "Form"
+msgstr "表单"
+
+#: admin/includes/dashboard.php:4 admin/includes/entries.php:56
+msgid "Unread"
+msgstr "未读"
+
+#: admin/includes/dashboard.php:12
+msgid "View entries"
+msgstr "查看记录"
+
+#: admin/includes/export.php:13
+msgid "Export form"
+msgstr "导出表单"
+
+#: admin/includes/export.php:15
+msgid "Export entries"
+msgstr "导出记录"
+
+#: admin/includes/export.php:24
+msgid "Export Entries"
+msgstr "导入记录"
+
+#: admin/includes/export.php:25
+msgid "Export Form"
+msgstr "导出表单"
+
+#: admin/includes/export.php:38
+msgid "Select a form to export entries from"
+msgstr "选择需要导出记录的表单"
+
+#: admin/admin.php:1180 admin/includes/export.php:41
+msgid "Please select"
+msgstr "请选择"
+
+#: admin/includes/export.php:49
+msgid "Choose which fields to export"
+msgstr "选择要导出的字段"
+
+#: admin/includes/export.php:50
+msgid "Tick all"
+msgstr "全部勾选"
+
+#: admin/includes/export.php:53
+msgid "Date range (optional)"
+msgstr "时间范围(可选)"
+
+#: admin/includes/export.php:54
+msgid "From"
+msgstr "从"
+
+#: admin/includes/export.php:56
+msgid "To"
+msgstr "到"
+
+#: admin/includes/export.php:58
+msgid "Click the fields to show a calendar"
+msgstr "点击字段显示日历选择器"
+
+#: admin/includes/export.php:61
+msgid "Download"
+msgstr "下载"
+
+#: admin/includes/export.php:79
+msgid "Select a form to export"
+msgstr "选择要导出的表单"
+
+#: admin/includes/export.php:97
+msgid "Form export data"
+msgstr "表单导出数据"
+
+#: admin/includes/export.php:100
+msgid "Click inside the box to select all text"
+msgstr "框内点击选中全部文本"
+
+#: admin/includes/export.php:101
+msgid "Copy the text inside the box and paste it into the box on the Quform Import page on another website"
+msgstr "复制框内文本，粘贴到其他网站的Quform导入页面的文本框内"
+
+#: admin/includes/entries.php:13
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;的搜索结果"
+
+#: admin/admin.php:3285 admin/includes/entries.php:21
+#: admin/includes/form-builder.php:28
+msgid "All Forms"
+msgstr "全部表单"
+
+#: admin/includes/entries.php:24 admin/includes/form-builder.php:31
+msgid "Switch Form"
+msgstr "切换表单"
+
+#: admin/includes/entries.php:27 admin/includes/form-builder.php:34
+msgid "Create a new form"
+msgstr "创建新表单"
+
+#: admin/includes/entries.php:39
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#: admin/includes/entries.php:42
+msgid "Edit Table Layout"
+msgstr "编辑表格样式"
+
+#: admin/includes/entries.php:59
+msgid "Search results"
+msgstr "搜索结果"
+
+#: admin/includes/entries.php:64
+msgid "Search Entries"
+msgstr "搜索记录"
+
+#: admin/includes/entries.php:70 admin/includes/entries.php:166
+#: admin/includes/entries.php:189
+msgid "Mark as read"
+msgstr "标记为已读"
+
+#: admin/includes/entries.php:71 admin/includes/entries.php:168
+#: admin/includes/entries.php:190
+msgid "Mark as unread"
+msgstr "标记为未读"
+
+#: admin/includes/entries.php:84
+msgid "per page"
+msgstr "每页"
+
+#: admin/includes/entries.php:139 admin/includes/entries.php:164
+msgid "View this entry"
+msgstr "查看记录"
+
+#: admin/includes/entries.php:164
+msgid "View"
+msgstr "查看"
+
+#: admin/includes/entries.php:170
+msgid "Delete this entry"
+msgstr "删除记录"
+
+#: admin/includes/entries.php:179
+msgid "No entries found."
+msgstr "找不到记录。"
+
+#: admin/includes/entries.php:202
+msgid "I couldn't find any forms, do you want to %screate one%s?"
+msgstr "没有找到任何表单，你是否想%s新建一个%s？"
+
+#: admin/includes/form-builder.php:116 admin/includes/help/_nav-elements.php:3
+#: admin/includes/help/elements.php:9
+msgid "Single Line Text"
+msgstr "单行文本"
+
+#: admin/includes/form-builder.php:117 admin/includes/help/_nav-elements.php:4
+#: admin/includes/help/elements.php:10
+msgid "Paragraph Text"
+msgstr "多行文本"
+
+#: admin/includes/form-builder.php:118 admin/includes/help/_nav-elements.php:5
+#: admin/includes/help/elements.php:11
+msgid "Email Address"
+msgstr "电子邮件"
+
+#: admin/includes/elements/checkbox.php:94 admin/includes/elements/radio.php:94
+#: admin/includes/form-builder.php:119 admin/includes/help/_nav-elements.php:6
+#: admin/includes/help/elements.php:12
+msgid "Dropdown Menu"
+msgstr "下拉菜单"
+
+#: admin/includes/elements/radio.php:95 admin/includes/elements/select.php:89
+#: admin/includes/form-builder.php:120 admin/includes/help/_nav-elements.php:7
+#: admin/includes/help/elements.php:13
+msgid "Checkboxes"
+msgstr "复选框"
+
+#: admin/includes/elements/checkbox.php:93
+#: admin/includes/elements/select.php:88 admin/includes/form-builder.php:121
+#: admin/includes/help/_nav-elements.php:8 admin/includes/help/elements.php:14
+msgid "Multiple Choice"
+msgstr "多项选择"
+
+#: admin/includes/form-builder.php:122 admin/includes/help/_nav-elements.php:9
+#: admin/includes/help/elements.php:15
+msgid "CAPTCHA"
+msgstr "检验码"
+
+#: admin/includes/form-builder.php:123 admin/includes/help/_nav-elements.php:10
+#: admin/includes/help/elements.php:16
+msgid "Group"
+msgstr "分组"
+
+#: admin/includes/form-builder.php:128 admin/includes/help/_nav-elements.php:11
+#: admin/includes/help/elements.php:17
+msgid "File Upload"
+msgstr "文件上传"
+
+#: admin/includes/form-builder.php:129 admin/includes/help/_nav-elements.php:12
+#: admin/includes/help/elements.php:18
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA(谷歌)"
+
+#: admin/includes/elements/html.php:24 admin/includes/form-builder.php:130
+#: admin/includes/form-builder.php:1014 admin/includes/form-builder.php:1100
+#: admin/includes/help/_nav-elements.php:13 admin/includes/help/elements.php:19
+msgid "HTML"
+msgstr "HTML代码"
+
+#: admin/admin.php:3073 admin/includes/elements/date.php:6
+#: admin/includes/entry.php:23 admin/includes/form-builder.php:131
+#: admin/includes/form-builder.php:1220
+#: admin/includes/help/_nav-elements.php:14 admin/includes/help/elements.php:20
+msgid "Date"
+msgstr "日期"
+
+#: admin/includes/elements/time.php:5 admin/includes/form-builder.php:132
+#: admin/includes/help/_nav-elements.php:15 admin/includes/help/elements.php:21
+msgid "Time"
+msgstr "时间"
+
+#: admin/includes/form-builder.php:133 admin/includes/help/_nav-elements.php:16
+#: admin/includes/help/elements.php:22
+msgid "Hidden"
+msgstr "隐藏域"
+
+#: admin/includes/elements/password.php:5 admin/includes/form-builder.php:134
+#: admin/includes/form-builder.php:1339
+#: admin/includes/help/_nav-elements.php:17 admin/includes/help/elements.php:23
+msgid "Password"
+msgstr "密码框"
+
+#: admin/includes/help/basics.php:6
+msgid "The help included with the plugin is no longer being updated and will be removed in a future version, please visit %s for comprehensive documentation and support forums."
+msgstr "插件中自带的帮助信息将不再更新，并会在将来的版本中移除，请访问%s查看完整文档的支持论坛。"
+
+#: admin/includes/help/settings.php:9
+msgid "Global plugin settings"
+msgstr "全局插件设置"
+
+#: admin/includes/help/settings.php:10
+msgid "General settings"
+msgstr "常用设置"
+
+#: admin/includes/help/settings.php:11
+msgid "Style settings"
+msgstr "样式设置"
+
+#: admin/includes/help/settings.php:12
+msgid "Email settings"
+msgstr "电子邮件设置"
+
+#: admin/includes/help/settings.php:13
+msgid "Entries settings"
+msgstr "记录设置"
+
+#: admin/includes/help/settings.php:14
+msgid "Database settings"
+msgstr "数据库设置"
+
+#: admin/includes/help/_nav-settings.php:3
+msgid "Global"
+msgstr "全局"
+
+#: admin/includes/form-builder.php:226 admin/includes/help/_nav-settings.php:4
+msgid "General"
+msgstr "常用"
+
+#: admin/includes/form-builder.php:227 admin/includes/form-builder.php:436
+#: admin/includes/form-builder.php:731 admin/includes/help/_nav-settings.php:5
+msgid "Style"
+msgstr "样式"
+
+#: admin/includes/elements/settings/validators.php:67
+#: admin/includes/form-builder.php:228 admin/includes/help/_nav-settings.php:6
+msgid "Email"
+msgstr "电子邮件"
+
+#: admin/includes/form-builder.php:230 admin/includes/help/_nav-settings.php:8
+msgid "Database"
+msgstr "数据库"
+
+#: admin/includes/help/_nav-basic.php:3
+msgid "Creating a form"
+msgstr "创建表单"
+
+#: admin/includes/help/_nav-basic.php:4
+msgid "Adding an element"
+msgstr "添加部件"
+
+#: admin/includes/help/_nav-basic.php:5
+msgid "Configuring an element"
+msgstr "设置部件"
+
+#: admin/includes/help/_nav-basic.php:6
+msgid "Moving an element"
+msgstr "移动部件"
+
+#: admin/includes/help/_nav-basic.php:7
+msgid "Deleting an element"
+msgstr "删除部件"
+
+#: admin/includes/help/_nav-basic.php:8
+msgid "Adding the form to your website"
+msgstr "在您的网站中加入表单"
+
+#: admin/includes/help/_nav-basic.php:9
+msgid "Activating a form"
+msgstr "启用表单"
+
+#: admin/includes/help/_nav-basic.php:10
+msgid "Deactivating a form"
+msgstr "停用表单"
+
+#: admin/includes/help/_nav-basic.php:11
+msgid "Deleting a form"
+msgstr "删除表单"
+
+#: admin/includes/help/_nav-basic.php:12
+msgid "Viewing entries"
+msgstr "浏览记录"
+
+#: admin/includes/help/_nav-basic.php:13
+msgid "Viewing an entry"
+msgstr "浏览记录"
+
+#: admin/includes/help/_nav-basic.php:14
+msgid "Deleting an entry"
+msgstr "删除记录"
+
+#: admin/admin.php:276 admin/admin.php:277 admin/admin.php:3290
+#: admin/includes/elements/_actions.php:3
+#: admin/includes/elements/captcha.php:55
+#: admin/includes/elements/checkbox.php:43 admin/includes/elements/date.php:91
+#: admin/includes/elements/email.php:27 admin/includes/elements/file.php:25
+#: admin/includes/elements/groupstart.php:27
+#: admin/includes/elements/hidden.php:23 admin/includes/elements/html.php:17
+#: admin/includes/elements/password.php:27 admin/includes/elements/radio.php:43
+#: admin/includes/elements/recaptcha.php:31
+#: admin/includes/elements/select.php:39
+#: admin/includes/elements/settings/filters/alpha-numeric.php:4
+#: admin/includes/elements/settings/filters/alpha.php:4
+#: admin/includes/elements/settings/filters/digits.php:4
+#: admin/includes/elements/settings/filters/regex.php:4
+#: admin/includes/elements/settings/filters/strip-tags.php:4
+#: admin/includes/elements/settings/validators/alpha-numeric.php:4
+#: admin/includes/elements/settings/validators/alpha-numeric.php:10
+#: admin/includes/elements/settings/validators/alpha.php:4
+#: admin/includes/elements/settings/validators/alpha.php:10
+#: admin/includes/elements/settings/validators/digits.php:4
+#: admin/includes/elements/settings/validators/digits.php:10
+#: admin/includes/elements/settings/validators/email.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:4
+#: admin/includes/elements/settings/validators/greater-than.php:10
+#: admin/includes/elements/settings/validators/identical.php:4
+#: admin/includes/elements/settings/validators/identical.php:10
+#: admin/includes/elements/settings/validators/length.php:4
+#: admin/includes/elements/settings/validators/length.php:10
+#: admin/includes/elements/settings/validators/less-than.php:4
+#: admin/includes/elements/settings/validators/less-than.php:10
+#: admin/includes/elements/settings/validators/regex.php:4
+#: admin/includes/elements/settings/validators/regex.php:10
+#: admin/includes/elements/text.php:27 admin/includes/elements/textarea.php:27
+#: admin/includes/elements/time.php:73 admin/includes/form-builder.php:156
+#: admin/includes/help.php:19 admin/includes/settings.php:10
+msgid "Settings"
+msgstr "设置"
+
+#: admin/includes/settings.php:42
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: admin/includes/settings.php:46
+msgid "Product license"
+msgstr "产品授权"
+
+#: admin/includes/settings.php:47
+msgid ""
+"A valid license key entitles you to support and enables automatic upgrades. %3$sA\n"
+"        license key may only be used for one installation of WordPress at a time%4$s, if you have previously verified a license key\n"
+"        for another website, and use it again here, the Quform plugin will become unlicensed on the other website. Please enter your\n"
+"        CodeCanyon Quform license key, you can find your key by following the instructions on %1$sthis page%2$s."
+msgstr "有效的授权协议可以让您得到有效的支持与自动升级。%3$s一个授权只能用于一个Wordpress站点，如果使用一个已经用于其他网站的授权，那么先前的授权自动失效%4$s。请输入CodeCanyon Quform的授权协议，如何获取请 %1$s查看这里%2$s。"
+
+#: admin/includes/settings.php:53
+msgid "License status"
+msgstr "授权状态"
+
+#: admin/includes/settings.php:56
+msgid "Valid license key"
+msgstr "合法授权"
+
+#: admin/includes/settings.php:57
+msgid "Unlicensed product"
+msgstr "产品未授权"
+
+#: admin/includes/settings.php:61
+msgid "Enter license key"
+msgstr "输入授权协议码"
+
+#: admin/includes/settings.php:62
+msgid "Verify"
+msgstr "校验"
+
+#: admin/includes/settings.php:74
+msgid "reCAPTCHA settings"
+msgstr "reCAPTCHA设置"
+
+#: admin/includes/form-builder.php:1141 admin/includes/settings.php:88
+msgid "Email sending settings"
+msgstr "电子邮件发送设置"
+
+#: admin/includes/settings.php:89
+msgid ""
+"The settings here will determine the default email sending settings for all your forms\n"
+"        you can also override these settings for each form at Form Builder &rarr; Settings &rarr; Email."
+msgstr "这里的参数设置将成为您表单发送邮件的默认设置。您可以通过“表单生成器 &rarr; 设置 &rarr; 电子邮件”给不同的表单设置不同的参数。"
+
+#: admin/includes/form-builder.php:1145 admin/includes/settings.php:97
+msgid "Email sending method"
+msgstr "电子邮件发送方式"
+
+#: admin/includes/settings.php:100
+msgid "PHP mail() (default)"
+msgstr "PHP mail() (默认)"
+
+#: admin/includes/form-builder.php:1150 admin/includes/settings.php:101
+msgid "SMTP"
+msgstr "SMTP"
+
+#: admin/includes/form-builder.php:1157 admin/includes/settings.php:106
+msgid "SMTP host"
+msgstr "SMTP服务器"
+
+#: admin/includes/form-builder.php:1164 admin/includes/settings.php:112
+msgid "SMTP port"
+msgstr "SMTP端口"
+
+#: admin/includes/form-builder.php:1171 admin/includes/settings.php:118
+msgid "SMTP encryption"
+msgstr "SMTP加密"
+
+#: admin/includes/form-builder.php:447 admin/includes/form-builder.php:1174
+#: admin/includes/settings.php:121
+msgid "None"
+msgstr "无"
+
+#: admin/includes/form-builder.php:1175 admin/includes/settings.php:122
+msgid "TLS"
+msgstr "TLS"
+
+#: admin/includes/form-builder.php:1176 admin/includes/settings.php:123
+msgid "SSL"
+msgstr "SSL"
+
+#: admin/includes/form-builder.php:1182 admin/includes/settings.php:128
+msgid "SMTP username"
+msgstr "SMTP用户名"
+
+#: admin/includes/form-builder.php:1189 admin/includes/settings.php:134
+msgid "SMTP password"
+msgstr "SMTP密码"
+
+#: admin/includes/settings.php:149 admin/includes/settings.php:152
+msgid "Update active themes cache"
+msgstr "更新当前模板的缓存"
+
+#: admin/includes/settings.php:150
+msgid ""
+"If you have added or removed a form from the database directly, e.g. via phpMyAdmin then you should tick\n"
+"        the box below and Save Changes to make sure the correct themes are being loaded for all your active forms."
+msgstr "如果您直接通过数据库新增和删除表单，那么勾选“更新当前模板缓存”选项后保存，以确保当前模板可以载入您所有已启用的表单。"
+
+#: admin/includes/settings.php:154
+msgid "Disable script output"
+msgstr "禁止输出脚本"
+
+#: admin/includes/settings.php:156
+msgid "Disable Fancybox output"
+msgstr "禁用Fancybox"
+
+#: admin/includes/settings.php:157
+msgid "Disable qTip2 output"
+msgstr "禁用qTip2"
+
+#: admin/includes/settings.php:158
+msgid "Disable Infield Labels output"
+msgstr "禁用Infield Labels"
+
+#: admin/includes/settings.php:159
+msgid "Disable Smooth Scroll output"
+msgstr "禁用Smooth Scroll"
+
+#: admin/includes/settings.php:160
+msgid "Disable jQuery UI output"
+msgstr "禁用jQuery UI"
+
+#: admin/includes/settings.php:161
+msgid "Disable Uniform output"
+msgstr "禁用Uniform"
+
+#: admin/includes/settings.php:162
+msgid "Disable SWFUpload output"
+msgstr "禁用SWFUpload"
+
+#: admin/includes/settings.php:164
+msgid "Enable lightbox script (Fancybox)"
+msgstr "启用灯箱脚本 (Fancybox)"
+
+#: admin/includes/settings.php:165
+msgid ""
+"This option is enabled automatically when you add a form\n"
+"        in a popup to a post / page or when you add a Quform Popup widget. If this does not happen for some reason\n"
+"        you can tick this option to manually enable the Fancybox script. If you have disabled Fancybox output in the above settings\n"
+"        the script output will still be disabled."
+msgstr "如果您在页面中增加的表单是在一个文章或页面弹出框中，或是您增加了一个Quform 弹出式小具，那么Fancybox是被自动启用的。但是由于某中原因失效时，您可以勾选下面选项来人工启用。如果您已经在上一栏设置中禁用了Fancybox，那么就算您勾选本项也一样是被禁用的。"
+
+#: admin/includes/settings.php:169
+msgid "Enable Fancybox"
+msgstr "启用Fancybox"
+
+#: admin/includes/settings.php:171
+msgid "Server compatibility"
+msgstr "服务器兼容性检查"
+
+#: admin/includes/settings.php:178
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#: admin/includes/settings.php:181
+msgid "The plugin requires PHP version 5 or later."
+msgstr "插件需要PHP 5以上版本"
+
+#: admin/includes/settings.php:189
+msgid "MySQL Version"
+msgstr "MySQL版本"
+
+#: admin/includes/settings.php:192
+msgid "The plugin requires MySQL version 5 or later."
+msgstr "插件需要MySQL 5以上版本"
+
+#: admin/includes/settings.php:199
+msgid "WordPress Version"
+msgstr "WordPress版本"
+
+#: admin/includes/settings.php:202
+msgid "The plugin requires WordPress version 3.1 or later."
+msgstr "插件需要WordPress 3.1以上版本"
+
+#: admin/includes/settings.php:208
+msgid "GD Image Library"
+msgstr "GD图像库"
+
+#: admin/includes/settings.php:209 admin/includes/settings.php:218
+#: admin/includes/settings.php:227
+msgid "Available"
+msgstr "可用"
+
+#: admin/includes/settings.php:209 admin/includes/settings.php:218
+#: admin/includes/settings.php:227
+msgid "Unavailable"
+msgstr "不可用"
+
+#: admin/includes/settings.php:211
+msgid "The plugin requires the GD image library for the CAPTCHA element, please ask your host to install it."
+msgstr "插件中的 CAPTCHA 部件要使用到GD库，请在服务器上安装它。"
+
+#: admin/includes/settings.php:226
+msgid "mbstring Extension"
+msgstr "mbstring扩展"
+
+#: admin/includes/settings.php:229
+msgid "The plugin requires the mbstring PHP extension for the CSS system, please ask your host to install it."
+msgstr "插件需要PHP的mbstring库来处理CSS，请在您的服务器上安装。"
+
+#: admin/includes/settings.php:236
+msgid "Temporary Directory"
+msgstr "临时目录"
+
+#: admin/includes/settings.php:239
+msgid "The plugin requires a writeable temporary directory for file uploading. You can set a custom temporary directory path in your wp-config.php file by using the code %1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s"
+msgstr "插件需要有一个可写的临时文件夹用于上传文件，您可以在wp-config.php文件中使用%1$sdefine(\"WP_TEMP_DIR\", \"/path/to/tmp/dir\");%2$s代码来自定义一个临时文件夹。"
+
+#: admin/includes/entry.php:10
+msgid "View entry"
+msgstr "查看记录"
+
+#: admin/includes/entry.php:14
+msgid "Back to entries list"
+msgstr "返回记录列表"
+
+#: admin/includes/entry.php:20
+msgid "Additional information"
+msgstr "备注"
+
+#: admin/admin.php:414 admin/admin.php:3072 admin/includes/entry.php:31
+msgid "Entry ID"
+msgstr "记录ID"
+
+#: admin/admin.php:415 admin/admin.php:3075
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:10
+#: admin/includes/entry.php:35 admin/includes/form-builder.php:1229
+msgid "Form URL"
+msgstr "表单地址"
+
+#: admin/admin.php:419 admin/admin.php:3076
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:14
+#: admin/includes/entry.php:43 admin/includes/form-builder.php:1234
+msgid "Referring URL"
+msgstr "来源地址"
+
+#: admin/admin.php:3074 admin/includes/entry.php:51
+msgid "IP address"
+msgstr "IP地址"
+
+#: admin/admin.php:3077 admin/includes/entry.php:55
+msgid "Post / page ID"
+msgstr "文章或页面的ID"
+
+#: admin/admin.php:3078 admin/includes/entry.php:59
+msgid "Post / page title"
+msgstr "文章或页面的标题"
+
+#: admin/admin.php:3079 admin/includes/entry.php:63
+msgid "User WordPress display name"
+msgstr "WordPress用户的显示名"
+
+#: admin/admin.php:3080 admin/includes/entry.php:67
+msgid "User WordPress email"
+msgstr "WordPress用户的电子邮件"
+
+#: admin/admin.php:3081 admin/includes/entry.php:75
+msgid "User WordPress login"
+msgstr "WordPress用户登录"
+
+#: admin/includes/entry.php:82 admin/includes/form-builder.php:1023
+msgid "Show empty fields"
+msgstr "显示空字段"
+
+#: admin/includes/entry.php:83
+msgid "Submitted form data"
+msgstr "已经提交的表单数据"
+
+#: admin/includes/entry.php:112
+msgid "Sorry, I couldn't find that entry. Perhaps it was deleted?"
+msgstr "对不起，记录未找到，可能已经删除？"
+
+#: admin/includes/elements/checkbox.php:5 admin/includes/elements/hidden.php:5
+#: admin/includes/elements/radio.php:5 admin/includes/elements/select.php:5
+#: admin/includes/elements/text.php:5 admin/includes/elements/textarea.php:5
+msgid "Untitled"
+msgstr "未标题"
+
+#: admin/includes/elements/hidden.php:13
+msgid "(hidden)"
+msgstr "(隐藏)"
+
+#: admin/includes/elements/hidden.php:31
+msgid "This label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "此标签将在整个表单生成器、提醒邮件和浏览已提交的表单数据时显示。"
+
+#: admin/includes/elements/hidden.php:33
+#: admin/includes/elements/settings/label.php:2
+#: admin/includes/elements/settings/options-multiple.php:16
+#: admin/includes/elements/settings/options.php:17
+#: admin/includes/elements/settings/selectors/checkbox.php:4
+#: admin/includes/elements/settings/selectors/date.php:4
+#: admin/includes/elements/settings/selectors/recaptcha.php:4
+#: admin/includes/elements/settings/selectors/select.php:4
+#: admin/includes/elements/settings/selectors/text.php:4
+#: admin/includes/elements/settings/selectors/time.php:4
+#: admin/includes/elements/settings/styles.php:32
+msgid "Label"
+msgstr "标签"
+
+#: admin/includes/elements/hidden.php:40
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has entered anything"
+msgstr "默认值就是用户输入前给部件赋的初始值"
+
+#: admin/includes/elements/date.php:152 admin/includes/elements/hidden.php:43
+#: admin/includes/elements/settings/default-value.php:8
+#: admin/includes/elements/textarea.php:52 admin/includes/elements/time.php:136
+msgid "Default value"
+msgstr "默认值"
+
+#: admin/includes/elements/file.php:5
+msgid "File upload"
+msgstr "文件上传"
+
+#: admin/includes/elements/file.php:6
+msgid "Maximum size 10MB"
+msgstr "最大10MB"
+
+#: admin/includes/elements/captcha.php:56
+#: admin/includes/elements/checkbox.php:44 admin/includes/elements/date.php:92
+#: admin/includes/elements/email.php:28 admin/includes/elements/file.php:26
+#: admin/includes/elements/groupstart.php:28
+#: admin/includes/elements/password.php:28 admin/includes/elements/radio.php:44
+#: admin/includes/elements/recaptcha.php:32
+#: admin/includes/elements/select.php:40 admin/includes/elements/text.php:28
+#: admin/includes/elements/textarea.php:28 admin/includes/elements/time.php:74
+msgid "Optional"
+msgstr "可选"
+
+#: admin/includes/elements/captcha.php:57
+#: admin/includes/elements/checkbox.php:45 admin/includes/elements/date.php:93
+#: admin/includes/elements/email.php:29 admin/includes/elements/file.php:27
+#: admin/includes/elements/groupstart.php:29
+#: admin/includes/elements/password.php:29 admin/includes/elements/radio.php:45
+#: admin/includes/elements/recaptcha.php:33
+#: admin/includes/elements/select.php:41 admin/includes/elements/text.php:29
+#: admin/includes/elements/textarea.php:29 admin/includes/elements/time.php:75
+msgid "Advanced"
+msgstr "高级"
+
+#: admin/includes/elements/file.php:49
+msgid "Enable Flash uploader"
+msgstr "启用Flash上传工具"
+
+#: admin/includes/elements/file.php:52
+msgid ""
+"Enables the Flash file uploader which shows the progress of file uploads. For users\n"
+"                            with Flash disabled it will degrade to a standard file upload field. %sSee the help for more information%s."
+msgstr "使用Flash文件上传器，可以查看文件上传的进度。如果禁用则使用默认的文件上传方式。%s参考%s。"
+
+#: admin/includes/elements/file.php:58
+msgid "Allow multiple file uploads"
+msgstr "允许多文件同时上传"
+
+#: admin/includes/elements/file.php:61
+msgid "Enables you to show more than one upload field, so that the user can upload more files."
+msgstr "能显示一个以上的上传文件部件，以便用用户上传多个文件。"
+
+#: admin/includes/elements/file.php:68
+msgid ""
+"If you are using the Flash uploader the user will only ever see one field, but they will be able\n"
+"                                to queue as many files as they want."
+msgstr "如果启用了Flash上传器，只会显示一个上传文件的部件，但它可以管理多个上传的文件队列。"
+
+#: admin/includes/elements/file.php:71
+msgid "Number of file upload fields to show"
+msgstr "显示文件上传部件的个数"
+
+#: admin/includes/elements/file.php:78
+msgid ""
+"This will not appear if you are using the Flash uploader, as the user can queue as many files\n"
+"                                as they want."
+msgstr "如果启用了Flash上传器则不显，但它可以管理多个上传的文件队列。"
+
+#: admin/includes/elements/file.php:81
+msgid "Allow the user to add more upload fields"
+msgstr "允许用户添加多个上传文件部件"
+
+#: admin/includes/elements/file.php:84
+msgid "If checked, a link appears allowing the user to add more upload fields if they want to upload more files"
+msgstr "如果选中，会出现一个允许用户上传多个文件的链接"
+
+#: admin/includes/elements/file.php:89
+msgid "Add another upload link text"
+msgstr "添加下一个上传链接文本"
+
+#: admin/includes/elements/file.php:92
+msgid "Override the default text on the link to add other upload which is \"Upload another\""
+msgstr "取代默认的“上传下一个”的链接提示信息"
+
+#: admin/includes/elements/file.php:97
+msgid "Allowed file extensions"
+msgstr "允许的文件扩展名"
+
+#: admin/includes/elements/file.php:100
+msgid "Enter the file extension excluding the dots and separated by commas e.g. jpg, jpeg, png, gif"
+msgstr "输入允许上传的文件扩展名，以逗号分隔。如： jpg, jpeg, png, gif"
+
+#: admin/includes/elements/file.php:105
+msgid "Maximum allowed file size"
+msgstr "允许上传文件的最大值"
+
+#: admin/includes/elements/file.php:107
+msgid "MB"
+msgstr "MB"
+
+#: admin/includes/elements/file.php:108
+msgid "Enter the maximum size of a file in MB."
+msgstr "输入文件的最大值（单位MB）。"
+
+#: admin/includes/elements/file.php:108
+msgid "Important information"
+msgstr "重要信息"
+
+#: admin/includes/elements/file.php:113
+msgid "Attach uploaded files to the notification email"
+msgstr "把上传的文件作为提醒邮件的附件"
+
+#: admin/includes/elements/file.php:118
+msgid "Save uploaded files to the server"
+msgstr "保存上传的文件到服务器"
+
+#: admin/includes/elements/file.php:126 admin/includes/elements/file.php:173
+#: admin/includes/elements/file.php:175 admin/includes/elements/file.php:177
+#: admin/includes/elements/file.php:181
+#: admin/includes/elements/settings/validators/alpha-numeric.php:39
+#: admin/includes/elements/settings/validators/alpha.php:39
+#: admin/includes/elements/settings/validators/digits.php:39
+#: admin/includes/elements/settings/validators/greater-than.php:38
+#: admin/includes/elements/settings/validators/identical.php:39
+#: admin/includes/elements/settings/validators/length.php:51
+#: admin/includes/elements/settings/validators/length.php:66
+#: admin/includes/elements/settings/validators/less-than.php:39
+#: admin/includes/elements/settings/validators/regex.php:39
+msgid "Placeholders"
+msgstr "占位符"
+
+#: admin/includes/elements/file.php:127
+msgid "the unique ID of the form"
+msgstr "表单ID（唯一）"
+
+#: admin/includes/elements/file.php:128
+msgid "the current year"
+msgstr "当年"
+
+#: admin/includes/elements/file.php:129
+msgid "the current month"
+msgstr "当月"
+
+#: admin/includes/elements/file.php:130
+msgid "the current day"
+msgstr "当日"
+
+#: admin/includes/elements/file.php:131
+msgid "You can enter the placeholder code in your path to display their values."
+msgstr "您可以在路径中输入占位符代码来显示他们的值。"
+
+#: admin/includes/elements/file.php:134
+msgid "Path to save uploaded files"
+msgstr "保存上传文件的路径"
+
+#: admin/includes/elements/file.php:138
+msgid "The path to save the files inside the WordPress uploads directory."
+msgstr "在WordPress的uploads目录下的文件保存路径。"
+
+#: admin/includes/elements/file.php:144
+msgid "Browse button text"
+msgstr "浏览按钮的文字"
+
+#: admin/includes/elements/file.php:148
+msgid ""
+"Override the text for the browse button which is \"%s\", this only applies if you are using\n"
+"                            Uniform or the Flash uploader"
+msgstr "当您使用Uiform或Flash上传器时，用取代浏览按钮默认“%s”的文字。"
+
+#: admin/includes/elements/file.php:155
+msgid "Default text"
+msgstr "默认文字"
+
+#: admin/includes/elements/file.php:159
+msgid ""
+"Override the default text for the file input which is \"%s\", this only applies if you are using\n"
+"                            Uniform"
+msgstr "当您使用Uiform时，用取代文件输入框中默认“%s”的文字。"
+
+#: admin/includes/elements/file.php:160 includes/iPhorm/Element/File.php:338
+msgid "No file selected"
+msgstr "没有选中文件"
+
+#: admin/includes/elements/file.php:166
+#: admin/includes/elements/recaptcha.php:154
+#: admin/includes/elements/settings/validators/length.php:37
+msgid "Translate error messages"
+msgstr "翻译出错信息"
+
+#: admin/includes/elements/file.php:173 admin/includes/elements/file.php:175
+#: admin/includes/elements/file.php:177 admin/includes/elements/file.php:181
+msgid "the filename"
+msgstr "文件名"
+
+#: admin/includes/elements/file.php:199
+#: admin/includes/elements/recaptcha.php:177
+#: admin/includes/elements/settings/validators/alpha-numeric.php:32
+#: admin/includes/elements/settings/validators/alpha.php:32
+#: admin/includes/elements/settings/validators/digits.php:32
+#: admin/includes/elements/settings/validators/email.php:17
+#: admin/includes/elements/settings/validators/greater-than.php:31
+#: admin/includes/elements/settings/validators/identical.php:32
+#: admin/includes/elements/settings/validators/length.php:44
+#: admin/includes/elements/settings/validators/less-than.php:32
+#: admin/includes/elements/settings/validators/regex.php:32
+msgid "Default"
+msgstr "默认"
+
+#: admin/includes/elements/file.php:200
+#: admin/includes/elements/recaptcha.php:178
+#: admin/includes/elements/settings/validators/alpha-numeric.php:33
+#: admin/includes/elements/settings/validators/alpha.php:33
+#: admin/includes/elements/settings/validators/digits.php:33
+#: admin/includes/elements/settings/validators/email.php:18
+#: admin/includes/elements/settings/validators/greater-than.php:32
+#: admin/includes/elements/settings/validators/identical.php:33
+#: admin/includes/elements/settings/validators/length.php:45
+#: admin/includes/elements/settings/validators/less-than.php:33
+#: admin/includes/elements/settings/validators/regex.php:33
+msgid "Translation"
+msgstr "翻译"
+
+#: admin/includes/elements/textarea.php:49
+msgid ""
+"The default value is the value that the element is given before\n"
+"\t\t\t\t\t\t            the user has entered anything"
+msgstr "默认值就是用户输入前给部件赋的初始值"
+
+#: admin/admin.php:402 admin/includes/elements/checkbox.php:12
+#: admin/includes/elements/radio.php:12 admin/includes/elements/select.php:11
+msgid "Option 1"
+msgstr "选项1"
+
+#: admin/admin.php:403 admin/includes/elements/checkbox.php:13
+#: admin/includes/elements/radio.php:13 admin/includes/elements/select.php:12
+msgid "Option 2"
+msgstr "选项2"
+
+#: admin/admin.php:404 admin/includes/elements/checkbox.php:14
+#: admin/includes/elements/radio.php:14 admin/includes/elements/select.php:13
+msgid "Option 3"
+msgstr "选项3"
+
+#: admin/includes/elements/checkbox.php:34 admin/includes/elements/radio.php:34
+msgid "Only the first 5 options are shown here."
+msgstr "只显示前5个选项。"
+
+#: admin/includes/elements/checkbox.php:85 admin/includes/elements/radio.php:86
+#: admin/includes/elements/select.php:80
+msgid ""
+"You can convert an element to a different type, see the dropdown menu for the available\n"
+"                                    choices. Most of your settings will also be converted."
+msgstr "您可以把当前部件转换成下拉菜单中列出的类型，大多数的设置也将被转换。"
+
+#: admin/includes/elements/checkbox.php:88 admin/includes/elements/radio.php:89
+#: admin/includes/elements/select.php:83
+msgid "Convert element"
+msgstr "转换部件类型"
+
+#: admin/includes/elements/checkbox.php:92 admin/includes/elements/radio.php:93
+#: admin/includes/elements/select.php:87 admin/includes/form-builder.php:320
+msgid "Please select..."
+msgstr "请选择…"
+
+#: admin/includes/elements/html.php:10
+msgid "This block of HTML is only visible when viewing or previewing the form."
+msgstr "此HTML块只能在查看或预览表单时显示"
+
+#: admin/includes/elements/html.php:30
+msgid "Enable element wrapper"
+msgstr "启用部件的外部区域"
+
+#: admin/includes/elements/html.php:34
+msgid ""
+"Allows this block of HTML to behave like an normal form element - it will\n"
+"                                    allow conditional logic to be applied to it and if it's inside a group it will behave like other elements."
+msgstr "允许此HTML块具有正常部件的行为 - 将允许应用逻辑条件，如果它位于分组内总也会拥有其他分组内部件相同的行为。"
+
+#: admin/includes/elements/date.php:34 includes/iPhorm/Element/Date.php:196
+msgctxt "select day of the month"
+msgid "Day"
+msgstr "日"
+
+#: admin/includes/elements/date.php:35 includes/iPhorm/Element/Date.php:216
+msgctxt "select month"
+msgid "Month"
+msgstr "月"
+
+#: admin/includes/elements/date.php:36 includes/iPhorm/Element/Date.php:236
+msgctxt "select year"
+msgid "Year"
+msgstr "年"
+
+#: admin/includes/elements/date.php:117
+msgid "Shows the headings for Day, Month and Year as the first options in the dropdown menus."
+msgstr "显示日、月、年的标题作为下拉菜单的第一个选项。"
+
+#: admin/includes/elements/date.php:119
+msgid "Show date headings"
+msgstr "显示日期标题"
+
+#: admin/includes/elements/date.php:129
+msgid "Start year"
+msgstr "起始年份"
+
+#: admin/includes/elements/date.php:132 admin/includes/elements/date.php:143
+msgid "You can use the tag %1$s for the current year or add modifiers to the current year such as %2$s or %3$s."
+msgstr "您可以用%1$s表示当前年份，或是用 %2$s 和 %3$s来更改它。"
+
+#: admin/includes/elements/date.php:138
+msgid "The end year will be the last year in the year dropdown and every year from the start year to the end year will be displayed."
+msgstr "结束年份将作为年份下拉菜单显示的最后一个年份，并在表单中所有的年份起讫中显示。"
+
+#: admin/includes/elements/date.php:140
+msgid "End year"
+msgstr "结束年份"
+
+#: admin/includes/elements/date.php:149
+msgid ""
+"The default value is the value that the element is given before\n"
+"                                    the user has changed anything"
+msgstr "在用户更改之前默认给部件赋的值"
+
+#: admin/includes/elements/date.php:190 admin/includes/elements/time.php:166
+msgid "Updates the default value options with your changes to other settings"
+msgstr "用您在其他设置中更改的值更新默认选项的值"
+
+#: admin/includes/elements/date.php:190 admin/includes/elements/time.php:166
+msgid "Sync with changes"
+msgstr "同步更新"
+
+#: admin/includes/elements/date.php:195
+msgid "Show JavaScript datepicker"
+msgstr "显示JS日期选择器"
+
+#: admin/includes/elements/date.php:198
+msgid ""
+"If checked, the user can choose the date using the jQuery UI datepicker. To customize\n"
+"                                    the calendar theme and localization, go to the form style settings at Settings &rarr; Style."
+msgstr "如果勾选，用户能通过JQuery UI的日期选择器来选取日期。在“设置 &rarr; 样式”中可以进行日期模板、本地化等表单样式设置。"
+
+#: admin/includes/elements/date.php:203
+msgid "Show months as numbers"
+msgstr "以数字方式显示月份"
+
+#: admin/includes/elements/date.php:206
+msgid "Displays the months as numbers instead of text."
+msgstr "用数字代替文本来显示月份"
+
+#: admin/includes/elements/date.php:210
+msgid "Field order"
+msgstr "字段排序"
+
+#: admin/includes/elements/date.php:213
+msgid "Day / Month (European)"
+msgstr "日 / 月 (欧洲)"
+
+#: admin/includes/elements/date.php:214
+msgid "Month / Day (US)"
+msgstr "月 / 日 (美国)"
+
+#: admin/includes/elements/date.php:216
+msgid "Change the ordering of the Day and Month fields."
+msgstr "更改日与月字段的顺序。"
+
+#: admin/includes/elements/date.php:222
+msgid "Error message if invalid date"
+msgstr "不合法日期的错误提示信息"
+
+#: admin/includes/elements/date.php:225
+msgid ""
+"Translate or override the error message shown if the date is not valid. The\n"
+"                                default is \"%s\"."
+msgstr "当日期不合法时所显示的翻译或重写的错误消息，默认是 “%s”。"
+
+#: admin/includes/elements/date.php:234
+msgid "Date format"
+msgstr "日期格式"
+
+#: admin/includes/elements/date.php:241
+msgid "The format of the date when displayed in the notification email and when viewing entries"
+msgstr "提醒邮件与浏览记录时显示的日期格式"
+
+#: admin/includes/elements/date.php:245 admin/includes/elements/time.php:212
+msgid "Translations"
+msgstr "翻译"
+
+#: admin/admin.php:426 admin/includes/elements/date.php:250
+msgid "Day"
+msgstr "日"
+
+#: admin/admin.php:427 admin/includes/elements/date.php:254
+msgid "Month"
+msgstr "月"
+
+#: admin/admin.php:428 admin/includes/elements/date.php:258
+msgid "Year"
+msgstr "年"
+
+#: admin/includes/elements/captcha.php:6
+msgid "Type the characters"
+msgstr "输入字符"
+
+#: admin/includes/elements/captcha.php:67
+msgid "Number of characters"
+msgstr "字符数"
+
+#: admin/includes/elements/captcha.php:71
+msgid "Width (pixels)"
+msgstr "宽(px)"
+
+#: admin/includes/elements/captcha.php:75
+msgid "Height (pixels)"
+msgstr "高(px)"
+
+#: admin/includes/elements/captcha.php:79
+#: admin/includes/elements/groupstart.php:150
+msgid "Background color"
+msgstr "背景色"
+
+#: admin/includes/elements/captcha.php:85
+msgid "Text color"
+msgstr "文本颜色"
+
+#: admin/includes/elements/captcha.php:89
+msgid "Font"
+msgstr "字体"
+
+#: admin/includes/elements/captcha.php:110
+#: admin/includes/elements/captcha.php:119
+msgid "The font size for each character will be randomly chosen between the minimum and maximum."
+msgstr "每个字符的大小将被设置成最小到最大之间的随机大小值。"
+
+#: admin/includes/elements/captcha.php:112
+msgid "Minimum font size"
+msgstr "字号最小值"
+
+#: admin/includes/elements/captcha.php:121
+msgid "Maximum font size"
+msgstr "字号最大值"
+
+#: admin/includes/elements/captcha.php:127
+#: admin/includes/elements/captcha.php:135
+msgid "The angle for each character will be randomly chosen between the minimum and maximum."
+msgstr "每个字符的角度将随机选择的最小和最大值之间的值。"
+
+#: admin/includes/elements/captcha.php:129
+msgid "Minimum letter rotation (degrees)"
+msgstr "最小字符旋转角度(度)"
+
+#: admin/includes/elements/captcha.php:137
+msgid "Maximum letter rotation (degrees)"
+msgstr "最大字符旋转角度(度)"
+
+#: admin/includes/elements/captcha.php:183
+msgid "Error message if invalid"
+msgstr "未通过检验的提示信息"
+
+#: admin/includes/elements/captcha.php:186
+msgid ""
+"Translate or override the error message shown under the field\n"
+"                                when the given solution does not match. The default is \"%s\"."
+msgstr "当给出的解决方案不匹配时，在字段下面显示翻译或重写的错误信息。默认是“%s”。"
+
+#: admin/includes/elements/settings/default-value.php:5
+msgid ""
+"The default value is the value that the element is given before\n"
+"            the user has entered anything"
+msgstr "默认值就是用户输入前给部件赋的初始值"
+
+#: admin/includes/elements/settings/description.php:2
+#: admin/includes/elements/settings/selectors/checkbox.php:6
+#: admin/includes/elements/settings/selectors/date.php:14
+#: admin/includes/elements/settings/selectors/groupstart.php:6
+#: admin/includes/elements/settings/selectors/recaptcha.php:8
+#: admin/includes/elements/settings/selectors/select.php:10
+#: admin/includes/elements/settings/selectors/text.php:10
+#: admin/includes/elements/settings/selectors/time.php:14
+#: admin/includes/elements/settings/styles.php:50
+#: admin/includes/form-builder.php:260
+msgid "Description"
+msgstr "描述"
+
+#: admin/includes/elements/settings/save-to-database.php:8
+msgid "If checked, the submitted element data will be saved to the database and shown when viewing an entry"
+msgstr "如果勾选，提交的表单数据会保存到数据库中，并在显示记录时从数据库读取"
+
+#: admin/includes/elements/settings/save-to-database.php:10
+msgid "Save value to the database"
+msgstr "保存到数据库"
+
+#: admin/includes/elements/settings/selectors.php:4
+msgid "You can use these selectors in your CSS stylesheet to style this element individually."
+msgstr "您可以使用这些CSS选择器以便在您的样式表中单独的为这个部件指定样式。"
+
+#: admin/includes/elements/settings/selectors.php:6
+msgid "CSS selectors"
+msgstr "CSS选择器"
+
+#: admin/includes/elements/settings/selectors.php:44
+msgid "Please save the form to see the CSS selectors."
+msgstr "保存表单后可以查看CSS选择器。"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:6
+msgid "Insert variable..."
+msgstr "插入变量…"
+
+#: admin/admin.php:411
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:7
+msgid "User IP address"
+msgstr "用户IP地址"
+
+#: admin/admin.php:412
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:8
+msgid "Form post/page ID"
+msgstr "表单所属文章或页面的ID"
+
+#: admin/admin.php:413
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:9
+msgid "Form post/page title"
+msgstr "表单所属文章或页面的标题"
+
+#: admin/admin.php:416
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:11
+msgid "User display name"
+msgstr "用户显示名"
+
+#: admin/admin.php:417
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:12
+msgid "User email"
+msgstr "用户电子邮件"
+
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:13
+msgid "User login"
+msgstr "用户登录"
+
+#: admin/admin.php:420
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:15
+msgid "Date (select a format)"
+msgstr "日期(选择格式)"
+
+#: admin/admin.php:421
+#: admin/includes/elements/settings/_insert-variable-preprocess.php:20
+msgid "Time (select a format)"
+msgstr "时间(选择格式)"
+
+#: admin/includes/elements/settings/required-message.php:7
+msgid "Error message if required"
+msgstr "必填项为空时的出错信息"
+
+#: admin/includes/elements/settings/required-message.php:10
+msgid ""
+"Translate or override the error message shown under the field\n"
+"        when the element is required. The default is \"%s\"."
+msgstr "翻译或取代发现必填字段未填时显示在字段下面的错误信息，默认是”%s”。"
+
+#: admin/includes/elements/settings/display-options.php:8
+msgid ""
+"You can have your options all on the same line or have one option\n"
+"            per line using this setting."
+msgstr "您可以通过此项设置让所有的选项在同一行还是每行一个选项的方式显示。"
+
+#: admin/includes/elements/settings/display-options.php:11
+msgid "Options layout"
+msgstr "选项样式"
+
+#: admin/includes/elements/settings/display-options.php:15
+msgid "One option per line"
+msgstr "每行一个选项"
+
+#: admin/includes/elements/settings/display-options.php:16
+msgid "Inline"
+msgstr "行内"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:1
+#: admin/includes/elements/settings/selectors/date.php:1
+#: admin/includes/elements/settings/selectors/recaptcha.php:1
+#: admin/includes/elements/settings/selectors/select.php:1
+#: admin/includes/elements/settings/selectors/text.php:1
+#: admin/includes/elements/settings/selectors/time.php:1
+msgid "You can use the CSS selectors below in your stylesheet to style this element individually."
+msgstr "下面是您可以在您的样式表中单独的为这个部件指定样式所需的CSS选择器。"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:2
+#: admin/includes/elements/settings/selectors/date.php:2
+#: admin/includes/elements/settings/selectors/recaptcha.php:2
+#: admin/includes/elements/settings/selectors/select.php:2
+#: admin/includes/elements/settings/selectors/text.php:2
+#: admin/includes/elements/settings/selectors/time.php:2
+#: admin/includes/elements/settings/styles.php:29
+msgid "Outer wrapper"
+msgstr "外部区域"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:8
+#: admin/includes/elements/settings/selectors/date.php:6
+#: admin/includes/elements/settings/selectors/recaptcha.php:6
+#: admin/includes/elements/settings/selectors/select.php:6
+#: admin/includes/elements/settings/selectors/text.php:6
+#: admin/includes/elements/settings/selectors/time.php:6
+#: admin/includes/elements/settings/styles.php:35
+msgid "Inner wrapper"
+msgstr "内部区域"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:10
+msgid "Option list"
+msgstr "选项列表"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:12
+msgid "Option list item"
+msgstr "选项列表项"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:14
+msgid "Option input"
+msgstr "选项输入"
+
+#: admin/includes/elements/settings/selectors/checkbox.php:16
+#: admin/includes/elements/settings/styles.php:59
+msgid "Option label"
+msgstr "选项标签"
+
+#: admin/includes/elements/settings/selectors/date.php:8
+msgid "Day field"
+msgstr "日字段"
+
+#: admin/includes/elements/settings/selectors/date.php:10
+msgid "Month field"
+msgstr "月字段"
+
+#: admin/includes/elements/settings/selectors/date.php:12
+msgid "Year field"
+msgstr "年字段"
+
+#: admin/includes/elements/settings/selectors/select.php:8
+msgid "Dropdown field"
+msgstr "下拉菜单字段"
+
+#: admin/includes/elements/settings/selectors/text.php:8
+msgid "Input field"
+msgstr "输入字段"
+
+#: admin/includes/elements/settings/selectors/time.php:8
+msgid "Hour field"
+msgstr "时字段"
+
+#: admin/includes/elements/settings/selectors/time.php:10
+msgid "Minute field"
+msgstr "分字段"
+
+#: admin/includes/elements/settings/selectors/time.php:12
+msgid "am/pm field"
+msgstr "上下午字段"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:1
+msgid "You can use the CSS selectors below in your stylesheet to style this group individually."
+msgstr "下面是您可以在您的样式表中单独的为这个分组指定样式所需的CSS选择器。"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:2
+#: admin/includes/elements/settings/styles.php:62
+msgid "Group wrapper"
+msgstr "分组区域"
+
+#: admin/includes/elements/groupstart.php:57
+#: admin/includes/elements/settings/selectors/groupstart.php:4
+#: admin/includes/form-builder.php:250
+msgid "Title"
+msgstr "标题"
+
+#: admin/includes/elements/settings/selectors/groupstart.php:8
+#: admin/includes/elements/settings/styles.php:68
+msgid "Group elements wrapper"
+msgstr "分组的部件区域"
+
+#: admin/includes/elements/settings/options-multiple.php:8
+#: admin/includes/elements/settings/options.php:8
+msgid "These are the choices that the user will be able to choose from."
+msgstr "这些都是用户可以采用的选择。"
+
+#: admin/includes/elements/settings/options-multiple.php:10
+#: admin/includes/elements/settings/options.php:10
+msgid "The %sCustomize values%s setting allows you to have a different value being submitted, than the value that is displayed to the user."
+msgstr "%s自定义的值%s允许您提交一个与显示给用户不相同的值。 "
+
+#: admin/includes/elements/settings/options-multiple.php:12
+#: admin/includes/elements/settings/options.php:12
+msgid "Options"
+msgstr "选项"
+
+#: admin/includes/elements/settings/options-multiple.php:17
+#: admin/includes/elements/settings/options.php:18
+#: admin/includes/elements/settings/validators/identical.php:20
+#: admin/includes/form-builder.php:1373
+msgid "Value"
+msgstr "值"
+
+#: admin/includes/elements/settings/options-multiple.php:30
+#: admin/includes/elements/settings/options.php:31
+msgid "Customize values"
+msgstr "自定义的值"
+
+#: admin/includes/elements/settings/styles.php:9
+msgid ""
+"Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"            a semi-colon. %sClick here%s for an example."
+msgstr "当您要增加一个样式时，每行输入一个CSS样式，以分号结尾，%s范例%s。"
+
+#: admin/includes/elements/settings/styles.php:12
+msgid "CSS styles"
+msgstr "CSS样式"
+
+#: admin/includes/elements/settings/styles.php:22
+msgid "No styles."
+msgstr "无样式。"
+
+#: admin/includes/elements/settings/styles.php:26
+#: admin/includes/form-builder.php:882
+msgid "Add a style"
+msgstr "添加样式"
+
+#: admin/includes/elements/settings/styles.php:38
+msgid "Text input"
+msgstr "文本输入框"
+
+#: admin/includes/elements/settings/styles.php:41
+msgid "Textarea input"
+msgstr "文本编辑区"
+
+#: admin/admin.php:896 admin/includes/elements/settings/styles.php:44
+msgid "Dropdown menu"
+msgstr "下拉菜单"
+
+#: admin/includes/elements/settings/styles.php:47
+msgid "Group description"
+msgstr "分组描述"
+
+#: admin/includes/elements/settings/styles.php:53
+msgid "The wrapper around all of the options"
+msgstr "所有选项的外部区域"
+
+#: admin/includes/elements/settings/styles.php:53
+#: admin/includes/form-builder.php:898
+msgid "Options outer wrapper"
+msgstr "选项的外部区域"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "The wrapper around each option"
+msgstr "每个选项间的区域"
+
+#: admin/includes/elements/settings/styles.php:56
+msgid "Option wrapper"
+msgstr "选项区域"
+
+#: admin/includes/elements/settings/styles.php:59
+msgid "The label of each option"
+msgstr "每个选项的标签"
+
+#: admin/includes/elements/settings/styles.php:65
+msgid "Group title"
+msgstr "分组标题"
+
+#: admin/admin.php:923 admin/admin.php:1023
+#: admin/includes/elements/settings/styles.php:71
+msgid "Date day dropdown"
+msgstr "日期中天的下拉菜单"
+
+#: admin/admin.php:926 admin/admin.php:1026
+#: admin/includes/elements/settings/styles.php:74
+msgid "Date month dropdown"
+msgstr "日期中月的下拉菜单"
+
+#: admin/admin.php:929 admin/admin.php:1029
+#: admin/includes/elements/settings/styles.php:77
+msgid "Date year dropdown"
+msgstr "日期中年的下拉菜单"
+
+#: admin/admin.php:932 admin/admin.php:1032
+#: admin/includes/elements/settings/styles.php:80
+msgid "Time hour dropdown"
+msgstr "时间中时的下拉菜单"
+
+#: admin/admin.php:935 admin/admin.php:1035
+#: admin/includes/elements/settings/styles.php:83
+msgid "Time minute dropdown"
+msgstr "时间中分的下拉菜单"
+
+#: admin/admin.php:938 admin/admin.php:1038
+#: admin/includes/elements/settings/styles.php:86
+msgid "Time am/pm dropdown"
+msgstr "时间中上下午的下拉菜单"
+
+#: admin/includes/elements/settings/filters.php:9
+msgid "Filters allow you to strip various characters from the submitted form data"
+msgstr "过滤器允许您灵活地清除所提交的表单数据中的某些字符"
+
+#: admin/includes/elements/settings/filters.php:11
+msgid "Filters"
+msgstr "过滤器"
+
+#: admin/includes/elements/settings/filters.php:42
+msgid "No filters."
+msgstr "没有过滤器。"
+
+#: admin/includes/elements/settings/filters.php:46
+msgid "Add a filter"
+msgstr "添加过滤器"
+
+#: admin/includes/elements/settings/filters.php:49
+msgid "Removes any non-alphabet characters"
+msgstr "清除所有的非字母字符"
+
+#: admin/includes/elements/settings/filters.php:49
+#: admin/includes/elements/settings/validators.php:58
+msgid "Alpha"
+msgstr "字母"
+
+#: admin/includes/elements/settings/filters.php:52
+msgid "Removes any non-alphabet characters and non-digits"
+msgstr "清除所有的既非字母又非数字的字符"
+
+#: admin/includes/elements/settings/filters.php:52
+#: admin/includes/elements/settings/validators.php:61
+msgid "Alpha Numeric"
+msgstr "字母数字"
+
+#: admin/includes/elements/settings/filters.php:55
+msgid "Removes any non-digits"
+msgstr "清除所有的非数字"
+
+#: admin/includes/elements/settings/filters.php:55
+#: admin/includes/elements/settings/validators.php:64
+msgid "Digits"
+msgstr "数字"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Removes any HTML tags"
+msgstr "清除所有HTML标签"
+
+#: admin/includes/elements/settings/filters.php:58
+msgid "Strip Tags"
+msgstr "清除标签"
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Removes white space from the start and end"
+msgstr "去除起始与结束位置之间的白字符"
+
+#: admin/includes/elements/settings/filters.php:61
+msgid "Trim"
+msgstr "截去空白"
+
+#: admin/includes/elements/settings/filters.php:64
+msgid "Removes characters matching the given regular expression"
+msgstr "清除被正则表达式匹配的文"
+
+#: admin/includes/elements/settings/filters.php:64
+#: admin/includes/elements/settings/validators.php:82
+msgid "Regex"
+msgstr "正则表达式"
+
+#: admin/admin.php:437 admin/includes/elements/settings/options-bulk.php:1
+msgid "Add bulk options"
+msgstr "添加批量选项"
+
+#: admin/includes/elements/settings/options-bulk.php:3
+msgid "Click a category on the left hand side to insert predefined options. You can edit the options on the right hand side or enter your own options, one per line."
+msgstr "点击左边的分类可以插入预先定义的选项。您可在右边输入或编辑您想要的选项，每行一个。"
+
+#: admin/includes/elements/settings/options-bulk.php:10
+msgid "Existing Options"
+msgstr "原有选项"
+
+#: admin/includes/elements/settings/options-bulk.php:21
+msgid "Overwrite existing options"
+msgstr "覆盖原有选项"
+
+#: admin/includes/elements/settings/options-bulk.php:23
+msgid "Removes any existing options before adding"
+msgstr "添加选项前清除全部原有选项"
+
+#: admin/includes/elements/settings/options-bulk.php:28
+msgid "Add options"
+msgstr "添加选项"
+
+#: admin/includes/elements/settings/options-bulk.php:29
+msgid "Cancel"
+msgstr "取消"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+msgid "Hide validator settings"
+msgstr "隐藏校验规则设置"
+
+#: admin/admin.php:443 admin/includes/elements/_actions.php:2
+#: admin/includes/elements/_save.php:8
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+#: admin/includes/elements/settings/global-style.php:3
+#: admin/includes/elements/settings/style.php:3
+#: admin/includes/elements/settings/validators/alpha-numeric.php:3
+#: admin/includes/elements/settings/validators/alpha.php:3
+#: admin/includes/elements/settings/validators/digits.php:3
+#: admin/includes/elements/settings/validators/email.php:3
+#: admin/includes/elements/settings/validators/greater-than.php:3
+#: admin/includes/elements/settings/validators/identical.php:3
+#: admin/includes/elements/settings/validators/length.php:3
+#: admin/includes/elements/settings/validators/less-than.php:3
+#: admin/includes/elements/settings/validators/regex.php:3
+msgid "Hide"
+msgstr "隐藏"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+msgid "Delete this validator"
+msgstr "删除校验规则"
+
+#: admin/includes/elements/settings/validators/length.php:7
+msgctxt "the name of the length validator which validates that the value is of a certain length"
+msgid "Length"
+msgstr "长度"
+
+#: admin/includes/elements/settings/validators/length.php:17
+msgid "The length of the submitted value must be greater than or equal to the minimum, if not the error message shown below will be displayed to the user"
+msgstr "所提交的数据长度必须大于等于最小值，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/validators/length.php:20
+msgid "Minimum length"
+msgstr "最小长度"
+
+#: admin/includes/elements/settings/validators/length.php:29
+msgid "The length of the submitted value must be less than or equal to the maximum, if not the error message shown below will be displayed to the user"
+msgstr "所提交的数据长度必须小于等于最大值，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/validators/length.php:32
+msgid "Maximum length"
+msgstr "最大长度"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:40
+#: admin/includes/elements/settings/validators/alpha.php:40
+#: admin/includes/elements/settings/validators/digits.php:40
+#: admin/includes/elements/settings/validators/greater-than.php:39
+#: admin/includes/elements/settings/validators/identical.php:40
+#: admin/includes/elements/settings/validators/length.php:52
+#: admin/includes/elements/settings/validators/length.php:67
+#: admin/includes/elements/settings/validators/less-than.php:40
+#: admin/includes/elements/settings/validators/regex.php:40
+msgid "the submitted value"
+msgstr "提交的值"
+
+#: admin/includes/elements/settings/validators/length.php:53
+msgid "the minumum allowed length"
+msgstr "允许的最小长度"
+
+#: admin/includes/elements/settings/validators/length.php:54
+#: admin/includes/elements/settings/validators/length.php:69
+msgid "the length of the submitted value"
+msgstr "提交数据的长度"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:41
+#: admin/includes/elements/settings/validators/alpha.php:41
+#: admin/includes/elements/settings/validators/digits.php:41
+#: admin/includes/elements/settings/validators/greater-than.php:41
+#: admin/includes/elements/settings/validators/identical.php:42
+#: admin/includes/elements/settings/validators/length.php:55
+#: admin/includes/elements/settings/validators/length.php:70
+#: admin/includes/elements/settings/validators/less-than.php:42
+#: admin/includes/elements/settings/validators/regex.php:41
+msgid "You can enter the placeholder code in your custom message to display their values."
+msgstr "您可以在您的自定义消息中输入占位符来显示它们的值。"
+
+#: admin/includes/elements/settings/validators/length.php:68
+msgid "the maximum allowed length"
+msgstr "允许的最大长度"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:7
+msgctxt "the name of the alphanumeric validator which validates that the value contains only alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "字母数字"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:17
+#: admin/includes/elements/settings/validators/alpha.php:17
+#: admin/includes/elements/settings/validators/digits.php:17
+msgid "If checked, any spaces or tabs are allowed"
+msgstr "勾选允许空格或tab字符"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:19
+#: admin/includes/elements/settings/filters/alpha.php:19
+#: admin/includes/elements/settings/filters/digits.php:19
+#: admin/includes/elements/settings/validators/alpha-numeric.php:20
+#: admin/includes/elements/settings/validators/alpha.php:20
+#: admin/includes/elements/settings/validators/digits.php:20
+msgid "Allow whitespace"
+msgstr "允许空格"
+
+#: admin/includes/elements/settings/validators/alpha-numeric.php:25
+#: admin/includes/elements/settings/validators/alpha.php:25
+#: admin/includes/elements/settings/validators/digits.php:25
+#: admin/includes/elements/settings/validators/email.php:10
+#: admin/includes/elements/settings/validators/greater-than.php:24
+#: admin/includes/elements/settings/validators/identical.php:25
+#: admin/includes/elements/settings/validators/less-than.php:25
+#: admin/includes/elements/settings/validators/regex.php:25
+msgid "Translate error message"
+msgstr "翻译错误信息"
+
+#: admin/includes/elements/settings/validators/alpha.php:7
+msgctxt "the name of the alpha validator which validates that the value contains only alphabet characters"
+msgid "Alpha"
+msgstr "字母"
+
+#: admin/includes/elements/settings/validators/digits.php:7
+msgctxt "the name of the digits validator which validates that the value contains only digits"
+msgid "Digits"
+msgstr "数字"
+
+#: admin/includes/elements/settings/validators/identical.php:7
+msgctxt "the name of the identical validator which validates that the value is identical to a value"
+msgid "Identical"
+msgstr "相等"
+
+#: admin/includes/elements/settings/validators/identical.php:17
+msgid "The token that the submitted value must be equal to, if not the error message shown below will be displayed to the user"
+msgstr "提交的令牌必须相等，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/validators/identical.php:41
+msgid "the token"
+msgstr "令牌"
+
+#: admin/includes/elements/settings/validators/less-than.php:7
+msgctxt "the name of the less than validator which validates that the value is less than a number"
+msgid "Less Than"
+msgstr "小于"
+
+#: admin/includes/elements/settings/validators/less-than.php:17
+msgid "The submitted value must be numerically less than this value, or the error message shown below will be displayed to the user"
+msgstr "所提交的数值必须大于这个值，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/validators/less-than.php:20
+msgid "Maximum"
+msgstr "最大值"
+
+#: admin/includes/elements/settings/validators/less-than.php:41
+msgid "the maximum allowed value"
+msgstr "允许输入的最大值"
+
+#: admin/includes/elements/settings/validators/email.php:7
+msgctxt "the name of the email address validator"
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: admin/includes/elements/settings/validators/regex.php:7
+msgctxt "the name of the regex validator which validates by regular expression"
+msgid "Regex"
+msgstr "正则表达式"
+
+#: admin/includes/elements/settings/validators/regex.php:17
+msgid "The submitted value must match this regular expression, or the error message shown below will be displayed to the user"
+msgstr "提交的数据必须满足这个规则，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/filters/regex.php:19
+#: admin/includes/elements/settings/validators/regex.php:20
+msgid "Pattern"
+msgstr "模式"
+
+#: admin/includes/elements/settings/validators/greater-than.php:7
+msgctxt "the name of the greater than validator which validates that the value is greater than a number"
+msgid "Greater Than"
+msgstr "大于"
+
+#: admin/includes/elements/settings/validators/greater-than.php:17
+msgid "The submitted value must be numerically greater than the minimum, if not the error message shown below will be displayed to the user"
+msgstr "所提交的数值必须大于最小值，否则将显示以下错误信息"
+
+#: admin/includes/elements/settings/validators/greater-than.php:20
+msgid "Minimum"
+msgstr "最小值"
+
+#: admin/includes/elements/settings/validators/greater-than.php:40
+msgid "the minimum allowed value"
+msgstr "允许输入的最小值"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:3
+#: admin/includes/elements/settings/filters/alpha.php:3
+#: admin/includes/elements/settings/filters/digits.php:3
+#: admin/includes/elements/settings/filters/regex.php:3
+#: admin/includes/elements/settings/filters/strip-tags.php:3
+msgid "Hide filter settings"
+msgstr "隐藏过滤器设置"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+msgid "Delete this filter"
+msgstr "删除过滤器"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:7
+msgctxt "the name of alphanumeric filter which filters out non-alphanumeric characters"
+msgid "Alpha Numeric"
+msgstr "字母数字"
+
+#: admin/includes/elements/settings/filters/alpha-numeric.php:16
+#: admin/includes/elements/settings/filters/alpha.php:16
+#: admin/includes/elements/settings/filters/digits.php:16
+msgid "If checked, any spaces or tabs will not be stripped"
+msgstr "如果勾选，那么空格、tab字符将不会被清除"
+
+#: admin/includes/elements/settings/filters/trim.php:5
+msgctxt "the name of trim filter which filters out white space from the start and end"
+msgid "Trim"
+msgstr "截去空白"
+
+#: admin/includes/elements/settings/filters/alpha.php:7
+msgctxt "the name of alphabet filter which filters out non-alphabet characters"
+msgid "Alpha"
+msgstr "字母"
+
+#: admin/includes/elements/settings/filters/digits.php:7
+msgctxt "the name of digits filter which filters out non-digit characters"
+msgid "Digits"
+msgstr "数字"
+
+#: admin/includes/elements/settings/filters/regex.php:7
+msgctxt "the name of regex filter which filters out characters by regular expression"
+msgid "Regex"
+msgstr "正则表达式"
+
+#: admin/includes/elements/settings/filters/regex.php:16
+msgid "Any text matching this regular expression pattern will be stripped"
+msgstr "任何被正则表达式匹配的文本均将被清除"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:7
+msgctxt "the name of strip tags filter which filters out HTML tags"
+msgid "Strip Tags"
+msgstr "清除HTML标签"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:16
+msgid "Enter allowable tags, one after the other, for example:"
+msgstr "输入需保留的标签，一个接一个顺序输入，例如:"
+
+#: admin/includes/elements/settings/filters/strip-tags.php:20
+msgid "Allowable tags"
+msgstr "保留的标签"
+
+#: admin/includes/elements/settings/hide-from-email.php:8
+msgid "If checked, the submitted element data will not be shown in the default notification email"
+msgstr "如果勾选，那么在提醒邮件中不会显示提交的部件数据"
+
+#: admin/includes/elements/settings/hide-from-email.php:10
+msgid "Do not show in the email"
+msgstr "不在电子邮件中显示"
+
+#: admin/includes/elements/settings/tooltip.php:8
+msgid ""
+"The tooltip text will appear next to your element in a tooltip when the user hovers\n"
+"            it with their mouse. You can customize the look of tooltips by going to %1$sSettings &rarr; Style &rarr; Tooltips%2$s"
+msgstr "当鼠标悬停在部件上时出现提示框，您可以在 %1$s设置 &rarr; 样式 &rarr; 提示框%2$s 中自定义提示框外观"
+
+#: admin/includes/elements/settings/tooltip.php:11
+msgid "Tooltip text"
+msgstr "提示文本"
+
+#: admin/includes/elements/settings/tooltip.php:16
+msgid ""
+"Note: For this element type the tooltip will only show if the tooltip type is set to\n"
+"%1$sHelp icon%2$s in the %1$sOptional%2$s settings tab, or in the global tooltip settings at %1$sSettings &rarr; Style &rarr; Tooltips%2$s."
+msgstr "注意: 对于此部件类型的提示框只有设置为%1$s帮助图标%2$s 才能显示，在 %1$s可选%2$s 设置标签页中或者全局提示框设置 %1$s设置 &rarr; 样式 &rarr; 提示框%2$s中设置。"
+
+#: admin/includes/elements/settings/conditional-logic.php:7
+msgid "Enable conditional logic"
+msgstr "启用逻辑条件"
+
+#: admin/includes/elements/settings/conditional-logic.php:14
+msgid "Enables you to create rules to show or hide this group depending on the values of other fields"
+msgstr "允许您创建根据其他字段的值来动态显示或隐藏当前分组的规则"
+
+#: admin/includes/elements/settings/conditional-logic.php:16
+msgid "Enables you to create rules to show or hide this field depending on the values of other fields"
+msgstr "允许您创建根据其他字段的值来动态显示或隐藏当前字段的规则"
+
+#: admin/includes/elements/settings/conditional-logic.php:29
+msgid "Logic rules"
+msgstr "逻辑规则"
+
+#: admin/includes/elements/settings/validators.php:9
+msgid "Validators checks whether the data entered by the user is valid"
+msgstr "校验规则负责检查用户输入是否有效"
+
+#: admin/includes/elements/settings/validators.php:11
+msgid "Validators"
+msgstr "校验规则"
+
+#: admin/includes/elements/settings/validators.php:51
+msgid "No validators."
+msgstr "无校验规则。"
+
+#: admin/includes/elements/settings/validators.php:55
+msgid "Add a validator"
+msgstr "添加校验规则"
+
+#: admin/includes/elements/settings/validators.php:58
+msgid "Checks that the value contains only alphabet characters"
+msgstr "检查值是否只包含字母"
+
+#: admin/includes/elements/settings/validators.php:61
+msgid "Checks that the value contains only alphabet or digit characters"
+msgstr "检查值是否只包含字母或数字"
+
+#: admin/includes/elements/settings/validators.php:64
+msgid "Checks that the value contains only digits"
+msgstr "检查值是否只包含数字"
+
+#: admin/includes/elements/settings/validators.php:67
+msgid "Checks that the value is a valid email address"
+msgstr "检查电子邮件地址是否合法"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Checks that the value is numerically greater than the given minimum"
+msgstr "检查数值是否大于最小值"
+
+#: admin/includes/elements/settings/validators.php:70
+msgid "Greater Than"
+msgstr "大于"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Checks that the value is identical to the given token"
+msgstr "检查令牌值是否相等"
+
+#: admin/includes/elements/settings/validators.php:73
+msgid "Identical"
+msgstr "相等"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Checks that the value is numerically less than the given maximum"
+msgstr "检查数值是否小于最大值"
+
+#: admin/includes/elements/settings/validators.php:76
+msgid "Less Than"
+msgstr "小于"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Checks that the length of the value is between the given maximum and minimum"
+msgstr "检查数据长度是否在所设置的最大与最小长度之间"
+
+#: admin/includes/elements/settings/validators.php:79
+msgid "Length"
+msgstr "长度"
+
+#: admin/includes/elements/settings/validators.php:82
+msgid "Checks that the value matches the given regular expression"
+msgstr "检查数据是否符合规则"
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/style.php:4
+msgid "Edit CSS"
+msgstr "编辑CSS"
+
+#: admin/includes/elements/settings/global-style.php:4
+#: admin/includes/elements/settings/global-style.php:12
+#: admin/includes/elements/settings/style.php:4
+#: admin/includes/elements/settings/style.php:12
+msgid "CSS"
+msgstr "CSS"
+
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+msgid "Delete this style"
+msgstr "删除样式"
+
+#: admin/includes/elements/settings/unique-id.php:5
+msgid "The unique identifier, you may need this for advanced functions."
+msgstr "唯一ID,在高级功能中您可能使用到它。"
+
+#: admin/includes/elements/settings/unique-id.php:7
+msgid "Unique ID"
+msgstr "唯一ID"
+
+#: admin/includes/elements/settings/unique-id.php:12
+msgid "Please save the form to see the unique element ID."
+msgstr "请保存表单后查看唯一ID"
+
+#: admin/includes/elements/settings/tooltip-type.php:7
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings. If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"        the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr "如果设置为 %1$s继承%2$s, 那么所有设置将从全局设置中继承。如果设置为 %1$s字段%2$s, 寻么提示框将在用户与字段发生交互时显示。如果设置为 %1$s帮助图标%2$s, 那么提示框将在用户点击了帮助图标后显示。"
+
+#: admin/includes/elements/settings/tooltip-type.php:10
+msgid "Tooltip trigger"
+msgstr "提示框触发器"
+
+#: admin/includes/elements/groupstart.php:111
+#: admin/includes/elements/settings/label-placement.php:15
+#: admin/includes/elements/settings/tooltip-type.php:15
+#: admin/includes/elements/settings/tooltip-type.php:32
+msgid "Inherit"
+msgstr "继承:"
+
+#: admin/includes/elements/settings/tooltip-type.php:16
+#: admin/includes/form-builder.php:700
+msgid "Field"
+msgstr "字段"
+
+#: admin/includes/elements/settings/tooltip-type.php:18
+#: admin/includes/form-builder.php:701
+msgid "Help icon"
+msgstr "帮助图标"
+
+#: admin/includes/elements/settings/tooltip-type.php:21
+#: admin/includes/form-builder.php:703
+msgid "Choose what the user will be interacting with to show the tooltip."
+msgstr "选择用户如何与提示框交互。"
+
+#: admin/includes/elements/settings/tooltip-type.php:26
+msgid ""
+"If set to %1$sInherit%2$s, the setting will be inherited from the global\n"
+"form settings."
+msgstr "如果设置为 %1$s继承%2$s, 那么所有设置将从全局设置中继承。"
+
+#: admin/includes/elements/settings/tooltip-type.php:28
+msgid "Tooltip event"
+msgstr "提示框事件"
+
+#: admin/includes/elements/settings/tooltip-type.php:33
+#: admin/includes/form-builder.php:713
+msgid "Hover"
+msgstr "悬停"
+
+#: admin/includes/elements/settings/tooltip-type.php:34
+#: admin/includes/form-builder.php:714
+msgid "Click"
+msgstr "点击"
+
+#: admin/includes/elements/settings/tooltip-type.php:36
+#: admin/includes/form-builder.php:716
+msgid "Choose the event that will trigger the tooltip to show."
+msgstr "选择需要显示提示框的事件"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:8
+msgid ""
+"Allows the default value of the field to be set dynamically via a\n"
+"            URL parameter, shortcode attribute or filter hook."
+msgstr "允许调用一个URL参数、短代码(shortcode)、或是个过滤器勾子函数(filter hook)来动态给字段赋默认值。"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:11
+msgid "Dynamic default value"
+msgstr "动态默认值"
+
+#: admin/includes/elements/settings/dynamic-default-value.php:19
+msgid ""
+"This is the name of the parameter that you will use to set the default.\n"
+"            For example, in the URL you can set the value using %s?parameter_name=my_value%s."
+msgstr "这是你将用来设置默认参数的名称。例：在URL中您可以设置为%s?parameter_name=my_value%s."
+
+#: admin/includes/elements/settings/dynamic-default-value.php:22
+msgid "Parameter name"
+msgstr "参数名"
+
+#: admin/includes/elements/settings/required.php:4
+msgid "If checked, the user must fill out this field"
+msgstr "如果勾选，用户必须填写此字段"
+
+#: admin/includes/elements/settings/required.php:6
+msgid "Required"
+msgstr "必填"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:8
+msgid "Prevents the form being submitted if a form has previously been submitted with the same value"
+msgstr "阻止表单重复提交"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:10
+msgid "Prevent duplicates"
+msgstr "防止重复"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:19
+msgid "Error message if duplicate found"
+msgstr "重复提交的错误信息"
+
+#: admin/includes/elements/settings/prevent-duplicates.php:25
+msgid ""
+"Translate or override the error message shown under a field when a\n"
+"            duplicate value is found. The default is \"%s\"."
+msgstr "翻译或取代发现字段值重复时显示在字段下面的错误信息，默认是”%s”。"
+
+#: admin/includes/elements/settings/style.php:3
+msgid "Hide CSS settings"
+msgstr "隐藏CSS设置"
+
+#: admin/includes/elements/settings/options.php:16
+msgid "Clear default option"
+msgstr "清除默认选项"
+
+#: admin/includes/elements/settings/label-placement.php:8
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"            form settings or parent group."
+msgstr "“继承”意味着标签按全局设置或所属分组设置的值来放置。"
+
+#: admin/includes/elements/groupstart.php:107
+#: admin/includes/elements/settings/label-placement.php:11
+#: admin/includes/form-builder.php:649
+msgid "Label placement"
+msgstr "标签放置"
+
+#: admin/includes/elements/groupstart.php:112
+#: admin/includes/elements/settings/label-placement.php:16
+#: admin/includes/form-builder.php:652
+msgid "Above"
+msgstr "上面"
+
+#: admin/includes/elements/groupstart.php:113
+#: admin/includes/elements/settings/label-placement.php:17
+#: admin/includes/form-builder.php:653
+msgid "Left"
+msgstr "靠左"
+
+#: admin/includes/elements/groupstart.php:114
+#: admin/includes/elements/settings/label-placement.php:18
+#: admin/includes/form-builder.php:654
+msgid "Inside"
+msgstr "里面"
+
+#: admin/includes/elements/settings/label-placement.php:20
+msgid "Choose where to display the label relative to the input. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "决定输入框对应的标签在哪里显示。更改此设置只在查看或预览表单时可见。"
+
+#: admin/includes/elements/groupstart.php:122
+#: admin/includes/elements/settings/label-placement.php:26
+#: admin/includes/form-builder.php:662
+msgid "Specify how wide the labels should be, this only applies when the label placement is left"
+msgstr "确定标签的宽度，只适用于标签为靠左边放置的情形"
+
+#: admin/includes/elements/groupstart.php:123
+#: admin/includes/elements/settings/label-placement.php:27
+#: admin/includes/form-builder.php:663
+msgid "Label width"
+msgstr "标签宽度"
+
+#: admin/includes/elements/groupstart.php:127
+#: admin/includes/elements/settings/label-placement.php:31
+msgid "The width of the element labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "部件标签的宽度，可以设置为任何有效的CSS宽度格式，如%s200px%s"
+
+#: admin/includes/elements/settings/clear-default-value.php:6
+msgid "Clear default value on focus"
+msgstr "清除焦点的默认数据"
+
+#: admin/includes/elements/settings/clear-default-value.php:9
+msgid "If checked, the default value will be removed when the user clicks on the field."
+msgstr "如果勾选，那么当用户点击这个字段的时候默认值将被清除。"
+
+#: admin/includes/elements/settings/clear-default-value.php:14
+msgid "Show default value on blur if empty"
+msgstr "如果为空时模糊显示默认值"
+
+#: admin/includes/elements/settings/clear-default-value.php:17
+msgid ""
+"If checked, when the user clicks off the field and leaves it empty, the default\n"
+"         value will show again."
+msgstr "如果勾选，那么当用户未输入任何值就离开字段时将恢复显示默认值。"
+
+#: admin/includes/elements/settings/admin-label.php:8
+msgid "The admin label will be shown throughout the form builder, in the notification email and when viewing submitted form entries."
+msgstr "在提醒邮件和浏览已提交记录时，管理标签会一直在表单生成器中显示"
+
+#: admin/includes/elements/settings/admin-label.php:10
+msgid "Admin label"
+msgstr "管理标签"
+
+#: admin/admin.php:3387 admin/includes/elements/groupend.php:5
+#: admin/includes/elements/groupstart.php:5
+msgid "New"
+msgstr "新建"
+
+#: admin/includes/elements/groupend.php:12
+msgid "End of group: %s"
+msgstr "分组 %s 结束"
+
+#: admin/includes/elements/_actions.php:2
+msgid "Hide settings - you will not lose unsaved data!"
+msgstr "隐藏设置 - 您不会丢失未保存的数据！"
+
+#: admin/includes/elements/_actions.php:4
+msgid "Delete this element"
+msgstr "删除这个部件"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Click and drag to move this element"
+msgstr "用单击或拖曳来移动这个部件"
+
+#: admin/includes/elements/_actions.php:5
+msgid "Move"
+msgstr "移动"
+
+#: admin/includes/elements/email.php:5 admin/includes/form-builder.php:1048
+#: admin/includes/form-builder.php:1126
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: admin/includes/elements/recaptcha.php:16
+msgid "You must enter your reCAPTCHA API keys on the %sQuform settings page%s to use this element."
+msgstr "您必须在%sQuform设置%s 中指定reCAPTCHA API keys 。"
+
+#: admin/includes/elements/recaptcha.php:41 admin/includes/form-builder.php:442
+#: admin/includes/form-builder.php:484 admin/includes/form-builder.php:519
+msgid "Theme"
+msgstr "风格"
+
+#: admin/includes/elements/recaptcha.php:132
+msgid "Language"
+msgstr "语言"
+
+#: admin/admin.php:435 admin/includes/elements/time.php:23
+#: admin/includes/elements/time.php:228 includes/iPhorm/Element/Time.php:346
+msgctxt "time, morning"
+msgid "am"
+msgstr "上午"
+
+#: admin/admin.php:436 admin/includes/elements/time.php:24
+#: admin/includes/elements/time.php:232 includes/iPhorm/Element/Time.php:366
+msgctxt "time, evening"
+msgid "pm"
+msgstr "下午"
+
+#: admin/includes/elements/time.php:97
+msgid "12/24 hour time"
+msgstr "12/24 小时制时间"
+
+#: admin/includes/elements/time.php:100
+msgid "12 hour"
+msgstr "12小时"
+
+#: admin/includes/elements/time.php:101
+msgid "24 hour"
+msgstr "24小时"
+
+#: admin/includes/elements/time.php:172
+msgid "Determines how many minutes to show per hour. 1 will show all 60 minutes, 5 will show minutes at 5 minute intervals, 10 at 10 minute intervals and so on."
+msgstr "决定每小时以多大的间隔显示分钟。1显示60个分钟，5显示5、10、15这样以5分钟为间隔的分钟，10则显示10、20这样以10分钟为间隔的分钟。 "
+
+#: admin/includes/elements/time.php:174
+msgid "Minute granularity"
+msgstr "分钟的间隔"
+
+#: admin/includes/elements/time.php:192
+msgid "Time format"
+msgstr "时间格式"
+
+#: admin/includes/elements/time.php:199
+msgid "The format of the time when displayed in the notification email and when viewing entries"
+msgstr "在提示邮件和浏览记录时的时间格式"
+
+#: admin/includes/elements/groupstart.php:15
+msgid "Start of group: %s"
+msgstr "分组 %s 开始"
+
+#: admin/includes/elements/groupstart.php:37
+msgid "The group name is only shown in the form builder to help you identify groups."
+msgstr "分组名只是显示在表单生成器中，帮您区分不同的分组。"
+
+#: admin/includes/elements/groupstart.php:47
+msgid "Shows the group name as a sub-heading in the default notification email"
+msgstr "在默认提醒邮件中把分组名当作子标题显示"
+
+#: admin/includes/elements/groupstart.php:49
+msgid "Show name in email"
+msgstr "在邮件中显示姓名"
+
+#: admin/includes/elements/groupstart.php:55
+msgid "The title will appear at the top of your group"
+msgstr "标题会出现在分组的顶部"
+
+#: admin/includes/elements/groupstart.php:72
+msgid ""
+"The number of columns determines the how many elements should be display per row inside the group. After\n"
+"                                this number of elements, further elements will appear on the line below."
+msgstr "列数表示分组中每行显示几个部件。"
+
+#: admin/includes/elements/groupstart.php:75
+msgid "Number of columns"
+msgstr "列数"
+
+#: admin/includes/elements/groupstart.php:88
+msgid ""
+"Choose how the columns are aligned. %1$sProportional%2$s - each column is evenly\n"
+"                                spaced. %1$sFloat left%2$s - the columns are compacted left."
+msgstr "选择列的对齐方式。%1$s按比例%2$s - 每列均匀分布 %1$s左浮动%2$s - 列靠左对齐."
+
+#: admin/includes/elements/groupstart.php:91
+msgid "Column alignment"
+msgstr "列对齐"
+
+#: admin/includes/elements/groupstart.php:94
+msgid "Proportional"
+msgstr "按比例"
+
+#: admin/includes/elements/groupstart.php:95
+msgid "Float left"
+msgstr "左浮动"
+
+#: admin/includes/elements/groupstart.php:103
+msgid ""
+"\"Inherit\" means that the label placement will be inherted from the global\n"
+"                                form settings or if this group is inside another group then the setting will\n"
+"                                be inherited from the parent group."
+msgstr "“继承”表示标签会根据表单全局设置或是它所在的分组设置的方式放置。"
+
+#: admin/includes/elements/groupstart.php:116
+msgid "Choose where to display the label relative to the input for the elements in this group. Changes to this setting will only be visible when viewing or previewing the form."
+msgstr "选择这个分组的输入部件关联的标签所显示的位置。更改此设置只在查看或预览表单时起作用。"
+
+#: admin/includes/elements/groupstart.php:133
+msgid "Group style"
+msgstr "分组样式"
+
+#: admin/includes/elements/groupstart.php:137
+#: admin/includes/form-builder.php:736
+msgid "Plain"
+msgstr "简单"
+
+#: admin/includes/elements/groupstart.php:138
+msgid "Bordered"
+msgstr "边框"
+
+#: admin/includes/elements/groupstart.php:140
+msgid "Plain groups have no additional styling. Bordered groups have a border and padding."
+msgstr "简单模式的分组没有其他的样式可以设置，边框模式的分组有边框和间距设置。"
+
+#: admin/includes/elements/groupstart.php:145
+msgid "Border color"
+msgstr "边框颜色"
+
+#: admin/includes/elements/_save.php:7 admin/includes/form-builder.php:142
+#: admin/includes/form-builder.php:1388
+msgid "Save"
+msgstr "保存"
+
+#: admin/includes/elements/_save.php:9
+msgid "Save & Hide"
+msgstr "保存并隐藏"
+
+#: admin/includes/form-builder.php:11
+msgid "New form"
+msgstr "新建表单"
+
+#: admin/admin.php:240 admin/admin.php:241 admin/admin.php:3286
+#: admin/includes/form-builder.php:12
+msgid "Form Builder"
+msgstr "表单生成器"
+
+#: admin/includes/form-builder.php:17
+msgid "The WordPress uploads directory is not writable, it will not be possible to save files uploaded via your forms. %sPermanently hide this message%s"
+msgstr "WordPress的uploads目录不可写，通过您表单上传的文件无法保存。%s隐藏此信息%s"
+
+#: admin/includes/form-builder.php:22 admin/includes/help.php:108
+msgid "You are using an unlicensed version. Please %senter your license key%s or %spurchase a license key%s."
+msgstr "您正在使用一个未授权的版本，请%s输入您的授权协议%s或者%s购买授权协议%s"
+
+#: admin/includes/form-builder.php:45
+msgid "Add to website"
+msgstr "添加到网站"
+
+#: admin/includes/form-builder.php:46
+msgid "Reload"
+msgstr "重新载入"
+
+#: admin/includes/form-builder.php:55
+msgid "You can now add the form to any post, page or widget."
+msgstr "您现在可以把表单加入到任意的文章、页面或是小工具中（widget）中。"
+
+#: admin/includes/form-builder.php:57
+msgid "Add your form to a post or page"
+msgstr "把表单添加到文章或页面"
+
+#: admin/includes/form-builder.php:59
+msgid ""
+"Add or edit the page you want to show the form on. If you look above\n"
+"                    the visual editor you should see a Quform icon above it, as shown below."
+msgstr "添加或编辑需要显示表单的页面。如果您查看上面的可视化编辑器，应该可以看到Quform的图标，如下面显示的样子。"
+
+#: admin/includes/form-builder.php:62
+msgid ""
+"Click the Quform icon and a popup should appear, select the form from\n"
+"                    the list and click the Insert form button. The shortcode for this form should now appear\n"
+"                    inside the page editor. Alternatively, you can copy and paste one of the shortcodes below into your\n"
+"                    post or page content."
+msgstr "点击Quform图标，将弹出一个表单选择列表的对话框，然后点击插入所需的表单，这时这个表单的shortcode就出现在了页面编辑器中了，您也可以复制这个shortcode到其他的文章或页面中。"
+
+#: admin/includes/form-builder.php:66 admin/includes/form-builder.php:81
+msgid "Standard form"
+msgstr "标准表单"
+
+#: admin/includes/form-builder.php:68 admin/includes/form-builder.php:83
+msgid "Popup form"
+msgstr "弹出式表单"
+
+#: admin/admin.php:450 admin/admin.php:1221 admin/includes/form-builder.php:69
+#: admin/includes/form-builder.php:84
+msgid "Change this to the text or HTML that will trigger the popup"
+msgstr "更改此文本或HTML将会触发弹出框"
+
+#: admin/includes/form-builder.php:71
+msgid "Add your form as a widget"
+msgstr "以小工具（widget）形式添加表单"
+
+#: admin/includes/form-builder.php:73
+msgid ""
+"To add the form as a widget into a widget enabled area, go to the Appearance &rarr; Widgets\n"
+"                    in the WordPress navigation. Find the widget with the title \"Quform\" (or \"Quform Popup\" for a popup form) and simply\n"
+"                    drag it to your widget enabled area. Select one of the forms from the dropdown menu\n"
+"                    and click Save."
+msgstr "如果要将表单添加到可用的小工具区域中，只需要到WordPress后台的 外观 &rarr; 小工具设置中，找到”Quform\" (或者 \"Quform Popup\" 弹出式表单)并拖曳到需要的区域后保存即可。"
+
+#: admin/includes/form-builder.php:78
+msgid "Add your form to a theme PHP file"
+msgstr "将表单添加到模板PHP文件中"
+
+#: admin/includes/form-builder.php:80
+msgid "To add this form to one of your theme PHP files, use one of the PHP snippets below."
+msgstr "使用以下的PHP代码片段，将表单添加到您的模板PHP文件中。"
+
+#: admin/includes/form-builder.php:92
+msgid "Please enter a name for your new form"
+msgstr "请输入表单的名称"
+
+#: admin/includes/form-builder.php:95
+msgid "OK"
+msgstr "好"
+
+#: admin/includes/form-builder.php:97
+msgid "e.g. Contact form"
+msgstr "例如：联系表单"
+
+#: admin/includes/form-builder.php:111
+msgid "Popular"
+msgstr "热门部件"
+
+#: admin/includes/form-builder.php:112
+msgid "More"
+msgstr "更多"
+
+#: admin/includes/form-builder.php:155
+msgid "Edit your form"
+msgstr "编辑表单"
+
+#: admin/includes/form-builder.php:156
+msgid "Global form settings"
+msgstr "表单全局设置"
+
+#: admin/includes/form-builder.php:163
+msgid "drop an element here"
+msgstr "将表单部件拖到这里"
+
+#: admin/includes/form-builder.php:164
+msgid "(or just click it)"
+msgstr "(或点击它们)"
+
+#: admin/includes/form-builder.php:226
+msgid "Common settings"
+msgstr "常用设置"
+
+#: admin/includes/form-builder.php:227
+msgid "What the form will look like"
+msgstr "表单外观"
+
+#: admin/includes/form-builder.php:228
+msgid "Where the data is sent and how it's displayed"
+msgstr "数据如何发送如何显示"
+
+#: admin/includes/form-builder.php:229
+msgid "Set up saving submitted form entries"
+msgstr "设置表单提交数据的保存方式"
+
+#: admin/includes/form-builder.php:229
+msgctxt "saved submitted form entries"
+msgid "Entries"
+msgstr "记录"
+
+#: admin/includes/form-builder.php:230
+msgid "Save form data to a custom database"
+msgstr "保存表单数据到自定义数据库中"
+
+#: admin/includes/form-builder.php:235
+msgid "Form information"
+msgstr "表单信息"
+
+#: admin/includes/form-builder.php:239
+msgid "This is your form name within WordPress, it will not appear on your website"
+msgstr "WordPress中使用的表单名，不出现在网站上"
+
+#: admin/includes/form-builder.php:243
+msgid "Give the form a name"
+msgstr "给表单取一个名字"
+
+#: admin/includes/form-builder.php:249
+msgid "The heading that will show above the form on your website"
+msgstr "这个标题将显示在您的网站中这个表单的上方"
+
+#: admin/includes/form-builder.php:253
+msgid "Title to display above the form"
+msgstr "表单上显示的标题"
+
+#: admin/includes/form-builder.php:259
+msgid "The description that will show below the form title."
+msgstr "在表单标题下显示的描述。"
+
+#: admin/includes/form-builder.php:263
+msgid "Description to display above the form"
+msgstr "表单上方的描述"
+
+#: admin/includes/form-builder.php:271
+msgid "Inactive forms will not appear on your website"
+msgstr "停用的表单不会出现在您的网站上"
+
+#: admin/includes/form-builder.php:275
+msgid "Successful submit options"
+msgstr "成功提交选项"
+
+#: admin/includes/form-builder.php:279
+msgid "On successful submit"
+msgstr "当提交成功时"
+
+#: admin/includes/form-builder.php:282
+msgid "Display a message"
+msgstr "显示一条信息"
+
+#: admin/includes/form-builder.php:283
+msgid "Redirect to another page"
+msgstr "跳转到另一个页面"
+
+#: admin/includes/form-builder.php:287
+msgid "Your message has been sent, thanks."
+msgstr "您的信息已经发送，谢谢。"
+
+#: admin/includes/form-builder.php:289
+msgid "Message"
+msgstr "信息"
+
+#: admin/includes/form-builder.php:291
+msgid "Add more data to your message by inserting a variable tag"
+msgstr "通过插入变量标签来加入更多信息"
+
+#: admin/includes/form-builder.php:293
+msgid "Message to display when the form is successfully submitted. You can enter HTML to format the message."
+msgstr "用于显示成功提交表单后的信息，您可以使用HTML来美化信息。"
+
+#: admin/includes/form-builder.php:298
+msgid "Message position"
+msgstr "消息位置"
+
+#: admin/includes/form-builder.php:301
+msgid "Above the form"
+msgstr "表单上方"
+
+#: admin/includes/form-builder.php:302
+msgid "Below the form"
+msgstr "表单下方"
+
+#: admin/includes/form-builder.php:308
+msgid "Message timeout"
+msgstr "超时信息"
+
+#: admin/includes/form-builder.php:311
+msgid "The success message will fade out and disappear after this number of seconds. Set to 0 to disable the timeout."
+msgstr "设置成功信息在几秒后淡出并消失。设置为0则禁用超时。"
+
+#: admin/includes/form-builder.php:317
+msgid "Redirect to"
+msgstr "跳转到"
+
+#: admin/includes/form-builder.php:321
+msgid "Page"
+msgstr "页面"
+
+#: admin/includes/form-builder.php:322
+msgid "Post"
+msgstr "文章"
+
+#: admin/includes/form-builder.php:323
+msgid "URL"
+msgstr "URL"
+
+#: admin/includes/form-builder.php:338
+msgid "When the form is successfully submitted you can redirect the user to post, page or URL."
+msgstr "当表单成功提交后，您可以将用户重定向到文章、页面或某个链接地址。"
+
+#: admin/includes/form-builder.php:354
+msgid "More options"
+msgstr "更多选项"
+
+#: admin/includes/form-builder.php:359
+msgid "What would you like your form submit button to say? E.g. Submit, Go, Get in touch ... etc"
+msgstr "您想让提交按钮上显示什么？例如：提交、好或按一下等等"
+
+#: admin/includes/form-builder.php:360
+msgid "Submit button text"
+msgstr "提交按钮文本"
+
+#: admin/includes/form-builder.php:363
+msgid "Override the default text of the submit button which is \"%s\""
+msgstr "取代提交按钮默认的文本是\"%s\""
+
+#: admin/includes/form-builder.php:363
+msgid "Send"
+msgstr "发送"
+
+#: admin/includes/form-builder.php:368
+msgid "Use Ajax"
+msgstr "使用Ajax"
+
+#: admin/includes/form-builder.php:371
+msgid "When enabled, the form will submit without reloading the page. If disabled, it will also disable the Flash file uploader."
+msgstr "如启用，表单采用无刷新提交方式。如果禁用，它同时会禁用Flash文件上传器。"
+
+#: admin/includes/form-builder.php:376
+msgid "Enable honeypot CAPTCHA"
+msgstr "启用蜜罐校验码(honeypot CAPTCHA)"
+
+#: admin/includes/form-builder.php:379
+msgid "A hidden anti-spam measure that requires no user interaction"
+msgstr "一个隐藏的反垃圾信息标准无需与用户交互"
+
+#: admin/includes/form-builder.php:384
+msgid "Conditional logic animation"
+msgstr "逻辑条件动画"
+
+#: admin/includes/form-builder.php:387
+msgid ""
+"If enabled the fields that are hidden or shown via conditional logic will be\n"
+"                                                animated instead of hidden or shown instantly."
+msgstr "如果启用，那么根据逻辑条件显示或隐藏的字段时会采用动画效果"
+
+#: admin/includes/form-builder.php:393
+msgid "Re-center Fancybox after conditional logic"
+msgstr "根据逻辑条件将弹出窗口(Fancybox)重新居中"
+
+#: admin/includes/form-builder.php:396
+msgid "If enabled, when conditional logic causes the Fancybox popup to change size it will center the popup."
+msgstr "如果启用，逻辑条件变化后重新将弹出窗口（Fancybox）居中显示。"
+
+#: admin/includes/form-builder.php:400
+msgid "Make money and support Quform!"
+msgstr "支持Quform!"
+
+#: admin/includes/form-builder.php:405
+msgid "Display a referral link"
+msgstr "显示推荐链接"
+
+#: admin/includes/form-builder.php:409
+msgid "Displays a Quform referral link under your form, with the text you specify below"
+msgstr "按以下文本，在表单下显示一个Quform推荐连接"
+
+#: admin/includes/form-builder.php:412
+msgid "Powered by Quform"
+msgstr "采用Quform"
+
+#: admin/includes/form-builder.php:415
+msgid "This is the text that will link to Quform, it's displayed under your form."
+msgstr "这是链接到Quform的文本，它将显示在表单下方"
+
+#: admin/includes/form-builder.php:416
+msgid "Referral link text"
+msgstr "推荐链接文本"
+
+#: admin/includes/form-builder.php:424
+msgid "ThemeForest / CodeCanyon username"
+msgstr "ThemeForest / CodeCanyon 用户名"
+
+#: admin/includes/form-builder.php:427
+msgid ""
+"Enter your ThemeForest or CodeCanyon username and you will receive 30% of the first deposit or purchase amount from any referrals\n"
+"                                                when users click on your referral link."
+msgstr "请输入您的ThemeForest 或 CodeCanyon 用户名，这样其他用户点击您推荐链接后存入或购买的第一笔费用的30%将支付给您。"
+
+#: admin/admin.php:430 admin/admin.php:1274 admin/includes/form-builder.php:428
+msgid "More information"
+msgstr "更多信息"
+
+#: admin/includes/form-builder.php:441
+msgid "Themes define the look of your form. You can add your own themes, see the Help for more information."
+msgstr "主题是用来定义表单的外观。您可以添加自己的主题，参考帮助。"
+
+#: admin/includes/form-builder.php:453
+msgid "No themes found"
+msgstr "未发现主题"
+
+#: admin/includes/form-builder.php:469
+msgid "Uniform"
+msgstr "Uniform"
+
+#: admin/includes/form-builder.php:474
+msgid "Uniform makes form inputs look consistent in all browsers."
+msgstr "Uniform可以让表单的输入在所有的浏览器中保持显示的一致性。"
+
+#: admin/includes/form-builder.php:475
+msgid "Use Uniform"
+msgstr "使用Uniform"
+
+#: admin/includes/form-builder.php:489
+msgid " (by %s)"
+msgstr "(%s)"
+
+#: admin/includes/form-builder.php:513
+msgid "Datepicker"
+msgstr "日期选择器"
+
+#: admin/includes/form-builder.php:518
+msgid "The theme chosen here will apply to all datepicker elements in your form."
+msgstr "在这里选中的主题将应用到你表单中所有的日期选择器部件上。"
+
+#: admin/includes/form-builder.php:554
+msgid "Choose the theme of the datepicker, %ssee examples of each theme%s."
+msgstr "选择日期选择器的主题，%s参考每个主题的例子%s。"
+
+#: admin/includes/form-builder.php:560
+msgid ""
+"The datepicker will be translated into the language you choose\n"
+"                                                and the date settings will be appropriate for your region."
+msgstr "日期选择器将会翻译成您选择的语言，同时日期的设置也将与您的区域一致。"
+
+#: admin/includes/form-builder.php:562
+msgid "Locale"
+msgstr "本地"
+
+#: admin/includes/form-builder.php:641
+msgid "Choose the calendar localization"
+msgstr "选择日历本地化"
+
+#: admin/includes/form-builder.php:645
+msgid "Labels"
+msgstr "标签"
+
+#: admin/includes/form-builder.php:656
+msgid "Choose where to display the label relative to the input"
+msgstr "选择输入框关对应标签的显示位置"
+
+#: admin/includes/form-builder.php:667
+msgid "The width of the labels, any valid CSS width is accepted, e.g. %s200px%s"
+msgstr "标签的宽度，任何符合CSS的宽度格式均可，如%s200px%s"
+
+#: admin/includes/form-builder.php:670
+msgid "(required)"
+msgstr "(必填)"
+
+#: admin/includes/form-builder.php:672
+msgid "Required indicator text"
+msgstr "必填的提示文本"
+
+#: admin/includes/form-builder.php:678
+msgid "Tooltips"
+msgstr "提示框"
+
+#: admin/includes/form-builder.php:683
+msgid "What's a tooltip? You're looking at one."
+msgstr "什么是提示框？您找一个吧。"
+
+#: admin/includes/form-builder.php:684
+msgid "Enable tooltips"
+msgstr "启用提示框"
+
+#: admin/includes/form-builder.php:688
+msgid "If enabled, when the user hovers over an element with tooltip text set, a tooltip will appear."
+msgstr "如果启用，那么当悬停在部件上时会出现一个提示框，显示您甩设置的文本。"
+
+#: admin/includes/form-builder.php:694
+msgid ""
+"If set to %1$sField%2$s, the tooltip will show when the user interacts with\n"
+"                                                the field. If set to %1$sHelp icon%2$s, the tooltip will be shown when the user interacts with a help icon."
+msgstr "如果设置为 %1$s字段%2$s, 那么提示框会在用户与字段发生交互时显示。如果设置为 %1$s帮助图标%2$s, 提示框会在用户触碰帮助图标时显示。"
+
+#: admin/includes/form-builder.php:696
+msgid "Trigger"
+msgstr "触发器"
+
+#: admin/includes/form-builder.php:709
+msgid "Event"
+msgstr "事件"
+
+#: admin/includes/form-builder.php:720
+msgid "Tooltip style"
+msgstr "提示信息样式"
+
+#: admin/includes/form-builder.php:726
+msgid "Hover me for preview"
+msgstr "悬停预览"
+
+#: admin/includes/form-builder.php:735
+msgid "Cream"
+msgstr "乳白"
+
+#: admin/includes/elements/recaptcha.php:44 admin/includes/form-builder.php:737
+msgid "Light"
+msgstr "亮"
+
+#: admin/includes/elements/recaptcha.php:45 admin/includes/form-builder.php:738
+msgid "Dark"
+msgstr "暗"
+
+#: admin/includes/form-builder.php:739
+msgid "Red"
+msgstr "红(Red)"
+
+#: admin/includes/form-builder.php:740
+msgid "Green"
+msgstr "绿(Green)"
+
+#: admin/includes/form-builder.php:741
+msgid "Blue"
+msgstr "蓝(Blue)"
+
+#: admin/includes/form-builder.php:744
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/includes/form-builder.php:745
+msgid "jTools"
+msgstr "jTools"
+
+#: admin/includes/form-builder.php:746
+msgid "Cluetip"
+msgstr "线索提示(Cluetip)"
+
+#: admin/includes/form-builder.php:747
+msgid "Tipped"
+msgstr "倾斜(Tipped)"
+
+#: admin/includes/form-builder.php:748
+msgid "Tipsy"
+msgstr "歪的(Tipsy)"
+
+#: admin/includes/form-builder.php:750 admin/includes/form-builder.php:755
+msgid "Custom class"
+msgstr "自定义类"
+
+#: admin/includes/form-builder.php:762
+msgid "Tip position"
+msgstr "提示位置"
+
+#: admin/includes/form-builder.php:765 admin/includes/form-builder.php:786
+msgid "left center"
+msgstr "左侧居中"
+
+#: admin/includes/form-builder.php:766 admin/includes/form-builder.php:787
+msgid "left top"
+msgstr "左上"
+
+#: admin/includes/form-builder.php:767 admin/includes/form-builder.php:788
+msgid "top left"
+msgstr "左上方"
+
+#: admin/includes/form-builder.php:768 admin/includes/form-builder.php:789
+msgid "top center"
+msgstr "上方中间"
+
+#: admin/includes/form-builder.php:769 admin/includes/form-builder.php:790
+msgid "top right"
+msgstr "右上"
+
+#: admin/includes/form-builder.php:770 admin/includes/form-builder.php:791
+msgid "right top"
+msgstr "右上方"
+
+#: admin/includes/form-builder.php:771 admin/includes/form-builder.php:792
+msgid "right center"
+msgstr "左侧居中"
+
+#: admin/includes/form-builder.php:772 admin/includes/form-builder.php:793
+msgid "right bottom"
+msgstr "右下方"
+
+#: admin/includes/form-builder.php:773 admin/includes/form-builder.php:794
+msgid "bottom right"
+msgstr "右下"
+
+#: admin/includes/form-builder.php:774 admin/includes/form-builder.php:795
+msgid "bottom center"
+msgstr "下方中间"
+
+#: admin/includes/form-builder.php:775 admin/includes/form-builder.php:796
+msgid "bottom left"
+msgstr "左下方"
+
+#: admin/includes/form-builder.php:776 admin/includes/form-builder.php:797
+msgid "left bottom"
+msgstr "左下"
+
+#: admin/includes/form-builder.php:777 admin/includes/form-builder.php:798
+msgid "center"
+msgstr "居中"
+
+#: admin/includes/form-builder.php:783
+msgid "Position on input"
+msgstr "输入框位置"
+
+#: admin/includes/form-builder.php:804
+msgid "CSS3 Shadow"
+msgstr "CSS3阴影"
+
+#: admin/includes/form-builder.php:811
+msgid "CSS3 Rounded Corners"
+msgstr "CSS3圆角"
+
+#: admin/includes/form-builder.php:817
+msgid "The CSS3 effects may not work with some styles and may only be visible in modern browsers."
+msgstr "CSS3效果只在现代浏览器有效，某些样子在老旧的浏览器不启作用。"
+
+#: admin/includes/form-builder.php:821
+msgid "Global styling"
+msgstr "全局样式"
+
+#: admin/includes/form-builder.php:826
+msgid "Element background color"
+msgstr "部件背景色"
+
+#: admin/includes/form-builder.php:835
+msgid "Element border color"
+msgstr "部件边框颜色"
+
+#: admin/includes/form-builder.php:844
+msgid "Element text color"
+msgstr "部件文本颜色"
+
+#: admin/includes/form-builder.php:853
+msgid "Label text color"
+msgstr "标签文本颜色"
+
+#: admin/includes/form-builder.php:863
+msgid ""
+"Styles entered here will apply to all form elements, you can override these for\n"
+"                                                    each element inside the element settings. Once you have added a style, enter the CSS styles one per line, with each line ending in\n"
+"                                                    a semi-colon. %sClick here%s for an example."
+msgstr "这里输入的样式将应用到所有的表单部件，您可以部件内部设置中重写这些样式。添加CSS样式每行一个以分号结尾。%s示例%s。"
+
+#: admin/includes/form-builder.php:867
+msgid "Global CSS Styles"
+msgstr "全局CSS样式"
+
+#: admin/includes/form-builder.php:877
+msgid "No global styles."
+msgstr "无全局样式。"
+
+#: admin/includes/form-builder.php:885
+msgid "The outer wrapper of the form"
+msgstr "表单的外部区域"
+
+#: admin/includes/form-builder.php:885
+msgid "Form outer wrapper"
+msgstr "表单外部区域"
+
+#: admin/includes/form-builder.php:886
+msgid "The inner wrapper of the form"
+msgstr "表单的内部区域"
+
+#: admin/includes/form-builder.php:886
+msgid "Form inner wrapper"
+msgstr "表单内部区域"
+
+#: admin/includes/form-builder.php:887
+msgid "The message shown when the form is successfully submitted"
+msgstr "表单成功提交后显示的提示信息"
+
+#: admin/admin.php:981 admin/includes/form-builder.php:887
+msgid "Success message"
+msgstr "成功信息"
+
+#: admin/includes/form-builder.php:888
+msgid "The form title"
+msgstr "表单标题"
+
+#: admin/admin.php:984 admin/includes/form-builder.php:888
+msgid "Form title"
+msgstr "表单标题"
+
+#: admin/includes/form-builder.php:889
+msgid "The form description"
+msgstr "表单详情"
+
+#: admin/admin.php:987 admin/includes/form-builder.php:889
+msgid "Form description"
+msgstr "表单详情"
+
+#: admin/includes/form-builder.php:890
+msgid "The wrapper surrounding all elements in the form"
+msgstr "表单内所有部件的外部区域"
+
+#: admin/includes/form-builder.php:890
+msgid "Form elements wrapper"
+msgstr "表单部件区域"
+
+#: admin/includes/form-builder.php:891
+msgid "The outer wrapper of each element"
+msgstr "每个部件之间的外部区域"
+
+#: admin/includes/form-builder.php:891
+msgid "Element outer wrapper"
+msgstr "部件的外部区域"
+
+#: admin/includes/form-builder.php:892
+msgid "The label of each element"
+msgstr "每个部件所属标签"
+
+#: admin/admin.php:996 admin/includes/form-builder.php:892
+msgid "Element label"
+msgstr "部件标签"
+
+#: admin/includes/form-builder.php:893
+msgid "The inner wrapper of each element"
+msgstr "每个部件的内部区域"
+
+#: admin/includes/form-builder.php:893
+msgid "Element inner wrapper"
+msgstr "部件内部区域"
+
+#: admin/includes/form-builder.php:894
+msgid "The description of each element"
+msgstr "部件详情"
+
+#: admin/admin.php:1020 admin/includes/form-builder.php:894
+msgid "Element description"
+msgstr "部件详情"
+
+#: admin/includes/form-builder.php:895
+msgid "The input field of Single Line Text, Email, Password and CAPTCHA elements"
+msgstr "单行文本框、电子邮件、密码和校验码部件的字段"
+
+#: admin/admin.php:1002 admin/includes/form-builder.php:895
+msgid "Text input elements"
+msgstr "文本框部件"
+
+#: admin/includes/form-builder.php:896
+msgid "The textarea field of Paragraph Text elements"
+msgstr "多行文本部件的字段"
+
+#: admin/includes/form-builder.php:896
+msgid "Paragraph Text elements"
+msgstr "多行文本编辑区部件"
+
+#: admin/includes/form-builder.php:897
+msgid "The select field of Dropdown Menu elements"
+msgstr "选择下拉菜单部件的字段"
+
+#: admin/admin.php:1008 admin/includes/form-builder.php:897
+msgid "Dropdown Menu elements"
+msgstr "下拉菜单部件"
+
+#: admin/includes/form-builder.php:898
+msgid "The wrapper around all of the options of Multiple Choice and Checkbox elements"
+msgstr "多项选择和复选框中各选项的外部区域"
+
+#: admin/includes/form-builder.php:899
+msgid "The wrapper around each option of Multiple Choice and Checkbox elements"
+msgstr "多项选择和复选框各选项外的区域"
+
+#: admin/includes/form-builder.php:899
+msgid "Option wrappers"
+msgstr "选项区域"
+
+#: admin/includes/form-builder.php:900
+msgid "The label of each option of Multiple Choice and Checkbox elements"
+msgstr "多项选择和复选框各选项的标签"
+
+#: admin/includes/form-builder.php:900
+msgid "Option labels"
+msgstr "选项标签"
+
+#: admin/includes/form-builder.php:901
+msgid "Each of the dropdown menus of the Date element"
+msgstr "日期部件的每一个下拉菜单"
+
+#: admin/includes/form-builder.php:901
+msgid "Date dropdowns"
+msgstr "日期下拉菜单"
+
+#: admin/includes/form-builder.php:902
+msgid "Each of the dropdown menus of the Time element"
+msgstr "时间部件的第一个下拉菜单"
+
+#: admin/includes/form-builder.php:902
+msgid "Time dropdowns"
+msgstr "时间下拉菜单"
+
+#: admin/includes/form-builder.php:903
+msgid "The outer wrapper of the submit button"
+msgstr "提交按钮的外部区域"
+
+#: admin/admin.php:1041 admin/includes/form-builder.php:903
+msgid "Submit button outer wrapper"
+msgstr "提交按钮的外部区域"
+
+#: admin/includes/form-builder.php:904
+msgid "The inner wrapper of the submit button"
+msgstr "提交按钮的内部区域"
+
+#: admin/admin.php:1044 admin/includes/form-builder.php:904
+msgid "Submit button inner wrapper"
+msgstr "提交按钮的内部区域"
+
+#: admin/includes/form-builder.php:905
+msgid "The submit button"
+msgstr "提交按钮"
+
+#: admin/admin.php:1047 admin/includes/form-builder.php:905
+msgid "Submit button"
+msgstr "提交按钮"
+
+#: admin/includes/form-builder.php:906
+msgid "The span tag inside the submit button"
+msgstr "提交按钮内的span标签"
+
+#: admin/admin.php:1050 admin/includes/form-builder.php:906
+msgid "Submit button inside span"
+msgstr "提交按钮的内部span"
+
+#: admin/includes/form-builder.php:907
+msgid "The em tag inside the submit button"
+msgstr "提交按钮内的em标签"
+
+#: admin/admin.php:1053 admin/includes/form-builder.php:907
+msgid "Submit button inside em"
+msgstr "提交按钮的内部em"
+
+#: admin/includes/form-builder.php:915
+msgid "Notification email settings"
+msgstr "提醒邮件设置"
+
+#: admin/includes/form-builder.php:919
+msgid "Send form data via email"
+msgstr "通过邮件发送数据"
+
+#: admin/includes/form-builder.php:922
+msgid "If checked, when the user submits the form the submitted form data will be sent in an email to the recipients specified below."
+msgstr "如果选中，那么当用户提交表单时，表单数据会通过电子邮件的形式发送到以下接收地址。"
+
+#: admin/includes/form-builder.php:929
+msgid "Add email address(es) which the submitted form data will be sent to."
+msgstr "添加表单数据的接收邮件地址。"
+
+#: admin/includes/form-builder.php:931
+msgid "Recipients"
+msgstr "收件人"
+
+#: admin/includes/form-builder.php:945
+msgid "Add BCC email addresses"
+msgstr "添加密送邮件接收地址"
+
+#: admin/includes/form-builder.php:947
+msgid "BCC recipients"
+msgstr "密送邮件接收地址"
+
+#: admin/includes/form-builder.php:950
+msgid "Add BCC"
+msgstr "加添密送"
+
+#: admin/includes/form-builder.php:962
+msgid "Send the form data to different email addresses depending on the submitted form values."
+msgstr "根据表单值的不同把表单数据发送到不同的邮件地址"
+
+#: admin/includes/form-builder.php:964
+msgid "Conditional recipients"
+msgstr "条件接收"
+
+#: admin/includes/form-builder.php:967
+msgid "Add a new rule"
+msgstr "添加新规则"
+
+#: admin/includes/form-builder.php:968
+msgid "The form must have at least one Dropdown Menu or Multiple Choice element to use this feature."
+msgstr "表单至少有一个下拉菜单、复选框或多项选择部件才能使用这个特性。"
+
+#: admin/includes/form-builder.php:971
+msgid "Active rules"
+msgstr "启用规则"
+
+#: admin/includes/form-builder.php:973
+msgid "If the active conditional rules result in no recipients for the email then the recipients specified in the section above will be used."
+msgstr "如果没有与条件规则相匹配的接收地址，那么将使用这里指定的接收地址"
+
+#: admin/includes/form-builder.php:980
+msgid "\"Reply-To\" address"
+msgstr "回复地址"
+
+#: admin/includes/form-builder.php:985 admin/includes/form-builder.php:1079
+#: admin/includes/form-builder.php:1134
+msgid "The form must have at least one Email Address element to use this feature."
+msgstr "表单至少要有一个电子邮件部件才能使用此特征"
+
+#: admin/includes/form-builder.php:987
+msgid "When you compose a reply to the notification email, it will be addressed to the email address submitted in this field."
+msgstr "当你撰写一个提醒邮件的回复，它会按这个字段指定的地址发送。"
+
+#: admin/includes/form-builder.php:990
+msgid "Message from your website"
+msgstr "来自您网站的信息"
+
+#: admin/includes/form-builder.php:992 admin/includes/form-builder.php:1086
+msgid "Email subject"
+msgstr "主题"
+
+#: admin/includes/form-builder.php:994 admin/includes/form-builder.php:1016
+#: admin/includes/form-builder.php:1088 admin/includes/form-builder.php:1102
+msgid "Add more data to your email by inserting a variable tag"
+msgstr "使用变量标签丰富邮件内容"
+
+#: admin/includes/form-builder.php:999
+msgid "Customize email content"
+msgstr "自定义邮件内容"
+
+#: admin/includes/form-builder.php:1002
+msgid "Tick to customize the email content. By default all submitted form data is sent, you can see an example by submitting the form."
+msgstr "勾选后可自定义邮件内容。默认发送表单提交数据，您可以参考表单提交数据的示例。"
+
+#: admin/includes/form-builder.php:1008 admin/includes/form-builder.php:1094
+msgid "Email content"
+msgstr "正文"
+
+#: admin/includes/form-builder.php:1011 admin/includes/form-builder.php:1097
+msgid "Email format"
+msgstr "邮件格式"
+
+#: admin/includes/form-builder.php:1013 admin/includes/form-builder.php:1099
+msgid "Plain text"
+msgstr "纯文本"
+
+#: admin/includes/form-builder.php:1026
+msgid "Tick to show empty fields in the default notification email."
+msgstr "勾选可以在提醒邮件中显示空内容的字段。"
+
+#: admin/includes/form-builder.php:1035
+msgid "This is the email address that recipient(s) will see as the sender of the email."
+msgstr "邮件接收者可以看到邮件的发送者。"
+
+#: admin/includes/form-builder.php:1036 admin/includes/form-builder.php:1114
+msgid "\"From\" address"
+msgstr "发件人地址"
+
+#: admin/includes/form-builder.php:1041 admin/includes/form-builder.php:1119
+msgid "Static email address"
+msgstr "静态邮件地址"
+
+#: admin/includes/form-builder.php:1042 admin/includes/form-builder.php:1120
+msgid "Submitted email address"
+msgstr "已提交的邮件地址"
+
+#: admin/includes/form-builder.php:1049 admin/includes/form-builder.php:1127
+msgid "Name (optional)"
+msgstr "姓名(可选)"
+
+#: admin/includes/form-builder.php:1056
+msgid "The form must have at least one Email element to use this feature."
+msgstr "表单至少要有一个电子邮件部件才能使用此特征"
+
+#: admin/includes/form-builder.php:1057
+msgid ""
+"The From address of the notification email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr "提醒邮件将会发送到这个字段中的邮件地址。%s重要信息%s。"
+
+#: admin/includes/form-builder.php:1063
+msgid "Autoreply email settings (optional)"
+msgstr "自动答复邮件设置(可选)"
+
+#: admin/includes/form-builder.php:1067
+msgid "Send autoreply email"
+msgstr "发送自动答复邮件"
+
+#: admin/includes/form-builder.php:1070
+msgid "If checked, when the user submits the form an autoreply email will be sent to them"
+msgstr "如果选中，当用户提交表单时，一封自动回复邮件将发送给他"
+
+#: admin/includes/form-builder.php:1075
+msgid "Recipient element"
+msgstr "收件人"
+
+#: admin/includes/form-builder.php:1081
+msgid "The autoreply email will be sent to the email address submitted in this field."
+msgstr "自动答复邮件将会发送到这个字段中的邮件地址。"
+
+#: admin/includes/form-builder.php:1113
+msgid "This is the email address that recipient will see as the sender of the email."
+msgstr "收件人将看到发件人的邮件地址。"
+
+#: admin/includes/form-builder.php:1135
+msgid ""
+"The From address of the autoreply email will be set to the email address submitted in this field.\n"
+"                                                    %sImportant information%s."
+msgstr "自动答复邮件将会发送到这个字段中的邮件地址。%s重要信息%s。"
+
+#: admin/includes/form-builder.php:1148
+msgid "Use global setting"
+msgstr "使用全局配置"
+
+#: admin/includes/form-builder.php:1149
+msgid "PHP mail()"
+msgstr "PHP mail()"
+
+#: admin/includes/form-builder.php:1152
+msgid "The global setting can be configured at Quform &rarr; Settings on the WordPress menu."
+msgstr "通过 Quform &rarr; 设置 菜单来配置全局设置。 "
+
+#: admin/includes/form-builder.php:1203
+msgid "Entry settings"
+msgstr "记录设置"
+
+#: admin/includes/form-builder.php:1207
+msgid "Save submitted form data"
+msgstr "保存表单提交的数据"
+
+#: admin/includes/form-builder.php:1210
+msgid ""
+"If checked, the submitted form data will be saved to your database and you will be able\n"
+"                                                    to view submitted entries within the WordPress admin."
+msgstr "如果选中，表单提交的数据将被保存到数据库中，您可以在WordPress管理后台中浏览。"
+
+#: admin/includes/form-builder.php:1239
+msgid "Post / Page ID"
+msgstr "文章/页面 ID"
+
+#: admin/includes/form-builder.php:1244
+msgid "Post / Page Title"
+msgstr "文章/页面 标题"
+
+#: admin/includes/form-builder.php:1249
+msgid "User WP display name"
+msgstr "用户的WordPress显示名"
+
+#: admin/includes/form-builder.php:1254
+msgid "User WP login"
+msgstr "用户的WordPress登录名"
+
+#: admin/includes/form-builder.php:1259
+msgid "User WP email"
+msgstr "用户的WordPress电子邮件"
+
+#: admin/includes/form-builder.php:1267
+msgid "Customize what is shown in the table when viewing the list of entries for the form. Drag and drop the elements into the desired columns."
+msgstr "拖曳部件到目标列中来自定义记录列表中需要显示的内容。"
+
+#: admin/includes/form-builder.php:1268
+msgid "List of entries table layout"
+msgstr "记录列表样式"
+
+#: admin/includes/form-builder.php:1273
+msgid "Active columns"
+msgstr "启用列"
+
+#: admin/includes/form-builder.php:1274
+msgid "Inactive columns"
+msgstr "停用列"
+
+#: admin/includes/form-builder.php:1293
+msgid ""
+"Customize how the listing table of entries appears for this form. This only\n"
+"                                                    applies to the list of entries, all entry information will be displayed when viewing an individual entry."
+msgstr "自定义表单数据列表如何展示。这只应用于记录列表，记录的完整信息只能在单独的记录中展示。"
+
+#: admin/includes/form-builder.php:1300
+msgid ""
+"This section enables you to save form data to a custom database.\n"
+"                                        This is not related to the saving of submitted entries, you can do both at the same time.\n"
+"                                        You can use this functionality to save submitted form data to the table of another\n"
+"                                        plugin for example."
+msgstr "本部分是让您能把数据保存到自定义数据库中。与已经提交的数据无关，您可以同时采用。参加例子，您可以使用这项功能将表单数据保存到另一个插件的表中。"
+
+#: admin/includes/form-builder.php:1304
+msgid ""
+"This tool will not create the database table or fields for you - they should already exist. You can\n"
+"                                        then choose to save a form value using the button below, just enter the name of the database field you would like to\n"
+"                                        save to and choose your value from the dropdown menu."
+msgstr "数据库或字段必段已经存在，此工具不会您为创建的。您可以选择以面的按钮来保存表单数据，首先在下拉菜单选择要保存的数据项，然后输入数据库字段名即可。"
+
+#: admin/includes/form-builder.php:1310
+msgid "Custom database settings (MySQL)"
+msgstr "自定义数据库设置(MySQL)"
+
+#: admin/includes/form-builder.php:1314
+msgid "Use WordPress database"
+msgstr "使用与WordPress相同的数据库"
+
+#: admin/includes/form-builder.php:1317
+msgid ""
+"If checked, the data will be inserted into a table you specify below,\n"
+"                                                inside the WordPress database. Un-tick to specify your own database credentials"
+msgstr "如果选中，数据将会保存到WordPress所在数据库里的您所指定的表中，否则您需要配置其他的数据库信息"
+
+#: admin/includes/form-builder.php:1323
+msgid "Host"
+msgstr "主机"
+
+#: admin/includes/form-builder.php:1326
+msgid "Usually localhost"
+msgstr "通常是localhost"
+
+#: admin/includes/form-builder.php:1331
+msgid "Username"
+msgstr "用户名"
+
+#: admin/includes/form-builder.php:1334
+msgid "The user must have permission to insert data to the database"
+msgstr "用户需要有数据库插入数据的权限"
+
+#: admin/includes/form-builder.php:1346
+msgid "Database name"
+msgstr "数据库名"
+
+#: admin/includes/form-builder.php:1353
+msgid "Database table"
+msgstr "数据库表"
+
+#: admin/includes/form-builder.php:1356
+msgid "The name of the database table to insert the data into"
+msgstr "要用于保存数据的数据库表"
+
+#: admin/includes/form-builder.php:1360
+msgid "What to save"
+msgstr "要保存什么"
+
+#: admin/includes/form-builder.php:1366
+msgid "Save another form value"
+msgstr "保存另一个表单数据"
+
+#: admin/includes/form-builder.php:1372
+msgid "Database field"
+msgstr "数据库字段"
+
+#: admin/includes/form-builder.php:1377
+msgid "You are not currently saving any submitted form values."
+msgstr "您未保存任何表单数据。"
+
+#: admin/includes/form-builder.php:1393
+msgid "Top"
+msgstr "顶部"
+
+#: admin/includes/form-builder.php:1407
+msgid "The form with that ID does not exist, %sgo back to the form list%s."
+msgstr "此ID值的表单不存在，%s返回列表%s。"
+
+#: admin/includes/import.php:10
+msgid "Import form"
+msgstr "导入表单"
+
+#: admin/includes/import.php:24
+msgid "Import form data"
+msgstr "导入表单数据"
+
+#: admin/includes/import.php:25
+msgid ""
+"Paste in the data generated from the Quform export page into the box below to import a form.\n"
+"    \t\tBear in mind that the email address set to receive emails will be set to the value that\n"
+"    \t\tit was in the website that the export was taken from. You can change this value after you\n"
+"    \t\timport by going to %1$sSettings &rarr; Email%2$s in the form builder."
+msgstr "您可以通过将Quform导出页面中生成的数据粘贴到下框中来导入一个表单。注意，导入表单的邮件的接收地址将是导出表单所在网站所设置的地址，您可以在导入后进行更改，方法是在表单生成器中的%1$s设置 &rarr; 邮件%2$s 进行设置。"
+
+#: admin/admin.php:258 admin/admin.php:259 admin/admin.php:3288
+#: admin/includes/import.php:32
+msgid "Import"
+msgstr "导入"
+
+#: admin/includes/help.php:17
+msgid "Basics"
+msgstr "基本的"
+
+#: admin/includes/help.php:18
+msgid "Elements"
+msgstr "部件"
+
+#: admin/includes/help.php:20
+msgid "Frequently asked questions"
+msgstr "常见问题"
+
+#: admin/includes/help.php:20
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/includes/help.php:109
+msgid "Help is not available in the unlicensed version."
+msgstr "未授权版本不能查看帮助。"
+
+#. #-#-#-#-#  iphorm-form-builder.pot (Quform 1.7.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:220 admin/admin.php:3450
+msgid "Quform"
+msgstr "Quform"
+
+#: admin/admin.php:364
+msgid "Are you sure you want to delete this form? All saved settings, elements and entries for this form will be lost and this cannot be undone."
+msgstr "你确定要删除这个表单吗？此表单所有保存的设置、部件和记录将会全部丢失且不能恢复。"
+
+#: admin/admin.php:365
+msgid "Are you sure you want to delete these forms? All saved settings, elements and entries for these forms will be lost and this cannot be undone."
+msgstr "你确定要删除这些表单吗？这些表单所有保存的设置、部件和记录将会全部丢失且不能恢复。"
+
+#: admin/admin.php:366
+msgid "Are you sure you want to delete this entry? All data for this entry will be lost and this cannot be undone."
+msgstr "您确定要删除这个记录吗？这个记录的所有数据都将丢失且无法恢复。"
+
+#: admin/admin.php:367
+msgid "Are you sure you want to delete these entries? All data for these entries will be lost and this cannot be undone."
+msgstr "您确定要删除这些记录吗？这些记录的所有数据都将丢失且无法恢复。"
+
+#: admin/admin.php:369 admin/admin.php:2321
+msgid "An error occurred verifying the license key, please try again"
+msgstr "验证许可密钥出错，请再试一次"
+
+#: admin/admin.php:372
+msgid "Please wait, verification in progress"
+msgstr "请稍候，核查正在进行中"
+
+#: admin/admin.php:374 includes/iPhorm/Validator/Recaptcha.php:32
+msgid "An error occurred, please try again"
+msgstr "出错了，请重试。"
+
+#: admin/admin.php:397 admin/admin.php:673
+msgid "Error adding the element"
+msgstr "添加部件出错"
+
+#: admin/admin.php:398
+msgid "Are you sure you want to delete this element? Any associated entry data for this element will also be deleted."
+msgstr "您确定要删除这个部件吗？与此部件相关的数据都将被删除。"
+
+#: admin/admin.php:399
+msgid "Are you sure you want to convert this element? Most of your settings will be copied over, however you may lose some settings that are not shared between the element types."
+msgstr "您确定要转换部件类型吗？大多数与部相关的数据会被复制，但两种部件类型中无法共享的数据将会丢失。"
+
+#: admin/admin.php:400
+msgid "Error saving the form"
+msgstr "保存表单出错"
+
+#: admin/admin.php:401
+msgid "Element deleted"
+msgstr "部件被删除"
+
+#: admin/admin.php:405
+msgid "There must be at least one option"
+msgstr "至少要有一个选项"
+
+#: admin/admin.php:406 admin/admin.php:726
+msgid "Error adding the filter"
+msgstr "添加过滤条件出错"
+
+#: admin/admin.php:407 admin/admin.php:788
+msgid "Error adding the validator"
+msgstr "添加校验规则出错"
+
+#: admin/admin.php:408
+msgid "Error adding the style"
+msgstr "添加样式出错"
+
+#: admin/admin.php:409
+msgctxt "variable piece of data"
+msgid "Insert variable..."
+msgstr "插入变量…"
+
+#: admin/admin.php:410
+msgid "Submitted form value"
+msgstr "提交表单数据"
+
+#: admin/admin.php:418
+msgctxt "username"
+msgid "User login"
+msgstr "用户登录名"
+
+#: admin/admin.php:422
+msgid "Send to"
+msgstr "发邮件到"
+
+#: admin/admin.php:423
+msgctxt "conditional"
+msgid "if"
+msgstr "如果"
+
+#: admin/admin.php:424
+msgid "is equal to"
+msgstr "等于"
+
+#: admin/admin.php:425
+msgid "is not equal to"
+msgstr "不等于"
+
+#: admin/admin.php:429
+msgid "This is an example tooltip!"
+msgstr "这是一个提示框示例"
+
+#: admin/admin.php:431
+msgctxt "delete"
+msgid "Remove"
+msgstr "移除"
+
+#: admin/admin.php:439
+msgid "The form must have at least one Dropdown Menu, Checkboxes or Multiple Choice element to use this feature."
+msgstr "表单至少有一个下拉菜单、复选框或多项选择部件才能使用这个特性。"
+
+#: admin/admin.php:440
+msgid "this group if"
+msgstr "分组如果"
+
+#: admin/admin.php:441
+msgid "this field if"
+msgstr "字段如果"
+
+#: admin/admin.php:442
+msgid "Show"
+msgstr "显示"
+
+#: admin/admin.php:444
+msgid "all"
+msgstr "全部"
+
+#: admin/admin.php:445
+msgid "any"
+msgstr "任意"
+
+#: admin/admin.php:446
+msgid "of these rules match:"
+msgstr "的这些规则匹配:"
+
+#: admin/admin.php:447
+msgid "is"
+msgstr "是"
+
+#: admin/admin.php:448
+msgid "is not"
+msgstr "不是"
+
+#: admin/admin.php:449
+msgid "You have unsaved changes."
+msgstr "您有未保存的更改。"
+
+#: admin/admin.php:577
+msgid "%sForm saved%s"
+msgstr "%s表单已保存%s"
+
+#: admin/admin.php:577
+msgid "%sAdd to website%s"
+msgstr "%s添加到站点%s"
+
+#: admin/admin.php:579
+msgid "Form saved"
+msgstr "表单已保存"
+
+#: admin/admin.php:615
+msgid "%sElement added%s %sSettings%s"
+msgstr "%s部件已添加%s %s设置%s"
+
+#: admin/admin.php:641
+msgid "%sElement added%s"
+msgstr "%s部件已添加%s"
+
+#: admin/admin.php:641
+msgid "The maximum file upload size has been set to 10MB, you can change this value in the element configuration. %sSee the help for more information%s."
+msgstr "最多只能上传10MB大小的文件, 您可以在部件设置中进行配置. %s更多信息...%s."
+
+#: admin/admin.php:881
+msgctxt "outermost wrapping HTML element"
+msgid "Outer wrapper"
+msgstr "外部区域"
+
+#: admin/admin.php:884
+msgctxt "form element label to be styled"
+msgid "Label"
+msgstr "标签"
+
+#: admin/admin.php:887
+msgctxt "innermost wrapping HTML element"
+msgid "Inner wrapper"
+msgstr "内部区域"
+
+#: admin/admin.php:890
+msgctxt "the HTML form element input/textarea/select etc"
+msgid "Text input"
+msgstr "文本输入框"
+
+#: admin/admin.php:893
+msgctxt "the HTML form element textarea"
+msgid "Textarea input"
+msgstr "文本编辑区"
+
+#: admin/admin.php:899
+msgctxt "element group description"
+msgid "Group description"
+msgstr "分组描述"
+
+#: admin/admin.php:902
+msgctxt "element description"
+msgid "Description"
+msgstr "描述"
+
+#: admin/admin.php:905
+msgctxt "the wrapper around all of the options"
+msgid "Options outer wrapper"
+msgstr "所有选项的外部区域"
+
+#: admin/admin.php:908
+msgctxt "the wrapper around each option"
+msgid "Option wrapper"
+msgstr "每个选项间的区域"
+
+#: admin/admin.php:911
+msgctxt "the label of each option"
+msgid "Option label"
+msgstr "选项标签"
+
+#: admin/admin.php:914
+msgctxt "form element group"
+msgid "Group"
+msgstr "分组"
+
+#: admin/admin.php:917
+msgctxt "form element group title"
+msgid "Group title"
+msgstr "分组标题"
+
+#: admin/admin.php:920
+msgctxt "the HTML wrapper around the elements in the group"
+msgid "Group elements wrapper"
+msgstr "分组中各部件之间的区域"
+
+#: admin/admin.php:975
+msgctxt "the outermost HTML wrapper around the form"
+msgid "Form outer wrapper"
+msgstr "表单外部区域"
+
+#: admin/admin.php:978
+msgctxt "the inner HTML wrapper around the form"
+msgid "Form inner wrapper"
+msgstr "表单内部区域"
+
+#: admin/admin.php:990
+msgctxt "the HTML wrapper around the form elements"
+msgid "Form elements wrapper"
+msgstr "表单内部件的外部区域"
+
+#: admin/admin.php:993
+msgctxt "outermost wrapping HTML element around an element"
+msgid "Element outer wrapper"
+msgstr "部件的外部区域"
+
+#: admin/admin.php:999
+msgctxt "the inner HTML wrapper around the element"
+msgid "Element inner wrapper"
+msgstr "部件内部区域"
+
+#: admin/admin.php:1005
+msgid "Paragraph text elements"
+msgstr "多行文本编辑区部件"
+
+#: admin/admin.php:1011
+msgctxt "the wrapper around the list of options for multi elements e.g. checkbox, radio"
+msgid "Options outer wrapper"
+msgstr "选项列表的外部区域"
+
+#: admin/admin.php:1014
+msgctxt "the wrapper around each option for multi elements e.g. checkbox, radio"
+msgid "Option wrappers"
+msgstr "每个选项间的区域"
+
+#: admin/admin.php:1017
+msgctxt "the label each option for multi elements e.g. checkbox, radio"
+msgid "Option labels"
+msgstr "选项标签"
+
+#: admin/admin.php:1176
+msgid "Insert a form"
+msgstr "插入表单"
+
+#: admin/admin.php:1178
+msgid "Select the form you want to insert from the dropdown menu and click Insert."
+msgstr "从下拉菜单中选择您想要插入的表单，然后点击插入。"
+
+#: admin/admin.php:1182
+msgid "inactive"
+msgstr "未启用"
+
+#: admin/admin.php:1187
+msgid "Display the form in a popup (using Fancybox)"
+msgstr "在弹出框中显示表单(即使用FancyBox)"
+
+#: admin/admin.php:1189
+msgid "Insert"
+msgstr "插入"
+
+#: admin/admin.php:1192
+msgid "If you are having trouble inserting the form, copy and paste the code below into the page content."
+msgstr "如果您在插入表单时遇到了麻烦，可以复制粘贴下面的代码到您的页面内容中。"
+
+#: admin/admin.php:1251
+msgid "Please select a form first"
+msgstr "请先选择一个表单"
+
+#: admin/admin.php:1444 admin/admin.php:1495
+msgid "Form deleted"
+msgid_plural "%d forms deleted"
+msgstr[0] "%d个表单被删除"
+
+#: admin/admin.php:1454 admin/admin.php:1500
+msgid "Form activated"
+msgid_plural "%d forms activated"
+msgstr[0] "%d个表单已启用"
+
+#: admin/admin.php:1464 admin/admin.php:1505
+msgid "Form deactivated"
+msgid_plural "%d forms deactivated"
+msgstr[0] "%d个表单被停用"
+
+#: admin/admin.php:1474
+msgid "duplicate"
+msgstr "复制"
+
+#: admin/admin.php:1480
+msgid "Form duplicated, %sedit the form%s"
+msgstr "表单已复制，%s编辑表单%s"
+
+#: admin/admin.php:1530
+msgid "Sorry, the form preview could not be loaded."
+msgstr "对不起，无法预览表单。"
+
+#: admin/admin.php:1800
+msgid "Form imported successfully, %sedit the form%s"
+msgstr "表单导入成功，%编辑表单%"
+
+#: admin/admin.php:1805
+msgid "Invalid import data"
+msgstr "导入数据不正确"
+
+#: admin/admin.php:1929
+msgid "Entry deleted"
+msgid_plural "%d entries deleted"
+msgstr[0] "记录已删除"
+
+#: admin/admin.php:2066
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "%s条"
+
+#: admin/admin.php:2080
+msgid "Go to the first page"
+msgstr "首页"
+
+#: admin/admin.php:2087
+msgid "Go to the previous page"
+msgstr "上一页"
+
+#: admin/admin.php:2096
+msgid "Current page"
+msgstr "本页"
+
+#: admin/admin.php:2103
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#: admin/admin.php:2107
+msgid "Go to the next page"
+msgstr "下一页"
+
+#: admin/admin.php:2114
+msgid "Go to the last page"
+msgstr "尾页"
+
+#: admin/admin.php:2305
+msgid "Form information will appear here when you create a form."
+msgstr "表单信息将会在您创建表单的时候出现在这里。"
+
+#: admin/admin.php:2344
+msgid "License key successfully verified"
+msgstr "授权密钥成功验证"
+
+#: admin/admin.php:2349 admin/admin.php:2511
+msgid "Invalid license key"
+msgstr "错误的授权密钥"
+
+#: admin/admin.php:2354
+msgid "Licence key verification will be available shortly, please try again later"
+msgstr "授权"
+
+#: admin/admin.php:2697
+msgid "Countries"
+msgstr "国家"
+
+#: admin/admin.php:2698
+msgid "U.S. States"
+msgstr "美国各州"
+
+#: admin/admin.php:2699
+msgid "Canadian Provinces"
+msgstr "加拿大各省"
+
+#: admin/admin.php:2700
+msgid "UK Counties"
+msgstr "英国"
+
+#: admin/admin.php:2701
+msgid "German States"
+msgstr "德国各省"
+
+#: admin/admin.php:2702
+msgid "Dutch Provinces"
+msgstr "荷兰各省"
+
+#: admin/admin.php:2703
+msgid "Continents"
+msgstr "各大洲"
+
+#: admin/admin.php:2703
+msgid "Africa"
+msgstr "非洲"
+
+#: admin/admin.php:2703 admin/admin.php:2721
+msgid "Antarctica"
+msgstr "南极洲"
+
+#: admin/admin.php:2703
+msgid "Asia"
+msgstr "亚洲"
+
+#: admin/admin.php:2703 admin/admin.php:2721
+msgid "Australia"
+msgstr "澳大利亚"
+
+#: admin/admin.php:2703
+msgid "Europe"
+msgstr "欧洲"
+
+#: admin/admin.php:2703
+msgid "North America"
+msgstr "北美"
+
+#: admin/admin.php:2703
+msgid "South America"
+msgstr "南美"
+
+#: admin/admin.php:2704
+msgid "Gender"
+msgstr "性别"
+
+#: admin/admin.php:2704
+msgid "Male"
+msgstr "男"
+
+#: admin/admin.php:2704
+msgid "Female"
+msgstr "女"
+
+#: admin/admin.php:2705
+msgid "Age"
+msgstr "年龄"
+
+#: admin/admin.php:2706
+msgid "Marital Status"
+msgstr "婚姻状况"
+
+#: admin/admin.php:2706
+msgid "Single"
+msgstr "单身"
+
+#: admin/admin.php:2706
+msgid "Married"
+msgstr "已婚"
+
+#: admin/admin.php:2706
+msgid "Divorced"
+msgstr "离异"
+
+#: admin/admin.php:2706
+msgid "Widowed"
+msgstr "丧偶"
+
+#: admin/admin.php:2707
+msgid "Income"
+msgstr "收入"
+
+#: admin/admin.php:2708
+msgid "Days"
+msgstr "日期"
+
+#: admin/admin.php:2708
+msgid "Monday"
+msgstr "星期一"
+
+#: admin/admin.php:2708
+msgid "Tuesday"
+msgstr "星期二"
+
+#: admin/admin.php:2708
+msgid "Wednesday"
+msgstr "星期三"
+
+#: admin/admin.php:2708
+msgid "Thursday"
+msgstr "星期四"
+
+#: admin/admin.php:2708
+msgid "Friday"
+msgstr "星期五"
+
+#: admin/admin.php:2708
+msgid "Saturday"
+msgstr "星期六"
+
+#: admin/admin.php:2708
+msgid "Sunday"
+msgstr "星期日"
+
+#: admin/admin.php:2709
+msgid "Months"
+msgstr "月"
+
+#: includes/form.php:297
+msgid "Please wait..."
+msgstr "请稍等…"
+
+#: includes/iPhorm.php:915
+msgctxt "submit the form"
+msgid "Send"
+msgstr "发送"
+
+#: includes/widget.php:12
+msgid "Display one of your created forms"
+msgstr "显示一个您创建的表单"
+
+#: includes/widget.php:74 includes/widget.php:169
+msgid "Title (optional)"
+msgstr "标题(可选)"
+
+#: includes/widget.php:78 includes/widget.php:173
+msgid "Select a form"
+msgstr "选取一个表单"
+
+#: includes/widget.php:87 includes/widget.php:191
+msgid "You have not created a form yet, %sclick here to create one%s."
+msgstr "您还没有创建任何表单，%s点这里创建一个%s。"
+
+#: includes/widget.php:105
+msgid "Display one of your created forms in a popup (lightbox)"
+msgstr "在弹出框中显示一个您创建的表单（灯箱效果）"
+
+#: includes/widget.php:182
+msgid "Text or HTML to trigger the popup"
+msgstr "触发弹出框的文本或HTML"
+
+#: includes/widget.php:186
+msgid "Fancybox options (advanced)"
+msgstr "Fancybox参数（高级）"
+
+#: includes/widget.php:188
+msgid "Enter any Fancybox options as a JSON formatted string, %sexample%s."
+msgstr "输入JSON格式的Fancybox参数，%s示例%s。"
+
+#: includes/elements/honeypot.php:2
+msgid "This field should be left blank"
+msgstr "字段应该留空"
+
+#: includes/elements/file.php:8
+msgid "Allowed Files"
+msgstr "允许上传的文件"
+
+#: includes/elements/file.php:15
+msgid "All Files"
+msgstr "所有文件"
+
+#: includes/elements/file.php:38
+msgid "Upload another"
+msgstr "上传另一个"
+
+#: includes/elements/recaptcha.php:20
+msgid "To use reCAPTCHA you must enter your API keys in the Quform settings page."
+msgstr "如果要使用 reCAPTCHA ，您必须在Quform设置中输入您的API keys。"
+
+#: includes/iPhorm/Validator/Email.php:24
+msgid "Invalid email address"
+msgstr "错误的电子邮件地址"
+
+#: includes/iPhorm/Validator/Date.php:22
+msgid "This is not a valid date"
+msgstr "不正确的日期"
+
+#: includes/iPhorm/Validator/Duplicate.php:29
+msgid "This value is a duplicate of a previously submitted form"
+msgstr "值与上一次提交的表单重复"
+
+#: includes/iPhorm/Validator/AlphaNumeric.php:28
+msgid "Only alphanumeric characters are allowed"
+msgstr "只允许字母数字"
+
+#: includes/iPhorm/Validator/GreaterThan.php:28
+msgid "'%1$s' is not greater than '%2$s'"
+msgstr "'%1$s' 不能比 '%2$s' 小"
+
+#: includes/iPhorm/Validator/Identical.php:28
+msgid "Value does not match"
+msgstr "值不匹配"
+
+#: includes/iPhorm/Validator/FileUpload.php:59
+#: includes/iPhorm/Validator/Required.php:22
+msgid "This field is required"
+msgstr "必填字段"
+
+#: includes/iPhorm/Validator/Captcha.php:22
+msgid "The value does not match"
+msgstr "值不匹配"
+
+#: includes/iPhorm/Validator/Digits.php:28
+msgid "Only digits are allowed"
+msgstr "只允许数字"
+
+#: includes/iPhorm/Validator/Regex.php:28
+msgid "Invalid value given"
+msgstr "输入了非法值"
+
+#: includes/iPhorm/Validator/Length.php:35
+msgid "Invalid type given, value should be a string"
+msgstr "类型不匹配，应该为字符串型"
+
+#: includes/iPhorm/Validator/Length.php:36
+msgid "Value must be at least %2$s characters long"
+msgstr "长度至少%2$s个字符"
+
+#: includes/iPhorm/Validator/Length.php:37
+msgid "Value must be no longer than %2$d characters"
+msgstr "长度不超过%2$s个字符"
+
+#: includes/iPhorm/Validator/FileUpload.php:53
+msgid "File '%s' is not an uploaded file"
+msgstr "'%s'不是一个可以上传的文件"
+
+#: includes/iPhorm/Validator/FileUpload.php:54
+msgid "File is not an uploaded file"
+msgstr "不是一个可以上传的文件"
+
+#: includes/iPhorm/Validator/FileUpload.php:55
+msgid "'%s' exceeds the maximum allowed file size"
+msgstr "%s超过了站点的最大上传限制。"
+
+#: includes/iPhorm/Validator/FileUpload.php:56
+msgid "File exceeds the maximum allowed file size"
+msgstr "文件超出了可上传的最大限制"
+
+#: includes/iPhorm/Validator/FileUpload.php:57
+msgid "File type of '%s' is not allowed"
+msgstr "不允许上传 '%s' 类型的文件"
+
+#: includes/iPhorm/Validator/FileUpload.php:58
+msgid "File type is not allowed"
+msgstr "文件类型不合法"
+
+#: includes/iPhorm/Validator/FileUpload.php:60
+msgid "'%s' was only partially uploaded"
+msgstr "'%s' 只有部分被上传"
+
+#: includes/iPhorm/Validator/FileUpload.php:61
+msgid "File was only partially uploaded"
+msgstr "文件只有部分被上传"
+
+#: includes/iPhorm/Validator/FileUpload.php:62
+msgid "No file was uploaded"
+msgstr "没有文件被上传"
+
+#: includes/iPhorm/Validator/FileUpload.php:63
+msgid "Missing a temporary folder"
+msgstr "没有可用的临时文件夹"
+
+#: includes/iPhorm/Validator/FileUpload.php:64
+msgid "Failed to write file to disk"
+msgstr "文件写入失败"
+
+#: includes/iPhorm/Validator/FileUpload.php:65
+msgid "File upload stopped by extension"
+msgstr "文件上传被外部中止"
+
+#: includes/common.php:521 includes/iPhorm/Validator/FileUpload.php:66
+msgid "Unknown upload error"
+msgstr "未知的上传错误"
+
+#: includes/iPhorm/Validator/Alpha.php:28
+msgid "Only alphabet characters are allowed"
+msgstr "只允许字母"
+
+#: includes/iPhorm/Validator/LessThan.php:28
+msgid "'%1$s' is not less than '%2$s'"
+msgstr "'%1$s' 不能比 '%2$s' 大"
+
+#: admin/includes/elements/file.php:149 includes/iPhorm/Element/File.php:318
+msgctxt "for a file to upload"
+msgid "Browse..."
+msgstr "浏览..."
+
+#: includes/common.php:336
+msgid "January"
+msgstr "一月"
+
+#: includes/common.php:337
+msgid "February"
+msgstr "二月"
+
+#: includes/common.php:338
+msgid "March"
+msgstr "三月"
+
+#: includes/common.php:339
+msgid "April"
+msgstr "四月"
+
+#: includes/common.php:340
+msgid "May"
+msgstr "五月"
+
+#: includes/common.php:341
+msgid "June"
+msgstr "六月"
+
+#: includes/common.php:342
+msgid "July"
+msgstr "七月"
+
+#: includes/common.php:343
+msgid "August"
+msgstr "八月"
+
+#: includes/common.php:344
+msgid "September"
+msgstr "九月"
+
+#: includes/common.php:345
+msgid "October"
+msgstr "十月"
+
+#: includes/common.php:346
+msgid "November"
+msgstr "十一月"
+
+#: includes/common.php:347
+msgid "December"
+msgstr "十二月"
+
+#: includes/common.php:506
+msgid "An error occurred submitting the form"
+msgstr "提交表单时发生了一个错误"
+
+#: includes/common.php:509
+msgid "You have attempted to queue too many files"
+msgstr "您试图发送的文件数量过"
+
+#: includes/common.php:510
+msgid "This file exceeds the maximum upload size"
+msgstr "此文件已达上传大小限制"
+
+#: includes/common.php:511
+msgid "This file is empty"
+msgstr "文件是空的"
+
+#: includes/common.php:512
+msgid "This file type is not allowed"
+msgstr "不允许上传此类文件"
+
+#: includes/common.php:513
+msgid "Unknown queue error, please try again later"
+msgstr "未知的传输错误，请稍后再试"
+
+#: includes/common.php:514
+msgid "Upload error"
+msgstr "上传出错"
+
+#: includes/common.php:515
+msgid "Upload failed"
+msgstr "上传失败"
+
+#: includes/common.php:516
+msgid "Server IO error"
+msgstr "服务器IO错误"
+
+#: includes/common.php:517
+msgid "Security error"
+msgstr "安全错误"
+
+#: includes/common.php:518
+msgid "Upload limit exceeded"
+msgstr "已达上传限止"
+
+#: includes/common.php:519
+msgid "Validation failed"
+msgstr "验证已失效"
+
+#: includes/common.php:520
+msgid "Upload stopped"
+msgstr "上传已停止"
+
+#: includes/common.php:524
+msgid "The form cannot be submitted in the preview"
+msgstr "表单不能在预览模式下提交数据"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.quform.com"
+msgstr "http://www.quform.com"
+
+#. Description of the plugin/theme
+msgid "The Quform form builder makes it easy to build forms in WordPress."
+msgstr "Quform让WordPress制作表单如此轻松。"
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr "ThemeCatcher"
+
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net"
+msgstr "http://www.themecatcher.net"
+
+#: admin/includes/entries.php:5 admin/includes/entry.php:5
+#: admin/includes/export.php:5 admin/includes/form-builder.php:5
+#: admin/includes/forms.php:5 admin/includes/help.php:5
+#: admin/includes/import.php:5 admin/includes/settings.php:5
+msgid "Report a bug"
+msgstr "报告错误"
+
+#: admin/admin.php:285 admin/admin.php:286 admin/admin.php:3291
+#: admin/includes/elements/_save.php:5 admin/includes/entries.php:6
+#: admin/includes/entry.php:6 admin/includes/export.php:6
+#: admin/includes/form-builder.php:6 admin/includes/forms.php:6
+#: admin/includes/help.php:6 admin/includes/help.php:10
+#: admin/includes/import.php:6 admin/includes/settings.php:6
+msgid "Help"
+msgstr "帮助"
+
+#: admin/admin.php:231 admin/admin.php:232 admin/includes/forms.php:10
+msgid "Forms"
+msgstr "表单"
+
+#: admin/includes/forms.php:10
+msgid "Add New"
+msgstr "新建"
+
+#: admin/includes/entries.php:55 admin/includes/entries.php:82
+#: admin/includes/forms.php:21
+msgid "All"
+msgstr "全部"
+
+#: admin/includes/form-builder.php:268 admin/includes/forms.php:22
+#: admin/includes/forms.php:57 admin/includes/forms.php:78
+msgid "Active"
+msgstr "启用"
+
+#: admin/includes/forms.php:23
+msgid "Inactive"
+msgstr "未启用"
+
+#: admin/includes/entries.php:69 admin/includes/entries.php:188
+#: admin/includes/forms.php:30 admin/includes/forms.php:144
+msgid "Bulk Actions"
+msgstr "批量选择"
+
+#: admin/includes/forms.php:31 admin/includes/forms.php:104
+#: admin/includes/forms.php:145
+msgid "Activate"
+msgstr "启用"
+
+#: admin/includes/forms.php:32 admin/includes/forms.php:102
+#: admin/includes/forms.php:146
+msgid "Deactivate"
+msgstr "停用"
+
+#: admin/includes/elements/_actions.php:4
+#: admin/includes/elements/settings/filters/alpha-numeric.php:5
+#: admin/includes/elements/settings/filters/alpha.php:5
+#: admin/includes/elements/settings/filters/digits.php:5
+#: admin/includes/elements/settings/filters/regex.php:5
+#: admin/includes/elements/settings/filters/strip-tags.php:5
+#: admin/includes/elements/settings/filters/trim.php:3
+#: admin/includes/elements/settings/global-style.php:5
+#: admin/includes/elements/settings/style.php:5
+#: admin/includes/elements/settings/validators/alpha-numeric.php:5
+#: admin/includes/elements/settings/validators/alpha.php:5
+#: admin/includes/elements/settings/validators/digits.php:5
+#: admin/includes/elements/settings/validators/email.php:5
+#: admin/includes/elements/settings/validators/greater-than.php:5
+#: admin/includes/elements/settings/validators/identical.php:5
+#: admin/includes/elements/settings/validators/length.php:5
+#: admin/includes/elements/settings/validators/less-than.php:5
+#: admin/includes/elements/settings/validators/regex.php:5
+#: admin/includes/entries.php:72 admin/includes/entries.php:170
+#: admin/includes/entries.php:191 admin/includes/forms.php:33
+#: admin/includes/forms.php:108 admin/includes/forms.php:147
+msgid "Delete"
+msgstr "删除"
+
+#: admin/includes/entries.php:74 admin/includes/entries.php:193
+#: admin/includes/forms.php:35 admin/includes/forms.php:149
+msgid "Apply"
+msgstr "应用"
+
+#: admin/includes/forms.php:48 admin/includes/forms.php:69
+msgid "ID"
+msgstr "ID"
+
+#: admin/includes/elements/groupstart.php:39
+#: admin/includes/form-builder.php:240 admin/includes/forms.php:51
+#: admin/includes/forms.php:72
+msgid "Name"
+msgstr "名称"
+
+#: admin/admin.php:249 admin/admin.php:250 admin/admin.php:3287
+#: admin/includes/entries.php:11 admin/includes/entries.php:201
+#: admin/includes/form-builder.php:44 admin/includes/forms.php:54
+#: admin/includes/forms.php:75 admin/includes/forms.php:100
+#: admin/includes/help/_nav-settings.php:7
+msgid "Entries"
+msgstr "记录"
+
+#: admin/includes/forms.php:98 includes/form.php:331
+msgid "Edit this form"
+msgstr "编辑表单"
+
+#: admin/includes/forms.php:98
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/includes/forms.php:99
+msgid "Preview this form"
+msgstr "预览表单"
+
+#: admin/includes/form-builder.php:140 admin/includes/form-builder.php:1386
+#: admin/includes/forms.php:99 admin/includes/preview.php:5
+msgid "Preview"
+msgstr "预览"
